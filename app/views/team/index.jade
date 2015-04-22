@@ -1,0 +1,18 @@
+extends ../layout.jade
+
+block main
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      .m-claim
+        article
+          p Great user
+            | experiences for
+            | stories that matter
+          a(class="btn-our-team is-sm-hidden", href="/about") Our team
+          a(class="btn-contact is-sm-hidden", href="/about#contact") Contact
+  
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      ul
+        for member in team
+          li: a(href="/about/#{member.slug}")= member.name

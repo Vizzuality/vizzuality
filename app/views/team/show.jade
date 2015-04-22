@@ -1,0 +1,9 @@
+extends ../layout.jade
+
+block main
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      h1= data.name
+      h2= data.phrase
+      p: img(src="/assets/images/team/#{data.photo}")
+      | !{content}

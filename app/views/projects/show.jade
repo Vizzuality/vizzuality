@@ -1,0 +1,23 @@
+extends ../layout.jade
+
+block main
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      p A project for #{data.client}
+      h1= data.title
+  
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      | !{content}
+  
+  .row
+    .grid-sm-14.grid-lg-6.offset-lg-1
+      a(href="#{data.link}") Link to project
+    .grid-sm-14.grid-lg-6
+      a(href="#{data.post}") Read post
+
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      article
+        p Get in touch
+        a(href="/about#contact") Contact us
