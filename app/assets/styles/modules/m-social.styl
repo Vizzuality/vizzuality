@@ -1,0 +1,19 @@
+.m-social
+  margin ($margin * 2) 0
+  padding 0
+  list-style none
+  text-align center
+
+  li
+    display inline-block
+    margin 0 ($margin / 2)
+
+  a
+    display block
+    font-size $font-small-size
+    color $font-color-3
+    text-transform uppercase
+
+  @media screen and (min-width: $screen-md)
+    text-align right
+    line-height rem(30px)

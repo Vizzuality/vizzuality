@@ -1,0 +1,37 @@
+.l-header
+  padding ($margin * 2) $margin $margin
+  min-height 100vh
+
+  h1
+    margin 0
+    float left
+
+  a
+    text-decoration none
+
+  &, a
+    color $font-color-1
+
+.l-footer
+  padding $margin 0
+  background-color $bg-color-2
+
+  a
+    text-decoration none
+
+  &, a
+    color $font-color-2
+
+  .footer-logo
+    display block
+    margin $margin auto
+    text-align center
+
+  @media screen and (min-width: $screen-sm)
+    padding $margin ($margin / 2)
+
+    .footer-logo
+      display inline-block
+      text-align left
+      margin ($margin * 2) auto
+

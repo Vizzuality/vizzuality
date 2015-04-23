@@ -1,7 +1,7 @@
 ---
 name:       Clara linos
 position:   Front end developer
-phrase:     Mapping data with love.
+phrase:     Cooking maps and data.
 twitter:    claralinos
 linkedin:   claralinos
 photo:      claralinos.png
