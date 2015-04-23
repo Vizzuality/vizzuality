@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Vizzuality/vizzuality",
   "dependencies": {
     "body-parser": "^1.12.3",
+    "coffee-script": "^1.9.2",
     "express": "^4.12.3",
     "gray-matter": "^2.0.0",
     "jade": "^1.9.2",
