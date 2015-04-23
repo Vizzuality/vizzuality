@@ -1,27 +1,23 @@
-$clearfix
-  &:before, &:after
-    display: table
-    content: ''
+clearfix()
+  &:after, &:before
+    content ''
+    display table-cell
   &:after
-    clear: both
+    clear both
+
+rem($px, $base = 16px)
+  unit($px / $base, 'rem')
+
+hidden()
+  display none !important
+  visibility hidden
 
 //Structure mixins
-grid($column)
-  width: grid_space($column)
-
-offset($column)
-  margin-left: offset_space($column)
-
 grid_space($column)
   $column * 100 / $grid-columns * 1%
 
-grid_width($column)
-  $column * 100 / $grid-columns * 1%
+grid($column)
+  width grid_space($column)
 
-offset_space($column)
-  $column * 100 / $grid-columns * 1%
-
-// Hidden
-hidden()
-  display: none !important
-  visibility: hidden
+offset($column)
+  margin-left grid_space($column)

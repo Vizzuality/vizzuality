@@ -1,49 +1,48 @@
 *,
 *:before,
 *:after
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
 
 .row
-  width: 100%
-  margin: 0 auto
-  @extend $clearfix
+  width 100%
+  margin 0 auto
+  clearfix()
+
   .row
-    margin: 0 ($grid-gutter-width * -1)
-    width: auto
-    max-width: none
+    margin 0 ($grid-gutter-width * -1)
+    width auto
+    max-width none
+
   &.collapse
-    padding: 0
+    padding 0
 
 $grid
-  float: left
-  padding: 0 $grid-gutter-width
-  position: relative
-  min-height: 1px
-  width: 100%
+  float left
+  padding 0 $grid-gutter-width
+  position relative
+  min-height 1px
+  width 100%
+
   .row.collapse &
-    padding: 0
+    padding 0
 
-for $column in (1)..($grid-columns)
-  .grid-sm-{$column}
-    @extend $grid
-
-for $column in (1)..($grid-columns)
+for $column in 1..$grid-columns
   .grid-sm-{$column}
     grid($column)
   .offset-sm-{$column}
     offset($column)
 
 @media screen and (min-width: $screen-sm)
-  for $column in (1)..($grid-columns)
+  for $column in 1..$grid-columns
     .grid-md-{$column}
       grid($column)
     .offset-md-{$column}
       offset($column)
 
 @media screen and (min-width: $screen-md)
-  for $column in (1)..($grid-columns)
+  for $column in 1..$grid-columns
     .grid-lg-{$column}
       grid($column)
     .offset-lg-{$column}
