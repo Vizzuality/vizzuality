@@ -1,6 +1,6 @@
 app = require './app'
 
-server = app.listen 3000, ()->
+server = app.listen process.env.PORT or 5000, ()->
 
   host = server.address().address
   port = server.address().port
