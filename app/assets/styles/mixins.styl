@@ -24,6 +24,19 @@ offset($column)
 
 $hamburger-settings = ()
 
+// Font face
+font-face($name, $file, $weight = normal, $style = normal)
+  @font-face
+    font-family $name
+    src url($file + '.eot')
+    src url($file + '.eot?#iefix') format('embedded-opentype'),
+         url($file + '.woff2') format('woff2'),
+         url($file + '.woff') format('woff'),
+         url($file + '.ttf') format('truetype'),
+         url($file + '.svg#' + $name) format('svg')
+    font-weight $weight
+    font-style $style
+
 // Hamburger Generator
 hamburger($width = 32px, $height = 3px, $gutter = 5px, $color = #000,
                     $border-radius = 0, $duration = .3s,

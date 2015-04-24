@@ -1,23 +1,33 @@
 extends ../layout.jade
 
 block main
-  .row
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      p A project for #{data.client}
-      h1= data.title
-  
-  .row
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      | !{content}
-  
-  .row
-    .grid-sm-14.grid-lg-6.offset-lg-1
-      a(href="#{data.link}") Link to project
-    .grid-sm-14.grid-lg-6
-      a(href="#{data.post}") Read post
+  section.m-project-detail
+    article
+      header.m-project-header(style="background-image: url(#{data.image})")
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h1= data.title
+            p A project for
+              br
+              strong #{data.client}
+
+      .m-project-content
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            | !{content}
+
+      footer.m-project-footer
+        .row
+          .grid-sm-14.grid-lg-6.offset-lg-1
+            .m-project-url
+              a(href="#{data.link}", class="btn") Check it online
+          .grid-sm-14.grid-lg-6
+            .m-project-post
+              p= data.post_title
+              a(href="#{data.post_url}", class="btn-secondary") Read post
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
-      article
+      section.m-message
         p Get in touch
-        a(href="/about#contact") Contact us
+        a(href="/about#contact", class="btn") Contact us

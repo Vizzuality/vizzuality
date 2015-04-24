@@ -2,11 +2,12 @@
 title:       Global Forest Watch
 short title: GFW
 link:        http://globalforestwatch.org
-client:      WRI
+client:      World Resources Institute
 client_logo: wri.png
-post:        global-forest-watch
+post_url:    global-forest-watch
+post_title:  When a tree falls, a millon ears are listening
 summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image:       global-forest-watch.png
+image:       http://images.fineartamerica.com/images-medium-large/view-of-earth-from-a-satellite-stockbyte.jpg
 author:      David Inga
 date:        2015-04-22
 

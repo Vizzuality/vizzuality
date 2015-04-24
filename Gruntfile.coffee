@@ -42,6 +42,9 @@ module.exports = (grunt)->
     symlink:
       options:
         overwrite: true
+      fonts:
+        src: '<%= root.app %>/fonts',
+        dest: '<%= root.build %>/fonts'
       teamImages:
         src: 'content/team/images',
         dest: '<%= root.build %>/images/team'

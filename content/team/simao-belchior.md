@@ -4,6 +4,7 @@ position:   Engineer
 phrase:     Great products are made of skill, hard work and good laughs.
 twitter:    simao
 linkedin:   simao
+email:      simao.belchior@vizzuality.com
 photo:      simao-belchior.png
 author:     David Inga
 date:       2015-04-23

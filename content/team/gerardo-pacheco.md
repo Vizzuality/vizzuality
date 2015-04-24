@@ -4,6 +4,7 @@ position:   Front end developer
 phrase:     I don't like Balance widget
 twitter:    gerardo
 linkedin:   gerardo
+email:      gerardo.pacheco@vizzuality.com
 photo:      gerardo-pacheco.png
 author:     David Inga
 date:       2015-04-22

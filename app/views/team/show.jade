@@ -8,11 +8,20 @@ block main
           p.main-phrase= data.phrase
           h1= data.name
           p.position= data.position
-          p: img(src="/assets/images/team/#{data.photo}")
+          .photo(style="background-image: url(/assets/images/team/#{data.photo})"): img.is-hidden(src="/assets/images/team/#{data.photo}")
+
         | !{content}
+
+        footer
+          p
+            a(href="https://github.com/#{data.github}") Github
+            br
+            a(href="https://linkedin.com/#{data.github}") Linkedin
+            br
+            a(href="mailto:#{data.github}") Email
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
       section.m-message
-        h1 We are hiring
+        p We are hiring
         a(href="#", class="btn") Apply

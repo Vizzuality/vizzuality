@@ -12,6 +12,7 @@ module.exports =
         return next({ error: 'file not found' })
       result = matter(file)
       html = converter.makeHtml(result.content)
+      result.data.slug = path.basename(filePath).split('.md')[0]
       next(null, result, html)
 
   getFiles: (dir, next)->
