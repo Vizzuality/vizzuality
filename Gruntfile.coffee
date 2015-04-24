@@ -12,12 +12,32 @@ module.exports = (grunt)->
       dev:
         script: 'server.coffee'
 
+    coffee:
+      compile:
+        files:
+          '<%= root.build %>/scripts/main.js': '<%= root.app %>/scripts/main.coffee'
+
     stylus:
       compile:
         options:
-          use: [ require('fluidity') ]
+          use: [
+            require('fluidity')
+            () ->
+              require('autoprefixer-stylus')({ browsers: 'last 2 versions' })
+          ]
         files:
           '<%= root.build %>/styles/main.css': '<%= root.app %>/styles/main.styl'
+
+    cssmin:
+      options:
+        shorthandCompacting: false
+        roundingPrecision: -1
+      target:
+        files:
+          '<%= root.build %>/styles/main.css': [
+            './bower_components/normalize-css/normalize.css'
+            '<%= root.build %>/styles/main.css'
+          ]
 
     symlink:
       options:
@@ -39,5 +59,6 @@ module.exports = (grunt)->
       dev:
         tasks: ['nodemon', 'watch']
 
-  grunt.registerTask 'default', ['stylus', 'symlink']
-  grunt.registerTask 'serve', ['stylus', 'symlink', 'concurrent']
+  grunt.registerTask 'default', ['stylus', 'symlink', 'coffee']
+  grunt.registerTask 'build', ['stylus', 'cssmin', 'symlink', 'coffee']
+  grunt.registerTask 'serve', ['stylus', 'symlink', 'coffee', 'concurrent']
