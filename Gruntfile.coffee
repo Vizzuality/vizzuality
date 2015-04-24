@@ -33,7 +33,7 @@ module.exports = (grunt)->
     uglify:
       compile:
         files:
-          '<%= root.build %>/scripts/main.js': '<%= root.app %>/scripts/main.coffee'
+          '<%= root.build %>/scripts/main.js': '<%= root.build %>/scripts/main.js'
 
     stylus:
       compile:
@@ -74,6 +74,7 @@ module.exports = (grunt)->
       options:
         optimizationLevel: 3,
         svgoPlugins: [ removeViewBox: false ]
+        use: [ require('imagemin-mozjpeg')() ]
       static:
         files: [{
           expand: true
