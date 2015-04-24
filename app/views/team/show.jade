@@ -3,7 +3,16 @@ extends ../layout.jade
 block main
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
-      h1= data.name
-      h2= data.phrase
-      p: img(src="/assets/images/team/#{data.photo}")
-      | !{content}
+      article.m-team
+        header
+          p.main-phrase= data.phrase
+          h1= data.name
+          p.position= data.position
+          p: img(src="/assets/images/team/#{data.photo}")
+        | !{content}
+
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      section.m-message
+        h1 We are hiring
+        a(href="#", class="btn") Apply

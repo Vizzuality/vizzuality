@@ -8,12 +8,45 @@ block claim
           p Great user
             | experiences for
             | stories that matter
-          a(class="btn-our-team is-sm-hidden", href="/about") Our team
-          a(class="btn-contact is-sm-hidden", href="/about#contact") Contact
+          a(class="btn-our-team is-sm-hidden", href="#about") Our team
+          a(class="btn-contact is-sm-hidden", href="#contact") Contact
 
 block main
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
-      ul
+      ul.m-team-gallery
         for member in team
-          li: a(href="/about/#{member.slug}")= member.name
+          li: a(href="/about/#{member.slug}"): img(src="/assets/images/team/#{member.photo}")
+
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      section.m-message
+        h1 We are hiring
+        a(href="#", class="btn") Apply
+
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      section.m-clients
+        ul
+          li: img(src="/assets/images/clients/client-1.png")
+          li: img(src="/assets/images/clients/client-2.png")
+          li: img(src="/assets/images/clients/client-3.png")
+          li: img(src="/assets/images/clients/client-4.png")
+
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      section.m-contact
+        h1 Get in touch.
+        p Dear vizzuality,
+        form
+          .form-row
+            textarea(name="message", placeholder="Message")
+
+          .form-row
+            p Cheers,
+            input(name="email", type="email", placeholder="Contact email")
+
+          .form-row
+            button(type="submit", class="btn") Send
+
+

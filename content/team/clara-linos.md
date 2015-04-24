@@ -4,7 +4,7 @@ position:   Front end developer
 phrase:     Cooking maps and data.
 twitter:    claralinos
 linkedin:   claralinos
-photo:      claralinos.png
+photo:      clara-linos.png
 author:     David Inga
 date:       2015-04-22
 ---

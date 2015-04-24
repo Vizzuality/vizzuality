@@ -24,7 +24,9 @@ app.get '/', (req, res)->
   projectsPath = root + '/content/projects'
   file.getFiles projectsPath, (err, data)->
     if err then return pageNotFound(req, res)
-    res.render 'projects/index', projects: data
+    res.render 'projects/index',
+      projects: data
+      className: 'is-project-page'
 
 app.get '/projects', (req, res)->
   res.redirect '/'
@@ -36,12 +38,15 @@ app.get '/projects/:project', (req, res)->
     res.render 'projects/show',
       data: result.data
       content: html
+      className: 'is-project-detail-page'
 
 app.get '/about', (req, res)->
   teamPath = root + '/content/team'
   file.getFiles teamPath, (err, data)->
     if err then return pageNotFound(req, res)
-    res.render 'team/index', team: data
+    res.render 'team/index',
+      team: data
+      className: 'is-about-page'
 
 app.get '/about/:member', (req, res)->
   filePath = './content/team/' + req.params.member + '.md'
@@ -50,5 +55,6 @@ app.get '/about/:member', (req, res)->
     res.render 'team/show',
       data: result.data
       content: html
+      className: 'is-member-page'
 
 module.exports = app

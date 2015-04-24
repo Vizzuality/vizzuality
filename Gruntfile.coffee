@@ -45,12 +45,15 @@ module.exports = (grunt)->
       teamImages:
         src: 'content/team/images',
         dest: '<%= root.build %>/images/team'
+      clientsImages:
+        src: '<%= root.app %>/images/clients',
+        dest: '<%= root.build %>/images/clients'
 
     watch:
       options:
         spawn: false
       styles:
-        files: '<%= root.app %>/styles/{,*/}*.styl'
+        files: '<%= root.app %>/styles/{,*/}{,*/}*.styl'
         tasks: ['stylus']
 
     concurrent:
