@@ -6,11 +6,22 @@
   font-weight 500
 
   article
+    width 100%
     margin rem(-43px) auto 0 auto
 
   p
     margin 0
     line-height .9
 
+  .btn, .btn-secondary
+    color $font-color-2
+    margin $margin $margin 0 0
+    float left
+
+  .btn-secondary
+    border-color $font-color-3
+    color $font-color-3
+
   @media screen and (min-width: $screen-md)
     font-size $lg-font-xlarge-size
+    min-height 95vh

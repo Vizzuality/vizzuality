@@ -1,9 +1,14 @@
 .l-header
   padding ($margin * 2) $margin $margin
 
-  h1
+  .brand
     margin 0
     float left
+    line-height rem(30px)
+    font-size 1rem
+
+    a, svg
+      display block
 
   a
     text-decoration none
@@ -19,6 +24,10 @@
   .is-member-page .m-claim
     min-height 0
 
+  @media screen and (min-width: $screen-sm)
+    h1.brand
+      font-size 1rem
+
 .l-footer
   padding $margin 0
   background-color $bg-color-2
@@ -33,6 +42,10 @@
     display block
     margin $margin auto
     text-align center
+
+    svg
+      display block
+      margin 0 auto
 
   @media screen and (min-width: $screen-sm)
     padding $margin ($margin / 2)

@@ -8,11 +8,29 @@ module.exports = (grunt)->
       app: './app/assets',
       build: './public/assets'
 
+    clean: [ '<%= root.build %>' ]
+
     nodemon:
       dev:
         script: 'server.coffee'
 
+    copy:
+      main:
+        files: [
+          {
+            expand: true
+            cwd: '<%= root.app %>/fonts'
+            src: ['**']
+            dest: '<%= root.build %>/fonts'
+          }
+        ]
+
     coffee:
+      compile:
+        files:
+          '<%= root.build %>/scripts/main.js': '<%= root.app %>/scripts/main.coffee'
+
+    uglify:
       compile:
         files:
           '<%= root.build %>/scripts/main.js': '<%= root.app %>/scripts/main.coffee'
@@ -52,6 +70,24 @@ module.exports = (grunt)->
         src: '<%= root.app %>/images/clients',
         dest: '<%= root.build %>/images/clients'
 
+    imagemin:
+      options:
+        optimizationLevel: 3,
+        svgoPlugins: [ removeViewBox: false ]
+        use: [ require('imagemin-mozjpeg')() ]
+      static:
+        files: [{
+          expand: true
+          cwd: '<%= root.app %>/images'
+          src: ['**/*.{png,jpg,gif}']
+          dest: '<%= root.build %>/images'
+        }, {
+          expand: true
+          cwd: 'content/team/images'
+          src: ['**/*.{png,jpg,gif}']
+          dest: '<%= root.build %>/images/team'
+        }]
+
     watch:
       options:
         spawn: false
@@ -66,5 +102,5 @@ module.exports = (grunt)->
         tasks: ['nodemon', 'watch']
 
   grunt.registerTask 'default', ['stylus', 'symlink', 'coffee']
-  grunt.registerTask 'build', ['stylus', 'cssmin', 'symlink', 'coffee']
+  grunt.registerTask 'build', ['clean', 'stylus', 'cssmin', 'copy', 'coffee', 'uglify', 'imagemin']
   grunt.registerTask 'serve', ['stylus', 'symlink', 'coffee', 'concurrent']

@@ -1,11 +1,11 @@
 .row
-  // width 100%
-  margin 0 ($grid-gutter-width * -1)
+  width 100%
+  margin 0 auto
   clearfix()
 
   .row
-    // margin 0 ($grid-gutter-width * -1)
-    // width auto
+    margin 0 ($grid-gutter-width * -1)
+    width auto
     max-width none
 
   &.collapse
@@ -27,20 +27,21 @@ for $column in 1..$grid-columns
   .grid-lg-{$column}
     @extend $grid
 
-for $column in 1..$grid-columns
-  .grid-sm-{$column}
-    grid($column)
-  .offset-sm-{$column}
-    offset($column)
-
 @media screen and (min-width: $screen-sm) and (max-width: $screen-md)
+  for $column in 1..$grid-columns
+    .grid-sm-{$column}
+      grid($column)
+    .offset-sm-{$column}
+      offset($column)
+
+@media screen and (min-width: $screen-md) and (max-width: $screen-lg)
   for $column in 1..$grid-columns
     .grid-md-{$column}
       grid($column)
     .offset-md-{$column}
       offset($column)
 
-@media screen and (min-width: $screen-md)
+@media screen and (min-width: $screen-lg)
   for $column in 1..$grid-columns
     .grid-lg-{$column}
       grid($column)

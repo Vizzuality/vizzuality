@@ -11,10 +11,10 @@ font-face("Akzidenz", "/assets/fonts/akzidenzgrotesk-medium-webfont", 500, norma
 
 html, body
   min-height 100%
-  font-size $base-font-size
+  font-size $font-base-size
 
 html
-  background-color lighten($bg-color-5, 10)
+  background-color $bg-color-5
 
 body
   position relative
@@ -28,9 +28,13 @@ body
 
   font-family "Akzidenz", Helvetica, Arial, sans-serif
   font-weight 300
+  font-size $font-normal-size
   color $font-color-1
   line-height $line-height
   -webkit-font-smoothing antialiased
+
+  @media screen and (min-width: $screen-sm)
+    font-size $lg-font-normal-size
 
 h1, h2, h3, h4, h5, h5, strong
   font-weight 500
@@ -39,8 +43,14 @@ h1
   font-size $font-large-size
   line-height 1
 
+  @media screen and (min-width: $screen-sm)
+    font-size $lg-font-large-size
+
 h2
   font-size $font-medium-size
+
+  @media screen and (min-width: $screen-sm)
+    font-size $lg-font-medium-size
 
 a
   color $font-color-1
@@ -62,3 +72,4 @@ textarea
 
 select
   width 100%
+
