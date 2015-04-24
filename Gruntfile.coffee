@@ -74,7 +74,6 @@ module.exports = (grunt)->
       options:
         optimizationLevel: 3,
         svgoPlugins: [ removeViewBox: false ]
-        use: [ require('imagemin-mozjpeg')() ]
       static:
         files: [{
           expand: true
