@@ -6,7 +6,7 @@
   "scripts": {
     "start": "coffee server.coffee",
     "test": "grunt test",
-    "postinstall": "echo postinstall time; ./node_modules/bower/bin/bower install; ./node_modules/grunt-cli/bin/grunt build"
+    "postinstall": "echo postinstall time; ./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build"
   },
   "repository": {
     "type": "git",
