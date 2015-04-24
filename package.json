@@ -26,9 +26,7 @@
     "jade": "^1.9.2",
     "showdown": "^0.4.0",
     "bower": "^1.4.1",
-    "grunt-cli": "^0.1.13"
-  },
-  "devDependencies": {
+    "grunt-cli": "^0.1.13",
     "autoprefixer-stylus": "^0.5.0",
     "fluidity": "^0.2.3",
     "grunt": "^0.4.5",
