@@ -1,8 +1,8 @@
 ---
 name:       Clara linos
-position:   Front end developer
+position:   Engineer
 phrase:     Cooking maps and data.
-twitter:    claralinos
+twitter:    dhakelila
 linkedin:   claralinos
 email:      clara.linos@vizzuality.com
 photo:      clara-linos.png
@@ -10,8 +10,6 @@ author:     David Inga
 date:       2015-04-22
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+After some years studying Architecture at ’Universidad Politécnica de Madrid’ and some more years working as an architect, always interested in new technology and visual communication, Clara decided to research new paths and started to study web development by herself. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+She joined Vizzuality as a front-end developer where she is very glad, always learning and developing websites that visualise data in new and exciting ways. 

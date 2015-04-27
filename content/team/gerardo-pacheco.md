@@ -1,7 +1,7 @@
 ---
 name:       Gerardo Pacheco
-position:   Front end developer
-phrase:     I don't like Balance widget
+position:   Engineer
+phrase:     I’m a man of few words, so there’s that
 twitter:    gerardo
 linkedin:   gerardo
 email:      gerardo.pacheco@vizzuality.com
@@ -10,8 +10,6 @@ author:     David Inga
 date:       2015-04-22
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Gerardo started making websites at a very young age (when those MSN groups were still around and cool.) Even then, he knew he wanted to pursue that passion professionally. Since then he has moved to another country, gotten a degree in computer applications development and now lives happily in sunny Madrid, where he continues to grow his professional career as a front-end developer. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+He joined Vizzuality in January 2015 eager to keep learning and making awesome products. 
