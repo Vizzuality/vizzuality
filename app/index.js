@@ -20,7 +20,7 @@ app.use(express['static'](path.join(root, 'public')));
 app.use('/bower_components', express['static'](path.join(root, 'bower_components')));
 
 function pageNotFound(req, res) {
-  return res.render('errors/404');
+  res.render('errors/404');
 }
 
 app.get('/', function(req, res) {
@@ -29,7 +29,7 @@ app.get('/', function(req, res) {
     if (err) {
       return pageNotFound(req, res);
     }
-    return res.render('projects/index', {
+    res.render('projects/index', {
       projects: data,
       className: 'is-project-page'
     });
@@ -37,7 +37,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/projects', function(req, res) {
-  return res.redirect('/');
+  res.redirect('/');
 });
 
 app.get('/projects/:project', function(req, res) {
@@ -46,10 +46,37 @@ app.get('/projects/:project', function(req, res) {
     if (err) {
       return pageNotFound(req, res);
     }
-    return res.render('projects/show', {
+    res.render('projects/show', {
       data: result.data,
       content: html,
       className: 'is-project-detail-page'
+    });
+  });
+});
+
+app.get('/about', function(req, res) {
+  var teamPath = root + '/content/team';
+  file.getFiles(teamPath, function(err, data) {
+    if (err) {
+      return pageNotFound(req, res);
+    }
+    res.render('team/index', {
+      team: data,
+      className: 'is-about-page'
+    });
+  });
+});
+
+app.get('/about/:member', function(req, res) {
+  var filePath = './content/team/' + req.params.member + '.md';
+  file.getData(filePath, function(err, result, html) {
+    if (err) {
+      return pageNotFound(req, res);
+    }
+    res.render('team/show', {
+      data: result.data,
+      content: html,
+      className: 'is-team-page'
     });
   });
 });
