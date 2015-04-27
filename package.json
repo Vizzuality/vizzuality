@@ -4,7 +4,7 @@
   "description": "Vizzuality website",
   "main": "server.js",
   "scripts": {
-    "start": "coffee server.coffee",
+    "start": "node index.js",
     "test": "grunt test",
     "postinstall": "echo postinstall time; ./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build"
   },
