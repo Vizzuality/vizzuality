@@ -1,0 +1,76 @@
+clearfix()
+  &:after, &:before
+    content ''
+    display table
+  &:after
+    clear both
+
+rem($px, $base = $font-base-size)
+  unit($px / $base, 'rem')
+
+hidden()
+  display none !important
+  visibility hidden
+
+//Structure mixins
+grid_space($column)
+  $column * 100 / $grid-columns * 1%
+
+grid($column)
+  width grid_space($column)
+
+offset($column)
+  margin-left grid_space($column)
+
+$hamburger-settings = ()
+
+// Font face
+font-face($name, $file, $weight = normal, $style = normal)
+  @font-face
+    font-family $name
+    src url($file + '.eot')
+    src url($file + '.eot?#iefix') format('embedded-opentype'),
+         url($file + '.woff2') format('woff2'),
+         url($file + '.woff') format('woff'),
+         url($file + '.ttf') format('truetype'),
+         url($file + '.svg#' + $name) format('svg')
+    font-weight $weight
+    font-style $style
+
+// Hamburger Generator
+hamburger($width = 32px, $height = 3px, $gutter = 5px, $color = #000,
+                    $border-radius = 0, $duration = .3s,
+                    $timing-function = ease)
+  // Set variables
+  push($hamburger-settings, $height, $gutter)
+
+  position relative
+  margin-top $height + $gutter
+  margin-bottom $height + $gutter
+  margin-left auto
+  margin-right auto
+
+  &,
+  &:before,
+  &:after
+    display block
+    width $width
+    height $height
+    transition background-color $duration $timing-function,
+                transform $duration $timing-function
+
+    if ($border-radius != 0)
+      border-radius $border-radius
+
+    background-color $color
+
+  &:before,
+  &:after
+    position absolute
+    content ""
+
+  &:before
+    top -($height + $gutter)
+
+  &:after
+    top $height + $gutter

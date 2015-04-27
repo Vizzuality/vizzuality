@@ -1,0 +1,68 @@
+.m-team
+  padding $margin
+
+  h1
+    margin-bottom 0
+
+  .main-phrase
+    font-size $font-xlarge-size
+    line-height .95
+    font-weight 500
+
+    &:before
+      display block
+      content "“"
+      color $font-color-3
+      font-size rem(144px)
+      line-height 1rem
+
+  .photo
+    border-radius 50%
+    overflow hidden
+    height 0
+    width 100%
+    padding-bottom 100%
+    background-repeat none
+    background-size cover
+    background-position center
+
+  .position
+    font-weight 500
+    margin-top 0
+
+  footer a
+    text-decoration none
+    color $font-color-3
+    font-weight 500
+
+  @media screen and (min-width: $screen-sm)
+    h1
+      font-size $lg-font-medium-size
+
+    .photo
+      float right
+      width 28%
+      padding-bottom 28%
+
+    .content, footer
+      padding-left 80px
+      padding-right 30%
+
+    .main-phrase
+      position relative
+      padding-left 80px
+      padding-right 30%
+      font-size $lg-font-large-size
+      margin-top 0
+      &:before
+        position absolute
+        line-height .8
+        left 0
+      &:after
+        display inline-block
+        content "”"
+        color $font-color-3
+        font-size rem(144px)
+        line-height 0
+        vertical-align text-bottom
+        margin-left 1rem

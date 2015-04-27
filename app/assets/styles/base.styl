@@ -1,0 +1,75 @@
+font-face("Akzidenz", "/assets/fonts/akzidenzgrotesk-light-webfont", 300, normal)
+font-face("Akzidenz", "/assets/fonts/akzidenzgrotesk-medium-webfont", 500, normal)
+
+
+*,
+*:before,
+*:after
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
+
+html, body
+  min-height 100%
+  font-size $font-base-size
+
+html
+  background-color $bg-color-5
+
+body
+  position relative
+  min-width $min-width
+  max-width $max-width
+  min-height 100vh
+  margin-left auto
+  margin-right auto
+
+  background-color $bg-color-1
+
+  font-family "Akzidenz", Helvetica, Arial, sans-serif
+  font-weight 300
+  font-size $font-normal-size
+  color $font-color-1
+  line-height $line-height
+  -webkit-font-smoothing antialiased
+
+  @media screen and (min-width: $screen-sm)
+    font-size $lg-font-normal-size
+
+h1, h2, h3, h4, h5, h5, strong
+  font-weight 500
+
+h1
+  font-size $font-large-size
+  line-height 1
+
+  @media screen and (min-width: $screen-sm)
+    font-size $lg-font-large-size
+
+h2
+  font-size $font-medium-size
+
+  @media screen and (min-width: $screen-sm)
+    font-size $lg-font-medium-size
+
+a
+  color $font-color-1
+
+a, button, input, select, textarea
+  &:focus
+    outline 0
+
+img
+  display inline-block
+  max-width 100%
+  height auto
+  vertical-align middle
+  -ms-interpolation-mode bicubic
+
+textarea
+  height auto
+  min-height rem(50px)
+
+select
+  width 100%
+

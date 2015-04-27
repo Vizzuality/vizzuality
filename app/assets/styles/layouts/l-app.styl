@@ -1,0 +1,62 @@
+.l-header
+  padding ($margin * 2) $margin $margin
+
+  .brand
+    margin 0
+    float left
+    line-height rem(30px)
+    font-size 1rem
+
+    a, svg
+      display block
+
+    .logo
+      fill $font-color-3
+
+  a
+    text-decoration none
+
+  &, a
+    color $font-color-1
+
+  .btn-burguer
+    position absolute
+    top rem(-10px)
+    right 0
+
+  .is-member-page .m-claim
+    min-height 0
+
+  @media screen and (min-width: $screen-sm)
+    h1.brand
+      font-size 1rem
+
+.l-footer
+  padding $margin 0
+  background-color $bg-color-2
+
+  a
+    text-decoration none
+
+  &, a
+    color $font-color-2
+
+  .footer-logo
+    display block
+    margin $margin auto
+    text-align center
+
+    svg
+      display block
+      margin 0 auto
+
+    .logo
+      fill $font-color-2
+
+  @media screen and (min-width: $screen-sm)
+    padding $margin ($margin / 2)
+
+    .footer-logo
+      display inline-block
+      text-align left
+      margin ($margin * 2) auto

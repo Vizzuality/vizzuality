@@ -1,0 +1,20 @@
+{
+  "name": "vizzuality",
+  "version": "1.0.0",
+  "authors": [
+    "David Inga <davidsingal@icloud.com>"
+  ],
+  "description": "Vizzuality website",
+  "license": "MIT",
+  "homepage": "http://vizzuality.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3"
+  }
+}

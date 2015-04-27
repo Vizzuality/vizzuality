@@ -1,2 +1,1 @@
-# vizzuality
-Vizzuality website
+# Vizzuality website

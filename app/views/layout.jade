@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title Vizzuality
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    if 'production' == process.env.NODE_ENV
+      link(rel="stylesheet", href="/assets/styles/main.css")
+    else
+      link(rel="stylesheet", href="/bower_components/normalize-css/normalize.css")
+      link(rel="stylesheet", href="/assets/styles/main.css")
+  body(class=className)
+    header.l-header
+      .row
+        .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
+          h1.brand
+            a(href='/')
+              include partials/logo
+          button#burgerLink.btn-burguer.is-md-hidden.is-lg-hidden
+            span.icon-burguer
+
+        .grid-sm-14.grid-md-7.grid-lg-6.is-sm-hidden
+          nav.m-nav
+            a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) Projects
+            a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) About
+      block claim
+
+    .l-main
+      block main
+
+    footer.l-footer
+      .row
+        .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
+          a.footer-logo(href='/')
+            include partials/logo
+
+        .grid-sm-14.grid-md-7.grid-lg-6
+          ul.m-social
+            li
+              a(href='https://twitter.com/vizzuality') twitter
+            li
+              a(href='https://github.com/Vizzuality') github
+            li
+              a(href='/about#contact') contact
+            li
+              a(href='http://blog.vizzuality.com/') blog
+
+    #mobileNav.m-mobile-nav.is-sm-hidden.is-md-hidden.is-lg-hidden
+      button#mobileNavClose.btn-close &times;
+      h1
+        include partials/logo
+      .grid-sm-14.grid-md-7.grid-lg-6
+        nav
+          a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) projects
+          a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) about
+          a(href='/about#contact') contact
+    script(src="/assets/scripts/main.js")

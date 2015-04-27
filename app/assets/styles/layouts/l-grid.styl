@@ -1,0 +1,49 @@
+.row
+  width 100%
+  margin 0 auto
+  clearfix()
+
+  .row
+    margin 0 ($grid-gutter-width * -1)
+    width auto
+    max-width none
+
+  &.collapse
+    padding 0
+
+$grid
+  float left
+  padding 0 $grid-gutter-width
+  position relative
+  min-height 1px
+  width 100%
+
+  .row.collapse &
+    padding 0
+
+for $column in 1..$grid-columns
+  .grid-sm-{$column},
+  .grid-md-{$column},
+  .grid-lg-{$column}
+    @extend $grid
+
+@media screen and (min-width: $screen-sm) and (max-width: $screen-md)
+  for $column in 1..$grid-columns
+    .grid-sm-{$column}
+      grid($column)
+    .offset-sm-{$column}
+      offset($column)
+
+@media screen and (min-width: $screen-md) and (max-width: $screen-lg)
+  for $column in 1..$grid-columns
+    .grid-md-{$column}
+      grid($column)
+    .offset-md-{$column}
+      offset($column)
+
+@media screen and (min-width: $screen-lg)
+  for $column in 1..$grid-columns
+    .grid-lg-{$column}
+      grid($column)
+    .offset-lg-{$column}
+      offset($column)

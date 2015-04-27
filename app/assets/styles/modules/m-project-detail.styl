@@ -1,0 +1,59 @@
+.is-project-detail-page
+
+  .l-header
+    position relative
+    z-index 10
+
+    .brand #Projects
+      fill $white
+
+    .btn-burguer
+      .icon-burguer, .icon-burguer:before, .icon-burguer:after
+        background-color $bg-color-1
+
+  .l-main
+    position relative
+    margin-top rem(-96px)
+
+.m-project-detail
+  clearfix()
+
+  .m-project-header
+    display flex
+    align-items center
+    min-height 100vh
+    color $font-color-2
+    padding 0 $margin
+    height 100vh
+    background-repeat none
+    background-position center
+    background-size cover
+
+    h1
+      margin-bottom 0.5rem
+      line-height 0.9
+      text-shadow 0 0 1px $font-color-1
+
+    p
+      margin-top 0
+      text-shadow 0 0 1px $font-color-1
+
+  .m-project-content
+    padding $margin
+
+  .m-project-url
+    text-align center
+    background-color $bg-color-6
+    .btn
+      background-color transparent
+
+  .m-project-post
+    padding $margin
+    color $font-color-2
+    background-color $bg-color-3
+
+    p
+      font-size $font-large-size
+      font-weight 500
+      line-height 1
+
