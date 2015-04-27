@@ -4,10 +4,10 @@ html(lang="en")
     meta(charset="utf-8")
     title Vizzuality
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    if 'development' == process.env.NODE_ENV
-      link(rel="stylesheet", href="/bower_components/normalize-css/normalize.css")
+    if 'production' == process.env.NODE_ENV
       link(rel="stylesheet", href="/assets/styles/main.css")
     else
+      link(rel="stylesheet", href="/bower_components/normalize-css/normalize.css")
       link(rel="stylesheet", href="/assets/styles/main.css")
   body(class=className)
     header.l-header

@@ -1,0 +1,41 @@
+'use strict';
+
+var fs        = require('fs');
+var path      = require('path');
+var matter    = require('gray-matter');
+var Showdown  = require('showdown');
+var converter = new Showdown.converter();
+
+module.exports = {
+
+  getData: function(filePath, next) {
+    fs.readFile(filePath, 'utf8', function(err, file) {
+      var html, result;
+      if (err || !file) {
+        return next({
+          error: 'file not found'
+        });
+      }
+      result = matter(file);
+      html = converter.makeHtml(result.content);
+      result.data.slug = path.basename(filePath).split('.md')[0];
+      next(null, result, html);
+    });
+  },
+
+  getFiles: function(dir, next) {
+    var data = [];
+    var files = fs.readdirSync(dir).filter(function(file) {
+      return file.indexOf('.') !== 0 && path.extname(file) === '.md';
+    });
+    for (var i = 0, len = files.length; i < len; i++) {
+      var file = files[i];
+      var filePath = path.join(dir, file);
+      var element = matter(fs.readFileSync(filePath, 'utf8')).data;
+      element.slug = file.split('.md')[0];
+      data.push(element);
+    }
+    next(null, data);
+  }
+
+};
