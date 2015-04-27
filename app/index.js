@@ -60,7 +60,7 @@ app.get('/about', function(req, res) {
     if (err) {
       return pageNotFound(req, res);
     }
-    res.render('team/index', {
+    res.render('about/index', {
       team: data,
       className: 'is-about-page'
     });

@@ -8,11 +8,11 @@ block claim
           p Great user
             | experiences for
             | stories that matter
-          a(class="btn-secondary is-sm-hidden", href="#about") Our team
+          a(class="btn-secondary is-sm-hidden", href="#team") Our team
           a(class="btn is-sm-hidden", href="#contact") Contact
 
 block main
-  .row
+  .row#team
     .grid-sm-14.grid-lg-12.offset-lg-1
       ul.m-team-gallery.row
         for member in team
@@ -35,7 +35,7 @@ block main
           li: img(src="/assets/images/clients/client-3.png")
           li: img(src="/assets/images/clients/client-4.png")
 
-  .row
+  .row#contact
     .grid-sm-14.grid-lg-12.offset-lg-1
       section.m-contact
         h1 Get in touch.
