@@ -21,8 +21,8 @@ html(lang="en")
 
         .grid-sm-14.grid-md-7.grid-lg-6.is-sm-hidden
           nav.m-nav
-            a(href='/') projects
-            a(href='/about') about
+            a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) Projects
+            a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) About
       block claim
 
     .l-main
@@ -51,7 +51,7 @@ html(lang="en")
         include partials/logo
       .grid-sm-14.grid-md-7.grid-lg-6
         nav
-          a(href='/') projects
-          a(href='/about') about
+          a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) projects
+          a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) about
 
     script(src="/assets/scripts/main.js")

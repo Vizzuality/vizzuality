@@ -3,11 +3,19 @@
 
   a
     display inline-block
-    line-height rem(30px)
+    line-height rem(20px)
     margin-left $margin
     text-transform uppercase
     font-size $font-small-size
     font-weight 500
+    color $font-color-3
+
+    &.is-current
+      border-bottom 2px solid $font-color-3
+
+    .is-project-detail-page &
+      color $font-color-2
+      border-bottom-color $font-color-2
 
 .m-mobile-nav
   position fixed
@@ -29,12 +37,17 @@
 
   a
     display block
+    float left
+    clear left
 
     font-size $font-xlarge-size
     font-weight 500
-    line-height 1
+    line-height 1.2
     color $font-color-2
     text-decoration none
+
+    &.is-current
+      border-bottom 2px solid $font-color-2
 
   .btn-close
     position absolute
