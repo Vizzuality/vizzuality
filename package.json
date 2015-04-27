@@ -4,7 +4,7 @@
   "description": "Vizzuality website",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server",
     "test": "grunt test",
     "postinstall": "echo postinstall time; ./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build"
   },
