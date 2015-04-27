@@ -28,6 +28,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('serve', ['stylus', 'symlink', 'concurrent']);
 
-  grunt.registerTask('deploy', ['heroku-deploy:production']);
+  grunt.registerTask('deploy', ['shell:deploy']);
 
 };
