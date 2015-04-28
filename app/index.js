@@ -42,13 +42,13 @@ app.get('/projects', function(req, res) {
 
 app.get('/projects/:project', function(req, res) {
   var filePath = './content/projects/' + req.params.project + '.md';
-  return file.getData(filePath, function(err, result, html) {
+  return file.getData(filePath, function(err, result) {
     if (err) {
       return pageNotFound(req, res);
     }
     res.render('projects/show', {
       data: result.data,
-      content: html,
+      content: result.html,
       className: 'is-project-detail-page'
     });
   });
@@ -69,13 +69,13 @@ app.get('/about', function(req, res) {
 
 app.get('/about/:member', function(req, res) {
   var filePath = './content/team/' + req.params.member + '.md';
-  file.getData(filePath, function(err, result, html) {
+  file.getData(filePath, function(err, result) {
     if (err) {
       return pageNotFound(req, res);
     }
     res.render('team/show', {
       data: result.data,
-      content: html,
+      content: result.html,
       className: 'is-team-page'
     });
   });
