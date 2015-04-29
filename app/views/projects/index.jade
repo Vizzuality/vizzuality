@@ -9,13 +9,22 @@ block claim
             | Important work,
             br
             | beautifully crafted
+          a(class="btn-secondary is-anchor", href="/#projects") Our work
 
 block main
-  .row
+  .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
       for project in projects
         article.m-project(style="background-image: url(#{project.image})")
-          a(href="/projects/#{project.slug}")
-            h1= project.title
-            p= project.summary
+          .veil
+          .m-project-content
+            p.client= project.client
+            h1: a(href="/projects/#{project.slug}")= project.title
+            p.description= project.summary
+            a(class="btn-secondary", href="/projects/#{project.slug}") Read more
 
+  .row
+    .grid-sm-14.grid-lg-12.offset-lg-1
+      section.m-message
+        p Get in touch.
+        a(href="/about#contact", class="btn") Contact us

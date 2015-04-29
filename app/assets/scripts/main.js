@@ -3,6 +3,9 @@
   'use strict';
 
   var smoothScroll = function(elementID) {
+    if (!elementID) {
+      return;
+    }
     var distance, el, elmYPosition, i, leapY, speed, startY, step, stopY, timer;
     elmYPosition = function(elm) {
       var node, y;
@@ -57,13 +60,14 @@
     var self = this;
 
     this.setListeners = function() {
-      var ourWorkBtn = document.getElementById('ourWorkBtn');
+      var anchorBtns = document.getElementsByClassName('is-anchor');
       var burgerLink = document.getElementById('burgerLink');
       var mobileNav = document.getElementById('mobileNav');
       var mobileNavClose = document.getElementById('mobileNavClose');
-      var ourWorkBtnAction = function(e) {
+      var goToAnchor = function(e) {
         e.preventDefault();
-        return smoothScroll('ourWork');
+        var target = e.currentTarget.href.split('#')[1];
+        return smoothScroll(target);
       };
       var burgerLinkAction = function(e) {
         e.preventDefault();
@@ -74,8 +78,10 @@
         return mobileNav.classList.add('is-sm-hidden');
       };
       if (window.ontouchstart) {
-        if (ourWorkBtn) {
-          ourWorkBtn.ontouchstart = ourWorkBtnAction;
+        if (anchorBtns.length) {
+          for (var i = anchorBtns.length; i--;) {
+            anchorBtns[i].ontouchstart = goToAnchor;
+          }
         }
         if (burgerLink) {
           burgerLink.ontouchstart = burgerLinkAction;
@@ -84,8 +90,10 @@
           mobileNavClose.ontouchstart = mobileNavCloseAction;
         }
       } else {
-        if (ourWorkBtn) {
-          ourWorkBtn.onclick = ourWorkBtnAction;
+        if (anchorBtns.length) {
+          for (var i = anchorBtns.length; i--;) {
+            anchorBtns[i].onclick = goToAnchor;
+          }
         }
         if (burgerLink) {
           burgerLink.onclick = burgerLinkAction;
