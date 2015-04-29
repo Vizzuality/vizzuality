@@ -14,7 +14,7 @@ block claim
 block main
   .row#team
     .grid-sm-14.grid-lg-12.offset-lg-1
-      ul.m-team-gallery.row
+      ul.m-team-gallery
         for member in team
           li
             a(href="/about/#{member.slug}", style="background-image: url(/assets/images/team/#{member.photo})")
@@ -23,7 +23,7 @@ block main
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
       section.m-message
-        h1 We are hiring
+        p We are hiring
         a(href="#", class="btn") Apply
 
   .row

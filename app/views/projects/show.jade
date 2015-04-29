@@ -4,24 +4,25 @@ block main
   section.m-project-detail
     article
       header.m-project-header(style="background-image: url(#{data.image})")
+        .veil
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
             h1= data.title
-            p A project for
-              br
+            p A project for 
               strong #{data.client}
 
       .m-project-content
         .row
-          .grid-sm-14.grid-lg-12.offset-lg-1
+          .grid-sm-14.grid-lg-10.offset-lg-2
             | !{content}
 
       footer.m-project-footer
         .row
-          .grid-sm-14.grid-lg-6.offset-lg-1
+          .grid-sm-14.grid-lg-12.offset-lg-1
             .m-project-url
               a(href="#{data.link}", class="btn") Check it online
-          .grid-sm-14.grid-lg-6
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
             .m-project-post
               p= data.post_title
               a(href="#{data.post_url}", class="btn-secondary") Read post

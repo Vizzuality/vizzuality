@@ -10,7 +10,8 @@
     margin rem(-43px) auto 0 auto
 
   p
-    margin 0
+    margin-top 0
+    margin-bottom .5em
     line-height .9
 
   .btn, .btn-secondary
@@ -22,6 +23,20 @@
     border-color $font-color-3
     color $font-color-3
 
+  .is-project-page &
+
+    .btn-secondary
+      float none
+      margin-left auto
+      margin-right auto
+
   @media screen and (min-width: $screen-md)
     font-size $lg-font-xlarge-size
     min-height 95vh
+
+    .is-project-page &
+      text-align center
+
+  @media screen and (min-width: $screen-sm)
+    .btn, .btn-secondary
+      max-width rem(140px)
