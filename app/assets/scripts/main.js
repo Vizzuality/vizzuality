@@ -79,8 +79,8 @@
       };
       if (window.ontouchstart) {
         if (anchorBtns.length) {
-          for (var i = anchorBtns.length; i--;) {
-            anchorBtns[i].ontouchstart = goToAnchor;
+          for (var b = anchorBtns.length; b--;) {
+            anchorBtns[b].ontouchstart = goToAnchor;
           }
         }
         if (burgerLink) {
