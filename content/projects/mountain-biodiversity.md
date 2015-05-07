@@ -1,12 +1,12 @@
 ---
 title:       Rising to the challenge of exploring biodiversity data 
 short title: Mountain Biodiversity
-link:        http://bbva.vizzuality.com
-client:      Zeitz Foundation
+link:        
+client:      GMBA and GBIF
 client_logo: google.png
-post_url:    http://blog.vizzuality.com/post/114042422481/thought-for-food 
-post_title:  Thought for Food: we’re bringing satellite data to smallholders 
-summary:     Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers.
+post_url:     
+post_title:  
+summary:     
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
@@ -27,6 +27,9 @@ modules:
     map:
         title: Lorem ipsum dolor sit
         description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    video:
+        title: Introducing the Mountain Biodiversity Tool
+        url: https://vimeo.com/11552863
 opinions:
     -
         title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.

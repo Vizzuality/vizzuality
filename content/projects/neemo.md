@@ -4,9 +4,9 @@ short title: Neemo
 link:        http://neemo.zooniverse.org/
 client:      NASA
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+post_url:    http://blog.vizzuality.com/post/11738015652/neemo-crowd-sourcing-a-seafloor-biodiversity
+post_title:  Neemo, crowd sourcing a seafloor biodiversity identification 
+summary:     
 image:       neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -24,23 +24,14 @@ modules:
 
     blocks:
         title: High fidelity analysis
-        modules:
-            -
-                image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
     map:
         title: Live Feedback
         description: This was the first real time application Vizzuality built, using node.js and socket.io. It set the path for many of the projects we've developed since.
 
     video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        title: A guide to the NEEMO tool
+        url: https://vimeo.com/34801002
 
 opinions:
     -

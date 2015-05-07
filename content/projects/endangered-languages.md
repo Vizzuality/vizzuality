@@ -4,23 +4,14 @@ short title: EL
 link:        http://www.endangeredlanguages.com/
 client:      Google and Alliance for Linguistic Diversity
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
+post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
+post_title:  A collaborative tool for documenting endangered languages
 summary:     Uniting researchers, citizens and communities to halt the mass extinction of languages across the world
 image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 
 modules:
-    text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-right.png
 
     blocks:
         title: 
@@ -40,7 +31,7 @@ modules:
 
     video:
         title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        url: https://vimeo.com/48882390
 
 opinions:
     -
