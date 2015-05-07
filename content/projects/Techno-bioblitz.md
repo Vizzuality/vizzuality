@@ -19,7 +19,7 @@ modules:
 
     text_right:
         title: Farming under pressure
-        description: Across Africa, farmers are coping with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion. 
+        description:  
         image: global-forest-watch-text-right.png
 
     blocks:
