@@ -4,8 +4,8 @@ short title: Google Trends
 link:        http://nfl.vizzuality.com
 client:      Google
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
+post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
+post_title:  Data gets its own halftime show: Vizzuality launches the new Google Trends API
 summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       google_01.jpg
 author:      Craig Mills
@@ -22,25 +22,9 @@ modules:
         description: Once everyone’s happy with the design, we start building. Working with multiple languages and techniques, we develop bespoke applications that unleash the vision in our designs; the only limit is our imagination.
         image: global-forest-watch-text-right.png
 
-    blocks:
-        title: High fidelity analysis
-        modules:
-            -
-                image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
         title: Test and Refine.
         description: We like to get feedback as soon as possible, so that we build products that fit the needs of a user. Based on that, we keep making the product better until we finish with a beautiful visualisation.  
-
-    video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
 
 opinions:
     -
