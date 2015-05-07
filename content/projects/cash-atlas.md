@@ -7,7 +7,7 @@ client_logo: wri.png
 post_url:    global-forest-watch
 post_title:  When a tree falls, a millon ears are listening
 summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

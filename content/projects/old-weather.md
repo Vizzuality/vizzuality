@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
 summary:     Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

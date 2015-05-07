@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
 summary:     Uniting researchers, citizens and communities to halt the mass extinction of languages across the world
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

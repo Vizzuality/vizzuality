@@ -15,7 +15,7 @@ block main
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
       for project in projects
-        article.m-project(style="background-image: url(#{project.image})")
+        article.m-project(style="background-image: url(/assets/images/projects/#{project.image})")
           .veil
           .m-project-content
             p.client= project.client
