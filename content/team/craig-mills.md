@@ -1,13 +1,14 @@
 ---
 name:       Craig Mills
 position:   CEO
-phrase:     It is somewhere in the mix of design, science and great user experience where we create the stories that matter
+phrase:     "It is somewhere in the mix of design, science and great user experience where we create the stories that matter"
 twitter:    @CraigMMills
 linkedin:   pub/craig-mills/16/179/677
 email:      craig.mills@vizzuality.com
-photo:      
+photo:      Craig.jpg
 author:     Alicia
 date:       2015-05-08
+order: 		1
 ---
 
 Craig is CEO of Vizzuality.  He is responsible for figuring out what problems we should be trying to solve. Before joining Vizzuality, he spent 7 years working with the UN Environment Programme running technology projects across the world and the previous 7 years with the UK government undertaking marine geospatial research. 

@@ -1,6 +1,6 @@
 ---
 title:       Prepare for Antarctic Adventures
-short title: AFG
+short_title: AFG
 link:        http://afg.scarmarbin.be/
 client:      SCAR-MarBIN and ANTABIF
 client_logo: google.png

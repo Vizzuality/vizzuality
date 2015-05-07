@@ -5,7 +5,7 @@ phrase:     Small details make the biggest difference.
 twitter:    
 linkedin:   in/davidgonzalezcamara
 email:      david.gonzalez@vizzuality.com
-photo:      
+photo:      unknown_2.jpg
 author:     Alicia
 date:       2015-05-08
 ---
