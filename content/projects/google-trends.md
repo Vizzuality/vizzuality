@@ -1,25 +1,25 @@
 ---
-title:       Google Trends
-short title: GT
+title:       Giving data a half-time show
+short title: Google Trends
 link:        http://nfl.vizzuality.com
 client:      Google
 client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
 author:      Craig Mills
 date:        2015-04-22
 
 modules:
     text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: Sketching it out
+        description: Led by our design chief Sergio Estella, the first step the team takes is to put together drawings and mock-ups that show what the visualisation could look like. We then test the sketches with different stakeholders to see how they react and refine them based on feedback 
         image: global-forest-watch-text-left.png
 
     text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: Implement the sketches
+        description: Once everyone’s happy with the design, we start building. Working with multiple languages and techniques, we develop bespoke applications that unleash the vision in our designs; the only limit is our imagination.
         image: global-forest-watch-text-right.png
 
     blocks:
@@ -35,8 +35,8 @@ modules:
                 image: global-forest-watch-block-3.png
                 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
-        title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: Test and Refine.
+        description: We like to get feedback as soon as possible, so that we build products that fit the needs of a user. Based on that, we keep making the product better until we finish with a beautiful visualisation.  
 
     video:
         title: The video
@@ -50,14 +50,4 @@ opinions:
 
 ---
 
-## Titulo 1
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Google Trends has been used as a social barometer over the last few years, revealing patterns in our behaviour based on what we search for. We used this over the 2014-2015 season to see the changes in team popularity and fan loyalty. Our team utilised a number of cutting-edge front-end tools in new ways (e.g. using d3 to integrate animated maps on SVG) to create dynamic maps that respond to screen size in order to deliver the best viewing experience. 
