@@ -4,8 +4,8 @@ short title: PH
 link:        http://www.planethunters.org/
 client:      Zooniverse
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
+post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed-planet-discovered-by
+post_title:  'PH1', the first confirmed planet discovered by Planet Hunters 
 summary:    Take part in one of the biggest scientific missions of the 21st Century: the search for planets outside our solar system.
 image:       hunters_09.jpg
 author:      Jamie Gibson
@@ -22,25 +22,13 @@ modules:
         description: We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
         image: global-forest-watch-text-right.png
 
-    blocks:
-        title: High fidelity analysis
-        modules:
-            -
-                image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
         title: Scientifically valid
         description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications
 
     video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        title: Behind the scenes of Planet Hunters
+        url: https://vimeo.com/vizzuality/planethunters
 
 opinions:
     -
