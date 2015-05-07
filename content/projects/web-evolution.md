@@ -4,9 +4,9 @@ short title: EoTW
 link:        http://www.evolutionoftheweb.com/
 client:      Google Chrome and Hyperakt
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
+post_title:  Evolution of the Web 2.0
+summary:     
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
