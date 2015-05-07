@@ -2,12 +2,12 @@
 title:       A toolkit for a Bioblitz with a twist
 short title: Techno bioblitz
 link:        http://www.tdwg.org/
-client:      Zeitz Foundation
-client_logo: google.png
+client:      TDWG
+client_logo: 
 post_url:    
 post_title:   
 summary:     Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers.
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-22
 
