@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
 summary:     Easy access to accurate information so NGOs can plan effective development actions
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

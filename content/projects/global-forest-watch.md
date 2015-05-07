@@ -7,7 +7,7 @@ client_logo: wri.png
 post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
 post_title:  Standing on the Shoulders of Giant Redwoods
 summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
-image:       http://images.fineartamerica.com/images-medium-large/view-of-earth-from-a-satellite-stockbyte.jpg
+image:       gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

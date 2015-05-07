@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
 summary:    Take part in one of the biggest scientific missions of the 21st Century: the search for planets outside our solar system.
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

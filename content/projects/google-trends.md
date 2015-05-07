@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
 summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
 
