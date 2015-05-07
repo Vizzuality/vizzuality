@@ -5,7 +5,7 @@ link:        http://nfl.vizzuality.com
 client:      Google
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
-post_title:  Data gets its own halftime show: Vizzuality launches the new Google Trends API
+post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
 summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       google_01.jpg
 author:      Craig Mills

@@ -1,12 +1,12 @@
 ---
 title:       The future of farming is satellite SMS 
-short title: Kenya Farming
-link:        http://bbva.vizzuality.com
+short_title: Kenya Farming
+link:        "http://bbva.vizzuality.com"
 client:      Zeitz Foundation
 client_logo: google.png
-post_url:    http://blog.vizzuality.com/post/114042422481/thought-for-food 
-post_title:  Thought for Food: we’re bringing satellite data to smallholders 
-summary:     Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers.
+post_url:    "http://blog.vizzuality.com/post/114042422481/thought-for-food"
+post_title:  "Thought for Food: we’re bringing satellite data to smallholders"
+summary:     "Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers."
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
@@ -27,7 +27,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             -
                 image: global-forest-watch-block-2.png
                 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -35,8 +35,8 @@ modules:
                 image: global-forest-watch-block-3.png
                 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
-        title: We’re just getting started
-        description: In 5 years we hope to be operating in 3 African countries and delivering messages to 50,000 farmers. To do this we still need funding: to get on board, just contact us. 
+        title: "We’re just getting started"
+        description: "In 5 years we hope to be operating in 3 African countries and delivering messages to 50,000 farmers. To do this we still need funding: to get on board, just contact us. "
 
 opinions:
     -
