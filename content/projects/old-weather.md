@@ -4,8 +4,8 @@ short title: Old Weather
 link:        http://www.oldweather.org/
 client:      Zooniverse
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
+post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project-is-complete-1-6-million
+post_title:  The Old Weather project is complete - 1.6 million new observations 
 summary:     Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)
 image:       weather_07.jpg
 author:      Jamie Gibson
@@ -39,8 +39,8 @@ modules:
         description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        title: Javier de la Torre talks about Old Weather at WhereCampDC
+        url: https://www.youtube.com/watch?v=blYoUW4og1w
 
 opinions:
     -
