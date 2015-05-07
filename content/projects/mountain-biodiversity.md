@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/114042422481/thought-for-food 
 post_title:  Thought for Food: we’re bringing satellite data to smallholders 
 summary:     Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers.
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
 

@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    google-trends
 post_title:  Google trends blog big data
 summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image:       http://www.nasa.gov/images/content/449676main_gulf-spill-full.jpg
+image:       neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 

@@ -3,40 +3,15 @@ title:       A toolkit for a Bioblitz with a twist
 short title: Techno bioblitz
 link:        http://www.tdwg.org/
 client:      TDWG
-client_logo: 
-post_url:    
-post_title:   
-summary:     Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers.
+client_logo: Lorem ipsum
+post_url:    Lorem ipsum
+post_title:  Lorem ipsum
+summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image:       techno_03b.jpg
 author:      Craig Mills
-date:        2015-04-22
+date:        2015-04-21
 
 modules:
-    text_left:
-        title: A mobile continent
-        description: African mobile use is accelerating, and globally it is anticipated that 4bn people will be using internet services through smartphones by 2020
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Farming under pressure
-        description:  
-        image: global-forest-watch-text-right.png
-
-    blocks:
-        title: High fidelity analysis
-        modules:
-            -
-                image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    map:
-        title: We’re just getting started
-        description: In 5 years we hope to be operating in 3 African countries and delivering messages to 50,000 farmers. To do this we still need funding: to get on board, just contact us. 
 
 opinions:
     -
