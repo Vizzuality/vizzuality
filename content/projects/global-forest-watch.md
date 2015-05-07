@@ -1,25 +1,25 @@
 ---
-title:       Global Forest Watch
+title:       Pixel perfection for forest detection
 short title: GFW
 link:        http://globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
-post_url:    global-forest-watch
-post_title:  When a tree falls, a millon ears are listening
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
+post_title:  Standing on the Shoulders of Giant Redwoods
+summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
 image:       http://images.fineartamerica.com/images-medium-large/view-of-earth-from-a-satellite-stockbyte.jpg
-author:      David Inga
-date:        2015-04-22
+author:      Jamie Gibson
+date:        2015-05-07
 
 modules:
     text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: One eye in the sky...
+        description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
         image: global-forest-watch-text-left.png
 
     text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: ...the other on our screens.
+        description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques together to create a fast, beautiful and easy-to-use map tool. 
         image: global-forest-watch-text-right.png
 
     blocks:
@@ -27,16 +27,13 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                description": Anyone can use the data to tell their story about forest change and share it with the world. 
             -
                 image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                description: Get an overview at the global level or dive into the details for one country with our local and global modes
             -
                 image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    map:
-        title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
 
     video:
         title: The video
@@ -50,14 +47,6 @@ opinions:
 
 ---
 
-## Titulo 1
+We’ve been tracking the changes in our forests for centuries, but with all of the technological capabilities available in the 21st Century it was time for a new approach to sharing this. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Over the course of 18 months Vizzuality and WRI came up with a new way to visualise forest data and bring forests to life. Our approach was to concentrate on the small design details that deliver a memorable experience, then push the limits of APIs and engineering to make it all possible. Once launched, we continued to work with WRI to refine the site, navigation, and available data, improving the experience for GFW’s half a million visitors. 
