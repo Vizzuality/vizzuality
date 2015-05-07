@@ -1,8 +1,8 @@
 ---
 title:       Rising to the challenge of exploring biodiversity data 
 short title: Mountain Biodiversity
-link:        http://bbva.vizzuality.com
-client:      Zeitz Foundation
+link:        
+client:      GMBA and GBIF
 client_logo: google.png
 post_url:     
 post_title:  
