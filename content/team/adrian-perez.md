@@ -1,8 +1,8 @@
 ---
 name:       Adrián Pérez
 position:   Engineer
-phrase:     My Hammond B-3 is broken and now I use this other keyboard
-twitter:    @adrpz
+phrase:     My Hammond B-3 is broken and now I use this other keyboard.
+twitter:    
 linkedin:   adrpz
 email:      adrian.perez@vizzuality.com
 photo:      unknown_2.jpg

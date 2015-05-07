@@ -1,8 +1,8 @@
 ---
 name:       Alicia Arenzana
 position:   Data Scientist
-phrase:     Data is the new oil? No: Data is the new soil.
-twitter:    @AAGyM
+phrase:     "Data is the new oil? No, Data is the new soil."
+twitter:    
 linkedin:   
 email:      alicia.arenzana@vizzuality.com
 photo:      alicia.png

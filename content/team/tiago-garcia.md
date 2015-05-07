@@ -1,8 +1,8 @@
 ---
 name:       Tiago Garcia
 position:   Engineer
-phrase:      Anything that can go wrong, will go wrong
-twitter:    @tiagojsag
+phrase:     "Anything that can go wrong, will go wrong"
+twitter:    tiagojsag
 linkedin:   
 email:      tiago.garcia@vizzuality.com
 photo:      unknown_2.jpg
