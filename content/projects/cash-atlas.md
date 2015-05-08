@@ -40,7 +40,7 @@ modules:
 
     video:
         title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        url: https://www.youtube.com/watch?v=ijkP6eaHE6Y
 
 opinions:
     -
