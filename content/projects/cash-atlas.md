@@ -44,7 +44,7 @@ modules:
 
 opinions:
     -
-        title: "I appreciate the fact that is modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."
+        title: <a href="http://www.cashlearning.org/admin/viewemail.php?id=224">"I appreciate the fact that is modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."</a>
         photo: gfw-profile-1.png
         autor: Alexandre Castellano, humanitarian food assistance and nutrition policy officer at the European Commission Humanitarian Office
 
