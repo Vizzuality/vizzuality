@@ -19,7 +19,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Developed on mobile first principles, the website responds to the size of the screen to ensure clear display for all. 
+                description: Developed on mobile first principles, the website responds to the size of the screen to ensure clear display for all. 
             -
                 image: global-forest-watch-block-2.png
                 description: Find the stories you’re most interested in using the filters, or explore the map to see the variety of work they do.

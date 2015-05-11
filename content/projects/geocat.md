@@ -28,7 +28,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": RLGT makes intensive use of effects and animations to display tool status. This provides continuous feedback to the user.
+                description: RLGT makes intensive use of effects and animations to display tool status. This provides continuous feedback to the user.
             -
                 image: global-forest-watch-block-2.png
                 description: With unlimited undo and redo, all user actions can be undone and redone at any time, encouraging a trial-and-error analysis refinement.

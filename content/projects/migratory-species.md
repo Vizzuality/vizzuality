@@ -28,7 +28,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Species exploration is made through our well know taxonomic browser, with support for multi language common names.
+                description: Species exploration is made through our well know taxonomic browser, with support for multi language common names.
             -
                 image: global-forest-watch-block-2.png
                 description: By mixing together data from GBIF, Google Maps and Flickr we developed a solution that helps the discovering of the richness of data behind the GROMS project.
