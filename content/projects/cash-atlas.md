@@ -41,15 +41,14 @@ modules:
 
     video:
         title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        url: https://www.youtube.com/watch?v=ijkP6eaHE6Y
 
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
+        title: <a href="http://www.cashlearning.org/admin/viewemail.php?id=224">"I appreciate the fact that is modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."</a>
         photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        autor: Alexandre Castellano, humanitarian food assistance and nutrition policy officer at the European Commission Humanitarian Office
 
 ---
 
-The way donors respond to emergencies has changed; emergency cash transfers to affected people are increasingly used to respond to disasters. We worked with CaLP to develop the Cash Atlas, an interactive tool to explore who is donating, to which countries and for what causes.  Using open source tools like CartoDB and PHP Symfony2, we were able to provide users with a number of sophisticated analytical tools to explore the data, create live maps and visualisations and generate reports on the fly. 
-
+The way donors respond to emergencies has changed; emergency cash transfers to affected people are increasingly used to respond to disasters. We worked with CaLP to develop the Cash Atlas, an interactive tool to explore who is donating, to which countries and for what causes.  Using open source tools like CartoDB and PHP Symfony2, we were able to provide users with a number of sophisticated analytical tools to explore the data, create live maps and visualisations and generate reports on the fly. Launched in 2013, it now has over 1000 registered users and covers 716 cash transfer programmes.
