@@ -1,3 +1,14 @@
+browser-icon($left = 0)
+  position absolute
+  display block
+  content ""
+  width 8px
+  height 8px
+  top 10px
+  left $left
+  border-radius 4px
+  background-color #CECECE
+
 .is-project-detail-page
 
   .l-header
@@ -85,9 +96,50 @@
       display inline-block
       margin $margin auto
 
+.m-project-detail-map,
+.m-project-detail-video
+  padding ($margin * 2) 0
+
+.m-project-browser
+  position relative
+  padding 27px 4px 4px 4px
+  background-color #E4E4E4
+  border-radius 4px
+
+  &:before
+    browser-icon(8px)
+
+  &:after
+    browser-icon(20px)
+
+.m-project-browser-content:before
+    browser-icon(32px)
+
+.m-project-detail-map
+  h2
+    text-align center
+
+  iframe
+    width 100%
+    height rem(320px)
+
+    @media screen and (min-width: $screen-sm)
+      height rem(550px)
+
+  @media screen and (min-width: $screen-sm)
+    p
+      max-width 50%
+      margin-left auto
+      margin-right auto
+
 .m-project-detail-video
   color $font-color-2
   background-color $bg-color-2
 
   iframe
+    width 100%
     margin ($margin/2) 0 $margin 0
+    height rem(320px)
+
+    @media screen and (min-width: $screen-sm)
+      height rem(720px)

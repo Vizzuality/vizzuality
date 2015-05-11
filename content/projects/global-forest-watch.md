@@ -37,8 +37,9 @@ modules:
                 description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
     
     map:
-        title: The map
+        title: Embeddable maps.
         url: http://www.globalforestwatch.org/embed/map/9/42.97/-2.59/ESP-16/terrain/loss,forestgain/612,591?begin=2001-01-01&end=2014-12-31&threshold=30
+        description: Improving an award-winning product, based on the suggestions of thousands of users, while retaining the simplicity and elegance of the original interface. There was also the challenge of adding new map layers and allowing users to explore them at a higher temporal and spatial resolution with ease. 
 
     video:
         title: The video
