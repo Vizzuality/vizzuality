@@ -10,6 +10,7 @@ summary:
 image:       neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       13
 
 modules:
     text_left:

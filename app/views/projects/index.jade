@@ -30,7 +30,8 @@ block main
           each project, index in projects
             if index >= 3
               li(style="background-image: url(/assets/images/projects/#{project.image})")
-                div
+                .veil
+                .m-project-grid-content
                   p.client= project.client
                   h2: a(href="/projects/#{project.slug}")= project.short_title
 

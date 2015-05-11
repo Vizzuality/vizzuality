@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       17
 
 modules:
     text_left:

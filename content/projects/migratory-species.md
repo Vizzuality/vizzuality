@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       species_05.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       11
 
 modules:
     text_left:

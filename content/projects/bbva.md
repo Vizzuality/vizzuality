@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       2
 
 modules:
     text_left:

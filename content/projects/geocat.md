@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       6
 
 modules:
     text_left:

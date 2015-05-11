@@ -10,6 +10,7 @@ summary:     Distilling complex science and data into an elegant interface for a
 image:       gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       7
 
 modules:
     text_left:

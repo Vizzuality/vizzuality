@@ -10,6 +10,7 @@ summary:     Uniting researchers, citizens and communities to halt the mass exti
 image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       5
 
 modules:
 

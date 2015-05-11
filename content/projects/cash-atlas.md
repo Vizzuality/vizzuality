@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       4
 
 modules:
     text_left:
