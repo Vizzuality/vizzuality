@@ -10,6 +10,7 @@ summary:     "Live feeds of information straight from satellites to an SMS or sm
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       10
 
 modules:
     text_left:

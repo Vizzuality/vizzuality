@@ -1,6 +1,6 @@
 ---
 title:       Yesterday’s weather for tomorrow’s climate
-short title: Old Weather
+short_title: Old Weather
 link:        http://www.oldweather.org/
 client:      Zooniverse
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Join your crewmates, log the weather and improve our understanding 
 image:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       15
 
 modules:
     text_left:

@@ -1,8 +1,10 @@
 'use strict';
 
+var _ = require('underscore');
 var express    = require('express');
 var bodyParser = require('body-parser');
 var path       = require('path');
+var moment     = require('moment');
 var root       = process.cwd();
 var file       = require(root + '/app/lib/file');
 
@@ -30,7 +32,9 @@ app.get('/', function(req, res) {
       return pageNotFound(req, res);
     }
     res.render('projects/index', {
-      projects: data,
+      projects: _.sortBy(data, function(d) {
+        return (d.order || 0) + moment(d.date, 'YYYY-MM-DD').valueOf();
+      }),
       className: 'is-project-page'
     });
   });
@@ -61,7 +65,9 @@ app.get('/about', function(req, res) {
       return pageNotFound(req, res);
     }
     res.render('about/index', {
-      team: data,
+      team: _.sortBy(data, function(d) {
+        return (d.order || 0) + moment(d.date, 'YYYY-MM-DD').valueOf();
+      }),
       className: 'is-about-page'
     });
   });

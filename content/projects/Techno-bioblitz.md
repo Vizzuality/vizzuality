@@ -1,6 +1,6 @@
 ---
 title:       A toolkit for a Bioblitz with a twist
-short title: Techno bioblitz
+short_title: Techno bioblitz
 link:        http://www.tdwg.org/
 client:      TDWG
 client_logo: 
@@ -10,6 +10,7 @@ summary:
 image:       techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
+order:       18
 
 modules:
     text_left:

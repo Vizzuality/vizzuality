@@ -26,6 +26,51 @@ block main
             .m-project-post
               p= data.post_title
               a(href="#{data.post_url}", class="btn-secondary") Read post
+    
+    if data.modules.text_left
+      article(style="background-image: url(/assets/images/projects/#{data.modules.text_left.image})")
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= data.modules.text_left.title
+            p= data.modules.text_left.description
+            a(href="#{data.link}", class="btn") See online
+    
+    if data.modules.text_right
+      article(style="background-image: url(/assets/images/projects/#{data.modules.text_right.image})")
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= data.modules.text_right.title
+            p= data.modules.text_right.description
+
+    if data.modules.blocks
+      article
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= data.modules.blocks.title
+        .row
+          each m, i in data.modules.blocks.modules
+            if i == 0
+              .grid-sm-14.grid-lg-4.offset-lg-1
+                img(href="/assets/images/projects/#{m.image}")
+                p= m.description
+            else
+              .grid-sm-14.grid-lg-4
+                img(href="/assets/images/projects/#{m.image}")
+                p= m.description
+
+    if data.modules.video
+      article
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= data.modules.map.title
+            iframe(width="100%", height="720", src=data.modules.map.url, frameborder="0")
+
+    if data.modules.video
+      article
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= data.modules.video.title
+            iframe(width="100%", height="720", src=data.modules.video.url, frameborder="0", allowfullscreen)
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1

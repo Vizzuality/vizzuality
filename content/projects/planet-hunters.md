@@ -1,6 +1,6 @@
 ---
 title:       Bringing the Stars to your living room
-short title: PH
+short_title: PH
 link:        http://www.planethunters.org/
 client:      Zooniverse
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     "Take part in one of the biggest scientific missions of the 21st Ce
 image:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       16
 
 modules:
     text_left:

@@ -1,6 +1,6 @@
 ---
 title:       Pixel perfection for forest detection
-short title: GFW
+short_title: GFW
 link:        http://globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
@@ -10,6 +10,7 @@ summary:     Distilling complex science and data into an elegant interface for a
 image:       gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       7
 
 modules:
     text_left:
@@ -27,17 +28,21 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Anyone can use the data to tell their story about forest change and share it with the world. 
+                description: Anyone can use the data to tell their story about forest change and share it with the world. 
             -
                 image: global-forest-watch-block-2.png
                 description: Get an overview at the global level or dive into the details for one country with our local and global modes
             -
                 image: global-forest-watch-block-3.png
                 description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
+    
+    map:
+        title: The map
+        url: http://www.globalforestwatch.org/embed/map/9/42.97/-2.59/ESP-16/terrain/loss,forestgain/612,591?begin=2001-01-01&end=2014-12-31&threshold=30
 
     video:
         title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        url: https://www.youtube.com/embed/lTG-0brb98I?rel=0&amp;showinfo=0
 
 opinions:
     -

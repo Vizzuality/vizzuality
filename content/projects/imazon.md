@@ -1,6 +1,6 @@
 ---
 title:       An accurate picture of amazon deforestation
-short title: Imazon
+short_title: Imazon
 link:        
 client:      Imazon and Google.org
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       9
 
 modules:
     text_left:

@@ -1,6 +1,6 @@
 ---
 title:       Mapping Success for the Calvert Foundation
-short title: Calvert
+short_title: Calvert
 link:        http://map.calvertfoundation.org/
 client:      Calvert Foundation
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       3
 
 modules:
 
@@ -18,7 +19,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Developed on mobile first principles, the website responds to the size of the screen to ensure clear display for all. 
+                description: Developed on mobile first principles, the website responds to the size of the screen to ensure clear display for all. 
             -
                 image: global-forest-watch-block-2.png
                 description: Find the stories you’re most interested in using the filters, or explore the map to see the variety of work they do.

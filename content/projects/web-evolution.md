@@ -1,6 +1,6 @@
 ---
 title:       Updating the history of the web
-short title: EoTW
+short_title: EoTW
 link:        http://www.evolutionoftheweb.com/
 client:      Google Chrome and Hyperakt
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       19
 
 modules:
     text_left:

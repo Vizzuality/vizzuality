@@ -1,6 +1,6 @@
 ---
 title:       Giving data a half-time show
-short title: Google Trends
+short_title: Google Trends
 link:        http://nfl.vizzuality.com
 client:      Google
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Replay the 2014/2015 NFL season through the eyes of the fans using 
 image:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       8
 
 modules:
     text_left:

@@ -1,6 +1,6 @@
 ---
 title:       Analysing climate policy impact
-short title: policy climate
+short_title: policy climate
 link:        http://bbva.vizzuality.com
 client:      Climate Policy Initiative
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       17
 
 modules:
     text_left:
@@ -27,7 +28,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             -
                 image: global-forest-watch-block-2.png
                 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -1,6 +1,6 @@
 ---
 title:       Rising to the challenge of exploring biodiversity data 
-short title: Mountain Biodiversity
+short_title: Mountain Biodiversity
 link:        
 client:      GMBA and GBIF
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:
 image:       calvert_02.jpg
 author:      Craig Mills
 date:        2015-04-22
+order:       12
 
 modules:
     blocks:

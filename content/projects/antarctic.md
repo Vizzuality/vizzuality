@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       antartic_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       1
 
 modules:
     text_left:
@@ -27,7 +28,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Look mama, we aren't using Google Maps! Creating tiles and caching them provides a much better user experience.
+                description: Look mama, we aren't using Google Maps! Creating tiles and caching them provides a much better user experience.
             -
                 image: global-forest-watch-block-2.png
                 description: Working with scientists can be hard, but it's definitely the best way to get the best data. A custom backoffice allows them to enter the information and link with external resources.

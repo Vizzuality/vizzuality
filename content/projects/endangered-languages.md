@@ -1,6 +1,6 @@
 ---
 title:       The tips of 3000 tongues at your fingertips
-short title: EL
+short_title: EL
 link:        http://www.endangeredlanguages.com/
 client:      Google and Alliance for Linguistic Diversity
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Uniting researchers, citizens and communities to halt the mass exti
 image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       5
 
 modules:
 

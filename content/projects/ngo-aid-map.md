@@ -1,6 +1,6 @@
 ---
 title:       Mapping data for development
-short title: NGO Aid Map
+short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Easy access to accurate information so NGOs can plan effective deve
 image:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       14
 
 modules:
     text_left:
@@ -27,7 +28,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             -
                 image: global-forest-watch-block-2.png
                 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

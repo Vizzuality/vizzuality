@@ -1,6 +1,6 @@
 ---
 title:       Finding endangered species before it’s too late
-short title: GEOCAT
+short_title: GEOCAT
 link:        http://geocat.kew.org/
 client:      Kew Gardens, IUCN and ViBRANT
 client_logo: google.png
@@ -10,6 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+order:       6
 
 modules:
     text_left:
@@ -27,7 +28,7 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description": RLGT makes intensive use of effects and animations to display tool status. This provides continuous feedback to the user.
+                description: RLGT makes intensive use of effects and animations to display tool status. This provides continuous feedback to the user.
             -
                 image: global-forest-watch-block-2.png
                 description: With unlimited undo and redo, all user actions can be undone and redone at any time, encouraging a trial-and-error analysis refinement.
