@@ -1,6 +1,6 @@
 ---
 title:       Rising to the challenge of exploring biodiversity data 
-short title: Mountain Biodiversity
+short_title: Mountain Biodiversity
 link:        
 client:      GMBA and GBIF
 client_logo: google.png

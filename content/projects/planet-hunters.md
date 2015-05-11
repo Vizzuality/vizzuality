@@ -1,6 +1,6 @@
 ---
 title:       Bringing the Stars to your living room
-short title: PH
+short_title: PH
 link:        http://www.planethunters.org/
 client:      Zooniverse
 client_logo: google.png

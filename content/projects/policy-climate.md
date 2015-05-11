@@ -1,6 +1,6 @@
 ---
 title:       Analysing climate policy impact
-short title: policy climate
+short_title: policy climate
 link:        http://bbva.vizzuality.com
 client:      Climate Policy Initiative
 client_logo: google.png

@@ -1,6 +1,6 @@
 ---
 title:       An underwater mission with NASA
-short title: Neemo
+short_title: Neemo
 link:        http://neemo.zooniverse.org/
 client:      NASA
 client_logo: google.png

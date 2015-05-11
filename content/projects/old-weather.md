@@ -1,6 +1,6 @@
 ---
 title:       Yesterday’s weather for tomorrow’s climate
-short title: Old Weather
+short_title: Old Weather
 link:        http://www.oldweather.org/
 client:      Zooniverse
 client_logo: google.png

@@ -1,6 +1,6 @@
 ---
 title:       Following cash on the road to recovery
-short title: Cash Atlas
+short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
 client_logo: wri.png

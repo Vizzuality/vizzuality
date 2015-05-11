@@ -1,6 +1,6 @@
 ---
 title:       A toolkit for a Bioblitz with a twist
-short title: Techno bioblitz
+short_title: Techno bioblitz
 link:        http://www.tdwg.org/
 client:      TDWG
 client_logo: 

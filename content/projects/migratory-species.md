@@ -1,6 +1,6 @@
 ---
 title:       Migrating our knowledge of birds to the web
-short title: RMS
+short_title: RMS
 link:        
 client:      GBIF/ GROMS
 client_logo: google.png

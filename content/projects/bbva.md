@@ -1,6 +1,6 @@
 ---
 title:       BBVA
-short title: BBVA
+short_title: BBVA
 link:        http://bbva.vizzuality.com
 client:      BBVA
 client_logo: google.png

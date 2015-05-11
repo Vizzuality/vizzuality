@@ -1,6 +1,6 @@
 ---
 title:       Giving data a half-time show
-short title: Google Trends
+short_title: Google Trends
 link:        http://nfl.vizzuality.com
 client:      Google
 client_logo: google.png

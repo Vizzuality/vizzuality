@@ -1,6 +1,6 @@
 ---
 title:       Mapping data for development
-short title: NGO Aid Map
+short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
 client_logo: google.png

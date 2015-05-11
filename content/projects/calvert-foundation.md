@@ -1,6 +1,6 @@
 ---
 title:       Mapping Success for the Calvert Foundation
-short title: Calvert
+short_title: Calvert
 link:        http://map.calvertfoundation.org/
 client:      Calvert Foundation
 client_logo: google.png

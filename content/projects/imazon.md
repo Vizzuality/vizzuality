@@ -1,6 +1,6 @@
 ---
 title:       An accurate picture of amazon deforestation
-short title: Imazon
+short_title: Imazon
 link:        
 client:      Imazon and Google.org
 client_logo: google.png

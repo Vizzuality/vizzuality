@@ -1,6 +1,6 @@
 ---
 title:       Pixel perfection for forest detection
-short title: GFW
+short_title: GFW
 link:        http://globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png

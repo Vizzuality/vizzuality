@@ -1,6 +1,6 @@
 ---
 title:       Updating the history of the web
-short title: EoTW
+short_title: EoTW
 link:        http://www.evolutionoftheweb.com/
 client:      Google Chrome and Hyperakt
 client_logo: google.png

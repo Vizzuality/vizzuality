@@ -14,14 +14,26 @@ block claim
 block main
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
-      for project in projects
-        article.m-project(style="background-image: url(/assets/images/projects/#{project.image})")
-          .veil
-          .m-project-content
-            p.client= project.client
-            h1: a(href="/projects/#{project.slug}")= project.title
-            p.description= project.summary
-            a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+      each project, index in projects
+        if index < 3
+          article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
+            .veil
+            .m-project-content
+              p.client= project.client
+              h1: a(href="/projects/#{project.slug}")= project.title
+              p.description= project.summary
+              a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+    
+    if projects.length > 3
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        ul.m-project-grid
+          each project, index in projects
+            if index >= 3
+              li(style="background-image: url(/assets/images/projects/#{project.image})")
+                div
+                  p.client= project.client
+                  h2: a(href="/projects/#{project.slug}")= project.short_title
+
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
