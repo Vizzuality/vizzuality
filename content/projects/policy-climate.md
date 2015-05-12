@@ -1,6 +1,6 @@
 ---
 title:       Analysing climate policy impact
-short_title: policy climate
+short_title: The Policy climate
 link:        http://bbva.vizzuality.com
 client:      Climate Policy Initiative
 client_logo: google.png
@@ -14,8 +14,8 @@ order:       17
 
 modules:
     text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: Insight through interaction
+        description: At Vizzuality we strongly believe that if people are entertained and surprised by a visualisation they can more easily engage with the data and gain new understanding of a topic. The vertical bar on every page combines the enjoyment reward of interaction with the analytical power needed to find insight. 
         image: global-forest-watch-text-left.png
 
     text_right:
@@ -36,8 +36,8 @@ modules:
                 image: global-forest-watch-block-3.png
                 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
-        title: Insight through interaction
-        description: At Vizzuality we strongly believe that if people are entertained and surprised by a visualisation they can more easily engage with the data and gain new understanding of a topic. The vertical bar on every page combines the enjoyment reward of interaction with the analytical power needed to find insight. 
+        title: 
+        description: 
 
     video:
         title: The video
