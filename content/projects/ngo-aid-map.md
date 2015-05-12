@@ -10,7 +10,7 @@ summary:     Easy access to accurate information so NGOs can plan effective deve
 image:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       14
+order:       2
 
 modules:
     text_left:
