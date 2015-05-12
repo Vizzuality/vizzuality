@@ -4,27 +4,16 @@ short_title: Imazon
 link:        
 client:      Imazon and Google.org
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+summary:     
 image:       imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22
 order:       9
 
 modules:
-    text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-right.png
 
     blocks:
-        title: High fidelity analysis
+        title: Humans and machines working together to stop deforestation
         modules:
             -
                 image: global-forest-watch-block-1.png
