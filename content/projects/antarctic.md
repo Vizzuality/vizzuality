@@ -10,7 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       antartic_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       1
+order:       7
 
 modules:
     text_left:

@@ -10,7 +10,7 @@ summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       3
+order:       14
 
 modules:
 
