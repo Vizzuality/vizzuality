@@ -1,6 +1,6 @@
 ---
 title:       The future of farming is satellite SMS 
-short_title: Kenya Farming
+short_title: Big Data, Small Screens
 link:        "http://bbva.vizzuality.com"
 client:      Zeitz Foundation
 client_logo: google.png
