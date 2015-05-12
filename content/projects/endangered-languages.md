@@ -1,6 +1,6 @@
 ---
 title:       The tips of 3000 tongues at your fingertips
-short_title: EL
+short_title: Endangered Languages
 link:        http://www.endangeredlanguages.com/
 client:      Google and Alliance for Linguistic Diversity
 client_logo: google.png
