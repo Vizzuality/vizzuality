@@ -4,8 +4,6 @@ short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
 client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
 summary:     Easy access to accurate information so NGOs can plan effective development actions
 image:       ngo_08b.jpg
 author:      Jamie Gibson
@@ -23,21 +21,10 @@ modules:
         description: We wanted to remove as much of the burden as possible involved in finding, entering or updating data, making the process quick and easy. This is especially important when trying to mobilise emergency responses, and NGO Aid Map was used in Haiti after the 2010 earthquake and recently in the Horn of Africa. 
         image: global-forest-watch-text-right.png
 
-    blocks:
-        title: High fidelity analysis
-        modules:
-            -
-                image: global-forest-watch-block-1.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
-        title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: Try it yourself
+        description:
+        url: 
 
     video:
         title: The video
