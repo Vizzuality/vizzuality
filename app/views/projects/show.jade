@@ -21,29 +21,33 @@ block main
           .grid-sm-14.grid-lg-12.offset-lg-1
             .m-project-url
               a(href="#{data.link}", class="btn") Check it online
-        .row
-          .grid-sm-14.grid-lg-12.offset-lg-1
-            .m-project-post
-              p= data.post_title
-              a(href="#{data.post_url}", class="btn-secondary") Read post
+
+        if data.post_title && data.post_url
+          .row
+            .grid-sm-14.grid-lg-12.offset-lg-1
+              .m-project-post
+                p= data.post_title
+                a(href="#{data.post_url}", class="btn-secondary") Read post
     
     if data.modules.text_left
-      article(style="background-image: url(/assets/images/projects/#{data.modules.text_left.image})")
+      article.m-project-article-left
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
-            h2= data.modules.text_left.title
-            p= data.modules.text_left.description
-            a(href="#{data.link}", class="btn") See online
-    
+            .m-project-article-content(style="background-image: url(/assets/images/projects/#{data.modules.text_left.image})"): div
+              h2= data.modules.text_left.title
+              p= data.modules.text_left.description
+              a(href="#{data.link}", class="btn") See online
+      
     if data.modules.text_right
-      article(style="background-image: url(/assets/images/projects/#{data.modules.text_right.image})")
+      article.m-project-article-right
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
-            h2= data.modules.text_right.title
-            p= data.modules.text_right.description
+            .m-project-article-content(style="background-image: url(/assets/images/projects/#{data.modules.text_right.image})"): div
+              h2= data.modules.text_right.title
+              p= data.modules.text_right.description
 
     if data.modules.blocks
-      article
+      article.m-project-blocks
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
             h2= data.modules.blocks.title
@@ -51,11 +55,11 @@ block main
           each m, i in data.modules.blocks.modules
             if i == 0
               .grid-sm-14.grid-lg-4.offset-lg-1
-                img(href="/assets/images/projects/#{m.image}")
+                .thumb: img(src="/assets/images/projects/#{m.image}")
                 p= m.description
             else
               .grid-sm-14.grid-lg-4
-                img(href="/assets/images/projects/#{m.image}")
+                .thumb: img(src="/assets/images/projects/#{m.image}")
                 p= m.description
 
     if data.modules.map

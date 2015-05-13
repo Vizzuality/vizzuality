@@ -16,24 +16,24 @@ modules:
     text_left:
         title: One eye in the sky...
         description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
-        image: global-forest-watch-text-left.png
+        image: gfw_01.jpg
 
     text_right:
         title: ...the other on our screens.
         description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques together to create a fast, beautiful and easy-to-use map tool. 
-        image: global-forest-watch-text-right.png
+        image: gfw_01.jpg
 
     blocks:
         title: High fidelity analysis
         modules:
             -
-                image: global-forest-watch-block-1.png
+                image: gfw_01.jpg
                 description: Anyone can use the data to tell their story about forest change and share it with the world. 
             -
-                image: global-forest-watch-block-2.png
+                image: gfw_01.jpg
                 description: Get an overview at the global level or dive into the details for one country with our local and global modes
             -
-                image: global-forest-watch-block-3.png
+                image: gfw_01.jpg
                 description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
     
     map:
