@@ -1,6 +1,6 @@
 ---
 title:       Bringing the Stars to your living room
-short_title: PH
+short_title: Planet Hunters
 link:        http://www.planethunters.org/
 client:      Zooniverse
 client_logo: google.png
@@ -13,19 +13,23 @@ date:        2015-05-07
 order:       16
 
 modules:
-    text_left:
-        title: Simple, elegant design
-        description: Making it easy for anyone to recognise the transits and have some fun at the same time
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Fluid, responsive interface
-        description: We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
-        image: global-forest-watch-text-right.png
+    
+    blocks:
+        title: Fluid interface for scientifically valid results
+        modules:
+            -
+                image: global-forest-watch-block-1.png
+                description: Making it easy for anyone to recognise the transits and have some fun at the same time 
+            -
+                image: global-forest-watch-block-2.png
+                description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
+            -
+                image: global-forest-watch-block-3.png
+                description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications 
 
     map:
-        title: Scientifically valid
-        description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications
+        title: 
+        description: 
 
     video:
         title: Behind the scenes of Planet Hunters

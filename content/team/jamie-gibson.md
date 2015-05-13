@@ -1,7 +1,7 @@
 ---
 name:       Jamie Gibson
 position:   Social Scientist
-phrase:     Through understanding how people and our society works, we can unleash the power of data
+phrase:     Use this chance to be heard: your time is now
 twitter:    
 linkedin:   
 email:      jamie.gibson@vizzuality.com

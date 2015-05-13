@@ -25,9 +25,11 @@ function pageNotFound(req, res) {
   res.render('errors/404');
 }
 
+var hasCache = (app.get('env') === 'production');
+
 app.get('/', function(req, res) {
   var projectsPath = root + '/content/projects';
-  return file.getFiles(projectsPath, function(err, data) {
+  return file.getFiles(projectsPath, hasCache, function(err, data) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -46,7 +48,7 @@ app.get('/projects', function(req, res) {
 
 app.get('/projects/:project', function(req, res) {
   var filePath = './content/projects/' + req.params.project + '.md';
-  return file.getData(filePath, function(err, result) {
+  return file.getData(filePath, hasCache, function(err, result) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -60,7 +62,7 @@ app.get('/projects/:project', function(req, res) {
 
 app.get('/about', function(req, res) {
   var teamPath = root + '/content/team';
-  file.getFiles(teamPath, function(err, data) {
+  file.getFiles(teamPath, hasCache, function(err, data) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -75,7 +77,7 @@ app.get('/about', function(req, res) {
 
 app.get('/about/:member', function(req, res) {
   var filePath = './content/team/' + req.params.member + '.md';
-  file.getData(filePath, function(err, result) {
+  file.getData(filePath, hasCache, function(err, result) {
     if (err) {
       return pageNotFound(req, res);
     }
