@@ -4,7 +4,6 @@ short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
 client_logo: 
-post_url:    global-forest-watch
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
