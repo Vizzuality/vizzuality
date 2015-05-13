@@ -96,9 +96,41 @@ browser-icon($left = 0)
       display inline-block
       margin $margin auto
 
+.m-project-article-left,
+.m-project-article-right
+  margin ($margin*2) 0
+
+.m-project-article-left .m-project-article-content
+  background-position left
+
+.m-project-article-right .m-project-article-content
+  background-position right
+
+.m-project-article-content
+  display flex
+  align-items center
+  min-height 100vh
+
+@media screen and (min-width: $screen-sm)
+  .m-project-article-content
+    div
+      max-width 40%
+      padding $margin
+
+  .m-project-article-right .m-project-article-content
+    justify-content flex-end
+
+.m-project-blocks
+  .thumb
+    overflow hidden
+    img
+      width 100%
+      height auto
+
 .m-project-detail-map,
 .m-project-detail-video
   padding ($margin * 2) 0
+  min-height 100vh
 
 .m-project-browser
   position relative
@@ -123,10 +155,9 @@ browser-icon($left = 0)
     width 100%
     height rem(320px)
 
-    @media screen and (min-width: $screen-sm)
-      height rem(550px)
-
   @media screen and (min-width: $screen-sm)
+    iframe
+      height rem(550px)
     p
       max-width 50%
       margin-left auto

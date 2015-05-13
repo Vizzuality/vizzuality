@@ -29,7 +29,7 @@ block main
         ul.m-project-grid
           each project, index in projects
             if index >= 3
-              li(style="background-image: url(/assets/images/projects/#{project.image})")
+              li(class="is-grid-#{project.grid}", style="background-image: url(/assets/images/projects/#{project.image})")
                 .veil
                 .m-project-grid-content
                   p.client= project.client

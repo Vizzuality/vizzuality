@@ -3,14 +3,12 @@ title:       Following cash on the road to recovery
 short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
-client_logo: wri.png
-post_url:    global-forest-watch
-post_title:  When a tree falls, a millon ears are listening
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+client_logo: 
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       8
+grid:        2
 
 modules:
     text_left:
@@ -23,29 +21,17 @@ modules:
         description: Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data.
         image: global-forest-watch-text-right.png
 
-    blocks:
-        title: High fidelity analysis
-        modules:
-            -
-                image: global-forest-watch-block-1.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     map:
-        title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        title: 
+        description: 
 
     video:
         title: The video
-        url: https://www.youtube.com/watch?v=ijkP6eaHE6Y
+        url: https://www.youtube.com/embed/ijkP6eaHE6Y
 
 opinions:
     -
-        title: <a href="http://www.cashlearning.org/admin/viewemail.php?id=224">"I appreciate the fact that is modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."</a>
+        title: <a href="http://www.cashlearning.org/admin/viewemail.php?id=224">"I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."</a>
         photo: gfw-profile-1.png
         autor: Alexandre Castellano, humanitarian food assistance and nutrition policy officer at the European Commission Humanitarian Office
 

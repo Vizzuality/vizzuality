@@ -1,12 +1,11 @@
 ---
 title:       A toolkit for a Bioblitz with a twist
-short_title: Techno bioblitz
-link:        http://www.tdwg.org/
+short_title: Techno Bioblitz
+link:        http://bioblitz.tdwg.org/
 client:      TDWG
 client_logo: 
 post_url:    http://blog.vizzuality.com/post/1035773168/bioblitz-at-the-next-tdwg-2010-conference
-post_title:  Bioblitz at the next TDWG 2010 Conference
-summary:     
+post_title:  Bioblitz at the TDWG 2010 Conference
 image:       techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
@@ -22,6 +21,7 @@ modules:
         title: Classifying Observations
         description: The Taxonomizer is a web tool that helps to categorize species observed during the BioBlitz, showing pictures and asking the user for identifying. It uses the GBIF species database as a suggestions dictionary.
         image: global-forest-watch-text-right.png
+        
 opinions:
     -
         title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.

@@ -1,13 +1,13 @@
 ---
 title:       The tips of 3000 tongues at your fingertips
-short_title: EL
+short_title: Endangered Languages
 link:        http://www.endangeredlanguages.com/
 client:      Google and Alliance for Linguistic Diversity
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  A collaborative tool for documenting endangered languages
 summary:     Uniting researchers, citizens and communities to halt the mass extinction of languages across the world
-image:       calvert_02.jpg
+image:       
 author:      Jamie Gibson
 date:        2015-05-07
 order:       5
@@ -28,11 +28,12 @@ modules:
                 description: Features to recognise and promote user contributions to documentation
     map:
         title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        description: 
+        url: 
 
     video:
-        title: The video
-        url: https://vimeo.com/48882390
+        title: An Introduction to Endangered Languages
+        url: http://player.vimeo.com/video/48882390
 
 opinions:
     -

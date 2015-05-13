@@ -9,8 +9,8 @@ var cache = {};
 
 module.exports = {
 
-  getData: function(filePath, next) {
-    if (cache[filePath]) {
+  getData: function(filePath, hasCache, next) {
+    if (hasCache && cache[filePath]) {
       return next(null, cache[filePath]);
     }
     fs.readFile(filePath, 'utf8', function(err, file) {
@@ -27,9 +27,9 @@ module.exports = {
     });
   },
 
-  getFiles: function(dir, next) {
+  getFiles: function(dir, hasCache, next) {
     var data = [];
-    if (cache[dir]) {
+    if (hasCache && cache[dir]) {
       return next(null, cache[dir]);
     }
     var files = fs.readdirSync(dir).filter(function(file) {
@@ -40,6 +40,7 @@ module.exports = {
       var filePath = path.join(dir, file);
       var element = matter(fs.readFileSync(filePath, 'utf8')).data;
       element.slug = file.split('.md')[0];
+      element.grid = !element.grid ? 1 : element.grid > 3 ? 3 : element.grid;
       data.push(element);
     }
     cache[dir] = data;
