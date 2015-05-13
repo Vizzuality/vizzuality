@@ -44,6 +44,7 @@
     width 100%
     height 100%
     background-color rgba(0, 0, 0, .3)
+    transition background-color .5s ease
 
   @media screen and (min-width: $screen-sm)
     .description
@@ -51,3 +52,5 @@
       margin-left auto
       margin-right auto
 
+    &:hover .veil
+      background-color rgba(0, 0, 0, 0)
