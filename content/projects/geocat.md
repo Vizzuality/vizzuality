@@ -25,7 +25,7 @@ modules:
                 description: As part of the EU BON project we are adding a couple of new features, allowing users to complete even more powerful analyses using biodiversity observations from across Europe.
                 
     map:
-        title: First highlight
+        title: 
         description: 
 
     video:
