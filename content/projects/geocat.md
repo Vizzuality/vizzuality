@@ -3,29 +3,17 @@ title:       Finding endangered species before it’s too late
 short_title: GEOCAT
 link:        http://geocat.kew.org/
 client:      Kew Gardens, IUCN and ViBRANT
-client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+client_logo: 
 image:       red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       6
 
 modules:
-    text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-right.png
 
     blocks:
-        title: High fidelity analysis
-        modules:
+        title: 
+        modules: Making it easy to assess species
             -
                 image: global-forest-watch-block-1.png
                 description: RLGT makes intensive use of effects and animations to display tool status. This provides continuous feedback to the user.
@@ -35,13 +23,14 @@ modules:
             -
                 image: global-forest-watch-block-3.png
                 description: As part of the EU BON project we are adding a couple of new features, allowing users to complete even more powerful analyses using biodiversity observations from across Europe.
+                
     map:
         title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        description: 
 
     video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        title: Introducing GeoCAT
+        url: https://vimeo.com/22739331
 
 opinions:
     -
