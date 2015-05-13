@@ -7,7 +7,7 @@ client_logo:
 image:       antartic_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       1
+order:       7
 
 modules:
 

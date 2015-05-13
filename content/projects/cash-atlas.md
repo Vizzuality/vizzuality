@@ -7,7 +7,7 @@ client_logo:
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       4
+order:       8
 
 modules:
 

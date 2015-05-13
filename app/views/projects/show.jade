@@ -58,19 +58,22 @@ block main
                 img(href="/assets/images/projects/#{m.image}")
                 p= m.description
 
-    if data.modules.video
-      article
+    if data.modules.map
+      article.m-project-detail-map
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
             h2= data.modules.map.title
-            iframe(width="100%", height="720", src=data.modules.map.url, frameborder="0")
+            .m-project-browser
+              .m-project-browser-content
+                iframe(src=data.modules.map.url, frameborder="0")
+            p= data.modules.map.description
 
     if data.modules.video
-      article
+      article.m-project-detail-video
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
             h2= data.modules.video.title
-            iframe(width="100%", height="720", src=data.modules.video.url, frameborder="0", allowfullscreen)
+            iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1

@@ -10,7 +10,7 @@ summary:     Replay the 2014/2015 NFL season through the eyes of the fans using 
 image:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       8
+order:       3
 
 modules:
     text_left:
