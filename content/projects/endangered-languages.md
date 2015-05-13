@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  A collaborative tool for documenting endangered languages
 summary:     Uniting researchers, citizens and communities to halt the mass extinction of languages across the world
-image:       calvert_02.jpg
+image:       
 author:      Jamie Gibson
 date:        2015-05-07
 order:       5
@@ -28,10 +28,11 @@ modules:
                 description: Features to recognise and promote user contributions to documentation
     map:
         title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        description: 
+        url: 
 
     video:
-        title: The video
+        title: An Introduction to Endangered Languages
         url: https://vimeo.com/48882390
 
 opinions:
