@@ -1,10 +1,9 @@
 ---
 title:       Mapping Success for the Calvert Foundation
-short_title: Calvert
+short_title: Calvert Foundation
 link:        http://map.calvertfoundation.org/
 client:      Calvert Foundation
 client_logo: google.png
-summary:     
 image:       calvert_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -25,7 +24,7 @@ modules:
                 image: global-forest-watch-block-3.png
                 description: Add context to each story by adding new layers, like % GDP from agriculture or median household income. 
     map:
-        title: First highlight
+        title: Explore their work for yourself
         description: 
         url: http://map.calvertfoundation.org/embed.html#2/8.00/-32.00/nokia-day/stories
 
