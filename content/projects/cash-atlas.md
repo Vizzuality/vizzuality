@@ -3,7 +3,7 @@ title:       Following cash on the road to recovery
 short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
-client_logo: wri.png
+client_logo: 
 post_url:    global-forest-watch
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
@@ -31,7 +31,7 @@ modules:
 
 opinions:
     -
-        title: <a href="http://www.cashlearning.org/admin/viewemail.php?id=224">"I appreciate the fact that is modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."</a>
+        title: <a href="http://www.cashlearning.org/admin/viewemail.php?id=224">"I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."</a>
         photo: gfw-profile-1.png
         autor: Alexandre Castellano, humanitarian food assistance and nutrition policy officer at the European Commission Humanitarian Office
 
