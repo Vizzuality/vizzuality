@@ -12,7 +12,7 @@ order:       1
 modules:
 
     blocks:
-        title: Pushing the boundaries to map and browse taxonomies
+        title: Pushing tech boundaries to map and browse taxonomies
         modules:
             -
                 image: global-forest-watch-block-1.png
