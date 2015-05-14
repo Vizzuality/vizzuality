@@ -1,9 +1,9 @@
 ---
 name:       Clément Prod'homme 
 position:   Engineer
-phrase:     "Under development"
-twitter:    
-linkedin:   
+phrase:     "Every experience, every project, is another chance for me to learn something new"
+twitter:    @ClementPrdhomme
+linkedin:   https://www.linkedin.com/pub/cl%C3%A9ment-prod-homme/5b/a81/158
 email:      clement.prodhomme@vizzuality.com
 photo:      Clement.jpg
 author:     Alicia
