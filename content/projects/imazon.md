@@ -2,8 +2,7 @@
 title:       An accurate picture of amazon deforestation
 short_title: Imazon
 client:      Imazon and Google.org
-client_logo: google.png
-summary:     
+client_logo: google.png 
 image:       imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22

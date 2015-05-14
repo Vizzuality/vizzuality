@@ -12,16 +12,16 @@ order:       11
 modules:
 
     blocks:
-        title: High fidelity analysis
+        title: Taxonomic exploration through geographic visualisation
         modules:
             -
-                image: global-forest-watch-block-1.png
+                image: 
                 description: Species exploration is made through our well know taxonomic browser, with support for multi language common names.
             -
-                image: global-forest-watch-block-2.png
+                image: 
                 description: By mixing together data from GBIF, Google Maps and Flickr we developed a solution that helps the discovering of the richness of data behind the GROMS project.
             -
-                image: global-forest-watch-block-3.png
+                image: 
                 description: Maps use different colors and vectorial and raster techniques for showing breeding and feeding areas, GBIF record, etc.
 
 opinions:

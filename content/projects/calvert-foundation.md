@@ -15,13 +15,13 @@ modules:
         title: High fidelity analysis
         modules:
             -
-                image: global-forest-watch-block-1.png
+                image: calvertFoundation-block1.jpg
                 description: Developed on mobile first principles, the website responds to the size of the screen to ensure clear display for all. 
             -
-                image: global-forest-watch-block-2.png
+                image: calvertFoundation-block2.jpg
                 description: Find the stories you’re most interested in using the filters, or explore the map to see the variety of work they do.
             -
-                image: global-forest-watch-block-3.png
+                image: calvertFoundation-block3.jpg
                 description: Add context to each story by adding new layers, like % GDP from agriculture or median household income. 
     map:
         title: Explore their work for yourself
