@@ -4,6 +4,7 @@ position:   Engineer
 phrase:     I am the Real deal when it comes to front-ends
 twitter:    VAlandiI
 linkedin:   
+github:		andres-gnlez
 email:      andres.gonzalez@vizzuality.com
 photo:      andres.jpg
 author:     Alicia

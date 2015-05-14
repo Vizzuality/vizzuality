@@ -2,8 +2,9 @@
 name:       Adrián Pérez
 position:   Engineer
 phrase:     My Hammond B-3 is broken and now I use this other keyboard.
-twitter:    
-linkedin:   adrpz
+twitter:    adrpz
+linkedin:   "https://es.linkedin.com/in/adrpz/en"
+github:		apercas
 email:      adrian.perez@vizzuality.com
 photo:      unknown_2.jpg
 author:     Alicia
