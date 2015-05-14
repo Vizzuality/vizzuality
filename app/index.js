@@ -6,7 +6,6 @@ var bodyParser = require('body-parser');
 var path = require('path');
 var morgan = require('morgan');
 var errorhandler = require('errorhandler');
-var moment = require('moment');
 var nodemailer = require('nodemailer');
 var root = process.cwd();
 var file = require(root + '/app/lib/file');
@@ -54,7 +53,7 @@ app.get('/', function(req, res) {
     }
     res.render('projects/index', {
       projects: _.sortBy(data, function(d) {
-        return (d.order || 0) + moment(d.date, 'YYYY-MM-DD').valueOf();
+        return (d.order || 0) + new Date(d.date).valueOf();
       }),
       className: 'is-project-page'
     });
@@ -87,10 +86,18 @@ app.get('/about', function(req, res) {
     if (err) {
       return pageNotFound(req, res);
     }
+    var result = [];
+    var team = _.sortBy(data, function(d) {
+      var time = new Date(d.date).valueOf();
+      var order = d.order ? parseInt(d.order) : 0;
+      return (order * Math.pow(10, 15)) + time;
+    });
+    var max = _.max(_.pluck(team, 'order'));
+    for (var i = 1, len = max + 1; i < len; i++) {
+      result.push(_.findWhere(team, { order: i }));
+    }
     res.render('about/index', {
-      team: _.sortBy(data, function(d) {
-        return (d.order || 0) + moment(d.date, 'YYYY-MM-DD').valueOf();
-      }),
+      team: result,
       className: 'is-about-page'
     });
   });
@@ -127,9 +134,8 @@ app.post('/contact', function(req, res) {
     html: req.body.message
   };
 
-  transporter.sendMail(userMailOptions, function(error) {
+  transporter.sendMail(userMailOptions, function() {
     transporter.sendMail(staffMailOptions, function(error) {
-      console.log(error);
       if (error) {
         res.status(400).json({ message: 'We\'re sorry, but something went wrong. Please, try again later.' });
       } else {

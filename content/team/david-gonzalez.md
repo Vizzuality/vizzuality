@@ -8,6 +8,7 @@ email:      david.gonzalez@vizzuality.com
 photo:      unknown_2.jpg
 author:     Alicia
 date:       2015-05-08
+order:      2
 ---
 
  David is head to technology and strategy and Vizzuality, and has spent nearly 20 years working at the forefront of informatics in Madrid. He graduated as Agricultural Engineer from the Universidad Politécnica de Madrid, where he participated in several research projects on plant growth computer modeling, sustainability and precision agriculture. He was also part of Cranfield University research team in Food technology. 

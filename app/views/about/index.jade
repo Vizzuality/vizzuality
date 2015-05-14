@@ -16,12 +16,16 @@ block main
     .grid-sm-14.grid-lg-12.offset-lg-1
       ul.m-team-gallery
         for member in team
-          li(style="background-image: url(/assets/images/team/#{member.photo})")
-            .veil
-            img.is-hidden(src="/assets/images/team/#{member.photo}", alt=member.name)
-            a(href="/about/#{member.slug}")
-              h3= member.name
-              p= member.position
+          if (member)
+            li(style="background-image: url(/assets/images/team/#{member.photo})")
+              a(href="/about/#{member.slug}")
+                .veil
+                .m-team-gallery-content
+                  h3= member.name
+                  p= member.position
+                  img.is-hidden(src="/assets/images/team/#{member.photo}", alt=member.name)
+          else
+            li
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1

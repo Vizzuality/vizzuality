@@ -1,11 +1,11 @@
 ---
 name:       Jamie Gibson
 position:   Social Scientist
-phrase:     Use this chance to be heard: your time is now
+phrase:     "Use this chance to be heard: your time is now"
 twitter:    
 linkedin:   
 email:      jamie.gibson@vizzuality.com
-photo:      Jamie.jpg
+photo:      jamie-gibson.jpg
 author:     Alicia
 date:       2015-05-08
 order:		10

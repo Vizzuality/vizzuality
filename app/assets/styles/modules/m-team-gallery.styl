@@ -1,34 +1,42 @@
 .m-team-gallery
   padding 0
+  margin 0 -1%
   list-style none
   clearfix()
 
   li
-    position relative
     display flex
     align-items flex-end
     justify-content center
-    height rem(300px)
+
+    position relative
+    width 33.333333%
+    float left
+    height rem(100px)
 
     color $font-color-2
-    text-align center
 
-    background-color $bg-color-2
+    background-color $bg-color-5
     background-repeat none
     background-position center
     background-size cover
 
-  a
-    position relative
-    margin-bottom $margin
-    color $font-color-2
-    text-decoration none
-    opacity 0
-    transition opacity .5s ease
-    z-index 2
-
   h3, p
     margin .3rem 0
+
+  a
+    margin-bottom $margin
+
+    color $font-color-2
+    text-align center
+    text-decoration none
+
+    opacity 0
+    transition opacity .5s ease
+
+  .m-team-gallery-content
+    position relative
+    z-index 2
 
   .veil
     position absolute
@@ -43,6 +51,7 @@
   @media screen and (min-width: $screen-sm)
     li
       width 25%
+      height rem(250px)
       float left
 
       &:hover

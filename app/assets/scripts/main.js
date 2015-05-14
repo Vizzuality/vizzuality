@@ -177,13 +177,13 @@
       self.contactForm();
       self.setListeners();
 
-      var header = document.getElementById('headerTop');
+      var header = document.getElementById('header');
 
-      window.onscroll = function(e) {
+      window.onscroll = function() {
         if (window.pageYOffset > 90) {
-          header.className = '%1 %2'.format('l-header-top', 'is-fixed');
+          header.className = '%1 %2'.format('l-header', 'is-fixed');
         } else {
-          header.className = 'l-header-top';
+          header.className = 'l-header';
         }
       };
     };
