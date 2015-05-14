@@ -53,7 +53,9 @@ app.get('/', function(req, res) {
     }
     res.render('projects/index', {
       projects: _.sortBy(data, function(d) {
-        return (d.order || 0) + new Date(d.date).valueOf();
+        var time = new Date(d.date).valueOf();
+        var order = d.order ? parseInt(d.order) : 0;
+        return (order * Math.pow(10, 15)) + time;
       }),
       className: 'is-project-page'
     });
