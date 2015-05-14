@@ -49,11 +49,9 @@ browser-icon($left = 0)
     h1
       margin-bottom 0.5rem
       line-height 0.9
-      text-shadow 0 0 1px $font-color-1
 
     p
       margin-top 0
-      text-shadow 0 0 1px $font-color-1
 
     // .veil
     //   position absolute
@@ -100,11 +98,17 @@ browser-icon($left = 0)
 .m-project-article-right
   margin ($margin*2) 0
 
+  .m-project-article-content
+    background-repeat no-repeat
+
+.m-project-article-right
+  background-color $bg-color-5
+
 .m-project-article-left .m-project-article-content
-  background-position left
+  background-position right
 
 .m-project-article-right .m-project-article-content
-  background-position right
+  background-position left
 
 .m-project-article-content
   display flex
@@ -123,6 +127,7 @@ browser-icon($left = 0)
 .m-project-blocks
   .thumb
     overflow hidden
+    outline 1px solid rgba(0, 0, 0, .1)
     img
       width 100%
       height auto

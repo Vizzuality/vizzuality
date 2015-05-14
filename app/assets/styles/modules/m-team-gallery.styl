@@ -4,19 +4,31 @@
   clearfix()
 
   li
-    display block
-    float left
-    width 33%
     position relative
+    display flex
+    align-items flex-end
+    justify-content center
+    height rem(300px)
+
+    color $font-color-2
+    text-align center
+
+    background-color $bg-color-2
+    background-repeat none
+    background-position center
+    background-size cover
 
   a
     position relative
-    display block
-    overflow hidden
-    background-repeat none
-    background-size cover
-    background-position center
-    padding-bottom 100%
+    margin-bottom $margin
+    color $font-color-2
+    text-decoration none
+    opacity 0
+    transition opacity .5s ease
+    z-index 2
+
+  h3, p
+    margin .3rem 0
 
   .veil
     position absolute
@@ -31,6 +43,10 @@
   @media screen and (min-width: $screen-sm)
     li
       width 25%
+      float left
 
-      &:hover .veil
+      &:hover
+        .veil
           background-color rgba($bg-color-3, .5)
+        a
+          opacity 1
