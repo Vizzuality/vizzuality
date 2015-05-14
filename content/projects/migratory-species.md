@@ -8,6 +8,7 @@ image:       species_05.jpg
 author:      Craig Mills
 date:        2015-04-22
 order:       11
+grid:        2
 
 modules:
 

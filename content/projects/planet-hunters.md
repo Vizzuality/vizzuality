@@ -11,6 +11,7 @@ image:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       16
+grid:        2
 
 modules:
     

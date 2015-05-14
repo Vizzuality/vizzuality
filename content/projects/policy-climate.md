@@ -8,7 +8,7 @@ image:       policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       17
-grid:        2
+grid:        1
 
 modules:
     text_left:
