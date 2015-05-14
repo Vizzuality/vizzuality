@@ -9,7 +9,7 @@ block claim
             | Important work,
             br
             | beautifully crafted
-          a(class="btn-secondary is-anchor", href="/#projects") Our work
+          a(class="btn is-anchor", href="/#projects") Our work
 
 block main
   .row#projects
@@ -30,10 +30,11 @@ block main
           each project, index in projects
             if index >= 3
               li(class="is-grid-#{project.grid}", style="background-image: url(/assets/images/projects/#{project.image})")
-                .veil
-                .m-project-grid-content
-                  p.client= project.client
-                  h2: a(href="/projects/#{project.slug}")= project.short_title
+                a.m-project-grid-link(href="/projects/#{project.slug}")
+                  .veil
+                  .m-project-grid-content
+                    p.client= project.client
+                    h2= project.short_title
 
 
   .row

@@ -7,15 +7,21 @@
     top 0
     left 0
     padding ($margin * 2) $margin $margin
-    z-index 2
+    z-index 3
     transition background-color .5s ease
-    background-color $bg-color-1
+    background-color rgba($bg-color-1, 0.9)
 
     .is-project-detail-page &
       background-color transparent
 
     .is-project-detail-page &.is-fixed
-      background-color $bg-color-3
+      background-color rgba($bg-color-1, 0.9)
+      color $font-color-3
+      a
+        color $font-color-3
+        border-color $font-color-3
+      svg path
+        fill $font-color-3
 
   .brand
     margin 0
