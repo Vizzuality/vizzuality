@@ -20,7 +20,7 @@ modules:
 
     video:
         title: A guide to the NEEMO tool
-        url: https://vimeo.com/34801002
+        url: https://player.vimeo.com/video/34801002
 
 opinions:
     -
