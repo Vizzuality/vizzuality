@@ -1,14 +1,19 @@
 'use strict';
 
 var _ = require('underscore');
-var express    = require('express');
+var express = require('express');
 var bodyParser = require('body-parser');
-var path       = require('path');
-var moment     = require('moment');
-var root       = process.cwd();
-var file       = require(root + '/app/lib/file');
+var path = require('path');
+var morgan = require('morgan');
+var errorhandler = require('errorhandler');
+var moment = require('moment');
+var nodemailer = require('nodemailer');
+var root = process.cwd();
+var file = require(root + '/app/lib/file');
 
+// Application
 var app = express();
+var isProduction = (app.get('env') === 'production');
 
 app.set('views', './app/views');
 app.set('view engine', 'jade');
@@ -19,17 +24,31 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(express['static'](path.join(root, 'public')));
-app.use('/bower_components', express['static'](path.join(root, 'bower_components')));
 
+if (app.get('env') === 'development') {
+  app.use('/bower_components', express['static'](path.join(root, 'bower_components')));
+  app.use(morgan('dev'));
+  app.use(errorhandler());
+}
+
+// Mailer
+var transporter = nodemailer.createTransport({
+  service: 'Gmail',
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASSWORD
+  }
+});
+
+// Router
 function pageNotFound(req, res) {
   res.render('errors/404');
 }
 
-var hasCache = (app.get('env') === 'production');
-
+// Home and projects page
 app.get('/', function(req, res) {
   var projectsPath = root + '/content/projects';
-  return file.getFiles(projectsPath, hasCache, function(err, data) {
+  return file.getFiles(projectsPath, isProduction, function(err, data) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -46,9 +65,10 @@ app.get('/projects', function(req, res) {
   res.redirect('/');
 });
 
+// Project detail page
 app.get('/projects/:project', function(req, res) {
   var filePath = './content/projects/' + req.params.project + '.md';
-  return file.getData(filePath, hasCache, function(err, result) {
+  return file.getData(filePath, isProduction, function(err, result) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -60,9 +80,10 @@ app.get('/projects/:project', function(req, res) {
   });
 });
 
+// About page
 app.get('/about', function(req, res) {
   var teamPath = root + '/content/team';
-  file.getFiles(teamPath, hasCache, function(err, data) {
+  file.getFiles(teamPath, isProduction, function(err, data) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -75,9 +96,10 @@ app.get('/about', function(req, res) {
   });
 });
 
+// Team page
 app.get('/about/:member', function(req, res) {
   var filePath = './content/team/' + req.params.member + '.md';
-  file.getData(filePath, hasCache, function(err, result) {
+  file.getData(filePath, isProduction, function(err, result) {
     if (err) {
       return pageNotFound(req, res);
     }
@@ -85,6 +107,34 @@ app.get('/about/:member', function(req, res) {
       data: result.data,
       content: result.html,
       className: 'is-team-page'
+    });
+  });
+});
+
+// Contact mail
+app.post('/contact', function(req, res) {
+  var userMailOptions = {
+    from: 'Vizzuality <hello@vizzuality.com>',
+    to: req.body.email,
+    subject: 'Thank you for contact us',
+    text: 'Thank you! /r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias perferendis asperiores eos vel neque molestiae praesentium iste veritatis obcaecati mollitia. Sit debitis est consequuntur aut aliquid alias dolorem optio doloremque',
+    html: '<h1>Thank you!</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias perferendis asperiores eos vel neque molestiae praesentium iste veritatis obcaecati mollitia. Sit debitis est consequuntur aut aliquid alias dolorem optio doloremque</p>'
+  };
+  var staffMailOptions = {
+    from: req.body.email,
+    to: process.env.EMAIL_RECEIVER,
+    subject: 'Contact form',
+    html: req.body.message
+  };
+
+  transporter.sendMail(userMailOptions, function(error) {
+    transporter.sendMail(staffMailOptions, function(error) {
+      console.log(error);
+      if (error) {
+        res.status(400).json({ message: 'We\'re sorry, but something went wrong. Please, try again later.' });
+      } else {
+        res.status(200).json({ message: 'Thank you.' });
+      }
     });
   });
 });
