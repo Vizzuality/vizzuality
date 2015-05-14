@@ -3,7 +3,7 @@ title:       Mapping data for development
 short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
-client_logo: google.png
+client_logo: 
 summary:     Easy access to accurate information so NGOs can plan effective development actions
 image:       ngo_08b.jpg
 author:      Jamie Gibson
@@ -14,21 +14,16 @@ modules:
     text_left:
         title: Data for Development
         description: NGOs need accurate, up-to-date data so they can plan new activities, coordinate existing work and report on what they’ve done. With NGO Aid Map you can quickly find out which activities are happening in a particular sector or geographic area. 
-        image: global-forest-watch-text-left.png
+        image: NGO-high1.jpg
 
     text_right:
         title: Data when you need it 
         description: We wanted to remove as much of the burden as possible involved in finding, entering or updating data, making the process quick and easy. This is especially important when trying to mobilise emergency responses, and NGO Aid Map was used in Haiti after the 2010 earthquake and recently in the Horn of Africa. 
-        image: global-forest-watch-text-right.png
-
-    map:
-        title: Try it yourself
-        description:
-        url: 
+        image: NGO-high2.jpg
 
     video:
         title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+        url: https://player.vimeo.com/video/22803038
 
 opinions:
     -

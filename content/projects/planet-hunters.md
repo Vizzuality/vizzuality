@@ -3,7 +3,7 @@ title:       Bringing the Stars to your living room
 short_title: Planet Hunters
 link:        http://www.planethunters.org/
 client:      Zooniverse
-client_logo: google.png
+client_logo: 
 post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed-planet-discovered-by
 post_title:  "'PH1', the first confirmed planet discovered by Planet Hunters"
 summary:     "Take part in one of the biggest scientific missions of the 21st Century: the search for planets outside our solar system."
@@ -18,22 +18,19 @@ modules:
         title: Fluid interface for scientifically valid results
         modules:
             -
-                image: global-forest-watch-block-1.png
+                image: 
                 description: Making it easy for anyone to recognise the transits and have some fun at the same time 
             -
-                image: global-forest-watch-block-2.png
+                image: 
                 description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
             -
-                image: global-forest-watch-block-3.png
+                image: 
                 description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications 
 
-    map:
-        title: 
-        description: 
 
     video:
-        title: Behind the scenes of Planet Hunters
-        url: https://vimeo.com/vizzuality/planethunters
+        title: "Behind the scenes of Planet Hunters"
+        url: https://player.vimeo.com/video/21618431
 
 opinions:
     -
