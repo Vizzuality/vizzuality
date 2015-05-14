@@ -29,9 +29,17 @@ modules:
 
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: “A new project aims to use old Royal Navy logbooks to help build a more accurate picture of how our climate has changed. [...] By getting an army of online human volunteers to retrace these voyages we can re-live both the climate of the past and key moments in naval history.”
+        photo: 
+        autor: <a href="http://www.bbc.co.uk/news/science-environment-11532534"> BBC </a>
+    -
+        title: “Old Weather thus manages to combine crowdsourced citizen science with climate research, naval history, a sense of narrative and vigorous competition between the crews of different virtual ships. That's a pretty impressive combination. Jump aboard!”
+        photo:
+        autor: <a href="http://www.economist.com/blogs/babbage/2010/11/crowdsourced_science?fsrc=scn/tw/te/bl/weather1914"> The Economist </a>
+    -
+        title: “The writing in these logs ranges from scribe-quality copperplate to slapdash and scruffy, and computers make too many errors to be useful for transcribing them. But human eyes and brains are good at interpreting written words.”
+        photo: 
+        autor: <a href="http://www.wired.com/wiredscience/2010/10/old-weather-records/"> Wired </a>
 
 ---
 The great maritime explorers of the last few centuries are long gone, but their observations live on in the yellowing pages of their log books. By digitising these records, climate scientists around the world have access to a more complete picture of the climate hundreds of years ago, so they can better predict what will happen at this crucial phase in human history. Old Weather uses the unique human skills of pattern recognition and detection to recover weather records from our past, which are used to understand our future. It combines an elegant interface, a unique social element and the power of the crowd to create a rewarding experience for every user. 

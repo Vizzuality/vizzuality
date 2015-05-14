@@ -37,9 +37,18 @@ modules:
 
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: "While language can be consider an integral fiber that connects a community, the Web is what connects the world today. And a new website, called the Endangered Languages Project, aims to connect and collect the most current and comprehensive information about the more than 3,000 endangered languages of the world"
+        photo:
+        autor: <a href="http://www.latimes.com/business/technology/la-fi-tn-google-languages-project-20120621,0,632360.story">Los Angeles Times</a>
+    -
+        title: "The site features videos and an interactive map. The curious can click on any one of the dots that hang over each country (including a suprising number in the U.S.), each representing a whole language"
+        photo:
+        autor: <a href="http://edition.cnn.com/2012/06/21/tech/web/google-fights-save-language-mashable/">CNN</a>
+    -
+        title: 'AMAAAAZING map of endangered languages. Who knew ~1,100 people in America speak "Kickapoo"?'
+        photo: 
+        autor: <a href="https://twitter.com/MonaChalabi/status/591232515941257216">Mona Chalabi</a>
 
 ---
+
 There are over 7000 languages across the world, nearly 35% of which have less than 50,000 speakers. Efforts to preserve these languages, and the unique perspective on the world that is built up around each one, needed a new tool to help researchers, citizens and communities record, document and store pieces of these languages. What resulted was Endangered Languages, a website allowing you to view the world through 3000 lenses and contribute your linguistic knowledge to the conservation efforts. 

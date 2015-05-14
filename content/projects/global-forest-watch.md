@@ -47,9 +47,17 @@ modules:
 
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: "Global Forest Watch, which provides reliable and up-to-date data on forests worldwide, along with the ability to track changes to forest cover over time."
+        photo:
+        autor: <a href="http://www.theguardian.com/sustainable-business/2015/mar/10/google-earth-engine-maps-forest-watch-deforestation-environment"> Marc Gunther, The Guardian </a>
+    -
+        title: "Forest protection is about to get a major boost from satellites and AI."
+        photo: 
+        autor: <a href="http://mashable.com/2015/04/22/forests-artificial-intelligence/"> Andrew Freedman, Mashable </a>
+    -
+        title: "The world lost an Oklahoma-size area of forest in 2013, satellite data show."
+        photo:
+        autor: <a href="http://motherboard.vice.com/read/the-world-lost-an-oklahoma-sized-amount-of-forest-in-2013-satellite-data-shows">  Brian Merchant, Motherboard </a>
 
 ---
 
