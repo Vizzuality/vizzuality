@@ -1,7 +1,7 @@
 ---
 name:       Adam Mulligan
 position:   Engineer
-phrase:     "Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough."
+phrase:     "Explore the world. Nearly everything is really interesting if you go into it deeply enough."
 twitter:    amulligan
 linkedin:   "https://uk.linkedin.com/pub/adam-mulligan/80/17a/b21"
 email:      adam.mulligan@vizzuality.com
