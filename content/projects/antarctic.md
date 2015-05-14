@@ -29,9 +29,13 @@ modules:
 
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: "Antarctic Field Guide: check out this great resource, with an information page for orca"
+        photo: 
+        autor: <a href="https://twitter.com/BDMLROrcaAware/status/246201903329992704"> Orca Aware </a>
+    -
+        title: "If you would ever travel to the Antarctics... - Build and share your custom Antarctic Field Guide"
+        photo:
+        autor: <a href="https://twitter.com/Biodiversity_be/status/10352616378732544"> Belgian Biodiversity </a>
 
 ---
 

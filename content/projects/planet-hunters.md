@@ -45,7 +45,7 @@ opinions:
     -
         title: “Here's a fun and exciting online astronomy game using real scientific data where you, the citizen-scientist, identify stars that may have planets orbiting them.”
         photo:
-        autor: <a href="http://www.guardian.co.uk/science/punctuated-equilibrium/2010/dec/17/3"></a>
+        autor: <a href="http://www.guardian.co.uk/science/punctuated-equilibrium/2010/dec/17/3"> The Guardian </a>
 
 ---
 

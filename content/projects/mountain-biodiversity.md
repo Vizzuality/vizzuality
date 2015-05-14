@@ -27,12 +27,6 @@ modules:
         title: Introducing the Mountain Biodiversity Tool
         url: https://player.vimeo.com/video/11552863
 
-opinions:
-    -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
-
 ---
 
 Mountains are extreme locations and harbor a huge variety of species depending on altitude, soils and other conditions. We built a web tool for the Global Mountain Biodiversity Assessment that simplifies the process of downloading specific data for biodiversity analysis. This required a mix of PostgreSQL to handle queries, custom Java software for raster tile layering and Pixel Bender Technology for the front end filtering tools, to deliver a responsive and intuitive experience. 

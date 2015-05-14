@@ -25,12 +25,6 @@ modules:
                 image: 
                 description: Maps use different colors and vectorial and raster techniques for showing breeding and feeding areas, GBIF record, etc.
 
-opinions:
-    -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
-
 ---
 
 Web technologies allow us to share complex geospatial information with a global audience, and allow them to explore it easily without needing huge technical understanding. We applied this to the Global Registry of Migratory Species, upgrading their Access-based database into PostGIS and adding new flourishes to their front end with Flash and other pixel rendering technology.
