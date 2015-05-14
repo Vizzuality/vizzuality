@@ -24,7 +24,7 @@ modules:
 
     video:
         title: Introducing the Mountain Biodiversity Tool
-        url: https://vimeo.com/11552863
+        url: https://player.vimeo.com/video/11552863
 
 opinions:
     -
