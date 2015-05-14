@@ -1,5 +1,21 @@
 .l-header
-  padding ($margin * 2) $margin $margin
+  padding-top rem(90px)
+
+  .l-header-top
+    position fixed
+    width 100%
+    top 0
+    left 0
+    padding ($margin * 2) $margin $margin
+    z-index 2
+    transition background-color .5s ease
+    background-color $bg-color-1
+
+    .is-project-detail-page &
+      background-color transparent
+
+    .is-project-detail-page &.is-fixed
+      background-color $bg-color-3
 
   .brand
     margin 0
@@ -12,7 +28,6 @@
 
     .logo
       fill $font-color-3
-
   a
     text-decoration none
 

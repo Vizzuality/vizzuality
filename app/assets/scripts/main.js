@@ -2,6 +2,24 @@
 
   'use strict';
 
+  /**
+   * Extending String.prototype
+   * How to use: '%1 beer'.format(2)
+   * Returns '2 beers'
+   */
+  if (!String.prototype.format) {
+    String.prototype.format = function() {
+      var args = [].slice.call(arguments),
+        result = this.slice(),
+        regexp;
+      for (var i = args.length; i--;) {
+        regexp = new RegExp('%' + (i + 1), 'g');
+        result = result.replace(regexp, args[i]);
+      }
+      return result;
+    };
+  }
+
   var smoothScroll = function(elementID) {
     if (!elementID) {
       return;
@@ -24,7 +42,7 @@
     if (distance < 100) {
       return scrollTo(0, stopY);
     }
-    speed = Math.round(distance / 100);
+    speed = Math.round(distance / 70);
     if (speed >= 20) {
       speed = 20;
     }
@@ -55,6 +73,20 @@
       i -= step;
     }
   };
+
+  function ajaxPost(url, data, callback) {
+    var http = new XMLHttpRequest();
+    http.onreadystatechange = function() {
+      if (http.readyState === 4 && http.status === 200) {
+        callback(undefined, http.responseText);
+      } else if (http.readyState === 4 && http.status === 400) {
+        callback(http.responseText);
+      }
+    };
+    http.open('POST', url, true);
+    http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    http.send(data);
+  }
 
   var App = function() {
     var self = this;
@@ -104,8 +136,56 @@
       }
     };
 
+    this.contactForm = function() {
+      var form = document.getElementById('contactForm');
+      var formContent = document.getElementsByClassName('m-contact')[0];
+      if (form) {
+        form.onsubmit = function(e) {
+          e.preventDefault();
+          var formParams = [], queryString = '';
+          for (var i = form.elements.length; i--;) {
+             var el = form.elements[i];
+             var name = encodeURIComponent(el.name);
+             var value = encodeURIComponent(el.value);
+             var param = '%1=%2'.format(name, value);
+             if (name !== '' && value !== '') {
+              formParams.push(param);
+             }
+          }
+          queryString = formParams.join('&');
+          ajaxPost('/contact', queryString, function(error, response) {
+            if (error) {
+              var errorElement = document.getElementsByClassName('is-error')[0];
+              if (errorElement) {
+                errorElement.innerHTML = JSON.parse(error).message;
+              } else {
+                errorElement = document.createElement('p');
+                errorElement.className = 'is-error';
+                errorElement.innerHTML = JSON.parse(error).message;
+                formContent.appendChild(errorElement);
+              }
+            } else {
+              var message = JSON.parse(response).message;
+              formContent.innerHTML = '<h1>%1</h1>'.format(message);
+            }
+          });
+        };
+      }
+    };
+
     this.start = function() {
+      self.contactForm();
       self.setListeners();
+
+      var header = document.getElementById('headerTop');
+
+      window.onscroll = function(e) {
+        if (window.pageYOffset > 90) {
+          header.className = '%1 %2'.format('l-header-top', 'is-fixed');
+        } else {
+          header.className = 'l-header-top';
+        }
+      };
     };
 
     return this;

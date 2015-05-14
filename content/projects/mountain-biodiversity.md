@@ -1,36 +1,32 @@
 ---
 title:       Rising to the challenge of exploring biodiversity data 
 short_title: Mountain Biodiversity
-link:        
 client:      GMBA and GBIF
-client_logo: google.png
-post_url:     
-post_title:  
-summary:     
-image:       calvert_02.jpg
+client_logo: 
+image:
 author:      Craig Mills
 date:        2015-04-22
 order:       12
+grid:        2
 
 modules:
     blocks:
-        title: High fidelity analysis
+        title: Responsive solutions for browsing and downloading data
         modules:
             -
-                image: global-forest-watch-block-1.png
-                description": Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: 
+                description: "We concentrated on implementing responsive filtering. Changing the elevation or thermal belt reflects in an instant biodiversity changes on the map."
             -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image:
+                description: "The tool allows users to download occurrences data for the selected criteria in a processable and reusable format. This data can be used in further analysis such as niche modelling."
             -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    map:
-        title: Lorem ipsum dolor sit
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: 
+                description: "Browsing taxonomy is a very hard task. We used our well know column view taxonomic browser to help ease the process."
+
     video:
         title: Introducing the Mountain Biodiversity Tool
-        url: https://vimeo.com/11552863
+        url: https://player.vimeo.com/video/11552863
+
 opinions:
     -
         title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.

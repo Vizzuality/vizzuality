@@ -7,8 +7,10 @@
     display block
     float left
     width 33%
+    position relative
 
   a
+    position relative
     display block
     overflow hidden
     background-repeat none
@@ -16,6 +18,19 @@
     background-position center
     padding-bottom 100%
 
+  .veil
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background-color rgba(0, 0, 0, 0)
+    transition background-color .5s ease
+    z-index 1
+
   @media screen and (min-width: $screen-sm)
     li
       width 25%
+
+      &:hover .veil
+          background-color rgba($bg-color-3, .5)

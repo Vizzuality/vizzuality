@@ -21,6 +21,10 @@ modules:
         title: Classifying Observations
         description: The Taxonomizer is a web tool that helps to categorize species observed during the BioBlitz, showing pictures and asking the user for identifying. It uses the GBIF species database as a suggestions dictionary.
         image: global-forest-watch-text-right.png
+
+    video: 
+        title: "Take a look inside the Bioblitz Lab"
+        url: https://player.vimeo.com/video/15530649
         
 opinions:
     -
