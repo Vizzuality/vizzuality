@@ -3,7 +3,8 @@ name:       David Inga
 position:   Engineer
 phrase:     My favourite project is always the next project
 twitter:    davidsingal
-linkedin:   
+linkedin:   "https://es.linkedin.com/in/davidsingal/en"
+github:		davidsingal
 email:      david.inga@vizzuality.com
 photo:      david-inga.jpg
 author:     Alicia
