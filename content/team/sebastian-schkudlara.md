@@ -2,8 +2,8 @@
 name:       Sebastian Schkudlara
 position:   Engineer
 phrase:     140 beats per minute, 140 lines of code a minute
-twitter:    
-linkedin:   
+twitter:    schkudlara
+linkedin:   "https://es.linkedin.com/in/schkudlara"
 email:      sebastian.schkudlara@vizzuality.com
 photo:      sebastian.png
 author:     Alicia
