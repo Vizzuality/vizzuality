@@ -30,6 +30,7 @@ body
   font-size $font-normal-size
   color $font-color-1
   line-height $line-height
+  font-kerning: auto
   text-rendering optimizeLegibility
   -webkit-font-smoothing antialiased
 
@@ -37,15 +38,18 @@ body
     font-size $lg-font-normal-size
 
   @media screen and (min-width: $screen-xl)
-    margin-bottom $margin * 4
-    margin-top $margin * 4
+    margin-bottom $margin * 3
+    margin-top $margin * 3
 
 h1, h2, h3, h4, h5, h5, strong
   font-weight 500
 
+h1, h2, h3
+  letter-spacing -0.02em
+
 h1
   font-size $font-large-size
-  line-height 1
+  line-height $line-height * 0.8
 
   @media screen and (min-width: $screen-sm)
     font-size $lg-font-large-size

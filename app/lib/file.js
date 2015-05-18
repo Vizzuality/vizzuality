@@ -38,8 +38,10 @@ module.exports = {
     for (var i = 0, len = files.length; i < len; i++) {
       var file = files[i];
       var filePath = path.join(dir, file);
-      var element = matter(fs.readFileSync(filePath, 'utf8')).data;
+      var result = matter(fs.readFileSync(filePath, 'utf8'));
+      var element = result.data;
       element.slug = file.split('.md')[0];
+      element.html = converter.makeHtml(result.content);
       element.grid = !element.grid ? 1 : element.grid > 3 ? 3 : element.grid;
       data.push(element);
     }

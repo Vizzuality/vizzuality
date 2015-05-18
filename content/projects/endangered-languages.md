@@ -11,6 +11,7 @@ image:
 author:      Jamie Gibson
 date:        2015-05-07
 order:       5
+highlighted:   true
 
 modules:
 

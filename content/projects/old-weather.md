@@ -11,6 +11,7 @@ image:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       15
+highlighted:   true
 
 modules:
     text_left:

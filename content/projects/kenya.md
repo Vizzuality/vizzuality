@@ -10,6 +10,7 @@ image:
 author:      Craig Mills
 date:        2015-04-22
 order:       10
+highlighted:   true
 
 modules:
     text_left:

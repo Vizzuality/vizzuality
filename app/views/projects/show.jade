@@ -7,9 +7,9 @@ block main
         .veil
         .row
           .grid-sm-14.grid-lg-12.offset-lg-1
-            h1= data.title
             p A project for 
               strong #{data.client}
+            h1= data.title            
 
       .m-project-content
         .row
@@ -22,9 +22,7 @@ block main
             .m-project-url
               a(href="#{data.link}", class="btn") Check it online
 
-        if data.post_title && data.post_url
-          .row
-            .grid-sm-14.grid-lg-12.offset-lg-1
+            if data.post_title && data.post_url
               .m-project-post
                 a(href="#{data.post_url}", class="btn-secondary") Read post
     
@@ -34,7 +32,7 @@ block main
           .grid-sm-14.grid-lg-12.offset-lg-1
             .m-project-article-content(style="background-image: url(/assets/images/projects/#{data.modules.text_left.image})"): div
               h2= data.modules.text_left.title
-              p= data.modules.text_left.description
+              p !{data.modules.text_left.description}
               a(href="#{data.link}", class="btn") See online
       
     if data.modules.text_right
@@ -43,7 +41,7 @@ block main
           .grid-sm-14.grid-lg-12.offset-lg-1
             .m-project-article-content(style="background-image: url(/assets/images/projects/#{data.modules.text_right.image})"): div
               h2= data.modules.text_right.title
-              p= data.modules.text_right.description
+              p !{data.modules.text_right.description}
 
     if data.modules.blocks
       article.m-project-blocks
@@ -55,11 +53,11 @@ block main
             if i == 0
               .grid-sm-14.grid-lg-4.offset-lg-1
                 .thumb: img(src="/assets/images/projects/#{m.image}")
-                p= m.description
+                p !{m.description}
             else
               .grid-sm-14.grid-lg-4
                 .thumb: img(src="/assets/images/projects/#{m.image}")
-                p= m.description
+                p !{m.description}
 
     if data.modules.map
       article.m-project-detail-map
@@ -69,7 +67,7 @@ block main
             .m-project-browser
               .m-project-browser-content
                 iframe(src=data.modules.map.url, frameborder="0")
-            p= data.modules.map.description
+            p !{data.modules.map.description}
 
     if data.modules.video
       article.m-project-detail-video
@@ -77,6 +75,15 @@ block main
           .grid-sm-14.grid-lg-12.offset-lg-1
             h2= data.modules.video.title
             iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+  
+  if (next)
+    article.m-next-project(style="background-image: url(/assets/images/projects/#{next.image})")
+      .veil
+      .m-next-project-content
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+              p Next project
+              h1: a(href="/projects/#{next.slug}")= next.title
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1

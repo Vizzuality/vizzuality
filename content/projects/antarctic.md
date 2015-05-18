@@ -8,6 +8,7 @@ image:       antartic_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       7
+highlighted:   true
 
 modules:
 

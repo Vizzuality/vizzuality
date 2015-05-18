@@ -24,7 +24,7 @@ browser-icon($left = 0)
 
   .l-main
     position relative
-    margin-top rem(-130px)
+    margin-top rem(-90px)
 
 .m-project-detail
   clearfix()
@@ -47,11 +47,12 @@ browser-icon($left = 0)
       padding-bottom ($margin * 2)
 
     h1
-      margin-bottom 0.5rem
-      line-height 0.9
+      margin-top 0.5rem
+      margin-bottom .6em
 
     p
-      margin-top 0
+      margin-bottom 0
+      padding-left .3rem
 
     // .veil
     //   position absolute
@@ -60,9 +61,14 @@ browser-icon($left = 0)
     //   width 100%
     //   height 100%
     //   background-color rgba(0, 0, 0, .3)
+  footer
+    margin 0 -1%
 
   .m-project-content
-    padding $margin
+    padding ($margin * 2) $margin
+
+  .m-project-url, .m-project-post
+    padding $margin 0
 
   .m-project-url
     text-align center
@@ -72,14 +78,14 @@ browser-icon($left = 0)
       background-color transparent
 
     @media screen and (min-width: $screen-sm)
-      padding-top $margin * 2
-      padding-bottom $margin * 2
+      // padding-top $margin * 2
+      // padding-bottom $margin * 2
       .btn
         text-transform none
         font-size $lg-font-normal-size
 
   .m-project-post
-    padding $margin
+    // padding $margin
     color $font-color-2
     text-align center
     background-color $bg-color-3
@@ -114,15 +120,6 @@ browser-icon($left = 0)
   display flex
   align-items center
   min-height 100vh
-
-@media screen and (min-width: $screen-sm)
-  .m-project-article-content
-    div
-      max-width 40%
-      padding $margin
-
-  .m-project-article-right .m-project-article-content
-    justify-content flex-end
 
 .m-project-blocks
   .thumb
@@ -179,3 +176,50 @@ browser-icon($left = 0)
 
     @media screen and (min-width: $screen-sm)
       height rem(720px)
+
+.m-next-project
+  display flex
+  position relative
+  padding ($margin * 2) 0
+  color $font-color-2
+  text-align center
+  overflow hidden
+  align-items center
+  justify-content center
+  background-repeat no-repeat
+  background-size cover
+  background-position center
+
+  & > .m-next-project-content
+    width 100%
+
+  h1
+    margin 0
+
+  p
+    text-transform uppercase
+    font-weight 500
+
+  a
+    color $font-color-2
+    text-decoration none
+
+  .veil
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background-color rgba(0, 0, 0, .3)
+
+  @media screen and (min-width: $screen-sm)
+    min-height rem(350px)
+
+@media screen and (min-width: $screen-sm)
+  .m-project-article-content
+    div
+      max-width 40%
+      padding $margin
+
+  .m-project-article-right .m-project-article-content
+    justify-content flex-end
