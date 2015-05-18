@@ -9,6 +9,7 @@ image:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       2
+highlighted:   true
 
 modules:
     text_left:

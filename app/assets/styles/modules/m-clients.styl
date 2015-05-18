@@ -3,11 +3,18 @@
   background-color $bg-color-5
 
   ul
+    display flex
+    flex-wrap wrap
     margin 0
     padding 0
     list-style none
-    clearfix()
 
   li
+    display flex
+    align-items center
+    justify-content center
     width 50%
-    float left
+
+  @media screen and (min-width: $screen-sm)
+    li
+      width 25%

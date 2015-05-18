@@ -9,6 +9,7 @@ author:      Jamie Gibson
 date:        2015-05-07
 order:       8
 grid:        1
+highlighted:   true
 
 modules:
 

@@ -18,12 +18,15 @@ $textarea-line-height = rem(50px)
     border-bottom 1px solid $alto
 
   textarea
-    height $textarea-line-height * 7
+    height $textarea-line-height * 5
     border-bottom 0
     background url(/assets/images/bg-textarea.png) repeat
 
   @media screen and (min-width: $screen-sm)
     font-size $lg-font-medium-size
+
+    textarea
+      height $textarea-line-height * 7
 
     .form-row
       margin ($margin * 2) 0

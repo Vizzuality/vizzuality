@@ -47,15 +47,17 @@ function pageNotFound(req, res) {
 // Home and projects page
 app.get('/', function(req, res) {
   var projectsPath = root + '/content/projects';
-  return file.getFiles(projectsPath, isProduction, function(err, data) {
+  var t = Math.pow(10, 15);
+
+  file.getFiles(projectsPath, isProduction, function(err, data) {
     if (err) {
       return pageNotFound(req, res);
     }
     res.render('projects/index', {
-      projects: _.sortBy(data, function(d) {
+      projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
         var time = new Date(d.date).valueOf();
         var order = d.order ? parseInt(d.order) : 0;
-        return (order * Math.pow(10, 15)) + time;
+        return (order * t) + time;
       }),
       className: 'is-project-page'
     });
@@ -68,16 +70,32 @@ app.get('/projects', function(req, res) {
 
 // Project detail page
 app.get('/projects/:project', function(req, res) {
-  var filePath = './content/projects/' + req.params.project + '.md';
-  return file.getData(filePath, isProduction, function(err, result) {
-    if (err) {
-      return pageNotFound(req, res);
-    }
+  var projectsPath = root + '/content/projects';
+  var t = Math.pow(10, 15);
+
+  file.getFiles(projectsPath, isProduction, function(err, projects) {
+    var result, index;
+
+    projects = _.sortBy(_.where(projects, { highlighted: true }), function(d) {
+      var time = new Date(d.date).valueOf();
+      var order = d.order ? parseInt(d.order) : 0;
+      return (order * t) + time;
+    });
+
+    _.each(projects, function(project, i) {
+      if (project.slug === req.params.project) {
+        result = project;
+        index = i;
+      }
+    });
+
     res.render('projects/show', {
-      data: result.data,
+      data: result,
+      next: projects[index + 1],
       content: result.html,
       className: 'is-project-detail-page'
     });
+
   });
 });
 
@@ -89,10 +107,11 @@ app.get('/about', function(req, res) {
       return pageNotFound(req, res);
     }
     var result = [];
+    var t = Math.pow(10, 15);
     var team = _.sortBy(data, function(d) {
       var time = new Date(d.date).valueOf();
       var order = d.order ? parseInt(d.order) : 0;
-      return (order * Math.pow(10, 15)) + time;
+      return (order * t) + time;
     });
     var max = _.max(_.pluck(team, 'order'));
     for (var i = 1, len = max + 1; i < len; i++) {

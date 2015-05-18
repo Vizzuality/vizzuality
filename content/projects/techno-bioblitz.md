@@ -10,6 +10,7 @@ image:       techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
 order:       18
+highlighted:   true
 
 modules:
     text_left:

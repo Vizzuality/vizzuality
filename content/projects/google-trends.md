@@ -12,6 +12,7 @@ author:      Craig Mills
 date:        2015-04-22
 order:       3
 grid:        2
+highlighted:   true
 
 modules:
     blocks:
