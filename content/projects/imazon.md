@@ -23,11 +23,5 @@ modules:
                 image: global-forest-watch-block-3.png
                 description: The Imazon organization developed a set of algorithms to detect deforestation areas. Working to improve their workflow for validation means a faster response to this important topic.
 
-opinions:
-    -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
-
 ---
 Every week, satellites take pictures of the Amazon. These pictures can tell you an awful lot, if you have the tools available to process and analyse the images. Working with Imazon and Google Earth Engine, we built a web tool that clearly displays the results of deforestation algorithms created by the Imazon team. Making the most of Google Earth Engine, Rich Internet Applications and VisualRaster, Imazon had what they needed to analyse and validate satellite images quickly and accurately, allowing faster responses. 

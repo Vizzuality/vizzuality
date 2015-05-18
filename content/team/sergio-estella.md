@@ -1,11 +1,12 @@
 ---
 name:       Sergio Estella
-position:   Head of design
+position:   Head of Design
 phrase:     Whatever we create has to be understandable, easy to use and of course beautiful!
-twitter:    
-linkedin:   sergio-estella
+twitter:    sergio_estella
+linkedin:   "https://es.linkedin.com/pub/sergio-estella/6/b87/533"
+github:		
 email:      sergio.estella@vizzuality.com
-photo:      unknown_2.jpg
+photo:		sestella.png
 author:     Alicia
 date:       2015-05-08
 order: 		3

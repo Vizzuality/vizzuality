@@ -27,9 +27,18 @@ modules:
 
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: "Unlcoking the Black Box: Transparency Matters and the NGO Aid Map"
+        photo:
+        autor: <a href="http://aiddata.org/blog/unlocking-the-black-box-transparency-matters-and-the-ngo-aid-map"> Harsh Desai and Dan Kent, AidData</a>
+    -
+        title: "By showing who is doing what & where, @NGOAidMap aims to help #NGOs make smarter decisions:"
+        photo: 
+        autor: <a href="https://twitter.com/InterActionOrg/status/545610446204465153">InterAction</a>
+    -
+        title: "Loaded with interactive maps, appealing data layouts and rich multimedia, NGO Aid Map serves as an information hub for a broad spectrum of audiences"
+        photo:
+        autor: <a href="https://www.devex.com/news/interaction-s-new-ngo-aid-maap-74491">Sivaram Ramachandran</a>
+
 
 ---
 
