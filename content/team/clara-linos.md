@@ -3,7 +3,8 @@ name:       Clara linos
 position:   Engineer
 phrase:     Cooking maps and data.
 twitter:    dhakelila
-linkedin:   claralinos
+linkedin:   "https://es.linkedin.com/in/claralinos/en"
+Github:		dhakelila
 email:      clara.linos@vizzuality.com
 photo:      clara-linos.png
 author:     David Inga

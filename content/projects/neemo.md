@@ -22,11 +22,5 @@ modules:
         title: A guide to the NEEMO tool
         url: https://player.vimeo.com/video/34801002
 
-opinions:
-    -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
-
 ---
 Back in 2011, NASA sent a team of astronauts, scientists and technicians to the bottom of the sea to observe marine life, taking thousands of pictures in the process. We worked with them to build a tool to harness the power of the cloud to analyse those images, using node.js socket.io and CartoDB. Citizen scientists became players, analysing as many pictures as possible to get a higher rank. Real-time updating of score and rank gave the instant feedback users craved, which meant almost half of the images were categorised in the first 24 hours. This was one of our first ‘live’ applications and paved the way for many of the tools we have built recently. 

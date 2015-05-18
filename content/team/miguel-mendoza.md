@@ -2,10 +2,9 @@
 name:       Miguel Mendoza
 position:   Engineer
 phrase:     "Under development"
-twitter:    
-linkedin:   
+github:		CV-Gate   
 email:      miguel.mendoza@vizzuality.com
-photo:      unknown_1.jpg
+photo:      miguel_mendoza.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		20

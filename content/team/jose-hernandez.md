@@ -1,11 +1,9 @@
 ---
 name:       José Hernández
 position:   Vídeo & motion graphics
-phrase:     "No matter how old you are, everything is easier to understand if it's fun"
-twitter:    
-linkedin:   
+phrase:     "No matter how old you are, everything is easier to understand if it's fun" 
 email:      jose.hernandez@vizzuality.com
-photo:      unknown_1.jpg
+photo:      jose.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		24

@@ -28,9 +28,9 @@ modules:
         
 opinions:
     -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: "Flickrtagger being used at the bioblitz base camp at #tdwg Come and upload your pictures!"
+        photo: 
+        autor: <a href="https://twitter.com/jatorre/status/25909391251"> Javier de la Torre </a>
 
 ---
 
