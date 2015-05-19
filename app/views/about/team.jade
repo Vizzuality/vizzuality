@@ -20,6 +20,21 @@ block main
             a(href="https://linkedin.com/#{data.github}") Linkedin
             br
             a(href="mailto:#{data.email}") Email
+  
+  article.m-prev-next-team
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        .m-prev-next-team-items
+          if (prev)
+            .m-prev-team-item: div
+              p Previous
+              h2: a(href="/about/#{prev.slug}")= prev.name
+              p.position= prev.position
+          if (next)
+            .m-next-team-item: div
+              p Next
+              h2: a(href="/about/#{next.slug}")= next.name
+              p.position= next.position
 
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
