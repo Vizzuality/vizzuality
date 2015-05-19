@@ -1,5 +1,6 @@
 .m-team
   padding $margin
+  clearfix()
 
   h1
     margin-bottom 0
@@ -69,3 +70,35 @@
         line-height 0
         vertical-align text-bottom
         margin-left 1rem
+
+.m-prev-next-team
+  background-color $bg-color-5
+
+  .m-prev-team-item, .m-next-team-item
+    display flex
+    align-items center
+    justify-content center
+    margin $margin
+    padding $margin * 2
+    text-align center
+    background-color $bg-color-1
+
+    h2, p
+      margin .3em
+
+    a
+      text-decoration none
+
+    p
+      text-transform uppercase
+      font-weight 500
+      color rgba($font-color-1, .3)
+
+  @media screen and (min-width: $screen-sm)
+    .m-prev-next-team-items
+      display flex
+      justify-content space-between
+
+    .m-prev-team-item, .m-next-team-item
+      width 50%
+
