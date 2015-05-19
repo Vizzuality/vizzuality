@@ -1,8 +1,8 @@
 ---
-title:       The tips of 3000 tongues at your fingertips
+title:       Catching 3000 whispers
 short_title: Endangered Languages
 link:        http://www.endangeredlanguages.com/
-client:      Google and Alliance for Linguistic Diversity
+client:      Google.org and Alliance for Linguistic Diversity
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  A collaborative tool for documenting endangered languages
@@ -52,4 +52,4 @@ opinions:
 
 ---
 
-There are over 7000 languages across the world, nearly 35% of which have less than 50,000 speakers. Efforts to preserve these languages, and the unique perspective on the world that is built up around each one, needed a new tool to help researchers, citizens and communities record, document and store pieces of these languages. What resulted was Endangered Languages, a website allowing you to view the world through 3000 lenses and contribute your linguistic knowledge to the conservation efforts. 
+There are over 7000 languages across the world, nearly 35% of which have less than 50,000 speakers. Efforts to preserve these languages, and the unique perspective on the world that is built up around each one, needed a new tool to help researchers, citizens and communities record, document and store pieces of these languages. What resulted was Endangered Languages, a website allowing you to view the world through 3000 lenses and contribute your linguistic knowledge to the conservation efforts. <a href="https://www.youtube.com/watch?v=tbkOZTSvrHs"> Let's not sit in silence </a>; get preserving!
