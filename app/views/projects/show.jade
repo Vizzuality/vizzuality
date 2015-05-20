@@ -56,11 +56,11 @@ block main
         .row
           each m, i in data.modules.blocks.modules
             if i == 0
-              .grid-sm-14.grid-lg-4.offset-lg-1
+              .grid-sm-14.grid-md-4.grid-lg-4.offset-lg-1
                 .thumb: img(src="/assets/images/projects/#{m.image}")
                 p !{m.description}
             else
-              .grid-sm-14.grid-lg-4
+              .grid-sm-14.grid-md-4.grid-lg-4
                 .thumb: img(src="/assets/images/projects/#{m.image}")
                 p !{m.description}
 
