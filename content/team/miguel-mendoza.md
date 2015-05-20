@@ -4,7 +4,7 @@ position:   Engineer
 phrase:     "Under development"
 github:		CV-Gate   
 email:      miguel.mendoza@vizzuality.com
-photo:      miguel_mendoza.jpg
+photo:      miguel-mendoza.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		20
