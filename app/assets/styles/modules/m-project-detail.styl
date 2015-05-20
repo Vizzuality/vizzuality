@@ -27,7 +27,7 @@ browser-icon($left = 0)
     margin-top rem(-90px)
 
 .m-project-detail
-  clearfix()
+  overflow hidden
 
   .m-project-header
     display flex
@@ -54,18 +54,11 @@ browser-icon($left = 0)
       margin-bottom 0
       padding-left .3rem
 
-    // .veil
-    //   position absolute
-    //   top 0
-    //   left 0
-    //   width 100%
-    //   height 100%
-    //   background-color rgba(0, 0, 0, .3)
-  footer
-    margin 0 -1%
-
   .m-project-content
     padding ($margin * 2) $margin
+
+  .m-project-footer
+    margin 0 -1%
 
   .m-project-url, .m-project-post
     padding $margin 0
@@ -90,6 +83,9 @@ browser-icon($left = 0)
     text-align center
     background-color $bg-color-3
 
+    h2
+      margin .3em $margin
+
     p
       font-size $font-large-size
       font-weight 500
@@ -98,14 +94,41 @@ browser-icon($left = 0)
 
     a
       display inline-block
-      margin $margin auto
+      margin 0 $margin
+
+    @media screen and (min-width: $screen-sm)
+      h2
+        display none
+      a
+        margin-left auto
+        margin-right auto
+
+  @media screen and (min-width: $screen-sm)
+    .m-project-footer
+      margin 0
+
+    .m-project-footer-content
+      display flex
+
+      .m-project-url, .m-project-post
+        min-width 48%
+        flex 1
+
+        a
+          font-size $lg-font-medium-size
+          text-decoration underline
+          margin 0
+          padding ($margin * 4) 0
+
+      .m-project-post a
+        background-color transparent
+        color $font-color-2
+        border 0
+        text-transform none
 
 .m-project-article-left,
 .m-project-article-right
   margin ($margin*2) 0
-
-  .m-project-article-content
-    background-repeat no-repeat
 
 .m-project-article-right
   background-color $bg-color-5
@@ -119,7 +142,11 @@ browser-icon($left = 0)
 .m-project-article-content
   display flex
   align-items center
-  min-height 100vh
+  height 100vh
+  background-repeat no-repeat
+
+  @media screen and (min-width: $screen-sm)
+    max-height 80vh
 
 .m-project-blocks
   .thumb
