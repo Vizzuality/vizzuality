@@ -52,4 +52,4 @@ opinions:
 
 ---
 
-There are over 7000 languages across the world, nearly 35% of which have less than 50,000 speakers. Efforts to preserve these languages, and the unique perspective on the world that is built up around each one, needed a new tool to help researchers, citizens and communities record, document and store pieces of these languages. What resulted was Endangered Languages, a website allowing you to view the world through 3000 lenses and contribute your linguistic knowledge to the conservation efforts. <a href="https://www.youtube.com/watch?v=tbkOZTSvrHs"> Let's not sit in silence</a>; get preserving!
+There are over 7000 languages across the world, nearly 35% of which have less than 50,000 speakers. Efforts to preserve these languages, and the unique perspective on the world that is built up around each one, needed a new tool to help researchers, citizens and communities record, document and store pieces of these languages. What resulted was Endangered Languages, a website allowing you to view the world through 3000 lenses and contribute your linguistic knowledge to the conservation efforts.
