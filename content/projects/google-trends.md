@@ -15,18 +15,15 @@ grid:        2
 highlighted:   true
 
 modules:
-    blocks:
-        title: Three steps for great products
-        modules:
-            -
-                image: GoogleTrends-high1.jpg
-                description: 'Sketching it out: Led by our design chief <a href="http://www.vizzuality.com/about/sergio_estella">Sergio Estella</a>, the first step the team takes is to put together drawings and mock-ups that show what the visualisation could look like. We then test the sketches with different stakeholders to see how they react and refine them based on feedback.'
-            -
-                image: GoogleTrends-high2.jpg
-                description: "Implement the sketches: Once everyone’s happy with the design, we start building. Working with multiple languages and techniques, we develop bespoke applications that unleash the vision in our designs; the only limit is our imagination."
-            -
-                image: GoogleTrends-high3.jpg
-                description: "Test and Refine: We like to get feedback as soon as possible, so that we build products that fit the needs of a user. Based on that, we keep making the product better until we finish with a beautiful visualisation."
+    text_left:
+        title: "Big Sports means Big Data"
+        description: "There was a lot of potential data to visualise, so our first challenge was to identify the most important pieces needed to tell the story of the season. With this in hand we worked in the back end to make sure we didn’t overwhelm the browser with data, which would lead to slow, lagged performance, ultimately compromising the vision of the designers and partners. Design is also important here, with a  clear and vivid design making the overall story engaging and simple to understand, while also allowing the key moments to stand out."
+        image: GoogleTrends-high1.jpg 
+
+    text_right: 
+        title: "Leading from the Front (end)"
+        description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
+        image: GoggleTrends-high3.jpg
 
         map: 
             title: Watch it for yourself
@@ -40,4 +37,4 @@ opinions:
         autor: Nina Mandell, USA Today
 
 ---
-Google Trends has been used as a social barometer over the last few years, revealing patterns in our behaviour based on what we search for. We used this over the 2014-2015 season to see the changes in team popularity and fan loyalty. Our team utilised a number of cutting-edge front-end tools in new ways (e.g. using d3 to integrate animated maps on SVG) to create dynamic maps that respond to screen size in order to deliver the best viewing experience. 
+Vizzuality loves to take on big data challenges, so we were honoured and thrilled when Google asked us to work on a flagship visualisation for their new Trends API. The topic was fan loyalty in the lead up to Super Bowl XXXXIX. Over the course of four weeks we turned anonymised search data from across the United States into a gripping showdown, using a heap of data wrangling, a generous sprinkling of modern design principles and a topping of Vizzuality magic. So sit back and watch the fans react to the biggest plays and shock victories on the road to the Super Bowl.  
