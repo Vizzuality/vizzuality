@@ -57,6 +57,11 @@ browser-icon($left = 0)
   .m-project-content
     padding ($margin * 2) $margin
 
+  .m-project-client-logo
+    float right
+    margin-top $margin
+    margin-left $margin * 2
+
   .m-project-footer
     margin 0 -1%
 
@@ -133,20 +138,14 @@ browser-icon($left = 0)
 .m-project-article-right
   background-color $bg-color-5
 
-.m-project-article-left .m-project-article-content
-  background-position right
-
-.m-project-article-right .m-project-article-content
-  background-position left
-
 .m-project-article-content
   display flex
   align-items center
-  height 100vh
   background-repeat no-repeat
 
   @media screen and (min-width: $screen-sm)
     max-height 80vh
+
 
 .m-project-blocks
   .thumb
@@ -159,7 +158,7 @@ browser-icon($left = 0)
 .m-project-detail-map,
 .m-project-detail-video
   padding ($margin * 2) 0
-  min-height 100vh
+  // min-height 100vh
 
 .m-project-browser
   position relative
@@ -241,12 +240,3 @@ browser-icon($left = 0)
 
   @media screen and (min-width: $screen-sm)
     min-height rem(350px)
-
-@media screen and (min-width: $screen-sm)
-  .m-project-article-content
-    div
-      max-width 40%
-      padding $margin
-
-  .m-project-article-right .m-project-article-content
-    justify-content flex-end
