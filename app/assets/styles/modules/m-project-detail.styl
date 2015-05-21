@@ -26,203 +26,203 @@ browser-icon($left = 0)
     position relative
     margin-top rem(-90px)
 
-.m-project-detail
-  overflow hidden
+// Header
+.m-project-detail-header
+  position relative
+  display flex
+  align-items center
+  height 100vh
+  padding 0 $margin
+  color $font-color-2
+  background-repeat none
+  background-position center
+  background-size cover
 
-  .m-project-header
-    display flex
-    position relative
-    align-items center
-    height 100vh
-    color $font-color-2
-    padding 0 $margin
-    height 100vh
-    background-repeat none
-    background-position center
-    background-size cover
+  h1
+    margin-top 0.5rem
+    margin-bottom .6em
 
-    .is-project-detail-page &
-      height 80vh
-      align-items flex-end
-      padding-bottom ($margin * 2)
+  p
+    margin-bottom 0
+    padding-left .3rem
 
-    h1
-      margin-top 0.5rem
-      margin-bottom .6em
+  @media screen and (min-width: $screen-sm)
+    height 80vh
+    align-items flex-end
+    padding-bottom ($margin * 2)
 
-    p
-      margin-bottom 0
-      padding-left .3rem
+// Content
+.m-project-detail-content
+  padding $margin
 
-  .m-project-content
-    padding ($margin * 2) $margin
+  h1, h2
+    text-align center
 
-  .m-project-client-logo
-    float right
-    margin-top $margin
-    margin-left $margin * 2
+  @media screen and (min-width: $screen-sm)
+    .m-project-client-logo
+      float right
+      margin-top $margin
+      margin-bottom $margin
+      margin-left $margin * 2
 
-  .m-project-footer
-    margin 0 -1%
+// Footer with links
+.m-project-detail-footer
 
   .m-project-url, .m-project-post
     padding $margin 0
 
   .m-project-url
-    text-align center
     background-color $bg-color-6
 
     .btn
       background-color transparent
 
-    @media screen and (min-width: $screen-sm)
-      // padding-top $margin * 2
-      // padding-bottom $margin * 2
-      .btn
-        text-transform none
-        font-size $lg-font-normal-size
-
   .m-project-post
-    // padding $margin
     color $font-color-2
     text-align center
     background-color $bg-color-3
 
     h2
+      margin .3em 0
+
+    .btn, .btn-secondary
+      display block
       margin .3em $margin
 
-    p
-      font-size $font-large-size
-      font-weight 500
-      line-height 1
-      margin-bottom 0
+  @media screen and (min-width: $screen-sm)
+    .m-project-post, .m-project-url
+      min-height rem(250px)
 
-    a
-      display inline-block
-      margin 0 $margin
+      .btn, .btn-secondary
+        color $font-color-2
+        font-size $lg-font-medium-size
+        text-transform none
+        text-decoration underline
+        border 0
+        background-color transparent
 
-    @media screen and (min-width: $screen-sm)
+    .m-project-post
       h2
         display none
       a
         margin-left auto
         margin-right auto
 
-  @media screen and (min-width: $screen-sm)
-    .m-project-footer
-      margin 0
 
-    .m-project-footer-content
-      display flex
+// Module articles left and right
+.m-project-detail-article
 
-      .m-project-url, .m-project-post
-        min-width 48%
-        flex 1
+  &.is-right
+    background-color $bg-color-5
 
-        a
-          font-size $lg-font-medium-size
-          text-decoration underline
-          margin 0
-          padding ($margin * 4) 0
+  .btn, .btn-secondary
+    display block
 
-      .m-project-post a
-        background-color transparent
-        color $font-color-2
-        border 0
-        text-transform none
-
-.m-project-article-left,
-.m-project-article-right
-  margin ($margin*2) 0
-
-.m-project-article-right
-  background-color $bg-color-5
-
-.m-project-article-content
-  display flex
-  align-items center
-  background-repeat no-repeat
+  .m-project-article-content
+    padding $margin
 
   @media screen and (min-width: $screen-sm)
-    max-height 80vh
+    .m-project-article-content
+      .btn, .btn-secondary
+        display inline-block
 
+    &.is-left .m-project-article-content
+      padding-right $margin * 2
 
-.m-project-blocks
+      .m-project-article-content
+        padding-left $margin * 2
+
+// Module blocks
+.m-project-detail-blocks
+  padding $margin
+
   .thumb
+    height rem(200px)
     overflow hidden
     outline 1px solid rgba(0, 0, 0, .1)
+
     img
       width 100%
       height auto
 
-.m-project-detail-map,
-.m-project-detail-video
-  padding ($margin * 2) 0
-  // min-height 100vh
+    @media screen and (min-width: $screen-sm)
+      height rem(260px)
 
-.m-project-browser
-  position relative
-  padding 27px 4px 4px 4px
-  background-color #E4E4E4
-  border-radius 4px
+// Module iframe
+.m-project-detail-iframe
+  margin $margin
 
-  &:before
-    browser-icon(8px)
-
-  &:after
-    browser-icon(20px)
-
-.m-project-browser-content:before
-    browser-icon(32px)
-
-.m-project-detail-map
   h2
     text-align center
 
-  iframe
-    width 100%
-    height rem(320px)
+  .m-project-iframe
+    position relative
+    padding 27px 4px 4px 4px
+    background-color #E4E4E4
+    border-radius 4px
+
+    &:before
+      browser-icon(8px)
+
+    &:after
+      browser-icon(20px)
+
+    .m-project-iframe-content:before
+      browser-icon(32px)
+
+    iframe
+      width 100%
+      height rem(420px)
 
   @media screen and (min-width: $screen-sm)
-    iframe
+    .m-project-iframe iframe
       height rem(550px)
+
     p
-      max-width 50%
+      text-align center
+      max-width 60%
       margin-left auto
       margin-right auto
 
+
+// Module video
 .m-project-detail-video
+  padding ($margin * 2) $margin
   color $font-color-2
   background-color $bg-color-2
 
+  h2
+    margin-top 0
+
   iframe
     width 100%
-    margin ($margin/2) 0 $margin 0
-    height rem(320px)
+    height rem(210px)
 
     @media screen and (min-width: $screen-sm)
       height rem(720px)
 
-.m-next-project
-  display flex
+// Module next project
+.m-project-detail-next
   position relative
-  padding ($margin * 2) 0
-  color $font-color-2
-  text-align center
-  overflow hidden
+  display flex
   align-items center
   justify-content center
+  padding ($margin * 2) $margin
+
+  color $font-color-2
+  text-align center
+
   background-repeat no-repeat
   background-size cover
   background-position center
 
-  & > .m-next-project-content
-    width 100%
+  overflow hidden
 
   h1
     margin 0
 
   p
+    margin .3em 0
     text-transform uppercase
     font-weight 500
 
@@ -230,13 +230,7 @@ browser-icon($left = 0)
     color $font-color-2
     text-decoration none
 
-  .veil
-    position absolute
-    top 0
-    left 0
-    width 100%
-    height 100%
-    background-color rgba(0, 0, 0, .3)
+  veil()
 
   @media screen and (min-width: $screen-sm)
     min-height rem(350px)
