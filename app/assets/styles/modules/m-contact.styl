@@ -1,16 +1,19 @@
 $textarea-line-height = rem(50px)
 
 .m-contact
+  padding $margin
   margin-left auto
   margin-right auto
-  padding ($margin * 2) $margin
   max-width rem(800px)
 
   h1
     text-align center
 
   .form-row
-    margin $margin 0
+    margin ($margin * 2) 0
+
+    p
+      margin 0
 
   input, textarea
     width 100%
@@ -22,30 +25,35 @@ $textarea-line-height = rem(50px)
     border-bottom 0
     background url(/assets/images/bg-textarea.png) repeat
 
+  .btn
+    display block
+    width 100%
+
+  .is-error
+    padding .5em
+
+    color $font-color-4
+    font-size $lg-font-normal-size
+    font-weight 500
+    text-align center
+
+    background-color rgba($bg-color-7, .2)
+
   @media screen and (min-width: $screen-sm)
     font-size $lg-font-medium-size
 
+    input, textarea
+      line-height $textarea-line-height
+
     textarea
       height $textarea-line-height * 7
-
-    .form-row
-      margin ($margin * 2) 0
 
     .m-contact-email
       padding-left 50%
 
     .btn
       display block
-      min-width rem(200px)
-
-    input, textarea
-      font-size $lg-font-medium-size
-      line-height $textarea-line-height
-
-  .is-error
-    background-color rgba($bg-color-7, .2)
-    color $font-color-4
-    font-size $lg-font-normal-size
-    font-weight 500
-    padding .5rem
-    text-align center
+      width auto
+      margin-left auto
+      margin-right auto
+      min-width rem(250px)

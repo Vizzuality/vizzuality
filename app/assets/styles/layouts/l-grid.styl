@@ -1,19 +1,20 @@
 .row
   width 100%
   margin 0 auto
+  overflow hidden
   clearfix()
 
   .row
-    margin 0 ($grid-gutter-width * -1)
     width auto
     max-width none
+    // margin 0 ($grid-gutter-width * -1)
 
   &.collapse
     padding 0
 
 $grid
   float left
-  padding 0 $grid-gutter-width
+  // padding 0 $grid-gutter-width
   position relative
   min-height 1px
   width 100%

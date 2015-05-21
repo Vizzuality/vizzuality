@@ -7,48 +7,49 @@ block claim
         article
           p Great user
             | experiences for
-            | stories that matter
+            | stories that matter.
           a(class="btn-secondary is-sm-hidden is-anchor", href="#team") Our team
           a(class="btn is-sm-hidden is-anchor", href="#contact") Contact
 
 block main
-  .row#team
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      ul.m-team-gallery
-        for member in team
-          if (member)
-            li(style="background-image: url(/assets/images/team/#{member.photo})")
-              a(href="/about/#{member.slug}")
-                .veil
-                .m-team-gallery-content
-                  h3= member.name
-                  p= member.position
-                  img.is-hidden(src="/assets/images/team/#{member.photo}", alt=member.name)
-          else
-            li
-
-  .row
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      section.m-message
-        p We are hiring
+  section.m-about
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        ul.m-team-gallery#team
+          for member in team
+            if (member)
+              li(style="background-image: url(/assets/images/team/#{member.photo})")
+                a(href="/about/#{member.slug}")
+                  .veil
+                  .m-team-gallery-content
+                    h3= member.name
+                    p= member.position
+                    img.is-hidden(src="/assets/images/team/#{member.photo}", alt=member.name)
+            else
+              li
+  
+  section.m-message
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        p We're hiring.
         a(href="#", class="btn") Apply
-
-  .row
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      section.m-clients
-        ul
-          li: img(src="/assets/images/clients/client-1.png")
-          li: img(src="/assets/images/clients/client-2.png")
-          li: img(src="/assets/images/clients/wri.png")
-          li: img(src="/assets/images/clients/client-4.png")
-
-  .row#contact
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      section.m-contact
+  
+  section.m-clients
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+          ul
+            li: img(src="/assets/images/clients/client-1.png")
+            li: img(src="/assets/images/clients/client-2.png")
+            li: img(src="/assets/images/clients/wri.png")
+            li: img(src="/assets/images/clients/client-4.png")
+  
+  section.m-contact#contact
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
         h1 Get in touch.
-        p Dear vizzuality,
         form#contactForm(action="/contact", method="post", autocomplete="off")
           .form-row
+            p Dear vizzuality,
             textarea(name="message", placeholder="Message", required)
           .form-row.m-contact-email
             p Cheers,

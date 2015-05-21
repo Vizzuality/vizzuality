@@ -12,10 +12,12 @@ block claim
           a(class="btn is-anchor", href="/#projects") Our work
 
 block main
+  - var numberOfProjects = 5
+
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
       each project, index in projects
-        if index < 3
+        if index < numberOfProjects
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
             .m-project-content
@@ -24,11 +26,11 @@ block main
               p.description= project.summary
               a(class="btn-secondary", href="/projects/#{project.slug}") Read more
     
-    if projects.length > 3
+    if projects.length > numberOfProjects
       .grid-sm-14.grid-lg-12.offset-lg-1
         ul.m-project-grid
           each project, index in projects
-            if index >= 3
+            if index >= numberOfProjects
               li(class="is-grid-#{project.grid}", style="background-image: url(/assets/images/projects/#{project.image})")
                 a.m-project-grid-link(href="/projects/#{project.slug}")
                   .veil
