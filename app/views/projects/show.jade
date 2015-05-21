@@ -36,19 +36,24 @@ block main
     if data.modules.text_left
       article.m-project-article-left
         .row
-          .grid-sm-14.grid-lg-12.offset-lg-1
-            .m-project-article-content(style="background-image: url(/assets/images/projects/#{data.modules.text_left.image})"): div
+          .grid-sm-14.grid-lg-5.offset-lg-1
+            .m-project-article-content: div
               h2= data.modules.text_left.title
               p !{data.modules.text_left.description}
               a(href="#{data.link}", class="btn") See online
+          .grid-sm-14.grid-lg-7
+            img(src="/assets/images/projects/#{data.modules.text_left.image}")
       
     if data.modules.text_right
       article.m-project-article-right
         .row
-          .grid-sm-14.grid-lg-12.offset-lg-1
-            .m-project-article-content(style="background-image: url(/assets/images/projects/#{data.modules.text_right.image})"): div
+          .grid-sm-14.grid-lg-8
+            img(src="/assets/images/projects/#{data.modules.text_right.image}")
+          .grid-sm-14.grid-lg-5
+            .m-project-article-content: div
               h2= data.modules.text_right.title
               p !{data.modules.text_right.description}
+
 
     if data.modules.blocks
       article.m-project-blocks
