@@ -4,7 +4,7 @@ short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
 client_logo: 
-summary:     Easy access to accurate information so NGOs can plan effective development actions
+summary:     Easy access to accurate information so non-profits can plan effective development actions
 image:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -14,7 +14,7 @@ highlighted:   true
 modules:
     text_left:
         title: Data for Development
-        description: NGOs need accurate, up-to-date data so they can plan new activities, coordinate existing work and report on what they’ve done. With NGO Aid Map you can quickly find out which activities are happening in a particular sector or geographic area. 
+        description: Non-profit organisations need accurate, up-to-date data so they can plan new activities, coordinate existing work and report on what they’ve done. With NGO Aid Map you can quickly find out which activities are happening in a particular sector or geographic area. 
         image: NGO-high1.jpg
 
     text_right:
@@ -43,4 +43,4 @@ opinions:
 
 ---
 
-Over the last few decades, the amount and variety of development activities across the world has increased, and it’s sometimes difficult to keep track of all of the varied actions and activities. Especially in times of acute crisis, like the aftermath of the Haiti Earthquake in January 2010, access to information on which NGOs are providing services in certain locations can drastically improve the efficiency and effectiveness of relief efforts. With NGO Aid Map, we focussed on simplicity and flexibility to ensure users could get to the data they need as soon as possible. From Argentina to Zimbabwe, you can map it, filter it, download it and use it to change the world. 
+Over the last few decades, the amount and variety of development activities across the world has increased, and it’s sometimes difficult to keep track of all of the varied actions and activities. Especially in times of acute crisis, like the aftermath of the Haiti Earthquake in January 2010, access to information on which non-profit organisations are providing services in certain locations can drastically improve the efficiency and effectiveness of relief efforts. With NGO Aid Map, we focussed on simplicity and flexibility to ensure users could get to the data they need as soon as possible. From Argentina to Zimbabwe, you can map it, filter it, download it and use it to change the world. 
