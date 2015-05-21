@@ -14,6 +14,8 @@ block main
       .m-project-content
         .row
           .grid-sm-14.grid-lg-10.offset-lg-2
+            if data.client_logo
+              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
             | !{content}
       
       if data.link || data.post_url
