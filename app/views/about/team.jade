@@ -15,7 +15,10 @@ block main
 
         footer
           p
-            a(href="https://github.com/#{data.github}") Github
+            if data.twitter == 'danielcasius'
+              a(href="https://youtu.be/-0zQ2RNU8qE") Concierto en Mezquita
+            else
+              a(href="https://github.com/#{data.github}") Github
             br
             a(href="https://linkedin.com/#{data.github}") Linkedin
             br

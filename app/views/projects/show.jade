@@ -1,37 +1,35 @@
 extends ../layout.jade
 
 block main
-  section.m-project-detail
-    article
-      header.m-project-header(style="background-image: url(/assets/images/projects/#{data.image})")
-        .veil
-        .row
-          .grid-sm-14.grid-lg-12.offset-lg-1
-            p A project for 
-              strong #{data.client}
-            h1= data.title            
+  article.m-project-detail
+    
+    header.m-project-header(style="background-image: url(/assets/images/projects/#{data.image})")
+      .veil
+      .row
+        .grid-sm-14.grid-lg-12.offset-lg-1
+          p A project for 
+            strong #{data.client}
+          h1= data.title            
 
-      .m-project-content
-        .row
-          .grid-sm-14.grid-lg-10.offset-lg-2
-            if data.client_logo
-              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
-            | !{content}
-      
-      if data.link || data.post_url
-        footer.m-project-footer
-          .row
-            .grid-sm-14.grid-lg-12.offset-lg-1
-              .m-project-footer-content
-                if data.link
-                  .m-project-url
-                    a(href="#{data.link}", class="btn") Check it online
+    .m-project-content
+      .row
+        .grid-sm-14.grid-lg-10.offset-lg-2
+          if data.client_logo
+            img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
+          | !{content}
+    
+    if data.link || data.post_url
+      footer.m-project-footer
+        .m-project-footer-content
+          if data.link
+            .m-project-url
+              a(href="#{data.link}", class="btn") Check it online
 
-                if data.post_url
-                  .m-project-post
-                    if data.post_title
-                      h2= data.post_title
-                    a(href="#{data.post_url}", class="btn-secondary") Read blog post
+          if data.post_url
+            .m-project-post
+              if data.post_title
+                h2= data.post_title
+              a(href="#{data.post_url}", class="btn-secondary") Read blog post
     
     if data.modules.text_left
       article.m-project-article-left

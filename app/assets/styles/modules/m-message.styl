@@ -1,5 +1,5 @@
 .m-message
-  padding ($margin * 4) $margin
+  padding ($margin * 2) $margin
   text-align center
   color $font-color-3
 
@@ -10,9 +10,15 @@
     margin $margin 0
     letter-spacing -0.02em
 
-    @media screen and (min-width: $screen-sm)
-      font-size $lg-font-xlarge-size
-
   a
     margin $margin auto
     display inline-block
+
+  .btn
+    display block
+
+  @media screen and (min-width: $screen-sm)
+    p
+      font-size $lg-font-xlarge-size
+    .btn
+      display inline-block
