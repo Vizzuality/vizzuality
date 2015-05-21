@@ -12,15 +12,26 @@
   &.collapse
     padding 0
 
+  &.sameheight
+    display flex
+
+    .is-grid-centered
+      display flex
+      align-items center
+      justify-content center
+
+    @media screen and (max-width: $screen-sm)
+      flex-wrap wrap
+
 $grid
   float left
-  // padding 0 $grid-gutter-width
   position relative
   min-height 1px
   width 100%
 
-  .row.collapse &
-    padding 0
+  .row.uncollapse &
+    // margin 0 (grid-gutter-width * -1)
+    padding 0 $grid-gutter-width
 
 for $column in 1..$grid-columns
   .grid-sm-{$column},
