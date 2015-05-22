@@ -21,7 +21,7 @@ modules:
 
     text_right:
         title: ...the other on our screens.
-        description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques together to create a fast, beautiful and easy-to-use map tool. 
+        description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques to create a fast, beautiful and easy-to-use map tool. 
         image: GFW-high2.jpg
 
     blocks:
