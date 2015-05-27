@@ -8,7 +8,7 @@
     font-weight 500
     line-height 1
     margin $margin 0
-    letter-spacing -0.02em
+    letter-spacing -0.05em
 
   a
     margin $margin auto
@@ -18,7 +18,10 @@
     display block
 
   @media screen and (min-width: $screen-sm)
-    min-height rem(350px)
+    display flex
+    align-items center
+    justify-content center
+    min-height rem(500px)
 
     p
       font-size $lg-font-xlarge-size

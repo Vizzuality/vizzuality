@@ -13,10 +13,14 @@ block main
 
     .m-project-detail-content
       .row
-        .grid-sm-14.grid-lg-10.offset-lg-2
-          if data.client_logo
+        if data.client_logo
+          .grid-sm-14.grid-lg-8.offset-lg-2
+            | !{content}
+          .grid-sm-14.grid-lg-2
             img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
-          | !{content}
+        else
+          .grid-sm-14.grid-lg-10.offset-lg-2
+            | !{content}
     
     if data.link || data.post_url
       footer.m-project-detail-footer

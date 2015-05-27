@@ -22,15 +22,19 @@
     color $font-color-2
     text-decoration none
 
+    @media screen and (min-width: $screen-xl)
+      font-size $lg-font-large-size * 1.1
+
   h1
     margin .3em
 
   .client
     text-transform uppercase
     font-weight 500
+    letter-spacing 0.2em
+    font-size $lg-font-normal-size
 
   .btn-secondary
-    color $font-color-3
     border 0
 
   .m-project-content
@@ -38,6 +42,7 @@
     max-width 95%
     margin-left auto
     margin-right auto
+    font-size $lg-font-small-size * 1.7
     z-index 1
 
   .veil
@@ -50,7 +55,6 @@
     transition background-color .5s ease
 
   @media screen and (min-width: $screen-sm)
-    max-height 80vh
     margin-left auto
     margin-right auto
 
@@ -61,3 +65,7 @@
 
     &:hover .veil
       background-color rgba(0, 0, 0, 0)
+
+  @media screen and (min-width: $screen-sm) and (orientation: landscape)
+    min-height 800px
+    max-height 65vh
