@@ -1,7 +1,7 @@
 ---
 name:       David Inga
 position:   Engineer
-phrase:     My favourite project is always the next project
+phrase:     "My favourite project is always the next project"
 twitter:    davidsingal
 linkedin:   "https://es.linkedin.com/in/davidsingal/en"
 github:		davidsingal

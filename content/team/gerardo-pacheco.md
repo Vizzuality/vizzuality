@@ -1,7 +1,7 @@
 ---
 name:       Gerardo Pacheco
 position:   Engineer
-phrase:     I’m a man of few words, so there’s that
+phrase:     "I’m a man of few words, so that’s that"
 twitter:    geriuxx
 linkedin:   "https://es.linkedin.com/pub/gerardo-pacheco/34/677/340/en"
 github:		geriux

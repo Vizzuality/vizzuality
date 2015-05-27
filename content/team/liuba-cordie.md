@@ -1,7 +1,7 @@
 ---
 name:       Liuba Cordie
 position:   Operations
-phrase:     The heart that keeps the Vizzuality body functioning at full capacity
+phrase:     "The heart that keeps the Vizzuality body functioning at full capacity"
 email:      liuba.cordie@vizzuality.com
 photo:      liuba.jpg
 author:     Alicia

@@ -1,7 +1,7 @@
 ---
 name:       Simao Belchior
 position:   Engineer
-phrase:     Great products are made of skill, hard work and good laughs.
+phrase:     "Great products are made of skill, hard work and good laughs"
 twitter:    belchior
 linkedin:   "https://www.linkedin.com/in/simaobelchior"
 github:		simaob

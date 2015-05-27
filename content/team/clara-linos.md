@@ -1,7 +1,7 @@
 ---
 name:       Clara linos
 position:   Engineer
-phrase:     Cooking maps and data.
+phrase:     "Every little detail is a big deal to me"
 twitter:    dhakelila
 linkedin:   "https://es.linkedin.com/in/claralinos/en"
 Github:		dhakelila
