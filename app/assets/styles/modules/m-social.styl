@@ -6,7 +6,10 @@
 
   li
     display inline-block
-    margin 0 ($margin / 2)
+    margin-top 0
+    margin-bottom 0
+    margin-left ($margin / 1.5)
+    margin-right ($margin / 1.5)
 
   a
     display block
@@ -14,7 +17,12 @@
     font-weight 500
     color $font-color-3
     text-transform uppercase
+    letter-spacing 0.1em
 
   @media screen and (min-width: $screen-md)
     text-align right
     line-height rem(30px)
+
+    li
+      margin-left $margin * 2
+      margin-right 0

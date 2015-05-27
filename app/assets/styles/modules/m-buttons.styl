@@ -1,22 +1,26 @@
 .btn, .btn-secondary
   display inline-block
-  padding ($margin / 2) rem(40px)
+  padding ($margin / 1.5) rem(30px)
 
-  border 0
+  border 1px solid $font-color-3
 
   background-color $bg-color-3
 
   font-size $font-small-size
   font-weight 500
+  letter-spacing 0.15em
   color $font-color-2
   text-align center
   text-decoration none
   text-transform uppercase
 
+  transition background-color .2s ease
+
+  &:hover
+    background-color $bg-color-6
+
   @media screen and (min-width: $screen-sm)
     width auto
-    // max-width rem(250px)
-    // min-width rem(100px)
     margin-left auto
     margin-right auto
 
@@ -25,6 +29,10 @@
   text-align center
   background-color $bg-color-1
   color $font-color-3
+  margin-top $margin
+
+  &:hover
+    color $font-color-2
 
 .btn-burguer
   width rem(50px)

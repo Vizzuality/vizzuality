@@ -5,7 +5,7 @@ block main
     .grid-sm-14.grid-lg-12.offset-lg-1
       article.m-team
         header
-          .photo(style="background-image: url(/assets/images/team/#{data.photo})"): img.is-hidden(src="/assets/images/team/#{data.photo}")
+          .photo(style="background-image: url(/assets/images/team/#{data.photo})"): img(src="/assets/images/team/#{data.photo}")
           p.main-phrase= data.phrase
           h1= data.name
           p.position= data.position
@@ -38,9 +38,9 @@ block main
               p Next
               h2: a(href="/about/#{next.slug}")= next.name
               p.position= next.position
-
-  .row
-    .grid-sm-14.grid-lg-12.offset-lg-1
-      section.m-message
-        p We are hiring
+  
+  section.m-message
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        p We’re hiring.
         a(href="#", class="btn") Apply
