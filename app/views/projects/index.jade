@@ -17,7 +17,24 @@ block main
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
       each project, index in projects
-        if index < numberOfProjects
+        if index < numberOfProjects - 2
+          article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
+            .veil
+            .m-project-content
+              p.client= project.client
+              h1: a(href="/projects/#{project.slug}")= project.title
+              p.description= project.summary
+              a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+
+      if lastPost
+        article.m-post-card
+          .m-post-card-content
+            h1 Stay stuned.
+            h2: a(href="/blog/#{lastPost.slug}")= lastPost.title
+            a(class="btn", href="/blog/#{lastPost.slug}") Read our blog
+
+      each project, index in projects
+        if index > numberOfProjects - 2 && index < numberOfProjects
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
             .m-project-content

@@ -1,0 +1,34 @@
+.m-post-card
+  display flex
+  align-items center
+  justify-content center
+
+  margin-bottom $margin
+  padding 0 $margin
+  height 100vh
+
+  border 14px solid $bg-color-3
+
+  h1
+    color $font-color-3
+    font-size $font-xlarge-size
+    margin .3em 0
+
+  h2
+    font-size $font-large-size
+    line-height .9
+    margin .5em 0
+
+  a
+    text-decoration none
+
+  @media screen and (min-width: $screen-sm)
+    max-height 80vh
+    padding-left $margin * 5
+    padding-right $margin * 5
+
+    h1
+      font-size $lg-font-xlarge-size
+
+    h2
+      font-size $lg-font-large-size
