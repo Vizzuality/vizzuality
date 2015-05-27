@@ -2,6 +2,7 @@ var _ = require('underscore');
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var projectsPath = root + '/content/projects';
+var postsPath = root + '/content/posts';
 
 module.exports = function(app) {
 
@@ -12,16 +13,25 @@ module.exports = function(app) {
 
   // Home and projects page
   app.get('/', function(req, res) {
-    file.getFiles(projectsPath, isProduction, function(err, data) {
-      res.render('projects/index', {
-        projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
-          var time = new Date(d.date).valueOf();
-          var order = d.order ? parseInt(d.order) : 0;
-          return (order * t) + time;
-        }),
-        className: 'is-project-page'
+
+    file.getFiles(postsPath, isProduction, function(err, posts) {
+
+      var lastPost = _.first(_.sortBy(posts, '-date'));
+
+      file.getFiles(projectsPath, isProduction, function(err, data) {
+        res.render('projects/index', {
+          projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
+            var time = new Date(d.date).valueOf();
+            var order = d.order ? parseInt(d.order) : 0;
+            return (order * t) + time;
+          }),
+          lastPost: lastPost,
+          className: 'is-project-page'
+        });
       });
+
     });
+
   });
 
   // Projects routes redirect to index

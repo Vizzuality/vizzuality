@@ -1,0 +1,22 @@
+.m-post
+  padding 0 $margin
+  margin-bottom $margin * 5
+
+  h1
+    margin-bottom .3em
+
+    a
+      text-decoration none
+
+  .m-post-date
+    font-size $font-medium-size
+
+  .m-post-content
+    img
+      outline 1px solid rgba(0, 0, 0, .1)
+      width 100%
+      height auto
+
+  @media screen and (min-width: $screen-md)
+    .m-post-date
+      font-size $lg-font-medium-size

@@ -27,9 +27,14 @@ if (app.get('env') === 'development') {
   app.use(errorhandler());
 }
 
+// Global variables
+app.locals.moment = require('moment');
+app.locals.prune = require('underscore.string/prune');
+
 // Routes
 require(root + '/app/routes/projects')(app); // About page
 require(root + '/app/routes/about')(app); // About page
+require(root + '/app/routes/blog')(app); // Blog page
 require(root + '/app/routes/contact')(app); // Contact mail
 
 module.exports = app;

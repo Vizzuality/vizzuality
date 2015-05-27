@@ -15,15 +15,14 @@ html(lang="en")
         .row
           .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
             h1.brand
-              a(href='/')
-                include partials/logo
+              a(href='/blog')
+                include partials/blog-logo
             button#burgerLink.btn-burguer.is-md-hidden.is-lg-hidden
               span.icon-burguer
 
           .grid-sm-14.grid-md-7.grid-lg-6.is-sm-hidden
             nav.m-nav
-              a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) Projects
-              a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) About
+              a(href='/') Back to the web
       block claim
 
     .l-main
@@ -32,11 +31,15 @@ html(lang="en")
     footer.l-footer
       .row
         .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
-          a.footer-logo(href='/')
+          a.footer-logo(href='/blog')
             include partials/logo
 
         .grid-sm-14.grid-md-7.grid-lg-6
           ul.m-social
+            li
+              a(href='/') All projects
+            li
+              a(href='/about') About
             li
               a(href='https://twitter.com/vizzuality') twitter
             li
