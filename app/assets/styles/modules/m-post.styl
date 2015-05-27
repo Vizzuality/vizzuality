@@ -1,22 +1,36 @@
 .m-post
   padding 0 $margin
-  margin-bottom $margin * 5
+  margin ($margin * 4) 0
 
   h1
     margin-bottom .3em
+    line-height 1.05
 
     a
       text-decoration none
 
   .m-post-date
+    display block
+    margin-bottom $margin * 3
     font-size $font-medium-size
 
   .m-post-content
     img
+      display inline-block
+      margin 1em 0
       outline 1px solid rgba(0, 0, 0, .1)
       width 100%
       height auto
 
-  @media screen and (min-width: $screen-md)
+  .btn
+    margin $margin 0
+
+  @media screen and (min-width: $screen-sm)
+    margin ($margin * 8) 0
+
+    h1
+      font-size $lg-font-large-size * 0.85
+
     .m-post-date
-      font-size $lg-font-medium-size
+      font-size $lg-font-normal-size * 1.2
+

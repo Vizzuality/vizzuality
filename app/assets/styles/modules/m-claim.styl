@@ -15,6 +15,7 @@
     margin-bottom .5em
     line-height .9
     letter-spacing -0.02em
+    max-width 70%
 
   .btn, .btn-secondary
     color $font-color-2
@@ -24,6 +25,9 @@
   .btn-secondary
     border-color $font-color-3
     color $font-color-3
+
+    &:hover
+      color $font-color-2
 
   @media screen and (min-width: $screen-md)
     font-size $lg-font-xlarge-size

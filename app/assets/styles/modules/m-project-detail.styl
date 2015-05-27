@@ -9,6 +9,8 @@ browser-icon($left = 0)
   border-radius 4px
   background-color #CECECE
 
+$margin-bottom = $margin * 4
+
 .is-project-detail-page
 
   .l-header
@@ -41,19 +43,25 @@ browser-icon($left = 0)
   h1
     margin-top 0.5rem
     margin-bottom .6em
+    max-width 70%
 
   p
     margin-bottom 0
     padding-left .3rem
+    font-size $font-medium-size
 
   @media screen and (min-width: $screen-sm)
     height 80vh
     align-items flex-end
     padding-bottom ($margin * 2)
 
+  @media screen and (min-width: $screen-xl)
+    h1
+      font-size $lg-font-xlarge-size
+
 // Content
 .m-project-detail-content
-  padding $margin
+  padding ($margin * 2) $margin
 
   h1, h2
     text-align center
@@ -67,6 +75,7 @@ browser-icon($left = 0)
 
 // Footer with links
 .m-project-detail-footer
+  margin-bottom $margin-bottom
 
   .m-project-url, .m-project-post
     padding $margin 0
@@ -95,7 +104,7 @@ browser-icon($left = 0)
 
       .btn, .btn-secondary
         color $font-color-2
-        font-size $lg-font-medium-size
+        font-size $lg-font-normal-size * 1.8
         text-transform none
         text-decoration underline
         border 0
@@ -111,30 +120,26 @@ browser-icon($left = 0)
 
 // Module articles left and right
 .m-project-detail-article
+  margin-bottom $margin-bottom
 
   &.is-right
-    background-color $bg-color-5
+    background-color $bg-color-8
 
   .btn, .btn-secondary
     display block
 
   .m-project-article-content
-    padding $margin
+    padding $margin ($margin * 2)
 
   @media screen and (min-width: $screen-sm)
     .m-project-article-content
       .btn, .btn-secondary
         display inline-block
 
-    &.is-left .m-project-article-content
-      padding-right $margin * 2
-
-      .m-project-article-content
-        padding-left $margin * 2
-
 // Module blocks
 .m-project-detail-blocks
   padding $margin
+  margin-bottom $margin-bottom
 
   .thumb
     height rem(200px)
@@ -151,6 +156,7 @@ browser-icon($left = 0)
 // Module iframe
 .m-project-detail-iframe
   margin $margin
+  margin-bottom $margin-bottom
 
   h2
     text-align center
@@ -187,7 +193,7 @@ browser-icon($left = 0)
 
 // Module video
 .m-project-detail-video
-  padding ($margin * 2) $margin
+  padding ($margin * 4) $margin
   color $font-color-2
   background-color $bg-color-2
 
@@ -219,12 +225,15 @@ browser-icon($left = 0)
   overflow hidden
 
   h1
-    margin 0
+    margin 0 auto
+    line-height 1.1
+    max-width 70%
 
   p
     margin .3em 0
     text-transform uppercase
     font-weight 500
+    letter-spacing 0.2em
 
   a
     color $font-color-2

@@ -27,12 +27,10 @@ block main
         .row.sameheight
           if data.link && data.post_url
             .grid-sm-14.grid-lg-7.is-grid-centered.m-project-url
-              div
-                a(href="#{data.link}", class="btn") Check it online
+              div: a(href="#{data.link}", class="btn") Check it online
           else if data.link
             .grid-sm-14.grid-lg-14.is-grid-centered.m-project-url
-              div
-                a(href="#{data.link}", class="btn") Check it online
+              div: a(href="#{data.link}", class="btn") Check it online
 
           if data.link && data.post_url
             .grid-sm-14.grid-lg-7.is-grid-centered.m-project-post
@@ -50,7 +48,7 @@ block main
   if data.modules.text_left
     section.m-project-detail-article.is-left
       .row.sameheight
-        .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
+        .grid-sm-14.grid-lg-5.offset-lg-1
           .m-project-article-content
             h2= data.modules.text_left.title
             p !{data.modules.text_left.description}
@@ -63,7 +61,7 @@ block main
       .row.sameheight
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_right.image}")
-        .grid-sm-14.grid-lg-5.is-grid-centered
+        .grid-sm-14.grid-lg-5
           .m-project-article-content
             h2= data.modules.text_right.title
             p !{data.modules.text_right.description}
@@ -102,6 +100,12 @@ block main
           h2= data.modules.video.title
           iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
   
+  section.m-message
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        p Get in touch.
+        a(href="/about#contact", class="btn") Contact us
+
   if (next)
     section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{next.image})")
       .veil
@@ -109,9 +113,3 @@ block main
         .grid-sm-14.grid-lg-12.offset-lg-1
             p Next project
             h1: a(href="/projects/#{next.slug}")= next.title
-  
-  section.m-message
-    .row
-      .grid-sm-14.grid-lg-12.offset-lg-1
-        p Get in touch
-        a(href="/about#contact", class="btn") Contact us

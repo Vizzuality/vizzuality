@@ -31,7 +31,7 @@ module.exports = function(app) {
     transporter.sendMail(userMailOptions, function() {
       transporter.sendMail(staffMailOptions, function(error) {
         if (error) {
-          res.status(400).json({ message: 'We\'re sorry, but something went wrong. Please try again later.' });
+          res.status(400).json({ message: 'We’re sorry, but something went wrong. Please try again later.' });
         } else {
           res.status(200).json({ message: 'Thank you.' });
         }
