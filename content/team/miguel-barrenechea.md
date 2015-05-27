@@ -1,7 +1,7 @@
 ---
 name:       Miguel Barrenechea
 position:   Engineer
-phrase:     Perfection depends on the time you spend on it
+phrase:     "Perfection depends on the time you spend on it"
 twitter:    mbarrenech
 linkedin:   "https://es.linkedin.com/pub/miguel-barrenechea/36/bab/439"
 github:		mbarrenechea

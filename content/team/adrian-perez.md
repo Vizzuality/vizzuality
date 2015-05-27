@@ -1,7 +1,7 @@
 ---
 name:       Adrián Pérez
 position:   Engineer
-phrase:     My Hammond B-3 is broken and now I use this other keyboard.
+phrase:     "My Hammond B-3 is broken and now I use this other keyboard"
 twitter:    adrpz
 linkedin:   "https://es.linkedin.com/in/adrpz/en"
 github:		apercas

@@ -1,0 +1,14 @@
+extends ../blog.jade
+
+block main
+  .row
+    .grid-sm-14.grid-md-12.offset-md-1.grid-lg-8.offset-lg-2
+      each post in posts
+        article.m-post
+          header
+            h1: a(href="/blog/#{post.slug}")= post.title
+            time.m-post-date= moment(post.date).format('Do MMM YYYY')
+          .m-post-content
+            !{prune(post.html, 700)}
+            p: a(href="/blog/#{post.slug}") Read more
+

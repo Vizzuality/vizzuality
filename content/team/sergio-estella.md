@@ -1,7 +1,7 @@
 ---
 name:       Sergio Estella
 position:   Head of Design
-phrase:     Whatever we create has to be understandable, easy to use and of course beautiful!
+phrase:     "Whatever we create has to be understandable, easy to use and of course beautiful!"
 twitter:    sergio_estella
 linkedin:   "https://es.linkedin.com/pub/sergio-estella/6/b87/533"
 github:		

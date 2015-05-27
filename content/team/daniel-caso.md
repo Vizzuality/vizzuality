@@ -1,7 +1,7 @@
 ---
 name:       Daniel Caso
 position:   Designer
-phrase:     If aesthetics trumps functionality, the work is unfinished.
+phrase:     "If aesthetics trumps functionality, the work is unfinished"
 twitter:    danielcasius
 linkedin:   "https://es.linkedin.com/pub/daniel-caso-palomino/31/b33/2bb/en"
 email:      daniel.caso@vizzuality.com

@@ -17,10 +17,10 @@ modules:
         modules:
             -
                 image: global-forest-watch-block-1.png
-                description: Look mama, we aren't using Google Maps! Creating tiles and caching them provides a much better user experience.
+                description: For this project we decided to use a different technique for the maps - create tiles and cache them - to provide a much better user experience.
             -
                 image: global-forest-watch-block-2.png
-                description: Working with scientists can be hard, but it's definitely the best way to get the best data. A custom backoffice allows them to enter the information and link with external resources.
+                description: Working with scientists allowed us to get the best data. The custom backoffice we built allows experts to enter the information and link with external resources with ease.
             -
                 image: global-forest-watch-block-3.png
                 description: For this project we made a great effort in improving previous solutions on taxonomy browsing. We think this is the best Taxonomic Browser we have done up to date and is all pure HTML+JS!.

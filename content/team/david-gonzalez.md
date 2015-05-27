@@ -1,7 +1,7 @@
 ---
 name:       David González
 position:   Head of technology & strategy
-phrase:     Small details make the biggest difference.
+phrase:     "Small details make the biggest difference"
 twitter:    d4weed
 linkedin:   "https://es.linkedin.com/in/davidgonzalezcamara/en"
 github:		d4weed 

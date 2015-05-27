@@ -17,9 +17,9 @@ module.exports = function(app) {
     var userMailOptions = {
       from: 'Vizzuality <hello@vizzuality.com>',
       to: req.body.email,
-      subject: 'Thank you for contact us',
-      text: 'Thank you! /r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias perferendis asperiores eos vel neque molestiae praesentium iste veritatis obcaecati mollitia. Sit debitis est consequuntur aut aliquid alias dolorem optio doloremque',
-      html: '<h1>Thank you!</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias perferendis asperiores eos vel neque molestiae praesentium iste veritatis obcaecati mollitia. Sit debitis est consequuntur aut aliquid alias dolorem optio doloremque</p>'
+      subject: 'Thank you for contacting us',
+      text: 'Thank you! We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly',
+      html: '<h1>Thank you!</h1><p>We love it when people get in touch with us. One one of our expert humans will be sure to respond very shortly</p>'
     };
     var staffMailOptions = {
       from: req.body.email,
@@ -31,7 +31,7 @@ module.exports = function(app) {
     transporter.sendMail(userMailOptions, function() {
       transporter.sendMail(staffMailOptions, function(error) {
         if (error) {
-          res.status(400).json({ message: 'We\'re sorry, but something went wrong. Please, try again later.' });
+          res.status(400).json({ message: 'We\'re sorry, but something went wrong. Please try again later.' });
         } else {
           res.status(200).json({ message: 'Thank you.' });
         }
