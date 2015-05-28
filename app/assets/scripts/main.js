@@ -218,17 +218,39 @@
     var form = document.getElementById('contactForm');
     var formContent = document.getElementsByClassName('m-contact')[0];
     if (form) {
+      // Wohooo
+      var words = [
+        'Cheers!', 'Thanks!', 'Adiós!', 'Yours Sincerely',
+        'Yours in coding!', 'Vielen Dank!',
+        'Greetings from Winterfell',
+        'See you at the Party Richter',
+        'I\'ll be back',
+        'May the force be with you'
+      ];
+      var len = words.length;
+      var counter = 0;
+      var regards = document.getElementById('closeString');
+
+      regards.onclick = function() {
+        counter = counter + 1;
+        if (counter === len) {
+          counter = 0;
+        }
+        regards.textContent = words[counter] + ',';
+      };
+
+      // On submit form
       form.onsubmit = function(e) {
         e.preventDefault();
         var formParams = [], queryString = '';
         for (var i = form.elements.length; i--;) {
-           var el = form.elements[i];
-           var name = encodeURIComponent(el.name);
-           var value = encodeURIComponent(el.value);
-           var param = '%1=%2'.format(name, value);
-           if (name !== '' && value !== '') {
+          var el = form.elements[i];
+          var name = encodeURIComponent(el.name);
+          var value = encodeURIComponent(el.value);
+          var param = '%1=%2'.format(name, value);
+          if (name !== '' && value !== '') {
             formParams.push(param);
-           }
+          }
         }
         queryString = formParams.join('&');
         utils.ajaxPost('/contact', queryString, function(error, response) {
@@ -277,7 +299,7 @@
     var header = document.getElementById('header');
     return function() {
       var pageY = window.pageYOffset;
-      if (pageY > lastScrollTop && pageY > 90) {
+      if (pageY < 90 || pageY > lastScrollTop) {
         header.className = 'l-header';
       } else {
         header.className = '%1 %2'.format('l-header', 'is-fixed');
