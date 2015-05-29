@@ -19,7 +19,7 @@ module.exports = function(app) {
       to: req.body.email,
       subject: 'Thank you for contacting us',
       text: 'Thank you! We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly',
-      html: '<h1>Thank you!</h1><p>We love it when people get in touch with us. One one of our expert humans will be sure to respond very shortly</p>'
+      html: '<h1>Thank you!</h1><p>We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly</p>'
     };
     var staffMailOptions = {
       from: req.body.email,
