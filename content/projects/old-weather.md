@@ -16,7 +16,7 @@ highlighted:   true
 modules:
     text_left:
         title: Rewarding Humans...
-        description: "The human eye is often mightier than the computer; recognising patterns in hand writing is second nature to us, but sometimes extremely difficult for computers. To get hundreds or thousands of people to lend their eyes and pattern recognition talents, we needed to build a rewarding experience. The beautiful visualisations and the social recognition of efforts keep people on board."  
+        description: "The human eye is often mightier than the computer; recognising patterns in hand writing is second nature to us, but often extremely difficult for computers. To get hundreds or thousands of people to lend their eyes and pattern recognition talents, we needed to build a rewarding experience. The beautiful visualisations and the social recognition of efforts keep people on board."  
         image: oldWeather-high3.jpg
 
     text_right:
