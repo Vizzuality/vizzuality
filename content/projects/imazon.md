@@ -15,13 +15,13 @@ modules:
         title: Humans and machines working together to stop deforestation
         modules:
             -
-                image: global-forest-watch-block-1.png
-                description: Algorithms to find areas of deforestation from the images and measurements of Amazonian rainforests were run using Google Earth Engine. In addition to the data process, the tool developed relies on the data hosting services of Google Earth Engine.
+                image: h1.jpg
+                description: Algorithms to find areas of deforestation from the images and measurements of Amazonian rainforests were run using Google Earth Engine. In addition to the data process, the tool relies on the data hosting services of Google Earth Engine.
             -
-                image: global-forest-watch-block-2.png
+                image: h2.jpg
                 description: Pixel manipulations on the client with HTML5 canvas provides a great way to visualize and manipulate raster data on the browser. The tool presents an advanced user interface that allows users to select deforestation polygons, draw new ones, edit shapes or configure thresholds to define areas.
             -
-                image: global-forest-watch-block-3.png
+                image: h3.jpg
                 description: The Imazon organization developed a set of algorithms to detect deforestation areas. Working to improve their workflow for validation means a faster response to this important topic.
 
 ---
