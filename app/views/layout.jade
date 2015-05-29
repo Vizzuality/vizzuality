@@ -5,11 +5,11 @@ html(lang="en")
     title Vizzuality
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css")
-    link(rel="stylesheet", href="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.css")
     if 'production' == process.env.NODE_ENV
       link(rel="stylesheet", href="/assets/styles/main.css")
     else
       link(rel="stylesheet", href="/bower_components/normalize-css/normalize.css")
+      link(rel="stylesheet", href="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.css")
       link(rel="stylesheet", href="/assets/styles/main.css")
   body(class=className)
     header.l-header#header
@@ -58,5 +58,8 @@ html(lang="en")
           a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) about
           a(href='/about#contact') contact
     script(src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js")
-    script(src="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.js")
-    script(src="/assets/scripts/main.js")
+    if 'production' == process.env.NODE_ENV
+      script(src="/assets/scripts/main.js")
+    else
+      script(src="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.js")
+      script(src="/assets/scripts/main.js")
