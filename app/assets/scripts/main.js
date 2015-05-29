@@ -308,11 +308,68 @@
     };
   }
 
+  function geolocationMap() {
+    var elem = document.getElementById('map');
+
+    if (elem) {
+      var vizPos = L.latLng(40.4346730, -3.7005350);
+      var mapOptions = { center: vizPos, zoom: 8, scrollWheelZoom: false };
+      var map = L.map(elem, mapOptions);
+      var customIcons = [
+        L.divIcon({ className: 'user-marker' }),
+        L.divIcon({ className: 'viz-marker' })
+      ];
+
+      function generateRoute(ev) {
+        var userPos = ev.latlng;
+        var bounds = L.latLngBounds(vizPos, userPos);
+
+        map.fitBounds(bounds, { paddingTopLeft: [100, 100] });
+
+        // When fitbounds finish
+        setTimeout(function() {
+          L.Routing.control({
+            waypoints: [ userPos, vizPos ],
+            useZoomParameter: true,
+            show: false,
+            summaryTemplate: '',
+            lineOptions: {
+              styles: [{
+                color: 'white',
+                opacity: 1,
+                weight: 2,
+                dashArray: [1, 5]
+              }]
+            },
+            createMarker: function(index, position) {
+              return L.marker(position.latLng, { icon: customIcons[index] });
+            }
+          }).addTo(map);
+
+        }, 500);
+      }
+
+      L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+      }).addTo(map);
+
+      map.on('locationfound', generateRoute);
+      map.on('locationerror', function() {
+        L.marker(vizPos, { icon: customIcons[1] }).addTo(map);
+      });
+
+      map.locate();
+    }
+  }
+
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
     mobileNavigation();
     anchorButtons();
     contactForm();
+    geolocationMap();
 
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
