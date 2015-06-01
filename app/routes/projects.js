@@ -39,6 +39,21 @@ module.exports = function(app) {
     res.redirect('/');
   });
 
+  // API - get all projects
+  app.get('/api/projects', function(req, res) {
+
+    file.getFiles(projectsPath, isProduction, function(err, data) {
+      res.json({
+        projects: _.sortBy(data, function(d) {
+          var time = new Date(d.date).valueOf();
+          var order = d.order ? parseInt(d.order) : 0;
+          return (order * t) + time;
+        })
+      });
+    });
+
+  });
+
   // Project detail page
   app.get('/projects/:project', function(req, res) {
 

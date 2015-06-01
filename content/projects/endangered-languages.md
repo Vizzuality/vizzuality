@@ -7,7 +7,7 @@ client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  A collaborative tool for documenting endangered languages
 summary:     Uniting researchers, citizens and communities to halt the mass extinction of languages across the world
-image:       
+image:       languages_08c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       5
@@ -19,13 +19,13 @@ modules:
         title: 
         modules:
             -
-                image: global-forest-watch-block-1.png
+                image: language_high1.png
                 description: An intuitive, interactive map that allows users to explore languages by location, level of threat or number of speakers
             -
-                image: global-forest-watch-block-2.png
+                image: language_high2.jpg
                 description: Used Django and a number of techniques to build a high performance front-end able deal with the large audience
             -
-                image: global-forest-watch-block-3.png
+                image: language_block3.jpg
                 description: Features to recognise and promote user contributions to documentation
     map:
         title: First highlight
@@ -38,7 +38,7 @@ modules:
 
 opinions:
     -
-        title: "While language can be consider an integral fiber that connects a community, the Web is what connects the world today. And a new website, called the Endangered Languages Project, aims to connect and collect the most current and comprehensive information about the more than 3,000 endangered languages of the world"
+        title: "While language can be considered an integral fiber that connects a community, the Web is what connects the world today. And a new website, called the Endangered Languages Project, aims to connect and collect the most current and comprehensive information about the more than 3,000 endangered languages of the world"
         photo:
         autor: <a href="http://www.latimes.com/business/technology/la-fi-tn-google-languages-project-20120621,0,632360.story">Los Angeles Times</a>
     -

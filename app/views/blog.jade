@@ -30,24 +30,24 @@ html(lang="en")
 
     footer.l-footer
       .row
-        .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
+        .grid-sm-14.grid-md-3.grid-lg-3.offset-lg-1
           a.footer-logo(href='/blog')
             include partials/logo
 
-        .grid-sm-14.grid-md-7.grid-lg-6
+        .grid-sm-14.grid-md-11.grid-lg-9
           ul.m-social
             li
-              a(href='/') All projects
+              a(href='#all-projects', id="allProjectsLink") All projects
             li
               a(href='/about') About
             li
-              a(href='https://twitter.com/vizzuality') twitter
+              a(href='https://twitter.com/vizzuality') Twitter
             li
-              a(href='https://github.com/Vizzuality') github
+              a(href='https://github.com/Vizzuality') Github
             li
-              a(href='/about#contact') contact
+              a(href='/about#contact') Contact
             li
-              a(href='/blog') blog
+              a(href='/blog') Blog
 
     #mobileNav.m-mobile-nav.is-sm-hidden.is-md-hidden.is-lg-hidden
       button#mobileNavClose.btn-close &times;
@@ -58,4 +58,14 @@ html(lang="en")
           a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) projects
           a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) about
           a(href='/about#contact') contact
+    
+    #projectsModal.m-modal.is-hidden
+      .m-modal-content
+        button#closeModal.btn-close &times;
+        .row
+          .grid-sm-14.grid-md-14.grid-lg-14
+            #contentModal
+
+    if 'production' != process.env.NODE_ENV
+      script(src="/assets/lib/t.js")
     script(src="/assets/scripts/main.js")

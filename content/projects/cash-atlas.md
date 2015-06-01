@@ -16,12 +16,12 @@ modules:
     text_left:
         title: "Only the data you need"
         description: "At higher zoom levels, the map would be very cluttered if you had all the data for the smallest level being shown. Progressive disclosure means the data shown is optimised for your current zoom level. And where you select one particular region for analysis, you can see the detail for one and summaries of the neighbouring regions to avoid distractions and allowing you to focus on your work." 
-        image: global-forest-watch-text-left.png
+        image: cashAtlas-wide.jpg
 
     text_right:
         title: Evolving charts 
         description: "Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data."
-        image: global-forest-watch-text-right.png
+        image: cashAtlas-high1.jpg
 
     map: 
         url: http://www.cash-atlas.org/
@@ -34,7 +34,7 @@ modules:
 
 opinions:
     -
-        title: "There is a need to globally assess how cash programmes are beingimplemented. CaLP is developing a cash mapping tool aiming to visuallyrepresent the usage of cash transfer programmes at a global level."
+        title: "There is a need to globally assess how cash programmes are being implemented. CaLP is developing a cash mapping tool aiming to visually represent the usage of cash transfer programmes at a global level."
         photo:
         autor: <a href="http://reliefweb.int/report/world/cash-atlas-calps-cash-mapping-tool">Reliefweb</a>
     -
