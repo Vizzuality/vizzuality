@@ -10,7 +10,7 @@ image:       kenya.jpg
 author:      Craig Mills
 date:        2015-04-22
 order:       10
-highlighted:   true
+highlighted: true
 
 modules:
     text_left:
@@ -20,10 +20,10 @@ modules:
 
     text_right:
         title: "Farming under pressure"
-        description: "Across Africa, farmers are coping with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion". 
+        description: "Across Africa, farmers are coping with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion."
         image: kenya-high1.png
 
-    text_left:
+    text_left_2:
         title: "We’re just getting started"
         description: "In 5 years we hope to be operating in 3 African countries and delivering messages to 50,000 farmers. To do this we still need funding: to get on board, just contact us."
         image: kenya-wide-highlight.jpg
