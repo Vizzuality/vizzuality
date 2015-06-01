@@ -381,8 +381,6 @@
     var contentModal = document.getElementById('contentModal');
     var data = null;
 
-    function avoidScroll(ev) { ev.preventDefault(); };
-
     function renderProjects() {
       projectsModal.className = 'm-modal';
       var templateString = '<h2>{{=title}}</h2>' +
@@ -397,12 +395,10 @@
         projects: data.projects
       });
       contentModal.innerHTML = html;
-      document.body.addEventListener('mousewheel', avoidScroll, false);
     }
 
     function closeModal() {
       projectsModal.className = 'm-modal is-hidden';
-      document.body.removeEventListener('mousewheel', avoidScroll, false);
     }
 
     if (allProjectsLink && projectsModal) {
