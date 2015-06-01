@@ -132,17 +132,23 @@
     var linkHandler = function(ev) {
       ev.preventDefault();
 
-      if (location.hash !== this.hash) {
-        window.history.pushState(null, null, this.hash);
-      }
+      if (!this.hash) { return false; }
 
-      // using the history api to solve issue #1 - back doesn't work
-      // most browser don't update :target when the history api is used:
-      // THIS IS A BUG FROM THE BROWSERS.
-      // change the scrolling duration in this call
-      smoothScroll(document.getElementById(this.hash.substring(1)), 500, function(el) {
-        location.replace('#' + el.id); // this will cause the :target to be activated.
-      });
+      var target = document.getElementById(this.hash.substring(1));
+
+      if (target) {
+        if (location.hash !== this.hash) {
+          window.history.pushState(null, null, this.hash);
+        }
+
+        // using the history api to solve issue #1 - back doesn't work
+        // most browser don't update :target when the history api is used:
+        // THIS IS A BUG FROM THE BROWSERS.
+        // change the scrolling duration in this call
+        smoothScroll(target, 500, function(el) {
+          location.replace('#' + el.id); // this will cause the :target to be activated.
+        });
+      }
     };
 
     // We look for all the internal links in the documents and attach the smoothscroll function
@@ -193,6 +199,8 @@
       }
     };
   };
+
+  utils.Template = window.t;
 
   // Function to search target and go to scroll using Smooth Scroll
   function goToAnchor(e) {
@@ -310,44 +318,45 @@
 
   function geolocationMap() {
     var elem = document.getElementById('map');
+    var vizPos = L.latLng(40.4346730, -3.7005350);
+    var mapOptions = { center: vizPos, zoom: 8, scrollWheelZoom: false };
+    var customIcons = [
+      L.divIcon({ className: 'user-marker' }),
+      L.divIcon({ className: 'viz-marker' })
+    ];
+    var map = null;
+
+    function generateRoute(ev) {
+      var userPos = ev.latlng;
+      var bounds = L.latLngBounds(vizPos, userPos);
+
+      map.fitBounds(bounds, { paddingTopLeft: [100, 100] });
+
+      // When fitbounds finish
+      setTimeout(function() {
+        L.Routing.control({
+          waypoints: [ userPos, vizPos ],
+          useZoomParameter: true,
+          show: false,
+          summaryTemplate: '',
+          lineOptions: {
+            styles: [{
+              color: 'white',
+              opacity: 1,
+              weight: 2,
+              dashArray: [1, 5]
+            }]
+          },
+          createMarker: function(index, position) {
+            return L.marker(position.latLng, { icon: customIcons[index] });
+          }
+        }).addTo(map);
+
+      }, 500);
+    }
 
     if (elem) {
-      var vizPos = L.latLng(40.4346730, -3.7005350);
-      var mapOptions = { center: vizPos, zoom: 8, scrollWheelZoom: false };
-      var map = L.map(elem, mapOptions);
-      var customIcons = [
-        L.divIcon({ className: 'user-marker' }),
-        L.divIcon({ className: 'viz-marker' })
-      ];
-
-      function generateRoute(ev) {
-        var userPos = ev.latlng;
-        var bounds = L.latLngBounds(vizPos, userPos);
-
-        map.fitBounds(bounds, { paddingTopLeft: [100, 100] });
-
-        // When fitbounds finish
-        setTimeout(function() {
-          L.Routing.control({
-            waypoints: [ userPos, vizPos ],
-            useZoomParameter: true,
-            show: false,
-            summaryTemplate: '',
-            lineOptions: {
-              styles: [{
-                color: 'white',
-                opacity: 1,
-                weight: 2,
-                dashArray: [1, 5]
-              }]
-            },
-            createMarker: function(index, position) {
-              return L.marker(position.latLng, { icon: customIcons[index] });
-            }
-          }).addTo(map);
-
-        }, 500);
-      }
+      map = L.map(elem, mapOptions);
 
       L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
@@ -364,12 +373,65 @@
     }
   }
 
+  // Show all projects in a window modal
+  function allProjectsModal() {
+    var allProjectsLink = document.getElementById('allProjectsLink');
+    var projectsModal = document.getElementById('projectsModal');
+    var closeModalBtn = document.getElementById('closeModal');
+    var contentModal = document.getElementById('contentModal');
+    var data = null;
+
+    function renderProjects() {
+      projectsModal.className = 'm-modal';
+      var templateString = '<h2>{{=title}}</h2>' +
+        '<ul>{{@projects}}<li>' +
+        '<a href="/projects/{{=_val.slug}}">' +
+        '<strong>{{=_val.title}}</strong>, {{=_val.client}}' +
+        '</a>' +
+        '</li>{{/@projects}}</ul>';
+      var template = new utils.Template(templateString);
+      var html = template.render({
+        title: 'All our projects.',
+        projects: data.projects
+      });
+      contentModal.innerHTML = html;
+    }
+
+    function closeModal() {
+      projectsModal.className = 'm-modal is-hidden';
+    }
+
+    if (allProjectsLink && projectsModal) {
+      allProjectsLink[clickEvent] = function(ev) {
+        ev.preventDefault();
+        if (!data) {
+          var http = new XMLHttpRequest();
+          http.onreadystatechange = function() {
+            if (http.readyState === 4 && http.status === 200) {
+              data = JSON.parse(http.responseText);
+              renderProjects();
+            }
+          };
+          http.open('GET', '/api/projects', true);
+          http.send();
+        } else {
+          renderProjects();
+        }
+      };
+    }
+
+    if (closeModalBtn) {
+      closeModalBtn[clickEvent] = closeModal;
+    }
+  }
+
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
     mobileNavigation();
     anchorButtons();
     contactForm();
     geolocationMap();
+    allProjectsModal();
 
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
