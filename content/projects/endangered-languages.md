@@ -19,13 +19,13 @@ modules:
         title: 
         modules:
             -
-                image: global-forest-watch-block-1.png
+                image: language_high1.png
                 description: An intuitive, interactive map that allows users to explore languages by location, level of threat or number of speakers
             -
-                image: global-forest-watch-block-2.png
+                image: language_high2.jpg
                 description: Used Django and a number of techniques to build a high performance front-end able deal with the large audience
             -
-                image: global-forest-watch-block-3.png
+                image: language_block3.jpg
                 description: Features to recognise and promote user contributions to documentation
     map:
         title: First highlight

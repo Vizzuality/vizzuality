@@ -16,12 +16,12 @@ modules:
     text_left:
         title: Making it easy to assess species
         description: The tool makes intensive use of effects and animations to display tool status. This provides continuous feedback to the user. And with unlimited undo and redo, all user actions can be undone and redone at any time, encouraging a trial-and-error analysis refinement.
-        image: high1.jpg
+        image: red-list_high1.jpg
 
     text_right:
     	title: Evolving all the time
     	description: As part of the EU BON project we are adding a couple of new features, allowing users to complete even more powerful analyses using biodiversity observations from across Europe. Watch out for new features and data coming out soon!
-    	image: high2.jpg
+    	image: red-list_high2.jpg
 
     video:
         title: Introducing GeoCAT

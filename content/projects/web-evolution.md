@@ -19,13 +19,13 @@ modules:
         title: Stunning design, pixel perfect implementation
         modules:
             -
-                image: block5.jpg
+                image: webvolution_block5.jpg
                 description: "Two different visual styles (night and day) for exploring web technologies and browser support."
             -
-                image: block1.jpg
+                image: webvolution_block1.jpg
                 description: "Using vectors and SVG allowed us to implement zooming and panning of the visualization".
             -
-                image: block6.jpg
+                image: webvolution_block6.jpg
                 description: "Two new visualizations have been added to the original version: number of users and web traffic evolution through the last 20 years."
 
 opinions:
