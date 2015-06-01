@@ -318,41 +318,65 @@
 
   function geolocationMap() {
     var elem = document.getElementById('map');
-    var vizPos = L.latLng(40.4346730, -3.7005350);
-    var mapOptions = { center: vizPos, zoom: 8, scrollWheelZoom: false };
+
+    if (!elem) { return false; }
+
+    var MADRID = L.latLng(40.4346730, -3.7005350);
+    var CAMBRIDGE = L.latLng(52.201641, 0.116795);
+    var mapOptions = { center: MADRID, zoom: 8, scrollWheelZoom: false };
     var customIcons = [
       L.divIcon({ className: 'user-marker' }),
       L.divIcon({ className: 'viz-marker' })
     ];
-    var map = null;
+    var map, currentRoute;
 
-    function generateRoute(ev) {
-      var userPos = ev.latlng;
-      var bounds = L.latLngBounds(vizPos, userPos);
+    function generateRoute(pointA, pointB) {
+      var bounds = L.latLngBounds(pointB, pointA);
 
-      map.fitBounds(bounds, { paddingTopLeft: [100, 100] });
+      map.fitBounds(bounds, {
+        paddingTopLeft: [100, 100],
+        paddingBottomRight: [0, 100]
+      });
 
-      // When fitbounds finish
       setTimeout(function() {
-        L.Routing.control({
-          waypoints: [ userPos, vizPos ],
-          useZoomParameter: true,
-          show: false,
-          summaryTemplate: '',
-          lineOptions: {
-            styles: [{
-              color: 'white',
-              opacity: 1,
-              weight: 2,
-              dashArray: [1, 5]
-            }]
-          },
-          createMarker: function(index, position) {
-            return L.marker(position.latLng, { icon: customIcons[index] });
-          }
-        }).addTo(map);
-
+        if (currentRoute) {
+          currentRoute.setWaypoints([ pointA, pointB ]);
+        } else {
+          currentRoute = L.Routing.control({
+            waypoints: [ pointA, pointB ],
+            useZoomParameter: true,
+            show: false,
+            summaryTemplate: '',
+            lineOptions: {
+              styles: [{
+                color: 'white',
+                opacity: 1,
+                weight: 2,
+                dashArray: [1, 5]
+              }]
+            },
+            createMarker: function(index, position) {
+              return L.marker(position.latLng, { icon: customIcons[index] });
+            }
+          }).addTo(map);
+        }
       }, 500);
+    }
+
+    function onLocationFound(ev) {
+      var userPos = ev.latlng;
+      var madridOffice = document.getElementById('madridOffice');
+      var cambridgeOffice = document.getElementById('cambridgeOffice');
+
+      generateRoute(userPos, MADRID);
+
+      madridOffice.addEventListener('click', function() {
+        generateRoute(userPos, MADRID);
+      }, false);
+
+      cambridgeOffice.addEventListener('click', function() {
+        generateRoute(userPos, CAMBRIDGE);
+      }, false);
     }
 
     if (elem) {
@@ -364,7 +388,7 @@
         maxZoom: 19
       }).addTo(map);
 
-      map.on('locationfound', generateRoute);
+      map.on('locationfound', onLocationFound);
       map.on('locationerror', function() {
         L.marker(vizPos, { icon: customIcons[1] }).addTo(map);
       });
