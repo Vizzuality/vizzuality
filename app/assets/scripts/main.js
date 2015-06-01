@@ -390,7 +390,7 @@
 
       map.on('locationfound', onLocationFound);
       map.on('locationerror', function() {
-        L.marker(vizPos, { icon: customIcons[1] }).addTo(map);
+        L.marker(MADRID, { icon: customIcons[1] }).addTo(map);
       });
 
       map.locate();
