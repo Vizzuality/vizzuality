@@ -100,6 +100,25 @@ block main
           h2= data.modules.video.title
           iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
   
+  if data.opinions && data.opinions.length
+    section.m-project-opinions
+      .row.uncollapse.sameheight
+        for opinion, index in data.opinions
+          if index == 0
+            .grid-sm-14.grid-lg-4.offset-lg-1
+              .m-project-opinion-item: div
+                if opinion.photo
+                  p.m-project-opinion-photo: img(src=opinion.photo)
+                p.m-project-opinion-text= opinion.title
+                p.m-project-opinion-autor !{opinion.autor}
+          else
+            .grid-sm-14.grid-lg-4
+              .m-project-opinion-item: div
+                if opinion.photo
+                  p.m-project-opinion-photo: img(src=opinion.photo)
+                p.m-project-opinion-text= opinion.title
+                p.m-project-opinion-autor !{opinion.autor}
+
   section.m-message
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
