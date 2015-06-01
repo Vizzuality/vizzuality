@@ -1,5 +1,5 @@
 ---
-title:       Bringing the Stars to your living room
+title:       Bringing the stars to your living room
 short_title: Planet Hunters
 link:        http://www.planethunters.org/
 client:      Zooniverse
@@ -20,13 +20,13 @@ modules:
         title: Fluid interface for scientifically valid results
         modules:
             -
-                image: 
+                image: ph_h1.jpg
                 description: Making it easy for anyone to recognise the transits and have some fun at the same time 
             -
-                image: 
+                image: ph_h2.jpg
                 description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
             -
-                image: 
+                image: ph_h3.jpg
                 description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications 
 
 
@@ -50,7 +50,7 @@ opinions:
 
 ---
 
-Billions of people around the world look up to the stars at night; so do NASA’s telescopes, satellites and probes. Analysing all that data is difficult, and machines are often not good at finding the distinct patterns that signify planets orbiting stars. Using a combination of powerful visualisation libraries, we were able to bring to life our vision for a user-friendly, interactive and above all beautiful tool that unleashes the scientist in all of us. 
+Billions of people around the world look up to the stars at night; so do NASA’s telescopes, satellites and probes. Analysing all that data is difficult, and machines are often not very good at finding the distinct patterns that signify planets orbiting stars. Using a combination of powerful visualisation libraries, we were able to bring to life our vision for a user-friendly, interactive and above all beautiful tool that unleashes the scientist in all of us. 
 
 Planet Hunters puts data from NASA’s Kepler mission right at your fingertips so you can help in the hunt for life out there in the stars. Wonder, delight and science all in one: a signature Vizzuality product. 
 

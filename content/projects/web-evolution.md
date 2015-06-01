@@ -6,7 +6,7 @@ client:      Google Chrome and Hyperakt
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
-image:       
+image:       evolution_01.jpg
 author:      Craig Mills
 date:        2015-04-22
 order:       19
@@ -19,13 +19,13 @@ modules:
         title: Stunning design, pixel perfect implementation
         modules:
             -
-                image: global-forest-watch-block-2.png
-                description: Two different visual styles (night and day) for exploring web technologies and browser support.
+                image: webvolution_block5.jpg
+                description: "Two different visual styles (night and day) for exploring web technologies and browser support."
             -
-                image: global-forest-watch-block-3.png
-                description: Using vectors and SVG allowed us to implement zooming and panning of the visualization.
+                image: webvolution_block1.jpg
+                description: "Using vectors and SVG allowed us to implement zooming and panning of the visualization".
             -
-                image: global-forest-watch-block-1.png
+                image: webvolution_block6.jpg
                 description: "Two new visualizations have been added to the original version: number of users and web traffic evolution through the last 20 years."
 
 opinions:
