@@ -20,13 +20,13 @@ modules:
         title: Fluid interface for scientifically valid results
         modules:
             -
-                image: 
+                image: ph_h1.jpg
                 description: Making it easy for anyone to recognise the transits and have some fun at the same time 
             -
-                image: 
+                image: ph_h2.jpg
                 description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
             -
-                image: 
+                image: ph_h3.jpg
                 description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications 
 
 

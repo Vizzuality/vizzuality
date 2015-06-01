@@ -16,17 +16,17 @@ modules:
     text_left:
         title: "A mobile continent"
         description: "African mobile use is accelerating and globally it is anticipated that 4bn people will be using internet services through smartphones by 2020."
-        image: high2.png
+        image: kenya-high2.png
 
     text_right:
         title: "Farming under pressure"
         description: "Across Africa, farmers are coping with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion". 
-        image: high1.png
+        image: kenya-high1.png
 
     text_left:
         title: "We’re just getting started"
         description: "In 5 years we hope to be operating in 3 African countries and delivering messages to 50,000 farmers. To do this we still need funding: to get on board, just contact us."
-        image: wide-highlight.jpg
+        image: kenya-wide-highlight.jpg
 
 opinions:
     -
