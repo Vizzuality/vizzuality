@@ -146,6 +146,7 @@ $margin-bottom = $margin * 4
   margin-bottom $margin-bottom
 
   .thumb
+    margin-top 1px
     height rem(200px)
     overflow hidden
     outline 1px solid rgba(0, 0, 0, .1)
@@ -197,7 +198,7 @@ $margin-bottom = $margin * 4
 
 // Module video
 .m-project-detail-video
-  padding ($margin * 4) $margin
+  padding ($margin * 3) $margin
   color $font-color-2
   background-color $bg-color-2
 
@@ -210,6 +211,46 @@ $margin-bottom = $margin * 4
 
     @media screen and (min-width: $screen-sm)
       height rem(720px)
+
+// Module opinions
+.m-project-opinions
+  padding ($margin * 4) 0
+  background-color $bg-color-8
+
+  .m-project-opinion-item
+    margin-bottom $margin
+    padding ($margin * 2)
+    background-color $bg-color-1
+
+  .m-project-opinion-photo
+    text-align center
+
+    img
+      width auto
+      max-height rem(35px)
+
+  .m-project-opinion-text
+    margin-top .3em
+    font-size $font-medium-size
+    text-align center
+
+  .m-project-opinion-autor
+    text-align center
+    font-weight 500
+    max-width 90%
+    margin auto
+    a
+      text-decoration none
+
+  @media screen and (min-width: $screen-sm)
+    .row > div
+      display flex
+      justify-content stretch
+
+    .m-project-opinion-item
+      display flex
+      align-items center
+      margin-bottom 0
 
 // Module next project
 .m-project-detail-next

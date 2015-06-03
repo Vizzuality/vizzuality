@@ -17,7 +17,9 @@ module.exports = function(app) {
 
     file.getFiles(postsPath, isProduction, function(err, data) {
       res.render('posts/index', {
-        posts: _.sortBy(data, '-date').slice(items - itemsPerPage, items)
+        posts: _.sortBy(data, '-date').slice(items - itemsPerPage, items),
+        prev: page === 1 ? null : page - 1,
+        next: page === (data.length - 1) && data.length <= itemsPerPage ? null : page + 1
       });
     });
 
