@@ -1,14 +1,25 @@
 extends ../blog.jade
 
 block main
-  .row
-    .grid-sm-14.grid-md-12.offset-md-1.grid-lg-7.offset-lg-2
-      each post in posts
-        article.m-post
-          header
-            h1: a(href="/blog/#{post.slug}")= post.title
-            time.m-post-date= moment(post.date).format('Do MMM YYYY')
-          .m-post-content
-            !{prune(post.html, 700)}
-            p: a.btn(href="/blog/#{post.slug}") Read more
+  section
+    .row
+      .grid-sm-14.grid-md-12.offset-md-1.grid-lg-7.offset-lg-2
+        each post in posts
+          article.m-post
+            header
+              h1: a(href="/blog/#{post.slug}")= post.title
+              time.m-post-date= moment(post.date).format('Do MMM YYYY')
+            .m-post-content
+              !{prune(post.html, 700)}
+              p: a.btn(href="/blog/#{post.slug}") Read more
 
+  section.m-prev-next-team
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        .m-prev-next-team-items
+          if (prev)
+            .m-prev-team-item: div
+              p: a(href="/blog?page=#{prev}") Previous
+          if (next)
+            .m-next-team-item: div
+              p: a(href="/blog?page=#{next}") Next
