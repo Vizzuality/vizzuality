@@ -2,7 +2,7 @@
 title:       UNESCO Places
 short_title: UNESCO Places
 link:        
-client:      UNESCO
+client:      Own project
 client_logo: 
 image:       unesco_02.jpg
 author:      Jamie Gibson
@@ -10,36 +10,18 @@ date:        2015-06-03
 order:       23
 highlighted:   true
 
-modules:
-    text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-right.png
-
     blocks:
-        title: High fidelity analysis
+        title: 
         modules:
             -
-                image: global-forest-watch-block-1.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: unesco_h1.jpg
+                description: UNESCO Places mashes up data from the official site with Wikipedia descriptions and Panoramio images, to give context to each site profile.
             -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: unesco_block1.jpg
+                description: For the data scraping we used a mix of custom scrapers and NeedleBase.
             -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    map:
-        title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
+                image: unesco_block3.jpg
+                description: The website shows the site position in relation to the location of the visitor and the time it would take to travel, encouraging exploration in real life, not just on the web.
 
 opinions:
     -
@@ -48,20 +30,4 @@ opinions:
         autor: Javier de la Torre
 
 ---
-
-## Titulo 1
-
-text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+All our staff at Vizzuality love the natural world and its cultural beauty, so admire the work being directed by UNESCO under the World Heritage Sites program. To give this important topic a better means of presentation, we decided to build a visualisation, using an early version of CartoDB. Using data from a number of different sources, like Wikipedia, Panoramio and the main list of World Heritage Sites, you can explore the world's most precious places from your desktop.   
