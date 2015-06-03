@@ -25,9 +25,9 @@ modules:
         image: 
 
     map:
-        title: First highlight
+        title: Check it out for yourself!
         description: 
-        url: 
+        url: http://environmentaldemocracyindex.org/map#all
 
     video:
         title: Lalanath DeSilva talks about the Environmental Democracy Index
