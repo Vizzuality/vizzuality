@@ -1,70 +1,35 @@
 ---
-title:       BBVA
-short_title: BBVA
-link:        http://bbva.vizzuality.com
-client:      BBVA
-client_logo: google.png
-post_url:    google-trends
-post_title:  Google trends blog big data
-summary:     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image:       calvert_02.jpg
-author:      Craig Mills
-date:        2015-04-22
-order:       2
+title:       "Science and Art in Madrid"
+short_title: 101 Masterpieces
+link:        http://www.101obrasmaestras.com/en
+client:      
+client_logo: 
+image:       101_02.jpg
+author:      Jamie Gibson  
+date:        2015-06-03
+order:       21
 highlighted:   true
 
 modules:
-    text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-    text_right:
-        title: Mobile centered
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-right.png
 
     blocks:
-        title: High fidelity analysis
+        title: "A work of art to visualise Madrid's works of art"
         modules:
             -
-                image: global-forest-watch-block-1.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: 
+                description: "Using Backbone and Leaflet JavaScript we built a vivid visualisation to help you discover the history and culture of Madrid's masterpieces."
             -
-                image: global-forest-watch-block-2.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: 
+                description: "A scientific committee selected the works, wrote summaries of each and created itineraries for specialised tours of the city."  
             -
-                image: global-forest-watch-block-3.png
-                description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                image: 
+                description: "With a highly customise Drupal distribution, content management is made easy."
     map:
-        title: First highlight
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    video:
-        title: The video
-        url: https://www.youtube.com/watch?v=lTG-0brb98I
-
-opinions:
-    -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
+        title: Explore for yourself
+        description: 101 masterpieces in 30 institutions: how many will you see?
+        url: http://www.101obrasmaestras.com/en
 
 ---
 
-## Titulo 1
+Madrid is a hub of science and culture, with thousands of works on display acrosss the city's museums and institutions making up a key part of the history of art and science. We worked with Institute of History (CCHS) at the Spanish National Research Council (CSIC) to create 101 Masterpieces, an open source online platform to guide people through the different storylines that play out through the centuries and across a number of the city's institutions.
 
-text_left:
-        title: Crowdsources stories
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        image: global-forest-watch-text-left.png
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Titulo 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
