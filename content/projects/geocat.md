@@ -23,6 +23,11 @@ modules:
     	description: As part of the EU BON project we are adding a couple of new features, allowing users to complete even more powerful analyses using biodiversity observations from across Europe. Watch out for new features and data coming out soon!
     	image: red-list_high2.jpg
 
+    map:
+        title: "Start your own assessment"
+        description: 
+        url: http://geocat.kew.org/editor
+
     video:
         title: Introducing GeoCAT
         url: http://player.vimeo.com/video/22739331

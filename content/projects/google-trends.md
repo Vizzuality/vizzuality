@@ -32,7 +32,7 @@ modules:
 
 opinions:
     -
-        title: <a href="http://ftw.usatoday.com/2015/01/ftw-exclusive-remember-the-great-storylines-of-the-2014-nfl-season-through-googles-data">A great reminder of all the amazing moments in the NFL this year including Manning’s record, Odell Beckham Jr.’s catch and more.</a>
+        title: <a href="http://ftw.usatoday.com/2015/01/ftw-exclusive-remember-the-great-storylines-of-the-2014-nfl-season-through-googles-data"> A great reminder of all the amazing moments in the NFL this year including Manning’s record, Odell Beckham Jr.’s catch and more.</a>
         photo: 
         autor: Nina Mandell, USA Today
 
