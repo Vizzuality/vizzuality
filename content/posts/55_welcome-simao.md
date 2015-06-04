@@ -1,34 +1,11 @@
-<!--
-slug: welcome-simao
-date: Tue Feb 24 2015 17:08:51 GMT+0000 (GMT)
-tags: 
-title: Welcome Simao
-id: 111963410581
-link: http://blog.vizzuality.com/post/111963410581/welcome-simao
-raw: {"blog_name":"vizzuality","id":111963410581,"post_url":"http://blog.vizzuality.com/post/111963410581/welcome-simao","slug":"welcome-simao","type":"text","date":"2015-02-24 17:08:51 GMT","timestamp":1424797731,"state":"published","format":"html","reblog_key":"Px1neXKC","tags":[],"short_url":"http://tmblr.co/ZQVgQy1eHYX2L","highlighted":[],"note_count":1,"title":"Welcome Simao","body":"<figure><img src=\"https://31.media.tumblr.com/7595beca372ec3b18171744f0d1c9cb3/tumblr_inline_nkacxclqoY1tn8nre.jpg\" alt=\"image\"/></figure><p>We are very pleased to introduce <a href=\"http://www.vizzuality.com/team/simao_belchior\">Simão Belchior</a> to Vizzuality as a Product Developer. He’ll bring a continental blend of back-end development, agile management and business development to the Cambridge office. Already in his short time at the company he has helped us develop visualisations for <a href=\"http://www.vizzuality.com/projects/google_trends\">Google</a> and has started work on some exciting new projects (keep an eye on this blog for announcements). </p><p>Simão can speak in Portuguese, English, Spanish, Ruby and gif. He came to Cambridge to work with the United Nations Environment Programme, first as a developer then as an analyst developer, building and managing large data projects related to species. Simão has now spent 5 years living in Cambridge and is a founding member of the Cambridge Ruby User Group as well as a keen footballer. </p>","reblog":{"tree_html":"","comment":"<figure><img src=\"https://31.media.tumblr.com/7595beca372ec3b18171744f0d1c9cb3/tumblr_inline_nkacxclqoY1tn8nre.jpg\" alt=\"image\"></figure><p>We are very pleased to introduce <a href=\"http://www.vizzuality.com/team/simao_belchior\">Sim&atilde;o Belchior</a> to Vizzuality as a Product Developer. He&rsquo;ll bring a continental blend of back-end development, agile management and business development to the Cambridge office. Already in his short time at the company he has helped us develop visualisations for <a href=\"http://www.vizzuality.com/projects/google_trends\">Google</a> and has started work on some exciting new projects (keep an eye on this blog for announcements). </p><p>Sim&atilde;o&nbsp;can speak in Portuguese, English, Spanish, Ruby and gif. He came to Cambridge to work with the United Nations Environment Programme, first as a developer then as an analyst developer, building and managing large data projects related to species. Sim&atilde;o&nbsp;has now spent 5 years living in Cambridge and is a founding member of the Cambridge Ruby User Group as well as a keen footballer. </p>"},"trail":[{"blog":{"name":"vizzuality","theme":{"avatar_shape":"square","background_color":"#FAFAFA","body_font":"Helvetica Neue","header_bounds":"","header_image":"http://assets.tumblr.com/images/default_header/optica_pattern_09.png?_v=abe6f565397f54e880c2b76e6fc2022e","header_image_focused":"http://assets.tumblr.com/images/default_header/optica_pattern_09_focused_v3.png?_v=abe6f565397f54e880c2b76e6fc2022e","header_image_scaled":"http://assets.tumblr.com/images/default_header/optica_pattern_09_focused_v3.png?_v=abe6f565397f54e880c2b76e6fc2022e","header_stretch":true,"link_color":"#529ECC","show_avatar":true,"show_description":true,"show_header_image":true,"show_title":true,"title_color":"#444444","title_font":"Gibson","title_font_weight":"bold"}},"post":{"id":"111963410581"},"content":"<figure><img src=\"https://31.media.tumblr.com/7595beca372ec3b18171744f0d1c9cb3/tumblr_inline_nkacxclqoY1tn8nre.jpg\" alt=\"image\"></figure><p>We are very pleased to introduce <a href=\"http://www.vizzuality.com/team/simao_belchior\">Simão Belchior</a> to Vizzuality as a Product Developer. He’ll bring a continental blend of back-end development, agile management and business development to the Cambridge office. Already in his short time at the company he has helped us develop visualisations for <a href=\"http://www.vizzuality.com/projects/google_trends\">Google</a> and has started work on some exciting new projects (keep an eye on this blog for announcements). </p><p>Simão can speak in Portuguese, English, Spanish, Ruby and gif. He came to Cambridge to work with the United Nations Environment Programme, first as a developer then as an analyst developer, building and managing large data projects related to species. Simão has now spent 5 years living in Cambridge and is a founding member of the Cambridge Ruby User Group as well as a keen footballer. </p>","content_raw":"<figure><img src=\"https://31.media.tumblr.com/7595beca372ec3b18171744f0d1c9cb3/tumblr_inline_nkacxclqoY1tn8nre.jpg\" alt=\"image\"></figure><p>We are very pleased to introduce <a href=\"http://www.vizzuality.com/team/simao_belchior\">Sim&atilde;o Belchior</a> to Vizzuality as a Product Developer. He&rsquo;ll bring a continental blend of back-end development, agile management and business development to the Cambridge office. Already in his short time at the company he has helped us develop visualisations for <a href=\"http://www.vizzuality.com/projects/google_trends\">Google</a> and has started work on some exciting new projects (keep an eye on this blog for announcements). </p><p>Sim&atilde;o&nbsp;can speak in Portuguese, English, Spanish, Ruby and gif. He came to Cambridge to work with the United Nations Environment Programme, first as a developer then as an analyst developer, building and managing large data projects related to species. Sim&atilde;o&nbsp;has now spent 5 years living in Cambridge and is a founding member of the Cambridge Ruby User Group as well as a keen footballer. </p>","is_current_item":true,"is_root_item":true}]}
-publish: 2015-02-024
--->
+---
+title:	Welcome Simao
+date: 	2015-02-24
+author: Jamie Gibson
+---
 
+![image](/assets/images/team/simao-belchior.jpg)
 
-Welcome Simao
-=============
+We are very pleased to introduce [Simão Belchior](http://www.vizzuality.com/team/simao_belchior) to Vizzuality as a Product Developer. He’ll bring a continental blend of back-end development, agile management and business development to the Cambridge office. Already in his short time at the company he has helped us develop visualisations for [Google](http://www.vizzuality.com/projects/google_trends) and has started work on some exciting new projects (keep an eye on this blog for announcements).
 
-![image](https://31.media.tumblr.com/7595beca372ec3b18171744f0d1c9cb3/tumblr_inline_nkacxclqoY1tn8nre.jpg)
-
-We are very pleased to introduce [Simão
-Belchior](http://www.vizzuality.com/team/simao_belchior) to Vizzuality
-as a Product Developer. He’ll bring a continental blend of back-end
-development, agile management and business development to the Cambridge
-office. Already in his short time at the company he has helped us
-develop visualisations for
-[Google](http://www.vizzuality.com/projects/google_trends) and has
-started work on some exciting new projects (keep an eye on this blog for
-announcements).
-
-Simão can speak in Portuguese, English, Spanish, Ruby and gif. He came
-to Cambridge to work with the United Nations Environment Programme,
-first as a developer then as an analyst developer, building and managing
-large data projects related to species. Simão has now spent 5 years
-living in Cambridge and is a founding member of the Cambridge Ruby User
-Group as well as a keen footballer.
-
+Simão can speak in Portuguese, English, Spanish, Ruby and gif. He came to Cambridge to work with the United Nations Environment Programme, first as a developer then as an analyst developer, building and managing large data projects related to species. Simão has now spent 5 years living in Cambridge and is a founding member of the Cambridge Ruby User Group as well as a keen footballer.
