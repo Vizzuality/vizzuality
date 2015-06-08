@@ -31,7 +31,7 @@ block main
           .m-post-card-content
             h1 Stay tuned.
             h2: a(href="/blog/#{lastPost.slug}")= lastPost.title
-            a(class="btn", href="/blog") Read our blog
+            a(class="btn", href="/blog/#{lastPost.slug}") Read our blog
 
       each project, index in projects
         if index > numberOfProjects - 2 && index < numberOfProjects

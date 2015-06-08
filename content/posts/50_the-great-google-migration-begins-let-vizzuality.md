@@ -1,5 +1,5 @@
 ---
-title: The Great Google Migration Begins: Let Vizzuality be your guide
+title: 'The Great Google Migration Begins: Let Vizzuality be your guide'
 date: 2015-01-20
 author: jamie
 ---

@@ -96,7 +96,7 @@ block main
   if data.modules.video
     section.m-project-detail-video
       .row
-        .grid-sm-14.grid-lg-12.offset-lg-1
+        .grid-sm-14.grid-lg-10.offset-lg-2
           h2= data.modules.video.title
           iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
   
@@ -109,14 +109,14 @@ block main
               .m-project-opinion-item: div
                 if opinion.photo
                   p.m-project-opinion-photo: img(src=opinion.photo)
-                p.m-project-opinion-text= opinion.title
+                p.m-project-opinion-text !{opinion.title}
                 p.m-project-opinion-autor !{opinion.autor}
           else
             .grid-sm-14.grid-lg-4
               .m-project-opinion-item: div
                 if opinion.photo
                   p.m-project-opinion-photo: img(src=opinion.photo)
-                p.m-project-opinion-text= opinion.title
+                p.m-project-opinion-text !{opinion.title}
                 p.m-project-opinion-autor !{opinion.autor}
 
   section.m-message
@@ -130,5 +130,5 @@ block main
       .veil
       .row
         .grid-sm-14.grid-lg-12.offset-lg-1
-            p Next project
+            p= next.client
             h1: a(href="/projects/#{next.slug}")= next.title
