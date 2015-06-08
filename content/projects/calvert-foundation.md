@@ -13,7 +13,7 @@ highlighted:   true
 modules:
 
     blocks:
-        title: High fidelity analysis
+        title: A strong foundation for exploring impact
         modules:
             -
                 image: calvertFoundation-block1.jpg

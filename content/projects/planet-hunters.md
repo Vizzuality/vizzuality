@@ -30,6 +30,11 @@ modules:
                 description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications 
 
 
+    map:
+        title: Start classifying right now!
+        description:
+        url: http://www.planethunters.org/#/classify
+
     video:
         title: "Behind the scenes of Planet Hunters"
         url: https://player.vimeo.com/video/21618431

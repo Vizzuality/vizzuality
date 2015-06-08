@@ -28,6 +28,11 @@ modules:
                 image: webvolution_block6.jpg
                 description: "Two new visualizations have been added to the original version: number of users and web traffic evolution through the last 20 years."
 
+    map:
+        title: Take a look
+        description:
+        url: http://www.evolutionoftheweb.com/
+
 opinions:
     -
         title: "An awesome interactive infographic: Evolution of the Web"
