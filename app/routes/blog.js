@@ -16,8 +16,11 @@ module.exports = function(app) {
     var items = page * itemsPerPage;
 
     file.getFiles(postsPath, isProduction, function(err, data) {
+      var posts = _.sortBy(data, function(d) {
+        return -new Date(d.date).valueOf();
+      }).slice(items - itemsPerPage, items);
       res.render('posts/index', {
-        posts: _.sortBy(data, '-date').slice(items - itemsPerPage, items),
+        posts: posts,
         prev: page === 1 ? null : page - 1,
         next: page === (data.length - 1) && data.length <= itemsPerPage ? null : page + 1
       });
@@ -27,10 +30,13 @@ module.exports = function(app) {
 
   app.get('/blog/:slug', function(req, res) {
 
-    file.getFiles(postsPath, isProduction, function(err, posts) {
+    file.getFiles(postsPath, isProduction, function(err, data) {
       var result, index = 0;
+      var posts = _.sortBy(data, function(d) {
+        return -new Date(d.date).valueOf();
+      });
 
-      _.each(_.sortBy(posts, '-date'), function(post, i) {
+      _.each(posts, function(post, i) {
         if (post.slug === req.params.slug) {
           result = post;
           index = i;

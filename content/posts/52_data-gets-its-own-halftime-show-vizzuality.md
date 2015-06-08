@@ -1,5 +1,5 @@
 ---
-title:	Data gets its own halftime show: Vizzuality launches the new Google Trends API
+title:	'Data gets its own halftime show: Vizzuality launches the new Google Trends API'
 author:	Jamie Gibson
 date: 	2015-02-04
 ---

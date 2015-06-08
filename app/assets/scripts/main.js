@@ -334,8 +334,8 @@
       var bounds = L.latLngBounds(pointB, pointA);
 
       map.fitBounds(bounds, {
-        paddingTopLeft: [100, 100],
-        paddingBottomRight: [0, 100]
+        paddingTopLeft: [0, 100],
+        paddingBottomRight: [0, 170]
       });
 
       setTimeout(function() {
@@ -371,10 +371,14 @@
       generateRoute(userPos, MADRID);
 
       madridOffice.addEventListener('click', function() {
+        madridOffice.className = 'm-map-location-item is-highlighted';
+        cambridgeOffice.className = 'm-map-location-item';
         generateRoute(userPos, MADRID);
       }, false);
 
       cambridgeOffice.addEventListener('click', function() {
+        madridOffice.className = 'm-map-location-item';
+        cambridgeOffice.className = 'm-map-location-item is-highlighted';
         generateRoute(userPos, CAMBRIDGE);
       }, false);
     }
