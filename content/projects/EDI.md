@@ -17,12 +17,12 @@ modules:
     text_left:
         title: Progressive disclosure for progressive causes
         description: Getting the data out there is great but, to command the attention this important issue deserves, you need a fast, interactive and captivating application. The EDI contains a lot of data. We created an intelligent architecture that places the most important information up top, then reveals greater detail when you find a topic you want to analyse more deeply.
-        image: 
+        image: EDI_high1.png
 
     text_right:
         title: Strong design to strengthen transparency
         description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and access barriers, the EDI website makes the data truly transparent.
-        image: 
+        image: EDI_high2.png
 
     map:
         title: Check it out for yourself!
