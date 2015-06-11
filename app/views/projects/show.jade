@@ -108,14 +108,14 @@ block main
             .grid-sm-14.grid-lg-4.offset-lg-1
               .m-project-opinion-item: div
                 if opinion.photo
-                  p.m-project-opinion-photo: img(src=opinion.photo)
+                  p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
                 p.m-project-opinion-text !{opinion.title}
                 p.m-project-opinion-autor !{opinion.autor}
           else
             .grid-sm-14.grid-lg-4
               .m-project-opinion-item: div
                 if opinion.photo
-                  p.m-project-opinion-photo: img(src=opinion.photo)
+                  p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
                 p.m-project-opinion-text !{opinion.title}
                 p.m-project-opinion-autor !{opinion.autor}
 

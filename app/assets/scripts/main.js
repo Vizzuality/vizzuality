@@ -2,6 +2,8 @@
 
   'use strict';
 
+  console.info('Welcome to Vizzuality\'s website :)');
+
   // Choising click event
   var clickEvent = window.ontouchstart ? 'ontouchstart' : 'onclick';
 
