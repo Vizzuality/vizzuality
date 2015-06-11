@@ -17,11 +17,6 @@ modules:
         description: At Vizzuality we strongly believe that if people are entertained and surprised by a visualisation they can more easily engage with the data and gain new understanding of a topic. The vertical bar on every page combines the enjoyment reward of interaction with the analytical power needed to find insight. 
         image: pc_block2.jpg
 
-    map:
-        title: Take a look at emissions drivers
-        decription:
-        url: http://www.thepolicyclimate.org/sectors/power/subjects/emission_drivers
-
 opinions:
     -
         title: "Really like the new @vizzuality project The Policy Climate Interactive"

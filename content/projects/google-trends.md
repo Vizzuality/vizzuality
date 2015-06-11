@@ -25,16 +25,16 @@ modules:
         description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
         image: GoogleTrends-high3.jpg
 
-        map: 
-            title: Watch it for yourself
-            url: http://nfl.vizzuality.com/?embed=true&theme=light#visualisation/1
-            description: 
+    map: 
+        title: Watch it for yourself
+        url: http://nfl.vizzuality.com/?embed=true&theme=light#visualisation/1
+        description: 
 
 opinions:
     -
-        title: <a href="http://ftw.usatoday.com/2015/01/ftw-exclusive-remember-the-great-storylines-of-the-2014-nfl-season-through-googles-data"> A great reminder of all the amazing moments in the NFL this year including Manning’s record, Odell Beckham Jr.’s catch and more.</a>
-        photo: 
-        autor: Nina Mandell, USA Today
+        title: "A great reminder of all the amazing moments in the NFL this year including Manning’s record, Odell Beckham Jr.’s catch and more."
+        photo: media/usa-today.png
+        autor: <a href="http://ftw.usatoday.com/2015/01/ftw-exclusive-remember-the-great-storylines-of-the-2014-nfl-season-through-googles-data">Nina Mandell, USA Today</a>
 
 ---
 Vizzuality loves to take on big data challenges, so we were honoured and thrilled when Google asked us to work on a flagship visualisation for their new Trends API. The topic was fan loyalty in the lead up to Super Bowl XLIX. Over the course of four weeks we turned anonymised search data from across the United States into a gripping showdown, using a heap of data wrangling, a generous sprinkling of modern design principles and a topping of Vizzuality magic. So sit back and watch the fans react to the biggest plays and shock victories on the road to the Super Bowl.  

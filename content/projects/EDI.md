@@ -11,7 +11,7 @@ image:       edi_02.jpg
 author:      Jamie
 date:        2015-06-01
 order:       19
-highlighted:   true
+highlighted: true
 
 modules:
     text_left:
@@ -35,13 +35,13 @@ modules:
 
 opinions:
     -
-        title: "Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think"
+        title: 'Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think'
         photo: 
         autor: <a href="https://twitter.com/steiny/status/601749330786177025">  Tom Steinburg </a>
     -
-        title: "Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance"
+        title: 'Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance'
         photo:
-        autor: <a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>
+        autor: '<a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>'
 
 ---
 

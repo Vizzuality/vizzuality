@@ -25,11 +25,6 @@ modules:
                 image: ant_block3.jpg
                 description: For this project we made a great effort in improving previous solutions on taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!.
 
-    map:
-        title: Take a look at what's been spotted so far
-        description:
-        url: http://afg.scarmarbin.be/places
-
 opinions:
     -
         title: "Antarctic Field Guide: check out this great resource, with an information page for orca"

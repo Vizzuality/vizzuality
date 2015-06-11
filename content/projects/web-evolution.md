@@ -27,24 +27,24 @@ modules:
             -
                 image: webvolution_block6.jpg
                 description: "Two new visualizations have been added to the original version: number of users and web traffic evolution through the last 20 years."
-
-    map:
-        title: Take a look
-        description:
-        url: http://www.evolutionoftheweb.com/
+# 
+#     map:
+#         title: Take a look
+#         description:
+#         url: http://www.evolutionoftheweb.com/
 
 opinions:
     -
         title: "An awesome interactive infographic: Evolution of the Web"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/bITdailyGR/status/596674593961672704"> bIT Daily </a>
     -
         title: "Evolution of the web, highly recommended for developers, UX designers and geeks in general"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/blue_martini/status/595596653970718720"> bIT Daily </a>
     -
         title: "Infographic Friday, oldie but a goodie. The Evolution of the web: Gives a fantastic view of browser evolution"
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/GrudenDigital/status/479768387111768064"> Gruden </a>
 ---
 
