@@ -325,7 +325,12 @@
 
     var MADRID = L.latLng(40.4346730, -3.7005350);
     var CAMBRIDGE = L.latLng(52.201641, 0.116795);
-    var mapOptions = { center: MADRID, zoom: 8, scrollWheelZoom: false };
+    var mapOptions = {
+      center: MADRID,
+      zoom: 8,
+      scrollWheelZoom: false,
+      zoomControl: false
+    };
     var customIcons = [
       L.divIcon({ className: 'user-marker' }),
       L.divIcon({ className: 'viz-marker' })
