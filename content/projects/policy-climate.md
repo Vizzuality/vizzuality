@@ -16,24 +16,19 @@ modules:
         title: Insight through interaction
         description: At Vizzuality we strongly believe that if people are entertained and surprised by a visualisation they can more easily engage with the data and gain new understanding of a topic. The vertical bar on every page combines the enjoyment reward of interaction with the analytical power needed to find insight. 
         image: pc_block2.jpg
-# 
-#     map:
-#         title: Take a look at emissions drivers
-#         decription:
-#         url: http://www.thepolicyclimate.org/sectors/power/subjects/emission_drivers
 
 opinions:
     -
         title: "Really like the new @vizzuality project The Policy Climate Interactive"
-        photo: media/twitter.png
+        photo: 
         autor: <a href="https://twitter.com/jatorre/status/332286706877345792">Javier de la Torre</a>
     -
         title: "With this interactive website, users can explore climate-related policies and their development over time."
-        photo: 
+        photo:
         autor: <a href="https://cleanenergysolutions.org/resources/policy-climate-interactive-website">Clean Energy Solutions Center</a>
     -
         title: "Yay! RT: Did you know you can do dynamic graphs with CartoDB? The Policy Climate Interactive project"
-        photo: media/twitter.png
+        photo:
         autor: <a href="https://twitter.com/tvargs/status/332598812738723842">Tim Varga</a>
 
 ---
