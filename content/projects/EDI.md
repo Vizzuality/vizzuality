@@ -7,10 +7,10 @@ client_logo: wri.png
 post_url:    http://blog.vizzuality.com/post/119448597451/new-launch-the-environmental-democracy-index-is
 post_title:  "New Launch! Environmental Democracy Index is now live"
 summary:     Open data to initiate transparent discussions
-image:       edi_02.jpg
+image:       edi_03.jpg
 author:      Jamie
 date:        2015-06-01
-order:       19
+order:       5
 highlighted:   true
 
 modules:
