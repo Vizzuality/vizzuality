@@ -27,13 +27,12 @@ modules:
                 description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
             -
                 image: ph_h3.jpg
-                description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications 
-
-
-    map:
-        title: Start classifying right now!
-        description:
-        url: http://www.planethunters.org/#/classify
+                description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications
+# 
+#     map:
+#         title: Start classifying right now!
+#         description:
+#         url: http://www.planethunters.org/#/classify
 
     video:
         title: "Behind the scenes of Planet Hunters"

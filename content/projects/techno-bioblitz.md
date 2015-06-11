@@ -30,7 +30,7 @@ modules:
 opinions:
     -
         title: "Flickrtagger being used at the bioblitz base camp at #tdwg Come and upload your pictures!"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/jatorre/status/25909391251"> Javier de la Torre </a>
 
 ---

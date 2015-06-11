@@ -32,7 +32,7 @@ modules:
 opinions:
     -
         title: "Interesting stories in the Calvert #foundation #social #impact report"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/jannegeurts/status/533298072038957056"> Janne Geurts</a>
 
 ---
