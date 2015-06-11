@@ -4,7 +4,7 @@ short_title: Calvert Foundation
 link:        http://map.calvertfoundation.org/
 client:      Calvert Foundation
 client_logo: 
-image:       calvert_02.jpg
+image:       calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       6
