@@ -1,16 +1,11 @@
 .m-map
   position relative
   min-height 80vh
-  max-height 800px
   background-color $bg-color-2
   color $font-color-2
-
-  #map
-    position absolute
-    top 0
-    left 0
-    width 100%
-    height 100%
+  
+#map
+  min-height 60vh
 
 #mapInput
   position relative
@@ -40,10 +35,7 @@
   background-color $bg-color-1
 
 .m-map-locations
-  position absolute
-  bottom $margin
-  left 0
-  width 100%
+  position relative
 
   .m-map-location-item
     padding $margin
@@ -53,3 +45,20 @@
 
     p, h3
       margin 0
+
+@media screen and (min-width: $screen-sm)
+  .m-map
+    max-height 800px
+    
+  .m-map-locations
+    position absolute
+    bottom $margin
+    left 0
+    width 100%
+  
+  #map
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%

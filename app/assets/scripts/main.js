@@ -408,8 +408,11 @@
     var closeModalBtn = document.getElementById('closeModal');
     var contentModal = document.getElementById('contentModal');
     var data = null;
+    var currentTop = 0;
+    var currentBodyClassName = document.body.className;
 
     function renderProjects() {
+      currentTop = window.pageYOffset;
       projectsModal.className = 'm-modal';
       var templateString = '<h2>{{=title}}</h2>' +
         '<ul>{{@projects}}<li>' +
@@ -423,9 +426,12 @@
         projects: data.projects
       });
       contentModal.innerHTML = html;
+      document.body.className = currentBodyClassName + ' is-modal-open';
     }
 
     function closeModal() {
+      document.body.className = currentBodyClassName;
+      document.body.scrollTop = currentTop;
       projectsModal.className = 'm-modal is-hidden';
     }
 
