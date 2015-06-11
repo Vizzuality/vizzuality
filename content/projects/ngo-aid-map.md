@@ -22,11 +22,6 @@ modules:
         description: "We wanted to remove as much of the burden as possible involved in finding, entering or updating data, making the process quick and easy. This is especially important when trying to mobilise emergency responses: NGO Aid Map was used in Haiti after the 2010 earthquake and recently in the Horn of Africa." 
         image: NGO-high2.jpg
 
-#    map: 
-#        title: "Explore the work of NGOs right now"
-#        description: 
-#        url: http://ngoaidmap.org/
-#
     video:
         title: The video
         url: https://player.vimeo.com/video/22803038
@@ -34,15 +29,15 @@ modules:
 opinions:
     -
         title: "Unlcoking the Black Box: Transparency Matters and the NGO Aid Map"
-        photo: media/aiddata.png
+        photo:
         autor: <a href="http://aiddata.org/blog/unlocking-the-black-box-transparency-matters-and-the-ngo-aid-map"> Harsh Desai and Dan Kent, AidData</a>
     -
         title: "By showing who is doing what & where, @NGOAidMap aims to help #NGOs make smarter decisions:"
-        photo: media/twitter.png
+        photo: 
         autor: <a href="https://twitter.com/InterActionOrg/status/545610446204465153">InterAction</a>
     -
         title: "Loaded with interactive maps, appealing data layouts and rich multimedia, NGO Aid Map serves as an information hub for a broad spectrum of audiences"
-        photo: media/devex.png
+        photo:
         autor: <a href="https://www.devex.com/news/interaction-s-new-ngo-aid-maap-74491">Sivaram Ramachandran</a>
 
 
