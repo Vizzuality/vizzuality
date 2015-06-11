@@ -23,11 +23,6 @@ modules:
         description: "Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data."
         image: cashAtlas-high1.jpg
 
-    map: 
-        url: http://www.cash-atlas.org/
-        title: Cash Atlas
-        description: 
-
     video:
         title: The video
         url: https://www.youtube.com/embed/ijkP6eaHE6Y

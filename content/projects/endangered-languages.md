@@ -16,7 +16,7 @@ highlighted:   true
 modules:
 
     blocks:
-        title: 
+        title: Exploring languages with ease
         modules:
             -
                 image: endangeredLanguages-high1.jpg

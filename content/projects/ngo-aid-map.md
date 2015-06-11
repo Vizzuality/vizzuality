@@ -22,11 +22,6 @@ modules:
         description: "We wanted to remove as much of the burden as possible involved in finding, entering or updating data, making the process quick and easy. This is especially important when trying to mobilise emergency responses: NGO Aid Map was used in Haiti after the 2010 earthquake and recently in the Horn of Africa." 
         image: NGO-high2.jpg
 
-    map: 
-        title: "Explore the work of NGOs right now"
-        description: 
-        url: http://ngoaidmap.org/
-
     video:
         title: The video
         url: https://player.vimeo.com/video/22803038

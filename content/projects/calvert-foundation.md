@@ -29,11 +29,5 @@ modules:
         description: 
         url: http://map.calvertfoundation.org/embed.html#2/8.00/-32.00/nokia-day/stories
 
-opinions:
-    -
-        title: "Interesting stories in the Calvert #foundation #social #impact report"
-        photo: 
-        autor: <a href="https://twitter.com/jannegeurts/status/533298072038957056"> Janne Geurts</a>
-
 ---
 The Calvert Foundation collects lots of information on the social and environmental good achieved through its work, which would usually end up in an annual report. With more people using mobile phones to access information, the trend towards open data and the increasing power of geospatial technology, it was time to visualise their success in a new way. Using a Ruby on Rails front end and a CartoDB back end, we developed an online map tool that allows the public to discover the Foundation's work and share what they learn with their networks. 
