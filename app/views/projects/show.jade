@@ -7,9 +7,9 @@ block main
       .veil
       .row
         .grid-sm-14.grid-lg-12.offset-lg-1
-          p A project for 
+          p(style= data.color ? "color: #{data.color}" : "") A project for 
             strong #{data.client}
-          h1= data.title            
+          h1(style= data.color ? "color: #{data.color}" : "")= data.title            
 
     .m-project-detail-content
       .row
