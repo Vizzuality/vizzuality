@@ -228,12 +228,12 @@
     if (form) {
       // Wohooo
       var words = [
-        'Cheers!', 'Thanks!', 'Adiós!', 'Yours Sincerely',
+        'Cheers!', 'Thanks!', 'Un saludo', 'Yours Sincerely,',
         'Yours in coding!', 'Vielen Dank!',
-        'Greetings from Winterfell',
-        'See you at the Party Richter',
-        'I\'ll be back',
-        'May the force be with you'
+        'Greetings from Winterfell,',
+        'See you at the Party Richter,',
+        'I\'ll be back,',
+        'May the force be with you,'
       ];
       var len = words.length;
       var counter = 0;
