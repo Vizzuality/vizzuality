@@ -2,6 +2,8 @@
 
   'use strict';
 
+  console.info('Welcome to Vizzuality\'s website :)');
+
   // Choising click event
   var clickEvent = window.ontouchstart ? 'ontouchstart' : 'onclick';
 
@@ -228,7 +230,7 @@
     if (form) {
       // Wohooo
       var words = [
-        'Cheers!', 'Thanks!', 'Un saludo', 'Yours Sincerely,',
+        'Cheers!', 'Thanks!', 'Un saludo,', 'Yours Sincerely,',
         'Yours in coding!', 'Vielen Dank!',
         'Greetings from Winterfell,',
         'See you at the Party Richter,',
@@ -244,7 +246,7 @@
         if (counter === len) {
           counter = 0;
         }
-        regards.textContent = words[counter] + ',';
+        regards.textContent = words[counter];
       };
 
       // On submit form
@@ -323,7 +325,12 @@
 
     var MADRID = L.latLng(40.4346730, -3.7005350);
     var CAMBRIDGE = L.latLng(52.201641, 0.116795);
-    var mapOptions = { center: MADRID, zoom: 8, scrollWheelZoom: false };
+    var mapOptions = {
+      center: MADRID,
+      zoom: 8,
+      scrollWheelZoom: false,
+      zoomControl: false
+    };
     var customIcons = [
       L.divIcon({ className: 'user-marker' }),
       L.divIcon({ className: 'viz-marker' })

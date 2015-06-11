@@ -9,7 +9,7 @@ post_title:  "Neemo, crowd-sourcing seafloor biodiversity identification"
 image:       neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       13
+order:       15
 highlighted:   true
 
 modules:
