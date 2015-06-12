@@ -19,9 +19,9 @@ The heterogeneity of the data I did find was also surprising. In San Francisco, 
 
 Sea level changes are likely to affect everyone in some way as it causes, amongst other things, large population movements, loss of homes, offices and factories and changes to soil and water salinity. We think stories like this need to reach new populations, but we won’t be able to tell these stories effectively if it’s difficult to access accurate data and science. My recommendations to make it easier are:
 
-1.  Governments could make their data \*even\* more open (i.e. free and quickly available at the point of access)
+1.  Governments could make their data *even* more open (i.e. free and quickly available at the point of access)
 2.  Governments and other organisations could make it easier to discover information by using simpler interfaces with their data
-3.  DEMs needs to be collected and stored more consistently<
+3.  DEMs needs to be collected and stored more consistently
 4.  The data and models behind some analyses are difficult to discover or use, especially for non-technical users; this could be made easier.
 
 Hope you like it!
