@@ -5,9 +5,9 @@
   width 100%
   height 100%
 
-  background-color rgba($bg-color-2, 0.3)
+  background-color $bg-color-1
 
-  z-index 100
+  z-index 100000
 
 .m-modal-content
   position absolute
@@ -15,11 +15,12 @@
   left 5%
   right 5%
   max-height 90%
+  max-width $max-width
   padding $margin * 2
   overflow auto
   -webkit-overflow-scrolling touch
 
-  background-color $bg-color-1
+  // background-color $bg-color-1
 
 
   h2

@@ -10,7 +10,8 @@ image:       techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
 order:       18
-highlighted:   true
+grid:        2
+highlighted: true
 
 modules:
     text_left:
@@ -30,7 +31,7 @@ modules:
 opinions:
     -
         title: "Flickrtagger being used at the bioblitz base camp at #tdwg Come and upload your pictures!"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/jatorre/status/25909391251"> Javier de la Torre </a>
 
 ---

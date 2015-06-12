@@ -7,11 +7,11 @@ client_logo: wri.png
 post_url:    http://blog.vizzuality.com/post/119448597451/new-launch-the-environmental-democracy-index-is
 post_title:  "New Launch! Environmental Democracy Index is now live"
 summary:     Open data to initiate transparent discussions
-image:       edi_02.jpg
+image:       edi_03.jpg
 author:      Jamie
 date:        2015-06-01
-order:       19
-highlighted:   true
+order:       5
+highlighted: true
 
 modules:
     text_left:
@@ -30,13 +30,13 @@ modules:
 
 opinions:
     -
-        title: "Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think"
+        title: 'Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think'
         photo: 
         autor: <a href="https://twitter.com/steiny/status/601749330786177025">  Tom Steinburg </a>
     -
-        title: "Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance"
+        title: 'Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance'
         photo:
-        autor: <a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>
+        autor: '<a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>'
 
 ---
 

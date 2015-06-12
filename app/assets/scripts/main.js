@@ -2,6 +2,8 @@
 
   'use strict';
 
+  console.info('Welcome to Vizzuality\'s website :)');
+
   // Choising click event
   var clickEvent = window.ontouchstart ? 'ontouchstart' : 'onclick';
 
@@ -228,12 +230,12 @@
     if (form) {
       // Wohooo
       var words = [
-        'Cheers!', 'Thanks!', 'Adiós!', 'Yours Sincerely',
+        'Cheers!', 'Thanks!', 'Un saludo,', 'Yours Sincerely,',
         'Yours in coding!', 'Vielen Dank!',
-        'Greetings from Winterfell',
-        'See you at the Party Richter',
-        'I\'ll be back',
-        'May the force be with you'
+        'Greetings from Winterfell,',
+        'See you at the Party Richter,',
+        'I\'ll be back,',
+        'May the force be with you,'
       ];
       var len = words.length;
       var counter = 0;
@@ -244,7 +246,7 @@
         if (counter === len) {
           counter = 0;
         }
-        regards.textContent = words[counter] + ',';
+        regards.textContent = words[counter];
       };
 
       // On submit form
@@ -323,7 +325,12 @@
 
     var MADRID = L.latLng(40.4346730, -3.7005350);
     var CAMBRIDGE = L.latLng(52.201641, 0.116795);
-    var mapOptions = { center: MADRID, zoom: 8, scrollWheelZoom: false };
+    var mapOptions = {
+      center: MADRID,
+      zoom: 8,
+      scrollWheelZoom: false,
+      zoomControl: false
+    };
     var customIcons = [
       L.divIcon({ className: 'user-marker' }),
       L.divIcon({ className: 'viz-marker' })
@@ -408,8 +415,11 @@
     var closeModalBtn = document.getElementById('closeModal');
     var contentModal = document.getElementById('contentModal');
     var data = null;
+    var currentTop = 0;
+    var currentBodyClassName = document.body.className;
 
     function renderProjects() {
+      currentTop = window.pageYOffset;
       projectsModal.className = 'm-modal';
       var templateString = '<h2>{{=title}}</h2>' +
         '<ul>{{@projects}}<li>' +
@@ -423,9 +433,12 @@
         projects: data.projects
       });
       contentModal.innerHTML = html;
+      document.body.className = currentBodyClassName + ' is-modal-open';
     }
 
     function closeModal() {
+      document.body.className = currentBodyClassName;
+      document.body.scrollTop = currentTop;
       projectsModal.className = 'm-modal is-hidden';
     }
 
