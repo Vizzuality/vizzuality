@@ -2,9 +2,8 @@
 
   .l-header-top
     padding ($margin * 2) $margin $margin
-    z-index 3
-    transition background-color .25s ease
     background-color transparent
+    z-index 3
 
     .is-project-detail-page &
       background-color transparent
@@ -14,10 +13,13 @@
 
     .l-header-top
       position fixed
+      top 0
       width 100%
       max-width $max-width
-      top 0
+
       background-color rgba($bg-color-1, 0.95)
+      
+      animation slideheader .5s ease
 
       .is-project-detail-page &
         background-color rgba($bg-color-1, 0.95)
@@ -89,3 +91,16 @@
       display inline-block
       text-align left
       margin ($margin * 2) auto
+
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slideheader
+  from
+    transform translate(0, -90px)
+
+  to
+    transform translate(0, 0)
