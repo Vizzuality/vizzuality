@@ -3,7 +3,7 @@ title:       Yesterday’s weather for tomorrow’s climate
 short_title: Old Weather
 link:        http://www.oldweather.org/
 client:      Zooniverse
-client_logo: 
+client_logo: zooniverse.png
 post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project-is-complete-1-6-million
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 summary:     "Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)"

@@ -3,7 +3,7 @@ title:       Following cash on the road to recovery
 short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
-client_logo: 
+client_logo: calp.png
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07

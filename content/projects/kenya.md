@@ -2,7 +2,7 @@
 title:       The future of farming is satellite SMS 
 short_title: Big Data, Small Screens
 client:      Zeitz Foundation
-client_logo: 
+client_logo: zeitz.png
 post_url:    "http://blog.vizzuality.com/post/114042422481/thought-for-food"
 post_title:  "Thought for Food: we’re bringing satellite data to smallholders"
 summary:     "Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers."
