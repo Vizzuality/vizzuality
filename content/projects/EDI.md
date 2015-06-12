@@ -24,11 +24,6 @@ modules:
         description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and access barriers, the EDI website makes the data truly transparent.
         image: EDI_high2.png
 
-    map:
-        title: Check it out for yourself!
-        description: 
-        url: http://environmentaldemocracyindex.org/map#all
-
     video:
         title: Lalanath DeSilva talks about the Environmental Democracy Index
         url: https://www.youtube.com/embed/HuFk7RYy91Q
