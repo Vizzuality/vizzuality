@@ -16,7 +16,9 @@ module.exports = function(app) {
 
     file.getFiles(postsPath, isProduction, function(err, posts) {
 
-      var lastPost = _.first(_.sortBy(posts, '-date'));
+      var lastPost = _.first(_.sortBy(posts, function(p) {
+        return new Date(p.date).valueOf() * -1;
+      }));
 
       file.getFiles(projectsPath, isProduction, function(err, data) {
         res.render('projects/index', {
