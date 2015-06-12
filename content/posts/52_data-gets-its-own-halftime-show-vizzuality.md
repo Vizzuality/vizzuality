@@ -4,7 +4,7 @@ author:	Jamie Gibson
 date: 	2015-02-04
 ---
 
-![Visulisation 1](/assets/images/products/GoogleTrends-high1.jpg)
+![Visulisation 1](/assets/images/projects/GoogleTrends-high1.jpg)
 
 [See the final product here](http://bit.ly/1Kqzfco)
 
@@ -18,6 +18,6 @@ Our task was simple: visualise the search patterns of the USA’s NFL fans over 
 
 [Visualisation 2](http://bit.ly/1Kqz8O3) narrows this story down for the Super Bowl contestants: New England Patriots and Seattle Seahawks. We took a slightly different approach, showing the variation in strength of searches across the country; you can clearly see the strongholds near each team’s base. We also added key stats from the matches played each week to illustrate the key events of each week, as context for what people were searching for each week.
 
-![Visualisation 2](/assets/images/products/GoogleTrends-high2.jpg)
+![Visualisation 2](/assets/images/projects/GoogleTrends-high2.jpg)
 
 For a system that is already having a huge impact by helping to track the spread of diseases, we’re really excited by the future uses for Google Trends. Imagine if you could track flood events from people searching for ‘sandbags’ or ‘local weather’, or use searches for ‘food banks’ or ‘food stamps’ to reveal the extent of poverty and malnourishment… We look forward to working with the trends API into the future.

@@ -28,7 +28,7 @@ More and more farmers find information on their phones
 
 Another method used to improve smallholder productivity has been to develop information systems that deliver information, on things like weather or market prices, through SMS services. One such service in East Africa already sends 30,000 SMS messages a month; so there is clearly a lot of potential there. However, reports by the FAO and USAID suggest that women are less able to access these services than men; working with the Zeitz Foundation and communities in Laikipia, we also hope to redress the gender imbalance of the audience.  
 
-![image](assets/images/posts/60_c.png)
+![image](/assets/images/posts/60_c.png)
 
 In the future, we will be able to do more than just text smallholders. Research suggests that the trend in mobile ownership and use is only likely to accelerate into the future: it is anticipated that 4bn adults will own a smartphone by 2020, and around 300 million people in the Middle East and Africa region should have access to a 4G network. Within a few short years we will be able to send customised maps and rich visualisations to help smallholders plan and manage their land more effectively, and level the playing field in terms of access to information.
 
@@ -40,7 +40,7 @@ The most exciting part of this project for us is the potential to work with big 
 Giving smallholders the tools to secure their own livelihoods
 -------------------------------------------------------------
 
-![image](assets/images/posts/60_d.png)
+![image](/assets/images/posts/60_d.png)
 
 What we want to do with this project is build a system that gives smallholders the information they need, in their hands right when they need it, to build more productive, climate and biodiversity smart farming systems. With this, smallholders can learn about upcoming weather events to prepare for (flooding, drought), market opportunities and new techniques which can improve their productivity. They could then provide feedback on how successful certain innovations were, or propose their own proven technique for others to learn from and use.
 

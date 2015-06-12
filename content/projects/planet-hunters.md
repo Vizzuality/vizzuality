@@ -3,7 +3,7 @@ title:       Bringing the stars to your living room
 short_title: Planet Hunters
 link:        http://www.planethunters.org/
 client:      Zooniverse
-client_logo: 
+client_logo: zooniverse.png
 post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed-planet-discovered-by
 post_title:  "'PH1', the first confirmed planet discovered by Planet Hunters"
 summary:     "Take part in one of the biggest scientific missions of the 21st Century: the search for planets outside our solar system."
@@ -41,15 +41,15 @@ modules:
 opinions:
     -
         title: "K2 (Kepler) data is out on Planet Hunters! Start classifying! You might just discover a planet! via /r/space http://bit.ly/12ZjN8T  #space"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/mannooran/status/542072681915772928"> Jestin Mannoor </a>
     -
         title: “It works so well that in just a few short months of operation, the more than 22,000 visitors to the website have found nearly 50 potential planets”
-        photo:
+        photo: media/time.png
         autor: <a href="http://www.time.com/time/health/article/0,8599,2065049,00.html"> TIME </a>
     -
         title: “Here's a fun and exciting online astronomy game using real scientific data where you, the citizen-scientist, identify stars that may have planets orbiting them.”
-        photo:
+        photo: media/theguardian.png
         autor: <a href="http://www.guardian.co.uk/science/punctuated-equilibrium/2010/dec/17/3"> The Guardian </a>
 
 ---

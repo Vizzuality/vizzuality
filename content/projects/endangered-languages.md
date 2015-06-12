@@ -39,15 +39,15 @@ modules:
 opinions:
     -
         title: "While language can be considered an integral fiber that connects a community, the Web is what connects the world today. And a new website, called the Endangered Languages Project, aims to connect and collect the most current and comprehensive information about the more than 3,000 endangered languages of the world"
-        photo:
+        photo: media/latimes.png
         autor: <a href="http://www.latimes.com/business/technology/la-fi-tn-google-languages-project-20120621,0,632360.story">Los Angeles Times</a>
     -
         title: "The site features videos and an interactive map. The curious can click on any one of the dots that hang over each country (including a suprising number in the U.S.), each representing a whole language"
-        photo:
+        photo: media/cnn.png
         autor: <a href="http://edition.cnn.com/2012/06/21/tech/web/google-fights-save-language-mashable/">CNN</a>
     -
         title: 'AMAAAAZING map of endangered languages. Who knew ~1,100 people in America speak "Kickapoo"?'
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/MonaChalabi/status/591232515941257216">Mona Chalabi</a>
 
 ---

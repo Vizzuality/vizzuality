@@ -3,7 +3,7 @@ title:       Updating the history of the web
 short_title: Evolution of the Web
 link:        http://www.evolutionoftheweb.com/
 client:      Google Chrome and Hyperakt
-client_logo: google.png
+client_logo: chrome-hyperakt.png
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
 image:       evolution_01.jpg

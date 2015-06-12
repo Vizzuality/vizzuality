@@ -16,4 +16,4 @@ Simão joined Vizzuality in December 2014 as a Product Developer. He likes to be
 
 Simão did his degree and masters in Software Engineering at the Faculty of Engineering of the University of Porto. In 2009 he followed his girlfriend to Cambridge and found a job at UNEP-WCMC, where he developed software and managed projects, including the CITES Species database. 
 
-Outside his working hours he will be playing football or helping organise events as a member of the alumni association of his alma mater. He is also very keen and a big fan of his “humour”: if you sense a joke coming up, run for cover!  
+Outside his working hours he will be playing football or helping organise events as a member of the alumni association of his alma mater. He is also very keen and a big fan of his “humour”:  if you sense a joke coming up, run for cover!  

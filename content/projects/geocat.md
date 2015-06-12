@@ -3,7 +3,7 @@ title:       Finding endangered species before it’s too late
 short_title: GEOCAT
 link:        http://geocat.kew.org/
 client:      Kew Gardens, IUCN and ViBRANT
-client_logo: 
+client_logo: geocat.png
 image:       red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07

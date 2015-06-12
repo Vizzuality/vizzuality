@@ -3,7 +3,7 @@ title:       Following cash on the road to recovery
 short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
-client_logo: 
+client_logo: calp.png
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -30,14 +30,16 @@ modules:
 opinions:
     -
         title: "There is a need to globally assess how cash programmes are being implemented. CaLP is developing a cash mapping tool aiming to visually represent the usage of cash transfer programmes at a global level."
-        photo:
+        photo: media/reliefweb.png
         autor: <a href="http://reliefweb.int/report/world/cash-atlas-calps-cash-mapping-tool">Reliefweb</a>
     -
         title: "The current dynamism of the cash assistance sector has been made visible by a new online tool from the Cash Learning Partnership (CaLP), a Cash Atlas"
-        photo:
+        photo: media/irin.png
         autor: <a href="http://www.irinnews.org/report/100420/latest-innovations-in-cash-transfers">IRIN News</a>
     -
         title: "<a href='http://www.cashlearning.org/admin/viewemail.php?id=224'>I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers.</a>"
+        photo: app/assets/images/clients/calp.png
+        autor: Alexandre Castellano
 
 ---
 
