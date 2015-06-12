@@ -3,7 +3,7 @@ title:       Analysing climate policy impact
 short_title: The Policy Climate
 link:        http://www.thepolicyclimate.org/
 client:      Climate Policy Initiative
-client_logo: 
+client_logo: climate.png
 image:       policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -20,15 +20,15 @@ modules:
 opinions:
     -
         title: "Really like the new @vizzuality project The Policy Climate Interactive"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/jatorre/status/332286706877345792">Javier de la Torre</a>
     -
         title: "With this interactive website, users can explore climate-related policies and their development over time."
-        photo:
+        photo: media/cesc.png
         autor: <a href="https://cleanenergysolutions.org/resources/policy-climate-interactive-website">Clean Energy Solutions Center</a>
     -
         title: "Yay! RT: Did you know you can do dynamic graphs with CartoDB? The Policy Climate Interactive project"
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/tvargs/status/332598812738723842">Tim Varga</a>
 
 ---

@@ -17,10 +17,12 @@ block main
           p
             if data.twitter == 'danielcasius'
               a(href="http://open.spotify.com/track/4hnMsfqrEM6K8FIRPmxnZs") 1375°C - Los hijos de la Plaga (2010)
+            else if data.dribble
+              a(href="https://dribbble.com/#{data.github}") Linkedin
             else
               a(href="https://github.com/#{data.github}") Github
             br
-            a(href="https://linkedin.com/#{data.github}") Linkedin
+            a(href="https://linkedin.com/in/#{data.github}") Linkedin
             br
             a(href="mailto:#{data.email}") Email
   

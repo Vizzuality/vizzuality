@@ -3,7 +3,7 @@ title:       Mapping data for development
 short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
-client_logo: 
+client_logo: interaction.png
 summary:     Easy access to accurate information so non-profits can plan effective development actions
 image:       ngo_08b.jpg
 author:      Jamie Gibson
@@ -28,16 +28,16 @@ modules:
 
 opinions:
     -
-        title: "Unlcoking the Black Box: Transparency Matters and the NGO Aid Map"
-        photo:
+        title: "Unlocking the Black Box: Transparency Matters and the NGO Aid Map"
+        photo: media/aiddata.png
         autor: <a href="http://aiddata.org/blog/unlocking-the-black-box-transparency-matters-and-the-ngo-aid-map"> Harsh Desai and Dan Kent, AidData</a>
     -
         title: "By showing who is doing what & where, @NGOAidMap aims to help #NGOs make smarter decisions:"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/InterActionOrg/status/545610446204465153">InterAction</a>
     -
         title: "Loaded with interactive maps, appealing data layouts and rich multimedia, NGO Aid Map serves as an information hub for a broad spectrum of audiences"
-        photo:
+        photo: media/devex.png
         autor: <a href="https://www.devex.com/news/interaction-s-new-ngo-aid-maap-74491">Sivaram Ramachandran</a>
 
 

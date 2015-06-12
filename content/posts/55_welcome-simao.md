@@ -4,7 +4,7 @@ date: 	2015-02-24
 author: Jamie Gibson
 ---
 
-![image](/assets/images/team/simao-belchior.jpg)
+![Simao](/assets/images/team/simao-belchior.png)
 
 We are very pleased to introduce [Simão Belchior](http://www.vizzuality.com/team/simao_belchior) to Vizzuality as a Product Developer. He’ll bring a continental blend of back-end development, agile management and business development to the Cambridge office. Already in his short time at the company he has helped us develop visualisations for [Google](http://www.vizzuality.com/projects/google_trends) and has started work on some exciting new projects (keep an eye on this blog for announcements).
 

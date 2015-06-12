@@ -2,7 +2,7 @@
 title:       The future of farming is satellite SMS 
 short_title: Big Data, Small Screens
 client:      Zeitz Foundation
-client_logo: 
+client_logo: zeitz.png
 post_url:    "http://blog.vizzuality.com/post/114042422481/thought-for-food"
 post_title:  "Thought for Food: we’re bringing satellite data to smallholders"
 summary:     "Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers."
@@ -31,15 +31,15 @@ modules:
 opinions:
     -
         title: SMS is a reliable communication baseline worldwide, but it's still under-leveraged. <a href="http://bit.ly/ThoughtforFood">@Vizzuality has an idea </a>.
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/vtcraghead/status/578574072109465600"> Bill Morris </a>
     -
         title: Thx to <a href="https://twitter.com/craigmmills"> @craigmmills </a> for the headsup on that last tweet - very impressed with the work @Vizzuality
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/theboysmithy/status/578592282024247296"> Alan Smith </a>
     -
         title: "This is great! I want to get involved with this."
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/jeffjstephens/status/578580321387458562"> Jeff Stephens </a>
 
 ---

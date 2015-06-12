@@ -3,7 +3,7 @@ title:       Prepare for Antarctic Adventures
 short_title: Antarctic Field Guide
 link:        http://afg.scarmarbin.be/
 client:      SCAR-MarBIN and ANTABIF
-client_logo: 
+client_logo: antarctic.png
 image:       antartic_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -28,11 +28,11 @@ modules:
 opinions:
     -
         title: "Antarctic Field Guide: check out this great resource, with an information page for orca"
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/BDMLROrcaAware/status/246201903329992704"> Orca Aware </a>
     -
         title: "If you would ever travel to the Antarctics... - Build and share your custom Antarctic Field Guide"
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/Biodiversity_be/status/10352616378732544"> Belgian Biodiversity </a>
 
 ---
