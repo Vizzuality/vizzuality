@@ -32,7 +32,7 @@ opinions:
     -
         title: 'Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think'
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/steiny/status/601749330786177025">  Tom Steinburg, mySociety </a>
+        autor: <a href="https://twitter.com/steiny/status/601749330786177025">  Tom Steinburg </a>
     -
         title: 'Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance'
         photo: media/twitter.png
