@@ -31,15 +31,15 @@ modules:
 opinions:
     -
         title: SMS is a reliable communication baseline worldwide, but it's still under-leveraged. <a href="http://bit.ly/ThoughtforFood">@Vizzuality has an idea </a>.
-        photo: 
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/vtcraghead/status/578574072109465600"> Bill Morris </a>
     -
         title: Thx to <a href="https://twitter.com/craigmmills"> @craigmmills </a> for the headsup on that last tweet - very impressed with the work @Vizzuality
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/theboysmithy/status/578592282024247296"> Alan Smith </a>
     -
         title: "This is great! I want to get involved with this."
-        photo:
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/jeffjstephens/status/578580321387458562"> Jeff Stephens </a>
 
 ---
