@@ -34,7 +34,7 @@ opinions:
         photo: media/twitter.png
         autor: <a href="https://twitter.com/steiny/status/601749330786177025">  Tom Steinburg </a>
     -
-        title: 'Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance'
+        title: 'Fabulous job from Vizzuality in helping WRI produce the <a href="http://www.environmentaldemocracyindex.org">Environmental Democracy Index</a> @Vizzuality @WRIgovernance'
         photo: media/twitter.png
         autor: '<a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>'
 
