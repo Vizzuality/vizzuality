@@ -147,7 +147,7 @@ $margin-bottom = $margin * 4
 
   .thumb
     margin-top 1px
-    height rem(200px)
+    max-height rem(200px)
     overflow hidden
     outline 1px solid rgba(0, 0, 0, .1)
 
@@ -156,7 +156,7 @@ $margin-bottom = $margin * 4
       height auto
 
     @media screen and (min-width: $screen-sm)
-      height rem(260px)
+      max-height rem(260px)
 
 // Module iframe
 .m-project-detail-iframe
