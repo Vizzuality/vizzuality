@@ -4,6 +4,7 @@ position:   Designer
 phrase:     "If you wish to make an apple pie from scratch, you must first invent the universe."
 twitter:    mrheston
 linkedin:   "https://www.linkedin.com/in/evilluendas"
+dribble:	mrheston
 github:		mrheston
 email:      eduardo.villuendas@vizzuality.com
 photo:      Eduardo.jpg
