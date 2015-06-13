@@ -17,7 +17,7 @@ highlighted: true
 modules:
     
     blocks:
-        title: Fluid interface for scientifically valid results
+        title: A fluid interface for scientifically valid results
         modules:
             -
                 image: ph_h1.jpg
@@ -40,7 +40,7 @@ modules:
 
 opinions:
     -
-        title: "K2 (Kepler) data is out on Planet Hunters! Start classifying! You might just discover a planet! via /r/space http://bit.ly/12ZjN8T  #space"
+        title: "K2 (Kepler) data is out on Planet Hunters! Start classifying! You might just discover a planet! via /r/space <a href="http://bit.ly/12ZjN8T">http://bit.ly/12ZjN8T</a> #space"
         photo: media/twitter.png
         autor: <a href="https://twitter.com/mannooran/status/542072681915772928"> Jestin Mannoor </a>
     -
