@@ -19,12 +19,14 @@ block main
               a(href="http://open.spotify.com/track/4hnMsfqrEM6K8FIRPmxnZs") 1375°C - Los hijos de la Plaga (2010)
               br
             if data.dribble
-              a(href="https://dribbble.com/#{data.github}") Dribble
-            else
+              a(href="https://dribbble.com/#{data.dribble}") Dribble
+              br
+            if data.github
               a(href="https://github.com/#{data.github}") Github
-            br
-            a(href="https://linkedin.com/in/#{data.github}") Linkedin
-            br
+              br
+            if data.linkedin
+              a(href="#{data.linkedin}") Linkedin
+              br
             a(href="mailto:#{data.email}") Email
   
   section.m-prev-next-team
