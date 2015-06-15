@@ -3,24 +3,19 @@ title:       Analysing climate policy impact
 short_title: The Policy Climate
 link:        http://www.thepolicyclimate.org/
 client:      Climate Policy Initiative
-client_logo: 
+client_logo: climate.png
 image:       policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       17
-grid:        1
-highlighted:   true
+grid:        2
+highlighted: true
 
 modules:
     text_left:
         title: Insight through interaction
         description: At Vizzuality we strongly believe that if people are entertained and surprised by a visualisation they can more easily engage with the data and gain new understanding of a topic. The vertical bar on every page combines the enjoyment reward of interaction with the analytical power needed to find insight. 
         image: pc_block2.jpg
-# 
-#     map:
-#         title: Take a look at emissions drivers
-#         decription:
-#         url: http://www.thepolicyclimate.org/sectors/power/subjects/emission_drivers
 
 opinions:
     -
@@ -29,7 +24,7 @@ opinions:
         autor: <a href="https://twitter.com/jatorre/status/332286706877345792">Javier de la Torre</a>
     -
         title: "With this interactive website, users can explore climate-related policies and their development over time."
-        photo: 
+        photo: media/cesc.png
         autor: <a href="https://cleanenergysolutions.org/resources/policy-climate-interactive-website">Clean Energy Solutions Center</a>
     -
         title: "Yay! RT: Did you know you can do dynamic graphs with CartoDB? The Policy Climate Interactive project"

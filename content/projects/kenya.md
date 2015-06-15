@@ -2,7 +2,7 @@
 title:       The future of farming is satellite SMS 
 short_title: Big Data, Small Screens
 client:      Zeitz Foundation
-client_logo: 
+client_logo: zeitz.png
 post_url:    "http://blog.vizzuality.com/post/114042422481/thought-for-food"
 post_title:  "Thought for Food: we’re bringing satellite data to smallholders"
 summary:     "Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers."
@@ -23,7 +23,7 @@ modules:
         description: "Across Africa, farmers are coping with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion."
         image: kenya-high1.png
 
-    text_left:
+    text_left_2:
         title: "We’re just getting started"
         description: "In 5 years we hope to be operating in 3 African countries and delivering messages to 50,000 farmers. To do this we still need funding: to get on board, just contact us."
         image: kenya-wide-highlight.jpg
@@ -46,4 +46,4 @@ opinions:
 
 Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers. Beginning this April we are embarking on a joint research project with the Zeitz Foundation to explore how we can help small scale farmers in Kenya improve their food productivity. Important work, beautifully crafted; it’s what Vizzuality are all about.
 
-For the next growing season, smallholders in Kenya will be getting text messages from satellites to help them play with and adopt new, productive, sustainable farming methods. We’ll be working with farmers, building technology with a combination of Cartodb, Twilio and a little Vizzuality magic to build a pioneering prototype that demonstrates the potential of this idea. We want to excite the world with the possibilities of using big data in small packages to deliver sustainable livelihoods.
+In the future, smallholders in Kenya will be getting text messages from satellites to help them play with and adopt new, productive, sustainable farming methods. We’ll be working with farmers, building technology with a combination of CartoDB, Twilio and a little Vizzuality magic to build a pioneering prototype that demonstrates the potential of this idea. We want to excite the world with the possibilities of using big data in small packages to deliver sustainable livelihoods.

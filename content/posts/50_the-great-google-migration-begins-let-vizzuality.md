@@ -9,7 +9,7 @@ At Vizzuality we have always worked with people that do important things with ma
 
 Since the advent of Google Maps Engine, lots of organisations have used it - from USGS to UNEP, National Geographic to NASA. However, today Google announced the depreciation of Google Maps Engine which for some might leave them in a difficult position. Keen to make sure they can continue to deliver splendid impact to the world, we are offering our services to help transfer over your GME account to CartoDB.
 
-From Google to CartoDB
+## From Google to CartoDB
 
 ![From Google to CartoDB](/assets/images/posts/50_b.png)
 

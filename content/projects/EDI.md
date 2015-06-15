@@ -11,7 +11,11 @@ image:       edi_03.jpg
 author:      Jamie
 date:        2015-06-01
 order:       5
+<<<<<<< HEAD
 highlighted:   true
+=======
+highlighted: true
+>>>>>>> origin/develop
 
 modules:
     text_left:
@@ -24,24 +28,19 @@ modules:
         description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and access barriers, the EDI website makes the data truly transparent.
         image: EDI_high2.png
 
-    map:
-        title: Check it out for yourself!
-        description: 
-        url: http://environmentaldemocracyindex.org/map#all
-
     video:
         title: Lalanath DeSilva talks about the Environmental Democracy Index
         url: https://www.youtube.com/embed/HuFk7RYy91Q
 
 opinions:
     -
-        title: "Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think"
-        photo: 
+        title: 'Spanish data viz pros @Vizzuality have built this for @WorldResources <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think'
+        photo: media/twitter.png
         autor: <a href="https://twitter.com/steiny/status/601749330786177025">  Tom Steinburg </a>
     -
-        title: "Fabulous job from Vizzuality in helping WRI produce the Environmental Democracy Index <a href="http://www.environmentaldemocracyindex.org">http://www.environmentaldemocracyindex.org</a> @Vizzuality @WRIgovernance"
-        photo:
-        autor: <a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>
+        title: 'Fabulous job from Vizzuality in helping WRI produce the <a href="http://www.environmentaldemocracyindex.org">Environmental Democracy Index</a> @Vizzuality @WRIgovernance'
+        photo: media/twitter.png
+        autor: '<a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>'
 
 ---
 

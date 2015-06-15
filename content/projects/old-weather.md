@@ -3,15 +3,16 @@ title:       Yesterday’s weather for tomorrow’s climate
 short_title: Old Weather
 link:        http://www.oldweather.org/
 client:      Zooniverse
-client_logo: 
+client_logo: zooniverse.png
 post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project-is-complete-1-6-million
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 summary:     "Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)"
 image:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       15
-highlighted:   true
+order:       14
+grid:        2
+highlighted: true
 
 modules:
     text_left:
@@ -35,7 +36,7 @@ opinions:
         autor: <a href="http://www.bbc.co.uk/news/science-environment-11532534"> BBC </a>
     -
         title: “Old Weather thus manages to combine crowdsourced citizen science with climate research, naval history, a sense of narrative and vigorous competition between the crews of different virtual ships. That's a pretty impressive combination. Jump aboard!”
-        photo: media/theeconimist.png
+        photo: media/theeconomist.png
         autor: <a href="http://www.economist.com/blogs/babbage/2010/11/crowdsourced_science?fsrc=scn/tw/te/bl/weather1914"> The Economist </a>
     -
         title: “The writing in these logs ranges from scribe-quality copperplate to slapdash and scruffy, and computers make too many errors to be useful for transcribing them. But human eyes and brains are good at interpreting written words.”
