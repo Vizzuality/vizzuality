@@ -11,11 +11,7 @@ image:       edi_03.jpg
 author:      Jamie
 date:        2015-06-01
 order:       5
-<<<<<<< HEAD
-highlighted:   true
-=======
 highlighted: true
->>>>>>> origin/develop
 
 modules:
     text_left:

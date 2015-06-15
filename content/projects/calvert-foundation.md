@@ -3,11 +3,7 @@ title:       Mapping Success for the Calvert Foundation
 short_title: Calvert Foundation
 link:        http://map.calvertfoundation.org/
 client:      Calvert Foundation
-<<<<<<< HEAD
-client_logo: 
-=======
 client_logo: calvert.png
->>>>>>> origin/develop
 image:       calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
