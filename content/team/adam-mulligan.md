@@ -4,6 +4,7 @@ position:   Engineer
 phrase:     "Explore the world. Nearly everything is really interesting if you go into it deeply enough."
 twitter:    amulligan
 linkedin:   "https://uk.linkedin.com/pub/adam-mulligan/80/17a/b21"
+github:		adammulligan
 email:      adam.mulligan@vizzuality.com
 photo:      Adam.jpg
 author:     Alicia

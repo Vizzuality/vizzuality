@@ -4,6 +4,7 @@ position:   Engineer
 phrase:     "140 beats per minute, 140 lines of code a minute"
 twitter:    schkudlara
 linkedin:   "https://es.linkedin.com/in/schkudlara"
+github:		rschumann
 email:      sebastian.schkudlara@vizzuality.com
 photo:      sebastian.png
 author:     Alicia
