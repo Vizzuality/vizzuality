@@ -2,7 +2,7 @@
 title:       Rising to the challenge of exploring biodiversity data 
 short_title: Mountain Biodiversity
 client:      GMBA and GBIF
-client_logo: 
+client_logo: mol-gmba.png
 image:       mountain-biodiversity_01.jpg
 color:       "#222"
 author:      Craig Mills
