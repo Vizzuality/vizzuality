@@ -1,42 +1,57 @@
-var nodemailer = require('nodemailer');
+'use strict';
 
-// Mailer
-var transporter = nodemailer.createTransport({
-  service: 'Gmail',
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASSWORD
-  }
-});
+var mandrill = require('mandrill-api/mandrill');
+var mandrillClient = new mandrill.Mandrill(process.env.MANDRILL_API_KEY);
 
 module.exports = function(app) {
 
-  'use strict';
-
   app.post('/contact', function(req, res) {
-    var userMailOptions = {
-      from: 'Vizzuality <hello@vizzuality.com>',
-      to: req.body.email,
-      subject: 'Thank you for contacting us',
+
+    var userMessage = {
       text: 'Thank you! We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly',
-      html: '<h1>Thank you!</h1><p>We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly</p>'
-    };
-    var staffMailOptions = {
-      from: req.body.email,
-      to: process.env.EMAIL_RECEIVER,
-      subject: 'Contact form',
-      html: req.body.message
+      html: '<h1>Thank you!</h1><p>We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly</p>',
+      subject: 'Thank you for contacting us',
+      'from_email': process.env.EMAIL_USER,
+      'form_name': process.env.EMAIL_NAME,
+      to: [{
+        email: req.body.email,
+        type: 'to'
+      }]
     };
 
-    transporter.sendMail(userMailOptions, function() {
-      transporter.sendMail(staffMailOptions, function(error) {
-        if (error) {
+    var staffMessage = {
+      html: req.body.message,
+      'from_email': req.body.email,
+      subject: 'Contact form',
+      to: [{
+        email: process.env.EMAIL_RECEIVER,
+        type: 'to'
+      }]
+    };
+
+    mandrillClient.messages.send({
+      message: staffMessage,
+      async: false
+    }, function() {
+
+      mandrillClient.messages.send({
+        message: userMessage,
+        async: false
+      }, function() {
+        // Success
+        res.status(200).json({ message: 'Thank you.' });
+      }, function(e) {
+        if (e) {
           res.status(400).json({ message: 'We’re sorry, but something went wrong. Please try again later.' });
-        } else {
-          res.status(200).json({ message: 'Thank you.' });
         }
       });
+
+    }, function(e) {
+      if (e) {
+        res.status(400).json({ message: 'We’re sorry, but something went wrong. Please try again later.' });
+      }
     });
+
   });
 
 };

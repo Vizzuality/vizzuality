@@ -5,7 +5,6 @@ phrase:     "Whatever we create has to be understandable, easy to use and of cou
 twitter:    sergio_estella
 linkedin:   "https://es.linkedin.com/pub/sergio-estella/6/b87/533"
 dribble:	sergioestella
-github:		
 email:      sergio.estella@vizzuality.com
 photo:		sestella.png
 author:     Alicia

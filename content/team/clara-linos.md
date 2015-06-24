@@ -4,7 +4,7 @@ position:   Engineer
 phrase:     "Every little detail is a big deal to me"
 twitter:    dhakelila
 linkedin:   "https://es.linkedin.com/in/claralinos/en"
-Github:		dhakelila
+github:		dhakelila
 email:      clara.linos@vizzuality.com
 photo:      clara-linos.png
 author:     David Inga
