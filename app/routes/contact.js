@@ -12,7 +12,7 @@ module.exports = function(app) {
     var emailTemplate = ''+
       '<h1>Thank you!</h1>'+
       '<p>We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly</p>' +
-      '<p>Your message: <br>' + req.body.email + '</p>';
+      '<p>Your message: <br>' + req.body.message + '</p>';
 
     var userMessage = {
       text: 'Thank you! We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly',
