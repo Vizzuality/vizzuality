@@ -16,7 +16,7 @@ block main
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
         ul.m-team-gallery#team
-          - var images = ['bici', 'cabage', 'duende', 'pc', 'ventilador']
+          - var images = ['duende', 'pc', 'bici', 'ventilador', 'cabage']
           - var count = 0
           for member, i in team
             if (member)
@@ -28,9 +28,9 @@ block main
                     p= member.position
                     img.is-hidden(src="/assets/images/team/#{member.photo}", alt=member.name)
             else
-              - count = count + 1
               li(style="background-image: url(/assets/images/office/#{images[count]}.jpg)")
-  
+              - count = count + 1 
+
   section.m-message
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
@@ -85,3 +85,7 @@ block main
             input(name="email", type="email", placeholder="Contact email", required)
           .form-row.m-contact-submit
             button(type="submit", class="btn") Send
+
+        p.m-contact-footer Or contact us by email
+          |  
+          a(href="mailto:hello@vizzuality.com") hello@vizzuality.com
