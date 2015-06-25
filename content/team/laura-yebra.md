@@ -6,7 +6,7 @@ twitter:    l_yebra
 linkedin:   "https://es.linkedin.com/in/yebra/en"
 github:		
 email:      laura.yebra@vizzuality.com
-photo:      laura_1.png
+photo:      laura-yebra.png
 author:     Jamie
 date:       2015-06-24
 order:      24
