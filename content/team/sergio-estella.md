@@ -6,7 +6,7 @@ twitter:    sergio_estella
 linkedin:   "https://es.linkedin.com/pub/sergio-estella/6/b87/533"
 dribble:	sergioestella
 email:      sergio.estella@vizzuality.com
-photo:		sergio.jpg
+photo:		sergio-estella.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		3
