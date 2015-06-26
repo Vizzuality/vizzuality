@@ -1,5 +1,5 @@
 ---
-title:       GFW Climate: Global Forest Watch developing new app to track carbon emissions from forest change
+title:       "GFW Climate: Global Forest Watch developing new app to track carbon emissions from forest change"
 author:      Jamie Gibson and Nancy Harris
 date:        2015-06-09
 ---
