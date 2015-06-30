@@ -6,7 +6,7 @@ twitter:    schkudlara
 linkedin:   "https://es.linkedin.com/in/schkudlara"
 github:		rschumann
 email:      sebastian.schkudlara@vizzuality.com
-photo:      sebastian.png
+photo:      sebastian.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		9

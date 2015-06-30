@@ -19,6 +19,8 @@ $textarea-line-height = rem(50px)
     width 100%
     border 0
     border-bottom 1px solid $alto
+    &:-ms-input-placeholder
+      color $alto
 
   textarea
     height $textarea-line-height * 5
@@ -66,3 +68,6 @@ $textarea-line-height = rem(50px)
 
     .is-error
       letter-spacing normal
+
+.m-contact-footer
+  text-align center

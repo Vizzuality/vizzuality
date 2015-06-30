@@ -6,7 +6,7 @@ twitter:    AliyGM
 linkedin:   "https://es.linkedin.com/pub/alicia-arenzana-gil-de-muro/34/735/746/en"
 github:		aagm
 email:      alicia.arenzana@vizzuality.com
-photo:      alicia.png
+photo:      alicia.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		11
