@@ -20,14 +20,14 @@ modules:
         title: Stunning design, pixel perfect implementation
         modules:
             -
-                image: webvolution_block5.jpg
-                description: "Two different visual styles (night and day) for exploring web technologies and browser support."
-            -
                 image: webvolution_block1.jpg
-                description: "Using vectors and SVG allowed us to implement zooming and panning of the visualization."
+                description: "We always want to push the boundaries of how data can be visualised, allowing our designs to come to life uncompromised. Using vectors and SVG, for example, allowed us to implement zooming and panning, while moving the framework to D3.js gave us more options for visualisation."
+            -
+                image: webvolution_block5.jpg
+                description: "Everyone's different; some users prefer light backgrounds on their webpages while others desire darker background. With night and day mode, you're free to explore the web's evolution in a way that suits you."
             -
                 image: webvolution_block6.jpg
-                description: "Two new visualizations have been added to the original version: number of users and web traffic evolution through the last 20 years."
+                description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
 # 
 #     map:
 #         title: Take a look
@@ -49,4 +49,4 @@ opinions:
         autor: <a href="https://twitter.com/GrudenDigital/status/479768387111768064"> Gruden </a>
 ---
 
-Working with Hyperakt and the Google Chrome team, we developed the interactive ‘Evolution of the Web’ visualisation. After the warm reception of the first version, we made a new version using the the latest visualisation technologies, including 3D effects, canvas, SVG and D3.js. The result is a sumptuous, detailed and responsive visualisation that won TheFWA Site of the Day. 
+Since the first internet browser was launched in 1991, there has been a rapid expansion in the number of browsers and the variety of features available. We wanted to stake stock and make sense of all this innovation, the only way we know how: visualisation! Our friends at Hyperakt and Google Chrome felt the same way, so we worked together to create Evolution of the Web. After the warm reception of the first version, released in 2011, we made a new version using the latest visualisation technologies, including 3D effects, Canvas, CSS3 Transforms, SVG and D3.js. The result is a sumptuous, detailed and responsive visualisation that we're very proud of; we were honoured when TheFWA gave it Site of the Day back in August 2012. 
