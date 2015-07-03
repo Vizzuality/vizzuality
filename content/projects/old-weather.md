@@ -22,7 +22,7 @@ modules:
 
     text_right:
         title: ...for Important Work
-        description: "Climate change is one of the key issues of our time. Contributing to the science and our understanding of it could help improve our models, so we can prepare for what’s to come." 
+        description: "Climate change is one of the key issues of our time. Contributing to the science and our understanding of it could help improve our models, so we can prepare for what’s to come. That kind of impact is why we love working on these kinds of projects." 
         image: oldWeather-high2.jpg
 
     video:
@@ -44,4 +44,4 @@ opinions:
         autor: <a href="http://www.wired.com/wiredscience/2010/10/old-weather-records/"> Wired </a>
 
 ---
-The great maritime explorers of the last few centuries are long gone, but their observations live on in the yellowing pages of their log books. By digitising these records, climate scientists around the world have access to a more complete picture of the climate hundreds of years ago, so they can better predict what will happen at this crucial phase in human history. Old Weather uses the unique human skills of pattern recognition and detection to recover weather records from our past, which are used to understand our future. It combines an elegant interface, a unique social element and the power of the crowd to create a rewarding experience for every user. 
+The great maritime explorers of the last few centuries are long gone, but their observations live on in the yellowing pages of their log books. By digitising these records, climate scientists around the world have access to a more complete picture of the climate hundreds of years ago, so they can better predict what will happen now, at this crucial phase in human history. Old Weather uses the unique human skills of pattern recognition and detection to recover weather records from our past, which are used in climate models to predict and understand our future. It combines an elegant interface, a unique social element and the power of the crowd to create a rewarding experience for every user. 

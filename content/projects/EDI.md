@@ -21,7 +21,7 @@ modules:
 
     text_right:
         title: Strong design to strengthen transparency
-        description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and access barriers, the EDI website makes the data truly transparent.
+        description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and data access barriers, the EDI website makes the data truly transparent.
         image: EDI_high2.png
 
     video:
@@ -40,4 +40,4 @@ opinions:
 
 ---
 
-Citizen participation is a key piece of the sustainable development puzzle, but without adequate information and ability to take part in key government decisions it's not easy to fit tightly into the jigsaw. Using data collected by our friends at the World Resources Institute and The Access Initiative, we created the Environmental Development Index tool. Freely and easily analyse the data, then share your findings with the world; we've removed the barriers to give you unprecedented access to data on environmental transparency. 
+Citizen participation is a key piece of the sustainable development puzzle, but without adequate information and ability to take part in government decisions it's not easy to fit tightly into the jigsaw. Using data collected by our friends at the World Resources Institute and The Access Initiative, we created the Environmental Development Index tool. Freely and easily analyse the data, then share your findings with the world; we've removed the barriers to give you unprecedented access to data on environmental transparency. 

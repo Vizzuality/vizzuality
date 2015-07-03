@@ -23,7 +23,7 @@ modules:
                 description: Working with scientists allowed us to get the best data. The custom backoffice we built allows experts to enter the information and link with external resources with ease.
             -
                 image: ant_block3.jpg
-                description: For this project we made a great effort in improving previous solutions on taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!.
+                description: For this project we made a great effort to improve previous solutions for taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!.
 
 opinions:
     -
@@ -37,4 +37,4 @@ opinions:
 
 ---
 
-Every year hundreds of scientists and tourists visit Antarctica; field guides are an essential part of the planning, to help them understand where they will find certain species. Working with the SCAR-MarBIN and ANTABIF we were able to put together the Antarctic Field Guide to generate these important documents on-the-fly. It pulls in information from multiple sources for each guide and can be published or downloaded as a high quality pdf. We put this together purely in HTML5 and javascript, pushing forward a bunch of new techniques for fast, interactive map tools on the web. 
+Every year hundreds of scientists and tourists visit Antarctica. Field guides are an essential part of the planning, to help them understand where they will find certain species. Working with the SCAR-MarBIN and ANTABIF we were able to put together the Antarctic Field Guide tool to generate these important documents on-the-fly. It pulls in information from multiple sources for each guide and can be published or downloaded as a high quality pdf. We put this together purely in HTML5 and javascript, pushing forward a bunch of new techniques for fast, interactive map tools on the web. 

@@ -1,5 +1,5 @@
 ---
-name:       Clara linos
+name:       Clara Linos
 position:   Engineer
 phrase:     "Every little detail is a big deal to me"
 twitter:    dhakelila

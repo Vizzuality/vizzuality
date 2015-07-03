@@ -1,5 +1,5 @@
 ---
-title:       An accurate picture of amazon deforestation
+title:       An accurate picture of Amazon deforestation
 short_title: Imazon
 client:      Imazon and Google.org
 client_logo: imazon-google.png 
@@ -25,4 +25,4 @@ modules:
                 description: The Imazon organization developed a set of algorithms to detect deforestation areas. Working to improve their workflow for validation means a faster response to this important topic.
 
 ---
-Every week, satellites take pictures of the Amazon. These pictures can tell you an awful lot, if you have the tools available to process and analyse the images. Working with Imazon and Google Earth Engine, we built a web tool that clearly displays the results of deforestation algorithms created by the Imazon team. Making the most of Google Earth Engine, Rich Internet Applications and VisualRaster, Imazon had what they needed to analyse and validate satellite images quickly and accurately, allowing faster responses. 
+Every week satellites take pictures of the Amazon. These pictures can tell you an awful lot, if you have the tools available to process and analyse the images. Working with Imazon and Google Earth Engine, we built a web tool that clearly displays the results of deforestation algorithms created by the Imazon team. Making the most of Google Earth Engine, Rich Internet Applications and VisualRaster, Imazon had what they needed to analyse and validate satellite images quickly and accurately, allowing faster responses. 
