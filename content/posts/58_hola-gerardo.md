@@ -4,7 +4,7 @@ date: 2015-03-10
 author: Jamie Gibson
 ---
 
-![Hola Gerargo](/assets/images/team/PicGerardo.jpg)
+![Hola Gerargo](/assets/images/team/gerardo.jpg)
 
 We are pleased to announce another new starter in our Madrid office, with [Gerardo Pacheco](http://www.vizzuality.com/team/gerardo_pacheco) joining our front-end engineers. Hailing from the era when MSN groups were cool, he knew from that early exposure to coding that a life in front of a screen was the life for him. Gerardo has a degree in Computer Applications Development from I.E.S Comercio and years of experience building client-side applications in Javascript, Backbone, Underscore, HTML5, CSS3, SASS and server side services in NodeJS and MongoDB.
 

@@ -8,7 +8,7 @@ We are happy to welcome four new members of staff to the team, expanding
 our capacity and allowing us to continue delivering award-winning
 products that have real impact across the world.
 
-![Alicia Arenzana](/assets/images/team/alicia.png)
+![Alicia Arenzana](/assets/images/team/alicia.jpg)
 
 [Alicia Arenzana](http://www.vizzuality.com/team/alicia_arenzana) joins
 us as our first official data scientist. Her mission is to hunt for data
