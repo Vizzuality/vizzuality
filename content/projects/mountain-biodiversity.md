@@ -31,5 +31,5 @@ modules:
 
 ---
 
-Mountains are extreme locations and harbor a huge variety of species depending on altitude, soils and other conditions. We built a web tool for the Global Mountain Biodiversity Assessment that simplifies the process of downloading specific data for biodiversity analysis. This required a mix of PostgreSQL to handle queries, custom Java software for raster tile layering and Pixel Bender Technology for the front end filtering tools, to deliver a responsive and intuitive experience. 
+Mountains are extreme locations that harbor a huge variety of species depending on altitude, soils and other conditions. We built a web tool for the Global Mountain Biodiversity Assessment that simplifies the process of downloading specific data for biodiversity analysis. This required a mix of PostgreSQL to handle queries, custom Java software for raster tile layering and Pixel Bender Technology for the front end filtering tools, to deliver a responsive and intuitive experience. 
 
