@@ -26,10 +26,9 @@ It helped we added <a href="www.vizzuality.com/about/jamie-gibson">Jamie Gibson<
 
 In December 2014, the Google Trends team came to us to see if we could help them with visualising the large volumes of data coming out of their new Trends API. Coming from the world of the UN and environment, my first thought was to do something linked with Climate Change: what is the public perception around the time of the big events, the major disasters, that sort of thing. What I wasn’t expecting was to spend 2 months watching American Football (or just “Football” for those with less of a persuasion towards kicking a ball). It was great fun working out how we could show the American public <a href="http://bit.ly/1Kqzfco">what the rest of the USA thought of their teams</a>. But could we engage people that otherwise would not be interested in sports?
 
-```
+    
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Not that I know or care about football, but this map is very cool: Explore the most searched&#39; NFL teams on Google <a href="http://t.co/Xk4r4nXyFY">http://t.co/Xk4r4nXyFY</a></p>&mdash; Joyce Hau (@jhau727) <a href="https://twitter.com/jhau727/status/562099321739280384">February 2, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+    
 
 # March - A New Direction
 
@@ -39,15 +38,16 @@ Any good futurologist will tell you that the whole world is filling up with peop
 
 # April - Grow grow grow
 
-```
+
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Another week, another staff announcement! Please help us welcome <a href="https://twitter.com/geriuxx">@geriuxx</a> to the Vizzuality family! <a href="http://t.co/sVKTVl4Q3r">http://t.co/sVKTVl4Q3r</a></p>&mdash; Vizzuality (@Vizzuality) <a href="https://twitter.com/Vizzuality/status/575279807279276032">March 10, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
+
 Looking back through the blog, we have hired a lot of people this year! <a href="http://bit.ly/1em3h83">Our team has grown to 24</a>. I think it’s a good indicator of how people see the importance of telling stories with data. The importance of design and usability. There are some incredible companies out there doing very cool things with data visualisations and they are all busy. It makes my heart swell that the data world is getting a little more beautiful and easier to understand.
-```
+
+
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">One day like today, one year ago, I joined <a href="https://twitter.com/Vizzuality">@Vizzuality</a> crew! Thanks for all =)</p>&mdash; Andrés González (@_Kyri3) <a href="https://twitter.com/_Kyri3/status/577859883019739136">March 17, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
+
 # May - Environmental Democracy Index - People love a bit of competition.
 
 Another month, another launch.
@@ -56,19 +56,18 @@ Another month, another launch.
 
 We’re always trying to look at the maps and data products we make and find ways to make them appeal to more people, give them a sprinkle of magic. What we do is important to the world; that’s been in our DNA from the beginning. So when we make something and share it with the world, AND it’s popular, that gives us a real kick. The <a href="http://bit.ly/1Nz0If7">Environmental Democracy Index</a> website was one of those. It was great how many people wanted to compare themselves to their neighbouring country or see where they sat in the league tables of environmental democracy. 
 
-```
+
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Spanish data viz pros <a href="https://twitter.com/Vizzuality">@Vizzuality</a> have built this for <a href="https://twitter.com/WorldResources">@WorldResources</a> <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think</p>&mdash; Tom Steinberg (@steiny) <a href="https://twitter.com/steiny/status/601749330786177025">May 22, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
 
 # June - Accelerate
 
 I think it would make a great post (probably book!) explaining how David Gonzalez and Sergio Estella, our CTO and Head of Design, manage to get the whole team working across so many pieces of work at such a high standard. Currently working with the World Bank, the European Space Agency, World Resources Institute and the Neptis Foundation, we have really great work coming out over the next few months. It’s going to be an exciting time!
 
-```
+
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Not one to draw false correlation but the World Happy Index Map looks very similar to the <a href="https://twitter.com/Vizzuality">@vizzuality</a> project map… <a href="http://t.co/Blnu7NPK2K">pic.twitter.com/Blnu7NPK2K</a></p>&mdash; Craig Mills (@craigmmills) <a href="https://twitter.com/craigmmills/status/596702920160256001">May 8, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
+
 
 # So what next. Where do we look?
 
@@ -85,3 +84,5 @@ On to the next 6 months!
 Craig.
 CEO.
 vizzuality
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
