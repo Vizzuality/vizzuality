@@ -1,7 +1,7 @@
 ---
 title:       Pied Pipers or Blind Mice?
 author:      Jamie Gibson
-date:        2015-06-30
+date:        2015-07-06
 ---
 
 Every morning I walk the back streets of Cambridge to the vizzuality office. It’s a rare 25 minutes in my schedule where I can reflect on the coming day, the previous week and whatever the future might look like for vizzuality. I’d highly recommend it. On this particularly misty morning, between dodging ruddy faced students cycling to lectures, I find myself reflecting on the first half of 2015 at vizzuality.
