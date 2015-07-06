@@ -10,7 +10,7 @@ When I joined vizzuality last year, it was an easy decision to make. I was confi
 
 So in the last 6 months have we set the bar? Are we dancing along the river, leading the way? Are there any pearls of wisdom we have stumbled on along the way? I’ll let you be the judge. 
 
-# January - Global Forest Watch v3 launch - Listen more to your users than yourself.
+## January - Global Forest Watch v3 launch - Listen more to your users than yourself.
 
 We had <a href="http://bit.ly/1C0LPwZ">a big update to Global Forest Watch</a> right at the beginning of the year.
 
@@ -20,7 +20,7 @@ This is one of our favourite projects at vizzuality. Apart from being a great st
 
 It helped we added <a href="www.vizzuality.com/about/jamie-gibson">Jamie Gibson</a> to our team late last year; he’s our first Social Scientist at vizzuality. It’s a no brainer to make sure what we make truly helps the people that see it and his skills at understanding human behaviour will be of great importance in all we do.
 
-# February - a launch of super proportions.
+## February - a launch of super proportions.
 
 ![Our visualisation of NFL fan loyalty using Google Trends data](/assets/images/projects/GoogleTrends-high1.jpg)
 
@@ -30,13 +30,13 @@ In December 2014, the Google Trends team came to us to see if we could help them
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Not that I know or care about football, but this map is very cool: Explore the most searched&#39; NFL teams on Google <a href="http://t.co/Xk4r4nXyFY">http://t.co/Xk4r4nXyFY</a></p>&mdash; Joyce Hau (@jhau727) <a href="https://twitter.com/jhau727/status/562099321739280384">February 2, 2015</a></blockquote>
     
 
-# March - A New Direction
+## March - A New Direction
 
 ![We started working with the Zeitz Foundation to bring Big Data to Small Screens](/assets/images/posts/69_a.jpg)
 
 Any good futurologist will tell you that the whole world is filling up with people attached to a mobile phone. More data connections, more handsets, a whole group of people connected to the internet that didn’t play jet set willy on the amstrad cpc 464 (look it up). To me what this really means is we can reach people closer to and most affected by problems linked with environmental change. Such as those reliant on <a href="http://bit.ly/ThoughtforFood">small scale farming, predictable rainfall and good access to markets</a>. It’s why we are working with the Zeitz Foundation in Kenya to bring information from satellites to farmers via SMS. It’s a modest start while we figure out what is even possible, but in time I see this as being incredibly important and one of the most impactful things we can do. We call it <a href="http://bit.ly/1NyZMHz">Big Data, Small Screens</a>.
 
-# April - Grow grow grow
+## April - Grow grow grow
 
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Another week, another staff announcement! Please help us welcome <a href="https://twitter.com/geriuxx">@geriuxx</a> to the Vizzuality family! <a href="http://t.co/sVKTVl4Q3r">http://t.co/sVKTVl4Q3r</a></p>&mdash; Vizzuality (@Vizzuality) <a href="https://twitter.com/Vizzuality/status/575279807279276032">March 10, 2015</a></blockquote>
@@ -48,7 +48,7 @@ Looking back through the blog, we have hired a lot of people this year! <a href=
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">One day like today, one year ago, I joined <a href="https://twitter.com/Vizzuality">@Vizzuality</a> crew! Thanks for all =)</p>&mdash; Andrés González (@_Kyri3) <a href="https://twitter.com/_Kyri3/status/577859883019739136">March 17, 2015</a></blockquote>
 
 
-# May - Environmental Democracy Index - People love a bit of competition.
+## May - Environmental Democracy Index - People love a bit of competition.
 
 Another month, another launch.
 
@@ -60,7 +60,7 @@ We’re always trying to look at the maps and data products we make and find way
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Spanish data viz pros <a href="https://twitter.com/Vizzuality">@Vizzuality</a> have built this for <a href="https://twitter.com/WorldResources">@WorldResources</a> <a href="http://t.co/G0jcg48rhF">http://t.co/G0jcg48rhF</a> All league tables are heading this way I think</p>&mdash; Tom Steinberg (@steiny) <a href="https://twitter.com/steiny/status/601749330786177025">May 22, 2015</a></blockquote>
 
 
-# June - Accelerate
+## June - Accelerate
 
 I think it would make a great post (probably book!) explaining how David Gonzalez and Sergio Estella, our CTO and Head of Design, manage to get the whole team working across so many pieces of work at such a high standard. Currently working with the World Bank, the European Space Agency, World Resources Institute and the Neptis Foundation, we have really great work coming out over the next few months. It’s going to be an exciting time!
 
@@ -69,7 +69,7 @@ I think it would make a great post (probably book!) explaining how David Gonzale
 
 
 
-# So what next. Where do we look?
+## So what next. Where do we look?
 
 In the last 6 months, the speed of change around data visualisation is lightning. We do a lot of work with maps and it’s pretty clear as each day passes, more and more people will be able to make maps online. And not just any maps, beautiful ones. Primarily led by CartoDB and Mapbox, maps are being commoditised. What I’ve noticed is the standard of lower bar is going up. When people are making maps they don’t look to a vanilla esri map now, or a clunky java applet map (you know who you are academia), they spin something up with CartoDB. So the vanilla now has strawberry chunks and doesn’t give you brain freeze.
 
