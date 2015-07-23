@@ -55,6 +55,14 @@ block main
                     p.client= project.client
                     h2= project.short_title
 
+  section.m-clients
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+          ul
+            - clients = ['antarctic', 'calp', 'calvert', 'chrome-hyperakt', 'climate', 'geocat', 'google', 'imazon-google', 'interaction', 'nasa', 'tdwg', 'wri', 'zeitz', 'zooniverse']
+            for client in clients
+              li: img(src="/assets/images/clients/#{client}.png")
+
   section.m-message
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
