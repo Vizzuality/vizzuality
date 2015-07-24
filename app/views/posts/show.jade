@@ -3,6 +3,9 @@ extends ../blog.jade
 block main
   section
     .row
+      if (post.image)
+        .grid-sm-14.grid-md-12.offset-md-1.grid-lg-11
+          img(src="/assets/images/posts/#{post.image}", alt="#{post.image}")
       .grid-sm-14.grid-md-12.offset-md-1.grid-lg-8.offset-lg-3
         article.m-post
           header
