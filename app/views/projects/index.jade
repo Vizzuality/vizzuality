@@ -20,7 +20,7 @@ block main
         if index < numberOfProjects - 2
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
-            .m-project-content
+            .m-project-content(class="#{project.align}")
               p.client= project.client
               h1: a(href="/projects/#{project.slug}")= project.title
               p.description= project.summary
