@@ -23,7 +23,9 @@ html(lang="en")
 
           .grid-sm-14.grid-md-7.grid-lg-6.is-sm-hidden
             nav.m-nav
-              a(href='/') Back to the web
+              a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) Projects
+              a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) About us
+              a(href='/about#contact', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) Contact
       block claim
 
     .l-main
