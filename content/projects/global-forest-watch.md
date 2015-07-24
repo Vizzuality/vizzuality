@@ -1,13 +1,13 @@
 ---
-title:       Pixel perfection for forest detection
+title:       Global Forest Watch.
 short_title: GFW
 link:        http://globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
 post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
 post_title:  Standing on the Shoulders of Giant Redwoods
-summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
-image:       gfw_01.jpg
+summary:     Half a million people watching forest change
+image:       gfw_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       1

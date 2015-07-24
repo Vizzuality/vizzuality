@@ -9,10 +9,11 @@ block claim
             | Important work,
             br
             | beautifully crafted.
+          p.description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quae corporis nam ipsa sint reprehenderit id, laudantium corrupti officia praesentium dolore.
           a(class="btn is-anchor", href="/#projects") Our work
 
 block main
-  - var numberOfProjects = 5
+  - var numberOfProjects = 4
 
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
@@ -21,10 +22,11 @@ block main
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
             .m-project-content(class="#{project.align}")
-              p.client= project.client
+              img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+              //- p.client= project.client
               h1: a(href="/projects/#{project.slug}")= project.title
               p.description= project.summary
-              a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+              a(class="btn-green", target="_blank", href="/projects/#{project.slug}") Read more
 
       if lastPost
         article.m-post-card
@@ -38,10 +40,11 @@ block main
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
             .m-project-content
-              p.client= project.client
+              img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+              //- p.client= project.client
               h1: a(href="/projects/#{project.slug}")= project.title
               p.description= project.summary
-              a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+              a(class="btn-green", href="/projects/#{project.slug}") Read more
     
     if projects.length > numberOfProjects
       .grid-sm-14.grid-lg-12.offset-lg-1
@@ -52,11 +55,12 @@ block main
                 a.m-project-grid-link(href="/projects/#{project.slug}")
                   .veil
                   .m-project-grid-content
-                    p.client= project.client
+                    img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+                    //- p.client= project.client
                     h2= project.short_title
       .grid-sm-14.grid-lg-12.offset-lg-1
         div.m-all-projects
-          a(class="btn" href="#") See all projects
+          a(class="btn allProjectsLink" href="#") See all projects
 
 
   section.m-clients

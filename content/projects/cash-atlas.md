@@ -7,7 +7,7 @@ client_logo: calp.png
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       8
+order:       6
 grid:        1
 highlighted:   true
 

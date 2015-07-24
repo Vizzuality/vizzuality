@@ -410,7 +410,7 @@
 
   // Show all projects in a window modal
   function allProjectsModal() {
-    var allProjectsLink = document.getElementById('allProjectsLink');
+    var allProjectsLink = document.getElementsByClassName('allProjectsLink');
     var projectsModal = document.getElementById('projectsModal');
     var closeModalBtn = document.getElementById('closeModal');
     var contentModal = document.getElementById('contentModal');
@@ -443,22 +443,24 @@
     }
 
     if (allProjectsLink && projectsModal) {
-      allProjectsLink[clickEvent] = function(ev) {
-        ev.preventDefault();
-        if (!data) {
-          var http = new XMLHttpRequest();
-          http.onreadystatechange = function() {
-            if (http.readyState === 4 && http.status === 200) {
-              data = JSON.parse(http.responseText);
-              renderProjects();
-            }
-          };
-          http.open('GET', '/api/projects', true);
-          http.send();
-        } else {
-          renderProjects();
-        }
-      };
+      for (var index = 0; index < allProjectsLink.length ; index++) {
+        allProjectsLink[index][clickEvent] = function(ev) {
+          ev.preventDefault();
+          if (!data) {
+            var http = new XMLHttpRequest();
+            http.onreadystatechange = function() {
+              if (http.readyState === 4 && http.status === 200) {
+                data = JSON.parse(http.responseText);
+                renderProjects();
+              }
+            };
+            http.open('GET', '/api/projects', true);
+            http.send();
+          } else {
+            renderProjects();
+          }
+        };
+      }
     }
 
     if (closeModalBtn) {

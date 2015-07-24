@@ -27,10 +27,10 @@ block main
         .row.sameheight
           if data.link && data.post_url
             .grid-sm-14.grid-lg-7.is-grid-centered.m-project-url
-              div: a(href="#{data.link}", class="btn") Check it online
+              div: a(href="#{data.link}", target="_blank", class="btn") Check it online
           else if data.link
             .grid-sm-14.grid-lg-14.is-grid-centered.m-project-url
-              div: a(href="#{data.link}", class="btn") Check it online
+              div: a(href="#{data.link}", target="_blank", class="btn") Check it online
 
           if data.link && data.post_url
             .grid-sm-14.grid-lg-7.is-grid-centered.m-project-post
@@ -52,7 +52,7 @@ block main
           .m-project-article-content
             h2= data.modules.text_left.title
             p !{data.modules.text_left.description}
-            a(href="#{data.link}", class="btn") See online
+            a(href="#{data.link}", target="_blank", class="btn") See online
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_left.image}")
     

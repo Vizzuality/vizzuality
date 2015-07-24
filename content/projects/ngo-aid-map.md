@@ -8,7 +8,7 @@ summary:     Easy access to accurate information so non-profits can plan effecti
 image:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       2
+order:       7
 highlighted:   true
 align:       center
 
