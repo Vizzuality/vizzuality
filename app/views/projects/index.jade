@@ -10,7 +10,7 @@ block claim
             br
             | beautifully crafted.
           p.description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quae corporis nam ipsa sint reprehenderit id, laudantium corrupti officia praesentium dolore.
-          a(class="btn is-anchor", href="/#projects") Our work
+          a(class="btn-secondary is-anchor", href="/#projects") Our work
 
 block main
   - var numberOfProjects = 4
@@ -19,14 +19,18 @@ block main
     .grid-sm-14.grid-lg-12.offset-lg-1
       each project, index in projects
         if index < numberOfProjects - 2
-          article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
-            .veil
-            .m-project-content(class="#{project.align}")
-              img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
-              //- p.client= project.client
-              h1: a(href="/projects/#{project.slug}")= project.title
-              p.description= project.summary
-              a(class="btn-green", target="_blank", href="/projects/#{project.slug}") Read more
+          a(href="/projects/#{project.slug}")
+            article.m-project-card(class="#{project.align}", style="background-image: url(/assets/images/projects/#{project.image})")
+              .veil
+              .m-project-content
+                if project.svg_logo
+                  img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}")
+                else
+                  img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+                //- p.client= project.client
+                h1: a(href="/projects/#{project.slug}")= project.title
+                p.description= project.summary
+                a(class="btn-green", target="_blank", href="/projects/#{project.slug}") Read more
 
       if lastPost
         article.m-post-card
@@ -36,11 +40,14 @@ block main
             a(class="btn", href="/blog/#{lastPost.slug}") Read our blog
 
       each project, index in projects
-        if index > numberOfProjects - 2 && index < numberOfProjects
+        if index >= numberOfProjects - 2 && index < numberOfProjects - 1
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
             .m-project-content
-              img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+              if project.svg_logo
+                img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}")
+              else
+                img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
               //- p.client= project.client
               h1: a(href="/projects/#{project.slug}")= project.title
               p.description= project.summary
@@ -50,12 +57,15 @@ block main
       .grid-sm-14.grid-lg-12.offset-lg-1
         ul.m-project-grid
           each project, index in projects
-            if index >= numberOfProjects
+            if index >= numberOfProjects - 1
               li(class="is-grid-#{project.grid}", style="background-image: url(/assets/images/projects/#{project.image})")
                 a.m-project-grid-link(href="/projects/#{project.slug}")
                   .veil
                   .m-project-grid-content
-                    img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+                    if project.svg_logo
+                      img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}")
+                    else 
+                      img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
                     //- p.client= project.client
                     h2= project.short_title
       .grid-sm-14.grid-lg-12.offset-lg-1
@@ -82,7 +92,7 @@ block main
       .grid-sm-14.grid-lg-12.offset-lg-1
         .m-subscribe-content
           span Subscribe to our newsletter
-          .m-subscribe-email
+          form
             input(type="email" placeholder="Your email here")
             a(class="btn-secondary" href="#") Send
 

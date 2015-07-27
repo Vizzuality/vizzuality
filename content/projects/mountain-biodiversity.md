@@ -7,7 +7,7 @@ image:       mountain-biodiversity_01.jpg
 color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
-order:       12
+order:       9
 grid:        2
 highlighted:   true
 

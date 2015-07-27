@@ -7,7 +7,8 @@ client_logo: antarctic.png
 image:       antartic_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       8
+order:       5
+grid:        1
 highlighted:   true
 
 modules:

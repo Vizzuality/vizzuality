@@ -4,6 +4,7 @@ short_title: EDI
 link:        http://environmentaldemocracyindex.org/
 client:      World Resources Institute
 client_logo: wri.png
+svg_logo:    wri.svg
 post_url:    http://blog.vizzuality.com/post/119448597451/new-launch-the-environmental-democracy-index-is
 post_title:  "New Launch! Environmental Democracy Index is now live"
 summary:     Open data to initiate transparent discussions

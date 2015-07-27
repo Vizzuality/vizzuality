@@ -8,7 +8,7 @@ summary    : Mapping Success for the Calvert Foundation
 image:       calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       5
+order:       3
 highlighted:   true
 
 modules:

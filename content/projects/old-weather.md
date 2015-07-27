@@ -10,7 +10,7 @@ summary:     "Join your crewmates, log the weather and improve our understanding
 image:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       14
+order:       10
 grid:        2
 highlighted: true
 

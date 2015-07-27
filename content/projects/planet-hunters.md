@@ -10,7 +10,7 @@ summary:     "Take part in one of the biggest scientific missions of the 21st Ce
 image:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       16
+order:       13
 grid:        1
 highlighted: true
 

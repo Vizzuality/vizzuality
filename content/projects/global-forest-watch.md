@@ -4,6 +4,7 @@ short_title: GFW
 link:        http://globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
+svg_logo:    wri.svg
 post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
 post_title:  Standing on the Shoulders of Giant Redwoods
 summary:     Half a million people watching forest change

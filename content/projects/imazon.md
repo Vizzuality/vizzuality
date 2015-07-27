@@ -6,7 +6,8 @@ client_logo: imazon-google.png
 image:       imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       10
+order:       7
+grid:        1
 highlighted:   true
 
 modules:

@@ -9,7 +9,8 @@ summary:     "Live feeds of information straight from satellites to an SMS or sm
 image:       kenya.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       11
+order:       8
+grid:        1
 highlighted: true
 
 modules:
