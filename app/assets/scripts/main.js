@@ -489,6 +489,64 @@
     });
   }
 
+  // Navigation between projects using arrow keys
+  function arrowsNavigation() {
+
+    var page = document.getElementsByClassName('is-project-detail-page');
+
+    if (!page.length > 0) {
+      return;
+    }
+
+
+    var http = new XMLHttpRequest();
+    http.onreadystatechange = function() {
+      if (http.readyState === 4 && http.status === 200) {
+        var data = JSON.parse(http.responseText);
+
+        var currentProject = window.location.href.split('/'),
+          slug = currentProject[currentProject.length - 1],
+          totalProjects = data.projects.length,
+          prev, next, found = false;
+
+        for (var i = 0; i < totalProjects && !found; i++) {
+          if (data.projects[i].slug === slug) {
+            found = true;
+
+            if (data.projects[i - 1]) {
+              prev = data.projects[i - 1].slug;
+            }
+
+            if (data.projects[i + 1]) {
+              next = data.projects[i + 1].slug;
+            }
+          }
+        }
+
+        window.addEventListener('keydown', function(e){
+          var key = e.keyCode;
+
+          // Left arrow
+          if (key === 37 && prev) {
+            window.location.href = prev;
+          }
+
+          // Right arrow
+          if (key === 39 && next) {
+            window.location.href = next;
+          }
+
+        });
+
+      }
+    };
+
+
+
+    http.open('GET', '/api/projects', true);
+    http.send();
+  }
+
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
     mobileNavigation();
@@ -497,6 +555,7 @@
     geolocationMap();
     allProjectsModal();
     doParallax();
+    arrowsNavigation();
 
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
