@@ -64,15 +64,19 @@ $margin-bottom = $margin * 4
 
 // Content
 .m-project-detail-content
-  padding ($margin * 2) $margin
+  padding ($margin * 2) 0 0
 
   h1, h2
     text-align center
 
+  p
+    font-size rem(24px)
+
+
   @media screen and (min-width: $screen-sm)
     .m-project-client-logo
       float right
-      margin-top $margin
+      // margin-top $margin
       margin-bottom $margin
       margin-left $margin * 2
 
@@ -84,7 +88,7 @@ $margin-bottom = $margin * 4
     padding $margin 0
 
   .m-project-url
-    background-color $bg-color-6
+    background-color $bg-color-3
 
     .btn
       background-color transparent
@@ -106,14 +110,23 @@ $margin-bottom = $margin * 4
     .m-project-post, .m-project-url
       min-height rem(250px)
 
-      .btn, .btn-secondary
+      .btn
+        font-size $font-large-size
+        color $font-color-3
+        text-transform none
+        background-color $bg-color-1
+        &:hover
+          color $font-color-2
+          background-color $bg-color-6
+
+      .btn-secondary
         padding 0
         border 0
-        color $font-color-2
+        background-color transparent
         font-size $lg-font-normal-size * 1.8
+        color $font-color-2
         text-transform none
         border-bottom 2px solid $font-color-2
-        background-color transparent
 
     .m-project-post
       h2
@@ -125,7 +138,7 @@ $margin-bottom = $margin * 4
 
 // Module articles left and right
 .m-project-detail-article
-  margin-bottom $margin-bottom
+  margin-bottom 2.5rem
 
   &.is-right
     background-color $bg-color-8
@@ -134,7 +147,24 @@ $margin-bottom = $margin * 4
     display block
 
   .m-project-article-content
-    padding $margin ($margin * 2)
+    // padding $margin ($margin * 2)
+    margin-bottom $margin
+    h2, p
+      font-size rem(24px)
+
+  .parallax-content
+      position relative
+      width 100%
+      height 550px
+      .translate
+        position relative
+        div
+          position absolute
+          top 0
+          left 0
+          right 0
+          bottom 0
+
 
   @media screen and (min-width: $screen-sm)
     .m-project-article-content
@@ -199,7 +229,8 @@ $margin-bottom = $margin * 4
 
 // Module video
 .m-project-detail-video
-  padding ($margin * 3) $margin
+  padding 0 $margin
+  margin-top $margin-bottom
   color $font-color-2
   background-color $bg-color-2
 

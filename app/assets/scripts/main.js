@@ -468,6 +468,27 @@
     }
   }
 
+  // Parallax effect in project page
+  function doParallax() {
+
+    var parallaxContent = document.querySelector('.translate');
+
+    var parallax = function() {
+      var yAxis = window.pageYOffset,
+        translateY = yAxis - (yAxis * 2);
+
+      this.setAttribute('style', '-webkit-transform: translate3d(0,' + translateY + 'px, 0)');
+    }
+
+    if(!parallaxContent) {
+      return;
+    }
+
+    window.addEventListener('scroll', function(e) {
+      parallax.apply(parallaxContent);
+    });
+  }
+
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
     mobileNavigation();
@@ -475,6 +496,7 @@
     contactForm();
     geolocationMap();
     allProjectsModal();
+    doParallax();
 
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
