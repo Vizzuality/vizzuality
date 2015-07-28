@@ -3,7 +3,9 @@ title:       Following cash on the road to recovery
 short_title: Cash Atlas
 link:        http://www.cash-atlas.org/
 client:      CALP
+client_title: The Cash Learning Partnership
 client_logo: calp.png
+date_online: February 2015
 image:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07

@@ -74,6 +74,19 @@ $margin-bottom = $margin * 4
   p
     font-size rem(24px)
 
+  .client-info
+    text-align left
+    img, p
+      margin 0
+    img
+      float none
+    p
+      font-size rem(18px)
+    a
+      color $font-color-3
+      text-decoration none
+
+
 
   @media screen and (min-width: $screen-sm)
     .m-project-client-logo
@@ -94,7 +107,7 @@ $margin-bottom = $margin * 4
 
     .btn
       background-color transparent
-      letter-spacing 0
+      letter-spacing normal
 
   .m-project-post
     color $font-color-2
@@ -175,12 +188,11 @@ $margin-bottom = $margin * 4
 
 // Module blocks
 .m-project-detail-blocks
-  // padding $margin
+  padding $margin
   margin-bottom $margin-bottom
 
-  .uncollapse
-    padding 0
-
+  p
+    font-size $font-medium-size
 
   .thumb
     margin-top 1px

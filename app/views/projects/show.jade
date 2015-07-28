@@ -14,10 +14,15 @@ block main
     .m-project-detail-content
       .row
         if data.client_logo
-          .grid-sm-14.grid-lg-8.offset-lg-1
+          .grid-sm-8.grid-md-8.grid-lg-8.offset-lg-1
             | !{content}
-          .grid-sm-14.grid-lg-3.offset-lg-1
-            img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
+          .grid-sm-5.grid-md-5.grid-lg-4.offset-sm-1.offset-md-1.offset-lg-1
+            .client-info
+              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
+              p 
+                strong #{data.client_title}
+              p #{data.date_online}
+              a(href="#{data.link}") link
         else
           .grid-sm-14.grid-lg-3.offset-lg-1
             | !{content}
