@@ -173,8 +173,12 @@ $margin-bottom = $margin * 4
 
 // Module blocks
 .m-project-detail-blocks
-  padding $margin
+  // padding $margin
   margin-bottom $margin-bottom
+
+  .uncollapse
+    padding 0
+
 
   .thumb
     margin-top 1px
@@ -249,41 +253,44 @@ $margin-bottom = $margin * 4
   padding ($margin * 4) 0
   background-color $bg-color-8
 
-  .m-project-opinion-item
-    margin-bottom $margin
-    padding ($margin * 2)
-    background-color $bg-color-1
-
-  .m-project-opinion-photo
-    text-align center
-    margin-top 0
-
-    img
-      width auto
-      max-height rem(50px)
-
-  .m-project-opinion-text
-    margin-top .3em
-    font-size $font-medium-size
-    text-align center
-
-  .m-project-opinion-autor
-    text-align center
-    font-weight 500
-    max-width 90%
-    margin auto
-    a
-      text-decoration none
-
-  @media screen and (min-width: $screen-sm)
-    .row > div
-      display flex
-      justify-content stretch
+  .sameheight
+    justify-content space-between
 
     .m-project-opinion-item
-      display flex
-      align-items center
-      margin-bottom 0
+      margin-bottom $margin
+      padding ($margin * 2)
+      background-color $bg-color-1
+
+    .m-project-opinion-photo
+      text-align center
+      margin-top 0
+
+      img
+        width auto
+        max-height rem(50px)
+
+    .m-project-opinion-text
+      margin-top .3em
+      font-size $font-medium-size
+      text-align center
+
+    .m-project-opinion-autor
+      text-align center
+      font-weight 500
+      max-width 90%
+      margin auto
+      a
+        text-decoration none
+
+    @media screen and (min-width: $screen-sm)
+      .row > div
+        display flex
+        justify-content stretch
+
+      .m-project-opinion-item
+        display flex
+        align-items center
+        margin-bottom 0
 
 // Module next project
 .m-project-detail-next
