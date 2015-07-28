@@ -52,6 +52,8 @@ $margin-bottom = $margin * 4
     margin-bottom 0
     padding-left .3rem
     font-size $font-medium-size
+    strong
+      font-size $font-large-size
 
   @media screen and (min-width: $screen-sm)
     height 80vh
@@ -64,7 +66,7 @@ $margin-bottom = $margin * 4
 
 // Content
 .m-project-detail-content
-  padding ($margin * 2) 0 0
+  padding ($margin * 2)
 
   h1, h2
     text-align center
@@ -147,7 +149,7 @@ $margin-bottom = $margin * 4
     display block
 
   .m-project-article-content
-    // padding $margin ($margin * 2)
+    padding $margin ($margin * 2)
     margin-bottom $margin
     h2, p
       font-size rem(24px)
