@@ -472,11 +472,12 @@
   function doParallax() {
     var parallaxContent = document.querySelector('.parallax-content > div');
 
+    var background_image = parallaxContent.getAttribute('style');
+    parallaxContent.style.backgroundImage = background_image;
+
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
-      var background_image = this.getAttribute('style');
 
-      this.style.backgroundImage = background_image;
       this.style.transform = 'translate3d(0,' + translateY + 'px, 0)';
     }
 
