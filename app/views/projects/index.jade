@@ -21,8 +21,8 @@ block main
     .grid-sm-14.grid-lg-12.offset-lg-1
       each project, index in projects
         if index < numberOfProjects - 2
-          a(href="/projects/#{project.slug}")
             article.m-project-card(class="#{project.align}", style="background-image: url(/assets/images/projects/#{project.image})")
+              a(href="/projects/#{project.slug}", class="cover-link")
               .veil
               .m-project-content
                 if project.svg_logo
@@ -33,6 +33,7 @@ block main
                 h1: a(href="/projects/#{project.slug}")= project.title
                 p.description= project.summary
                 a(class="btn-green", target="_blank", href="/projects/#{project.slug}") Read more
+              
 
       if lastPost
         article.m-post-card
