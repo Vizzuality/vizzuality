@@ -470,14 +470,14 @@
 
   // Parallax effect in project page
   function doParallax() {
-
-    var parallaxContent = document.querySelector('.translate');
+    var parallaxContent = document.querySelector('.parallax-content > div');
 
     var parallax = function() {
-      var yAxis = window.pageYOffset,
-        translateY = yAxis - (yAxis * 2);
+      var translateY = window.pageYOffset / 8;
+      var background_image = this.getAttribute('style');
 
-      this.setAttribute('style', '-webkit-transform: translate3d(0,' + translateY + 'px, 0)');
+      this.style.backgroundImage = background_image;
+      this.style.transform = 'translate3d(0,' + translateY + 'px, 0)';
     }
 
     if(!parallaxContent) {
@@ -537,11 +537,8 @@
           }
 
         });
-
       }
     };
-
-
 
     http.open('GET', '/api/projects', true);
     http.send();
