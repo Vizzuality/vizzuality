@@ -484,6 +484,8 @@
       return;
     }
 
+    parallax.apply(parallaxContent);
+
     window.addEventListener('scroll', function(e) {
       parallax.apply(parallaxContent);
     });
