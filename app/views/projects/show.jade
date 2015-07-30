@@ -44,6 +44,20 @@ block main
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_left.image}")
 
+  if data.modules.video
+    if data.video_test_style
+      section.m-project-detail-video.data.no-bg
+        .row
+          .grid-sm-14.grid-lg-8.offset-lg-1
+            //- h2= data.modules.video.title
+            iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+    else
+      section.m-project-detail-video  
+      .row
+        .grid-sm-14.grid-lg-10.offset-lg-2
+          //- h2= data.modules.video.title
+          iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+
   if data.modules.text_left_v2
     section.m-project-detail-article.is-left
       .row
@@ -100,13 +114,6 @@ block main
             .m-project-iframe-content
               iframe(src=data.modules.map.url, frameborder="0")
           p !{data.modules.map.description}
-
-  if data.modules.video
-    section.m-project-detail-video
-      .row
-        .grid-sm-14.grid-lg-10.offset-lg-2
-          //- h2= data.modules.video.title
-          iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
   
   if data.opinions && data.opinions.length
     section.m-project-opinions

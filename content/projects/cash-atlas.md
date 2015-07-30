@@ -12,6 +12,7 @@ date:        2015-05-07
 order:       6
 grid:        1
 highlighted:   true
+video_test_style: true
 
 modules:
 

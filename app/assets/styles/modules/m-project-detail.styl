@@ -87,6 +87,11 @@ $margin-bottom = $margin * 4
       text-decoration none
 
 
+  @media screen and (max-width: $screen-sm)
+    .row
+      display flex
+      flex-direction column-reverse
+
 
   @media screen and (min-width: $screen-sm)
     .m-project-client-logo
@@ -182,6 +187,14 @@ $margin-bottom = $margin * 4
         background-position 50% 0
         background-repeat no-repeat
 
+  @media screen and (max-width: $screen-sm)
+    .parallax-content
+      height 150px
+
+  @media screen and (min-width: $screen-md) and (max-width: $screen-lg)
+    .parallax-content
+      height 300px
+
   @media screen and (min-width: $screen-sm)
     .m-project-article-content
       .btn, .btn-secondary
@@ -262,6 +275,11 @@ $margin-bottom = $margin * 4
 
     @media screen and (min-width: $screen-sm)
       height rem(720px)
+
+  &.no-bg
+    margin 0
+    padding 1.25rem 2.5rem
+    background-color $bg-color-1
 
 // Module opinions
 .m-project-opinions
