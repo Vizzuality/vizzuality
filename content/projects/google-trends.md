@@ -6,7 +6,7 @@ client:      Google
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
-summary:     Explore the most searched NFL teams on Google 
+summary:     Explore the most searched  NFL teams on Google 
 image:       google_02.jpg
 author:      Craig Mills
 date:        2015-04-22
