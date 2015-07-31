@@ -311,6 +311,7 @@
     return function() {
       var pageY = window.pageYOffset;
 
+      header.className = '%1 %2'.format('l-header', 'is-fixed');
 
       if (pageY === 0) {
         header.className = '%1'.format('l-header');
