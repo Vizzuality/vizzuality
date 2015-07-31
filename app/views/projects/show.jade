@@ -27,7 +27,7 @@ block main
                 p #{data.date_online}
               if data.link
                 p
-                  a(href="#{data.link}") link
+                  a(href="#{data.link}" class="btn-secondary") link
         else
           .grid-sm-14.grid-lg-3.offset-lg-1
             | !{content}
@@ -139,10 +139,10 @@ block main
       .row.sameheight
         if data.link && data.post_url
           .grid-sm-14.grid-lg-7.is-grid-centered.m-project-url
-            div: a(href="#{data.link}", target="_blank", class="btn") Check it online
+            div: a(href="#{data.link}", target="_blank", class="btn-secondary") Check it online
         else if data.link
           .grid-sm-14.grid-lg-14.is-grid-centered.m-project-url
-            div: a(href="#{data.link}", target="_blank", class="btn") Check it online
+            div: a(href="#{data.link}", target="_blank", class="btn-secondary") Check it online
 
         if data.link && data.post_url
           .grid-sm-14.grid-lg-7.is-grid-centered.m-project-post
