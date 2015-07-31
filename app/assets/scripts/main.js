@@ -318,18 +318,13 @@
       }
 
       if (pageY > 90) {
-        // Hide
-
         if (pageY > lastScrollTop) {
           headerTop.className = '%1 %2'.format('l-header-top', 'hide');
-        // Show
         } else {
           headerTop.className = '%1 %2'.format('l-header-top', 'show');
         }
 
         lastScrollTop = pageY;
-      } else {
-
       }
     };
   }
