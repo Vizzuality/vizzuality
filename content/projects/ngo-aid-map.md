@@ -24,7 +24,7 @@ modules:
 
     video:
         title: The video
-        url: https://player.vimeo.com/video/22803038
+        url: https://www.youtube.com/embed/HsSJclRmb_w
 
 opinions:
     -
