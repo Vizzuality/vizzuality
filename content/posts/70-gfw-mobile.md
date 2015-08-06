@@ -1,5 +1,5 @@
 ---
-title:       New Data, New Features, Fully Mobile: GFW gets an upgrade
+title:       "New Data, New Features, Fully Mobile: GFW gets an upgrade"
 author:      Adrian Perez
 date:        2015-08-06
 ---
