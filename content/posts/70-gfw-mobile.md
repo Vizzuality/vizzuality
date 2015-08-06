@@ -6,7 +6,7 @@ date:        2015-08-06
 
 I’ve been working on <a href="http://www.vizzuality.com/projects/global-forest-watch">Global Forest Watch</a> for 15 months now and it’s been great to take it from strength to strength with every new feature. There’s been some cool technology challenges to take on, but it’s even sweeter working on something to keep trees in the ground and protect our planet. 
 
-![Use Global Forest Watch's powerful analysis tools on the go](/assets/images/posts/70b.png)
+![Use Global Forest Watch's powerful analysis tools on the go](/assets/images/posts/70b.jpg)
 
 The biggest news of the day is that it now works seamlessly on mobile. This is a big milestone for us; the process started back in January with the new design, which paved the way for a fully responsive website. With some small design tweaks and a heap of customisations, we’ve ironed out the final kinks and our baby can now walk on its own two legs on any device. 
 
@@ -14,7 +14,7 @@ One issue with translating the successful desktop experience to mobile is making
 
 Why not take your phone for a walk this weekend and let GFW mobile show you around your local forests? Use the hashtag <a href="https://twitter.com/search?q=%23hometownforests&src=typd">#hometownforests</a> to share your stories! To find out more <a href="http://blog.globalforestwatch.org/2015/07/gfw-goes-mobile-putting-forest-information-in-the-palm-of-your-hand/">read this excellent post by the team at WRI</a>. 
 
-![You can now go straight to CartoDB to analyse Global Forest Watch data](/assets/images/posts/70a.jpg)
+![You can now go straight to CartoDB to analyse Global Forest Watch data](/assets/images/posts/70a.png)
 
 Another new feature is ‘view the data in CartoDB’. Were you bored of downloading an analysis and waiting for it to be ready in your computer, just to upload it again to CartoDB? Well, not any more! Now you can just export it directly from the results of your analysis on the map. So far only the US Open Data portal has added this, and it’s a cool feature to give you even more powerful analysis. 
 
