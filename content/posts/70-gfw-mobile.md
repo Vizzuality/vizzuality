@@ -12,6 +12,8 @@ The biggest news of the day is that it now works seamlessly on mobile. This is a
 
 One issue with translating the successful desktop experience to mobile is making the map respond effectively on a mobile screen, especially to display the menus and info windows without hiding the map. Take a country analysis for example: it takes no more than three taps to get to the analysis. And if you want to download the data once you go back to your desktop, you just need to fill in your email address and the data will be waiting for you in your inbox when you want to download it.
 
+Another challenge is around the size of the code and creating a high performance experience on devices with less processing power or weaker web connections. We took Global Forest Watch on a bit of a diet: the mobile version loads less javascript, so there are fewer and smaller HTTP transactions being made. This means you can get the same high performance experience as the desktop version with interactions optimised for a mobile screen. 
+
 Why not take your phone for a walk this weekend and let GFW mobile show you around your local forests? Use the hashtag <a href="https://twitter.com/search?q=%23hometownforests&src=typd">#hometownforests</a> to share your stories! To find out more <a href="http://blog.globalforestwatch.org/2015/07/gfw-goes-mobile-putting-forest-information-in-the-palm-of-your-hand/">read this excellent post by the team at WRI</a>. 
 
 ![You can now go straight to CartoDB to analyse Global Forest Watch data](/assets/images/posts/70a.png)
