@@ -8,7 +8,7 @@ color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
 order:       12
-grid:        2
+grid:        1
 highlighted:   true
 
 modules:
