@@ -16,11 +16,7 @@ Another challenge is around the size of the code and creating a high performance
 
 Why not take your phone for a walk this weekend and let GFW mobile show you around your local forests? Use the hashtag <a href="https://twitter.com/search?q=%23hometownforests&src=typd">#hometownforests</a> to share your stories! To find out more <a href="http://blog.globalforestwatch.org/2015/07/gfw-goes-mobile-putting-forest-information-in-the-palm-of-your-hand/">read this excellent post by the team at WRI</a>. 
 
-![You can now go straight to CartoDB to analyse Global Forest Watch data](/assets/images/posts/70a.png)
-
 Another new feature is ‘view the data in CartoDB’. Were you bored of downloading an analysis and waiting for it to be ready in your computer, just to upload it again to CartoDB? Well, not any more! Now you can just export it directly from the results of your analysis on the map. So far only the US Open Data portal has added this, and it’s a cool feature to give you even more powerful analysis. 
-
-![Subscribe to alerts and we'll let you know when there is new data available on a place or topic you care about](/assets/images/posts/70c.jpg)
 
 Global Forest Watch now has an alert system too, nestled between the analyse data and country mode options. Choose a country or define your area and we’ll tell you when there’s new data to look at; there’s no need to check periodically for new alerts in the same defined region. This was another transatlantic effort, with our team in Madrid working with the WRI Data Lab. 
 
