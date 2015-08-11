@@ -163,13 +163,13 @@ block main
         p Get in touch.
         a(href="/about#contact", class="btn") Contact us
 
-  //- if (prev)
-  //-   section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{prev.image})")
+  if (prev)
+    section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{prev.image})")
 
-  //- if (next)
-  //-   section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{next.image})")
-  //-     .veil
-  //-     .row
-  //-       .grid-sm-14.grid-lg-12.offset-lg-1
-  //-           p= next.client
-  //-           h1: a(href="/projects/#{next.slug}")= next.title
+  if (next)
+    section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{next.image})")
+      .veil
+      .row
+        .grid-sm-14.grid-lg-12.offset-lg-1
+            p= next.client
+            h1: a(href="/projects/#{next.slug}")= next.title
