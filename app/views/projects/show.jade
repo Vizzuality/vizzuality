@@ -33,17 +33,6 @@ block main
             | !{content}
     
     
-  if data.modules.text_left
-    section.m-project-detail-article.is-left
-      .row.sameheight
-        .grid-sm-14.grid-lg-5.offset-lg-1
-          .m-project-article-content
-            h2= data.modules.text_left.title
-            p !{data.modules.text_left.description}
-            a(href="#{data.link}", target="_blank", class="btn") See online
-        .grid-sm-14.grid-lg-8
-          img(src="/assets/images/projects/#{data.modules.text_left.image}")
-
   if data.modules.video
     if data.video_test_style
       section.m-project-detail-video.data.no-bg
@@ -53,15 +42,27 @@ block main
             iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
     else
       section.m-project-detail-video  
-      .row
-        .grid-sm-14.grid-lg-10.offset-lg-2
-          //- h2= data.modules.video.title
-          iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+        .row
+          .grid-sm-14.grid-lg-10.offset-lg-2
+            //- h2= data.modules.video.title
+            iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+
+  if data.modules.text_left
+    section.m-project-detail-article.is-left
+      .row.sameheight
+        .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
+          .m-project-article-content
+            h2= data.modules.text_left.title
+            p !{data.modules.text_left.description}
+            a(href="#{data.link}", target="_blank", class="btn") See online
+        .grid-sm-14.grid-lg-8
+          img(src="/assets/images/projects/#{data.modules.text_left.image}")
+
 
   if data.modules.text_left_v2
     section.m-project-detail-article.is-left
       .row
-        .grid-sm-14.grid-lg-8.offset-lg-1
+        .grid-sm-14.grid-lg-8.offset-lg-1.is-grid-centered
           .m-project-article-content
             h2= data.modules.text_left_v2.title
             p !{data.modules.text_left_v2.description}
@@ -73,9 +74,9 @@ block main
   if data.modules.text_right
     section.m-project-detail-article.is-right
       .row.sameheight
-        .grid-sm-14.grid-lg-8
+        .grid-sm-14.grid-lg-8.is-grid-centered
           img(src="/assets/images/projects/#{data.modules.text_right.image}")
-        .grid-sm-14.grid-lg-5
+        .grid-sm-14.grid-lg-5.is-grid-centered
           .m-project-article-content
             h2= data.modules.text_right.title
             p !{data.modules.text_right.description}
