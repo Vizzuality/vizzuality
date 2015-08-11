@@ -66,6 +66,7 @@ $margin-bottom = $margin * 4
 
 // Content
 .m-project-detail-content
+  margin 2.5rem 0
   padding ($margin * 2)
 
   h1, h2
@@ -83,12 +84,7 @@ $margin-bottom = $margin * 4
     p
       font-size rem(18px)
     a
-      color $font-color-3
-      text-decoration none
-      border-color $font-color-3
-      &:hover
-        color $font-color-2
-
+      margin-top 1rem
 
   @media screen and (max-width: $screen-sm)
     .row
@@ -161,7 +157,7 @@ $margin-bottom = $margin * 4
 
 // Module articles left and right
 .m-project-detail-article
-  margin-bottom 2.5rem
+  margin 2.5rem 0
 
   &.is-right
     background-color $bg-color-8
@@ -265,7 +261,7 @@ $margin-bottom = $margin * 4
 // Module video
 .m-project-detail-video
   padding 0 $margin
-  margin-top $margin-bottom
+  // margin-top $margin-bottom
   color $font-color-2
   background-color $bg-color-2
 
