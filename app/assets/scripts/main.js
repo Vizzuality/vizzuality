@@ -309,7 +309,6 @@
     var header = document.getElementById('header');
     var headerTop = document.querySelector('.l-header-top');
     var background = document.querySelector('.m-project-detail header');
-    var limit = background.offsetHeight / 2;
 
     return function() {
       var pageY = window.pageYOffset;
