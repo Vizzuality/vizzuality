@@ -5,6 +5,7 @@ link:        http://www.thepolicyclimate.org/
 client:      Climate Policy Initiative
 client_logo: climate.png
 image:       policy-climate_01b.jpg
+innerImage:  policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       14
