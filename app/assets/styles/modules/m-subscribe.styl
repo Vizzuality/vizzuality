@@ -1,29 +1,38 @@
 .m-subscribe
   padding 4.5rem 1.25rem
   background-color $bg-color-3
-  .m-subscribe-content
+
+  @media screen and (max-width:$screen-sm)
+    .m-subscribe-container
+      flex-direction column
+
+
+  .m-subscribe-container
     display flex
     align-items center
-    justify-content space-around
-    span
-      font-size rem(48px)
-      font-weight 500
-      color $white
-  form
-    display flex
-    justify-content space-between
-    margin-top $margin
-    align-items center
-    padding-bottom rem(5px)
-    border-bottom 2px solid rgba(255,255,255, .5)
-    input
-      width 75%
-      background-color transparent
-      border 0
-      font-size rem(48px)
-      color $white
-      &::-webkit-input-placeholder
+    .m-subscribe-content
+      display flex
+      align-items center
+      justify-content space-around
+      span
+        font-size rem(48px)
+        font-weight 500
         color $white
-    .btn-secondary
-      margin 0
-      border 0
+    form
+      display flex
+      justify-content space-between
+      margin-top $margin
+      align-items center
+      padding-bottom rem(5px)
+      border-bottom 2px solid rgba(255,255,255, .5)
+      input
+        width 75%
+        background-color transparent
+        border 0
+        font-size rem(48px)
+        color $white
+        &::-webkit-input-placeholder
+          color $white
+      .btn-secondary
+        margin 0
+        border 0
