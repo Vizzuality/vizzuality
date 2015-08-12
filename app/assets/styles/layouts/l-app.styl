@@ -14,7 +14,7 @@
 
     .l-header-top
       position fixed
-      top 0
+      top -130px
       width 100%
       max-width $max-width
       padding ($margin * 2) $margin ($margin * 2)
@@ -36,10 +36,12 @@
             background-color #000
 
       &.show
-        transform translateY(0)
+        transform translateY(130px)
 
       &.hide
-        transform translateY(-130px)
+        transform translateY(0)
+
+
 
   .brand
     margin 0
