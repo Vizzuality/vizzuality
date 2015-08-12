@@ -563,6 +563,27 @@
     http.send();
   }
 
+  function subscribeNewsletter(e) {
+
+    var form = document.getElementById('form-subscribe');
+
+    if (form) {
+
+      form.onsubmit = function(e) {
+        if (e) {
+          e.preventDefault();
+        }
+
+        var userMail = form[0].value;
+
+        // Add to newsletter;
+        // ...
+      }
+    }
+
+
+  }
+
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
     mobileNavigation();
@@ -571,9 +592,10 @@
     geolocationMap();
     allProjectsModal();
     doParallax();
+    subscribeNewsletter();
     arrowsNavigation();
 
-    window.onscroll = utils.throtle(fixHeader(), 500);
+    window.onscroll = utils.throtle(fixHeader(), 100);
   });
 
 })();

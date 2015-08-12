@@ -92,12 +92,13 @@ block main
 
   section.m-subscribe
     .row
-      .grid-sm-14.grid-md-6.grid-lg-6.offset-lg-1
-        .m-subscribe-content
-          span Subscribe to our newsletter
-      .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
-        form#form-subscribe
-          input(type="email" placeholder="Your email here")
-          a(class="btn-secondary" href="#") Send
+      .m-subscribe-container
+        .grid-sm-14.grid-md-6.grid-lg-6.offset-lg-1
+          .m-subscribe-content
+            span Subscribe to our newsletter
+        .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
+          form#form-subscribe
+            input(type="email" required placeholder="Your email here")
+            button(type="submit" class="btn-secondary" id ="submitForm") Send
 
 
