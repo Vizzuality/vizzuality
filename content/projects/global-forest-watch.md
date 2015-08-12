@@ -9,6 +9,7 @@ post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-should
 post_title:  Standing on the Shoulders of Giant Redwoods
 summary:     Half a million people watching forest change
 image:       gfw_02.jpg
+innerImage : gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       1
