@@ -13,6 +13,7 @@ author:      Jamie
 date:        2015-06-01
 order:       9
 highlighted: true
+logoWidth:  300
 
 modules:
     text_left:

@@ -13,6 +13,7 @@ order:       6
 grid:        1
 highlighted:   true
 video_test_style: true
+logoWidth: 200
 
 modules:
 

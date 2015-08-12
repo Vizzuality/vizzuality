@@ -10,6 +10,7 @@ author:      Jamie Gibson
 date:        2015-05-07
 order:       3
 highlighted:   true
+imageWidth:  200
 
 modules:
 

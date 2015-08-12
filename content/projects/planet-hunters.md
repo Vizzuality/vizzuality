@@ -13,6 +13,7 @@ date:        2015-05-07
 order:       13
 grid:        1
 highlighted: true
+logoWidth:  200
 
 modules:
     

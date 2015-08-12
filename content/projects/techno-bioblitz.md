@@ -12,6 +12,7 @@ date:        2015-04-21
 order:       15
 grid:        2
 highlighted: true
+logoWidth:  150
 
 modules:
     text_left:

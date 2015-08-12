@@ -10,6 +10,7 @@ date:        2015-05-07
 order:       5
 grid:        1
 highlighted:   true
+logoWidth:  225
 
 modules:
 

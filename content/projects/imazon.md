@@ -9,6 +9,7 @@ date:        2015-04-22
 order:       7
 grid:        1
 highlighted:   true
+logoWidth:  225
 
 modules:
 
