@@ -20,6 +20,10 @@
     font-style: normal
 }
 
+b {
+  font-weight: 500;
+}
+
 @media screen and (min-width: 40rem) {
     .m-post .m-post-date {
         float: left;
