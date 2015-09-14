@@ -6,7 +6,7 @@ twitter:
 linkedin:   "http://de.linkedin.com/in/paulahaertel"
 github:		paulahaertel
 email:      paula.haertel@vizzuality.com
-photo:      
+photo:      paula-3.jpg
 author:     Jamie
 date:       2015-09-08
 order: 		20
