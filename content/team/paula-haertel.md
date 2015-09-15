@@ -9,7 +9,7 @@ email:      paula.haertel@vizzuality.com
 photo:      paula-3.jpg
 author:     Jamie
 date:       2015-09-08
-order: 		20
+order: 		19
 ---
 Paula Haertel studies International Media and Computing at the University of Applied Sciences, Berlin, and will be an intern with us until February 2016. Paula has taught herself the basics of a number of software languages over the last 2.5 years including HTML, CSS, some jQuery, Django, Python, Java and Swift. We’re hoping to help Paula work on these skills (particularly front end languages) and get to grips with the whole software development process during the 6 months in Spain. 
 
