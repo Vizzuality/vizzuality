@@ -15,6 +15,7 @@ order:       2
 grid:        2
 highlighted:   true
 align:       right
+logoWidth:   180
 
 modules:
     text_left:
