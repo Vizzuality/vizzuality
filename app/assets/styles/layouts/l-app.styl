@@ -1,10 +1,13 @@
 .l-header
 
   .l-header-top
-    padding ($margin * 2) $margin $margin
+    padding $margin $margin $margin
     background-color transparent
     z-index 25
     transition color 2 ease
+    @media (min-width: 850px) {
+      padding ($margin * 2) $margin $margin
+    }
 
     .is-project-detail-page &
       background-color transparent
