@@ -27,6 +27,18 @@
     &:hover
       color $font-color-2
 
+  @media (max-width: $screen-sm)
+    align-items flex-start
+
+    article
+      height 100%
+      margin 0 auto
+
+      .btn-secondary
+        position absolute
+        top auto
+        bottom $margin
+
   @media screen and (min-width: $screen-md)
     font-size rem(110px)
     height 95vh
