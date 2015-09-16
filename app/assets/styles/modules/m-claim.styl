@@ -21,7 +21,10 @@
       line-height 1.1
       font-size rem(22px)
 
-  .btn, .btn-secondary
+  .btn
+    color $font-color-2
+    margin-left $margin
+  .btn-secondary
     color $font-color-3
 
     &:hover
@@ -34,6 +37,12 @@
       height 100%
       margin 0 auto
 
+      .btn
+        position absolute
+        top auto
+        right $margin
+        bottom $margin
+
       .btn-secondary
         position absolute
         top auto
@@ -42,6 +51,8 @@
   @media screen and (min-width: $screen-md)
     font-size rem(110px)
     height 95vh
+
+
 
   @media screen and (min-width: $screen-lg)
     padding 0
