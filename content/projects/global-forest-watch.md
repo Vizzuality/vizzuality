@@ -12,6 +12,7 @@ image:       gfw_02.jpg
 innerImage : gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+stringDate:  May 2015
 order:       1
 highlighted:   true
 align:       left

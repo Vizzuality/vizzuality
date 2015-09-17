@@ -7,24 +7,27 @@ block main
       .veil
       .row
         .grid-sm-14.grid-lg-12.offset-lg-1
-          p(style= data.color ? "color: #{data.color}" : "")
-            strong #{data.short_title}
-          h1(style= data.color ? "color: #{data.color}" : "")= data.title            
+          //- p(style= data.color ? "color: #{data.color}" : "")
+          //-   strong #{data.short_title}
+          h1(style= data.color ? "color: #{data.color}" : "")= data.title
+          p(class="summary")= data.summary       
+
+    a(href="#{data.link}" class="btn btn-check") Check it online
 
     .m-project-detail-content
       .row
+
         if data.client_logo
           .grid-sm-8.grid-md-8.grid-lg-8.offset-lg-1
             | !{content}
           .grid-sm-5.grid-md-5.grid-lg-4.offset-sm-1.offset-md-1.offset-lg-1
             .client-info
+              if data.client
+                h2 #{data.client}.
+              if data.stringDate
+                p(class="date") #{data.stringDate}.
               img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
 
-              if data.client_title
-                p 
-                  strong #{data.client_title}
-              if data.date_online
-                p #{data.date_online}
               if data.link
                 p
                   a(href="#{data.link}" class="btn") Check it online

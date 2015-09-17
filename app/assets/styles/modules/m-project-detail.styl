@@ -31,6 +31,11 @@ $margin-bottom = $margin * 4
     position relative
     margin-top rem(-90px)
 
+  @media (max-width: $screen-md)
+    .m-project-detail
+      header
+        height 87vh
+
 // Header
 .m-project-detail-header
   position relative
@@ -44,13 +49,23 @@ $margin-bottom = $margin * 4
   background-size cover
 
   h1
-    margin-top 0.5rem
-    margin-bottom .6em
+    // margin-top 0.5rem
+    margin-bottom .2em
     max-width 70%
+    font-size 36px
+
+
+  .summary
+    margin 0 0 25px
+    font-size 90px
+    font-weight 400
+    letter-spacing -1.8px
+    line-height 85px
+
 
   p
     margin-bottom 0
-    padding-left .3rem
+    padding-left .1rem
     font-size $font-medium-size
     strong
       font-size $font-large-size
@@ -60,23 +75,47 @@ $margin-bottom = $margin * 4
     align-items flex-end
     padding-bottom ($margin * 2)
 
+  @media (max-width: $screen-md)
+    align-items flex-end
+    h1
+      font-size 20px
+
+    .summary
+      margin $margin 0 ($margin * 2)
+      font-size 48px
+      line-height 41px
+
+
   @media screen and (min-width: $screen-xl)
     h1
       font-size $lg-font-xlarge-size
+
+.btn-check
+  width 100%
+  @media (min-width: $screen-md)
+    display none
 
 // Content
 .m-project-detail-content
   margin 0
   padding ($margin) ($margin) 0
 
-  h1, h2
+  h1
     text-align center
 
+  h2,
+  .date
+    text-align left
+    font-size 18px;
+
   p
-    font-size rem(24px)
+    font-size rem(20px)
 
   .client-info
-    text-align left
+    margin-top 0
+    @media (min-width: $screen-md)
+      margin-top 1.75rem
+
     img, p
       margin 0
     img
@@ -85,6 +124,9 @@ $margin-bottom = $margin * 4
       font-size rem(18px)
     a
       margin-top 1rem
+      display none
+      @media (min-width: $screen-md)
+        display inherit
 
   @media screen and (max-width: $screen-sm)
     .row
