@@ -580,8 +580,18 @@
         // ...
       }
     }
+  }
 
+  var loadBtn = function() {
+    if (!document.querySelector('.is-project-page')) {
+      return;
+    }
 
+    var btn = document.querySelector('.m-claim .btn-secondary');
+
+    setTimeout(function() {
+      btn.classList.add('is-visible');
+    }, 2000)
   }
 
   // Start application
@@ -594,6 +604,7 @@
     doParallax();
     subscribeNewsletter();
     arrowsNavigation();
+    loadBtn();
 
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
