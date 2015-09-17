@@ -1,41 +1,34 @@
 .is-team-page
-  // @media (max-width: $screen-sm)
+  @media (max-width: $screen-sm)
 
-  //   .l-header
+    .l-header
+      position relative
+      z-index 9999
 
-  //     .l-header-top
-  //       position relative
-  //       z-index 666
+      .brand
+        #vizzualityPath
+          fill $white
 
-  //     .brand
-  //         #vizzualityPath
-  //           fill $white
-  //       .icon-burguer:before,
-  //       .icon-burguer,
-  //       .icon-burguer:after
-  //         background-color $white
+      .icon-burguer:before,
+      .icon-burguer,
+      .icon-burguer:after
+        background-color $white
 
-  //     &.is-fixed
-  //       .l-header-top
-  //         position fixed
-  //       .brand
-  //         #vizzualityPath
-  //           fill $font-color-3
-  //       .icon-burguer:before,
-  //       .icon-burguer,
-  //       .icon-burguer:after
-  //         background-color #000
+      &.is-fixed
+        .brand
+          #vizzualityPath
+            fill $font-color-3
+        .icon-burguer:before,
+        .icon-burguer,
+        .icon-burguer:after
+          background-color #000
 
-  //   .l-main
-  //     margin-top: -4.4rem
+    .l-main
+      margin-top -4.4rem
 
   .m-team
     padding 0 $margin ($margin * 4) $margin
     clearfix()
-
-    // @media (min-width: $screen-md)
-    //   padding ($margin * 2) $margin ($margin * 4) $margin
-
 
     h1
       margin-top $margin * 3
