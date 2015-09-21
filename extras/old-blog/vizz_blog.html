@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 	 	 	   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="tumblr-theme" content="11721" />
+
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+<meta name="image:Header" content="" />
+<meta name="text:Disqus Shortname" content=""/> 	 	 	   
+<meta name="text:Twitter Title" content="Twitter"/>
+<meta name="text:Google Analytics ID" content=""/>
+<meta name="text:Footer Text" content="The End"/> 	 	 	   
+
+<title>Vizzuality | Blog {block:PermalinkPage}{block:Posts}{block:Title}- {Title}{/block:Title}{/block:Posts}{/block:PermalinkPage}</title>
+<link rel="icon" href="http://www.vizzuality.com/images/favicon.ico"/> 	 	 	   
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/>
+<link href="http://static.tumblr.com/jnt4wuy/Umbl6d4v6/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">{CustomCSS}</style>
+<!--[if lte IE 8]>
+	<script src="http://cdn.obox-design.com/micro-inkdrop/domassistantcompressed-2.7.4.js" type="text/javascript"></script>
+	<script src="http://cdn.obox-design.com/micro-inkdrop/ie-css3.js" type="text/javascript"></script>
+<![endif]-->
+
+<meta name="robots" content="noindex"/> 	 	 	   
+</head>
+<body>
+<!-- Tumblr Theme #11721 -->
+
+
+
+<div id="header-container" style="background:url(http://vizzuality.s3.amazonaws.com/blogImages/header_bkg.jpg) repeat 0 0; border-bottom:3px solid #333333; position:relative">
+<span style="position:absolute; left:0; top:91px; width:100%; height:1px; background:black; opacity:0.1; -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=10)'; filter: alpha(opacity=10);"></span>
+	<ul class="page-menu clearfix header">
+		<li class="social-links last"><a href="/" class="selected">Blog</a></li>
+		<li class="social-links"><a href="http://www.vizzuality.com/company">About</a></li>
+		<li class="social-links"><a href="http://www.vizzuality.com/clients">Clients</a></li>
+<li class="social-links"><a href="http://www.vizzuality.com/products">Products</a></li>
+		<li class="social-links"><a href="http://www.vizzuality.com">Works</a></li>
+
+	</ul>
+	<div id="header" class="clearfix" style="position:relative; height:140px; padding: 60px 100px 20px 0px;width: 600px;">
+<a href="http://www.vizzuality.com" class="logo" style="position:absolute; top:-40px; left:0px"><img alt="Vizzuality" border="0" src="http://vizzuality.s3.amazonaws.com/blogImages/logo.png" title="Vizzuality" /></a>
+		{block:IfHeaderImage}<div class="header-image"><a href="/"><img src="{image:Header}" /></a></div>{/block:IfHeaderImage}
+		<h1 style="float:left; padding:35px 0 0 0"><a href="/" class="main_title" style="font:bold 53px Arial, Helvetica, sans-serif; color:#fff; letter-spacing:-3px; text-shadow:0 -1px #333333; text-transform:none; text-align:center; padding:0">Our blog.</a></h1>
+		{block:Description}<p>{Description}</p>{/block:Description}
+	</div>
+</div>
+<div id="container" class="clearfix"> 	 	 	   
+	<ul id="post-column">
+		{block:Posts}
+			<li class="post-container clearfix" id="post-{PostID}"> 	 	 	   
+				<div class="post clearfix {block:Text}post-note{/block:Text}{block:Link}post-url{/block:Link}{block:Quote}post-quote{/block:Quote}{block:Photo}post-image{/block:Photo}{block:Photoset}post-image{/block:Photoset}{block:Audio}post-audio{/block:Audio}{block:Video}post-video{/block:Video}{block:Chat}post-chat{/block:Chat}">
+				
+					<a href="{Permalink}" class="post-type" id="post-type-{PostID}">
+						{block:Text}Note{/block:Text}
+						{block:Link}Link{/block:Link}
+						{block:Quote}Quote{/block:Quote}
+						{block:Photo}Photo{/block:Photo}
+						{block:Photoset}Photoset{/block:Photoset} 	 	 	   
+						{block:Audio}Audio{/block:Audio}
+						{block:Video}Video{/block:Video}
+						{block:Chat}Chat{/block:Chat}
+					</a>
+					
+					{block:Text}
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						{block:Title}<h3 class="title" style="border-bottom:1px solid #999999"><a href="{Permalink}">{Title}</a></h3> {/block:Title}
+						<div class="copy">{Body}</div>
+					{/block:Text}
+					
+					{block:Link}
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						<h3 class="title" style="border-bottom:1px solid #999999"><a class="post-link" href="{URL}" {Target}>{Name}</a></h3>
+						
+						{block:Description} 
+							{Description} 	 	 	   
+						{/block:Description}
+						
+					{/block:Link}
+					
+					{block:Video}
+					
+						<div class="video-item">
+							{Video-500}
+						</div>
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						{block:Title}<h3 class="title" style="border-bottom:1px solid #999999"><a href="{Permalink}">{Title}</a></h3> {/block:Title}
+						{block:Caption}{Caption}{block:Caption}
+						
+					{/block:Video}
+					
+					{block:Audio}
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						{block:Artist}
+							<h3 class="title" style="border-bottom:1px solid #999999"><a href="{Permalink}">{Artist}</a></h3>
+						{/block:Artist}
+						
+						<div class="audio-container">
+							<div class="audio-meta">
+								<div class="play-count">
+									<div class="player">
+										 {AudioPlayer}
+									</div>
+								</div>
+								<p class="plays">{PlayCount} <span>{lang:Plays}</span></p> 	 	 	   
+							</div>
+						</div>
+						
+						{block:Caption}
+							<div class="post-copy-container">
+								{block:TrackName}<p>{TrackName}</p>{/block:TrackName}
+								{block:ExternalAudio}<p><a href="{ExternalAudioURL}">Download</a></p>{/block:ExternalAudio}
+								{Caption}
+							</div>	
+						{/block:Caption}
+					{/block:Audio}
+					
+					{block:Photo}
+						<div class="image-item">
+                        	{LinkOpenTag}
+                                {block:IndexPage}
+                                    <img src="{PhotoURL-500}" alt="{PhotoAlt}" />
+                                {/block:IndexPage}
+                                {block:PermalinkPage}
+                                    <a href="{LinkURL}"><img src="{PhotoURL-500}" alt="{PhotoAlt}" />{LinkCloseTag}</a>
+                                {/block:PermalinkPage}
+                            {LinkCloseTag}
+						</div>
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						<div class="copy">
+							{block:PostTitle}<h3 class="title" style="border-bottom:1px solid #999999"><a href="{Permalink}">{PostTitle}</a></h3>{/block:PostTitle}
+							{block:Caption}{Caption}{/block:Caption}
+						</div>
+					{/block:Photo}
+					
+					{block:Photoset}
+						<div class="image-item">
+							{Photoset-500}
+						</div>
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						<div class="copy"> 	 	 	   
+							{block:Caption}{Caption}{/block:Caption}
+						</div>
+					{/block:Photoset}
+					
+					{block:Chat}
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						{block:Title}<h3 class="title" style="border-bottom:1px solid #999999"><a href="{Permalink}">{Title}</a></h3>{/block:Title}
+						<ul class="chat-item clearfix">
+							{block:Lines}
+							   <li class="clearfix">
+									{block:Label}<strong>{Label}</strong>{/block:Label}
+									<span>{Line}</span>
+								</li>
+							{/block:Lines}
+						</ul>
+					{/block:Chat}
+					
+					{block:Quote}
+						<h4 class="date">{DayOfMonth}{DayOfMonthSuffix} {Month} {Year}</h4>
+						<blockquote>&ldquo;{Quote}&rdquo;</blockquote> 	 	 	   
+						{block:Source}<p class="quote-source">~ {Source}</p>{/block:Source}
+					{/block:Quote}
+					
+					{block:IndexPage} 
+						{block:IfDisqusShortname}
+							<script type="text/javascript">
+								//<![CDATA[
+								(function() {
+									var links = document.getElementsByTagName('a');
+									var query = '?';
+									for(var i = 0; i < links.length; i++) {if(links[i].href.indexOf('#disqus_thread') >= 0) {query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';}}
+									document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
+								})();
+								//]]>
+							</script>
+						{/block:IfDisqusShortname}
+					{/block:IndexPage} 
+				</div>
+
+
+				<div class="meta clearfix">
+					{block:HasTags}
+						<div class="tag-list">
+							{block:Tags}
+								<a href="{TagURL}">{Tag}</a> 	 	 	   
+							{/block:Tags}
+						</div>
+					{/block:HasTags}
+					<div class="alt-meta">
+						{block:IfAllowDisqusComments}
+							<a href="{Permalink}#disqus_thread" class="comment-count">{lang:Comments}</a>
+						{/block:IfAllowDisqusComments}
+						<a href="{ShortURL}" class="note-count">{lang:NoteCountWithLabel}</a>
+					</div>
+				</div>                    
+				
+				{block:PostNotes}
+					{PostNotes}
+				{/block:PostNotes}
+				
+				
+			</li>
+			
+			{block:PermalinkPage} 
+				{block:IfDisqusShortname}
+					<li class="post-container clearfix">
+						<script type="text/javascript">var disqus_url = "{Permalink}"; var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";</script>
+						<div id="disqus_thread" class="post"></div>
+						<script type="text/javascript">
+							/*** var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] ***/
+							(
+								function() {
+								   var dsq = document.createElement('script');
+								   dsq.type = 'text/javascript';
+								   dsq.async = true;
+								   dsq.src = 'http://{text:Disqus Shortname}.disqus.com/embed.js';
+										(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+										
+									}
+							)();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript={text:Disqus Shortname}">comments powered by Disqus.</a></noscript>
+						
+						<script type="text/javascript">
+							//<![CDATA[
+							(function() {
+								var links = document.getElementsByTagName('a');
+								var query = '?';
+								for(var i = 0; i < links.length; i++) {
+								if(links[i].href.indexOf('#disqus_thread') >= 0) {
+									query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+								}
+								}
+								document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
+							})();
+							//]]>
+						</script>           
+						
+					</li>	
+				{/block:IfDisqusShortname}
+			{/block:PermalinkPage}  	 	 	   
+		{/block:Posts}
+	</ul>
+</div>
+
+<div id="footer-container" style="border-top:3px solid red; background:#333333">
+	<div id="footer">
+		 {block:IndexPage}
+			{block:Pagination}
+				<div class="next-prev clearfix">
+					<div>
+						{block:PreviousPage}
+							<a href="{PreviousPage}" class="prev-page">Prev</a>
+						{/block:PreviousPage}
+						{block:NextPage}
+							<a href="{NextPage}" class="next-page">Next</a> 	 	 	   
+						{/block:NextPage}
+					</div>
+				</div>
+			{/block:Pagination}
+		{/block:IndexPage}
+		
+		{block:IfFooterText}
+			<h5>{text:Footer Text}</h5> 	 	 	   
+		{/block:IfFooterText}
+		<p><a href="http://www.obox-design.com/tumblr-themes.cfm">Tumblr Themes created by Obox</a></p>
+	</div>
+</div>
+
+{block:IfGoogleAnalyticsID}
+	<script type="text/javascript">
+    // <![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '{text:Google Analytics ID}']);
+        _gaq.push(['_trackPageview']);
+    
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+        })();
+    // ]]>
+    </script>
+{/block:IfGoogleAnalyticsID}
+
+</body> 	 	 	   
+<!--
+    This Tumblr Theme and all of its CSS, Javascript,
+    and media assets are subject to Tumblr's Terms of Service:
+
+    http://www.tumblr.com/terms_of_service
+-->
+</html>
