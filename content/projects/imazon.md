@@ -7,8 +7,13 @@ image:       imazon_01.jpg
 innerImage : imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22
+<<<<<<< HEAD
 order:       7
 grid:        1
+=======
+order:       9
+grid:        2
+>>>>>>> master
 highlighted:   true
 logoWidth:  225
 
