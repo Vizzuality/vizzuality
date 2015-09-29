@@ -1,7 +1,8 @@
 extends ../layout.jade
 
 block vars
-  - var title = data.title
+  - var title = data.short_title + ': ' + data.title + ' | ' + data.client
+  - var description = content.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
 
 block main
   section.m-project-detail
