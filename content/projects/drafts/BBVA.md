@@ -16,14 +16,14 @@ highlighted:   true
 
 modules:
     text_left:
-        title: "Committed to Clarity" 
-        description: "Vizzuality is committed to making data easy to look at and understand. Our designers paid close attention to crafting an interface that lends itself to clear presentation and powerful interrogation of the visualization. They also structured the visualisations into four smaller, digestible tabs, providing multiple angles into the data and a host of opportunities to gain a deep understanding of all the facets of this dataset. Finished with pixel perfect implementation, we created a beautiful, usable visualisation." 
-        image: bbva-03.png
+        title: "Taking code to new territories"
+        description: "Over five million records is a rather large amount of data, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process, the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
+        image: bbva-01.png
 
     text_right:
-        title: "Taking code to new territories"
-        description: "Over five million records is a rather large amount of data, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
-        image: bbva-01.png
+        title: "A tool to discover stories" 
+        description: "Vizzuality is committed to making data easy to look at and understand, so everyone can find their own angle on the data. Our designers paid close attention to crafting an interface that lends itself to clear presentation and powerful analysis. They also structured the visualisations into four smaller, digestible tabs, providing a host of opportunities to gain deep understanding of all the facets of this dataset. Finished with pixel perfect implementation, we created a beautiful, usable, interactive visualisation." 
+        image: bbva-03.png
 
 opinions:
     -
@@ -40,4 +40,4 @@ opinions:
         autor: <a href="https://twitter.com/ignasialcalde/status/637946472311468032"> Ignasi Alcalde </a>
 
 ---
-The powerful insights inside big datasets can get lost without a carefully designed visualisation that reveals the data simply and clearly. Working with our friends at BBVA Data and Analytics and CartoDB, we developed a series of visualisations looking at the spending behaviour of tourists in Spain during July and August 2014. With our unique blend of pioneering design principles and innovative coding, we turned 5.4 million anonymised credit card transactions into "a piece of artwork" - almost fit for the Prado!
+The powerful insights inside big datasets can get lost without a carefully designed visualisation that reveals the data simply and clearly. But more than that, you miss the opportunities for people to look into the data, create their own stories and learn something new about their world, something which could stay with them for years to come. Working with our friends at BBVA Data and Analytics and CartoDB, we developed a series of visualisations for people to learn about the spending behaviour of tourists in Spain during July and August 2014. With our unique blend of pioneering design principles and innovative coding, we turned 5.4 million anonymised credit card transactions into "a piece of artwork" - almost fit for the Prado!
