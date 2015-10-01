@@ -1,5 +1,9 @@
 extends ../layout.jade
 
+block vars
+  - var title = data.name + ', ' + data.position
+  - var description = content.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+
 block main
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
