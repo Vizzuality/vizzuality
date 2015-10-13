@@ -1,8 +1,13 @@
+block vars
+  - var title = null
+  - var description = null
+
 doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
-    title Vizzuality
+    title= (title ? title + ' | ' : '') + 'Vizzuality'
+    meta(name="description", content=description)
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css")
     if 'production' == process.env.NODE_ENV
@@ -50,7 +55,7 @@ html(lang="en")
             li
               a(href='/about#contact') Contact
             li
-              a(href='/blog') Blog
+              a(href='http://blog.vizzuality.com') Blog
 
     #mobileNav.m-mobile-nav.is-sm-hidden.is-md-hidden.is-lg-hidden
       button#mobileNavClose.btn-close &times;

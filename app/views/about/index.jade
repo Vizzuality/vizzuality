@@ -1,5 +1,9 @@
 extends ../layout.jade
 
+block vars
+  - var title = 'About'
+  - var about = 'Our ability to innovate and deliver exciting products is down to the talents of our staff.'
+
 block claim
   .row
     .grid-sm-14.grid-lg-12.offset-lg-1
@@ -38,7 +42,7 @@ block main
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
         p We’re hiring.
-        a(href="mailto:hello@vizzuality.com", class="btn") Apply
+        a(href="http://vizzuality.github.io/job-offers/", class="btn") Apply
 
   section.m-map
     #mapInput
