@@ -9,7 +9,7 @@ post_url:    http://blog.vizzuality.com/post/119448597451/new-launch-the-environ
 post_title:  "New Launch! Environmental Democracy Index is now live"
 summary:     Open data to initiate transparent discussions
 image:       edi_03.jpg
-innerImage:  edi_03.jpg
+cover:  edi_03.jpg
 author:      Jamie
 date:        2015-06-01
 order:       9

@@ -6,7 +6,7 @@ client:      Calvert Foundation
 client_logo: calvert.png
 summary    : Mapping Success for the Calvert Foundation
 image:       calvert_03.jpg
-innerImage:  calvert_03.jpg
+cover:  calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       3

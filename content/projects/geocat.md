@@ -5,7 +5,7 @@ link:        http://geocat.kew.org/
 client:      Kew Gardens, IUCN and ViBRANT
 client_logo: kew.png
 image:       red-list_02.jpg
-innerImage:  red-list_02.jpg
+cover:  red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       4
