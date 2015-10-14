@@ -4,8 +4,8 @@ short_title: GFW
 link:        http://globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
-post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
-post_title:  Standing on the Shoulders of Giant Redwoods
+post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global-forest-watchmen
+post_title:  Who watches the (Global Forest) Watchmen?
 summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
 image:       gfw_01.jpg
 cover:       gfw_02.jpg
