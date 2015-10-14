@@ -156,6 +156,7 @@ block main
       .row.sameheight
         if data.link && data.link_short
           .grid-sm-14.is-grid-centered.m-project-url
+            a(href="#{data.link}", target="_blank", class="link-cover")
             div: p !{data.link_short}
             div: a(href="#{data.link}", target="_blank", class="btn") Check it online
         

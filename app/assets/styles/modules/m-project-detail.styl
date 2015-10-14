@@ -157,12 +157,22 @@ $margin-bottom = $margin * 4
   .m-project-url
     background-color $bg-color-6
 
+    .link-cover
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+
+
+
     p
       font-size rem(36px)
       color $white
       margin-right 36px
 
     .btn
+      position relative
       background-color transparent
       letter-spacing normal
 
@@ -335,6 +345,9 @@ $margin-bottom = $margin * 4
   margin 3.25rem 0
   .m-post-card
     max-height 60vh
+    height auto
+    padding 6.25rem
+    margin 0
 
 
 // Module opinions
