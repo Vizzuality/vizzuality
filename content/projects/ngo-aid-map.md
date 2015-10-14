@@ -15,7 +15,7 @@ order:       9
 highlighted:   true
 align:       center
 video_test_style: true
-logoWidth:  185
+logoWidth:  105
 
 modules:
     text_left:
