@@ -31,11 +31,11 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 
 ## Content. Markdown references
 
-*title:* Name of the project. It will be shown big on the main page and little on detail page. _(Global Forest Watch)_
-*short_title:* Short version, if needed, for using on the little boxes of the homepage. Write the same than tittle if there isn’t short version _(GFW)_
-*image:* Obvious representation of the project for homepage “cards” _(Screenshot of vizzualization)_
-*cover:* Symbolic image for using on the detail page _(A football player)_
-*summary:* Short explanation of the project. It will be used as subtitle on the big cards on the homepage and as a big title on the detail pages _(Half a million people watching forest change)_
+* **title:** Name of the project. It will be shown big on the main page and little on detail page. _(Global Forest Watch)_
+* **short_title:** Short version, if needed, for using on the little boxes of the homepage. Write the same than tittle if there isn’t short version _(GFW)_
+* **image:** Obvious representation of the project for homepage “cards” _(Screenshot of vizzualization)_
+* **cover:** Symbolic image for using on the detail page _(A football player)_
+* **summary:** Short explanation of the project. It will be used as subtitle on the big cards on the homepage and as a big title on the detail pages _(Half a million people watching forest change)_
 
 ## Contributing
 
