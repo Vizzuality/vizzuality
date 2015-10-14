@@ -21,11 +21,8 @@ modules:
     text_left:
         title: One eye in the sky...
         description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
-<<<<<<< HEAD
-        image: GFW-high1.jpg
-=======
-        image: GFW-high1b.png
->>>>>>> origin/feature/styles
+        image: GFW-high1.png
+
 
     text_right:
         title: ...the other on our screens.
