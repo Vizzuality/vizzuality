@@ -6,9 +6,10 @@ client:      Google
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
-summary:     Explore the most searched  NFL teams on Google 
+summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       google_02.jpg
 innerImage : google_02.jpg
+cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
 order:       2
@@ -21,7 +22,7 @@ modules:
     text_left:
         title: "Big Sports means Big Data"
         description: "There was a lot of potential data to visualise, so our first challenge was to identify the most important pieces needed to tell the story of the season. With this in hand we worked in the back end to make sure we didn’t overwhelm the browser with data, which would lead to slow, lagged performance, ultimately compromising the vision of the designers and partners. Design is also important here, with a clear and vivid design making the overall story engaging and simple to understand, while also allowing the key moments to stand out."
-        image: GoogleTrends-high1.jpg 
+        image: GoogleTrends-high1.png 
 
     text_right: 
         title: "Leading from the Front (end)"
