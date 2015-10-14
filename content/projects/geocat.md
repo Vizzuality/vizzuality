@@ -4,6 +4,8 @@ short_title: GEOCAT
 link:        http://geocat.kew.org/
 client:      Kew Gardens, IUCN and ViBRANT
 client_logo: geocat.png
+post_url:    "Opening Data to Increase Impact"
+post_title:  http://blog.vizzuality.com/post/122340435976/opening-data-to-increase-impact
 image:       red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
