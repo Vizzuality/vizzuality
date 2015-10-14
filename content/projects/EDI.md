@@ -2,6 +2,7 @@
 title:       Environmental Democracy Index
 short_title: EDI
 link:        http://environmentaldemocracyindex.org/
+link_short:  environmentaldemocracyindex.org
 client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg

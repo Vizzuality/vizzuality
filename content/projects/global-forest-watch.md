@@ -2,6 +2,7 @@
 title:       Global Forest Watch.
 short_title: GFW
 link:        http://globalforestwatch.org
+link_short:  globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg

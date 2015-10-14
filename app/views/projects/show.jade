@@ -55,7 +55,7 @@ block main
 
   if data.modules.text_left
     section.m-project-detail-article.is-left
-      .row.sameheight
+      .row.sameheight.is-grid-centered
         .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
           .m-project-article-content
             h2= data.modules.text_left.title
@@ -121,6 +121,16 @@ block main
             .m-project-iframe-content
               iframe(src=data.modules.map.url, frameborder="0")
           p !{data.modules.map.description}
+
+  if data.title && data.post_url
+    section.m-project-blog
+      .row
+        .grid-sm-14.grid-lg-12.offset-lg-1
+          article.m-post-card
+            .m-post-card-content
+              h1 Stay tuned.
+              h2: a(href="#{data.post_url}")= data.post_title
+              a(class="btn", href="#{data.post_url}") Read our blog
   
   if data.opinions && data.opinions.length
     section.m-project-opinions
@@ -144,25 +154,11 @@ block main
   if data.link || data.post_url
     footer.m-project-detail-footer
       .row.sameheight
-        if data.link && data.post_url
-          .grid-sm-14.grid-lg-7.is-grid-centered.m-project-url
-            div: a(href="#{data.link}", target="_blank", class="btn-secondary") Check it online
-        else if data.link
-          .grid-sm-14.grid-lg-14.is-grid-centered.m-project-url
-            div: a(href="#{data.link}", target="_blank", class="btn-secondary") Check it online
-
-        if data.link && data.post_url
-          .grid-sm-14.grid-lg-7.is-grid-centered.m-project-post
-            div
-              if data.post_title
-                h2= data.post_title
-              a(href="#{data.post_url}", class="btn-secondary") Read blog post
-        else if data.post_url
-          .grid-sm-14.grid-lg-14.is-grid-centered.m-project-post
-            div
-              if data.post_title
-                h2= data.post_title
-              a(href="#{data.post_url}", class="btn-secondary") Read blog post
+        if data.link && data.link_short
+          .grid-sm-14.is-grid-centered.m-project-url
+            div: p !{data.link_short}
+            div: a(href="#{data.link}", target="_blank", class="btn") Check it online
+        
 
   section.m-message
     .row

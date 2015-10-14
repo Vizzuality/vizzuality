@@ -2,6 +2,7 @@
 title:       Calvert Foundation Map.
 short_title: Calvert Foundation
 link:        http://map.calvertfoundation.org/
+link_short:  map.calvertfoundation.org
 client:      Calvert Foundation
 client_logo: calvert.png
 summary    : Mapping Success for the Calvert Foundation

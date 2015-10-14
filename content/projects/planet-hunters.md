@@ -2,6 +2,7 @@
 title:       Bringing the stars to your living room
 short_title: Planet Hunters
 link:        http://www.planethunters.org/
+link_short:  planethunters.org
 client:      Zooniverse
 client_logo: zooniverse.png
 post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed-planet-discovered-by

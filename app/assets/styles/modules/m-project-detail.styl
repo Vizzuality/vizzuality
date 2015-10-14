@@ -157,6 +157,11 @@ $margin-bottom = $margin * 4
   .m-project-url
     background-color $bg-color-6
 
+    p
+      font-size rem(36px)
+      color $white
+      margin-right 36px
+
     .btn
       background-color transparent
       letter-spacing normal
@@ -184,16 +189,6 @@ $margin-bottom = $margin * 4
         background-color $bg-color-1
         &:hover
           color $malachite
-
-      .btn-secondary
-        padding 0
-        border 0
-        background-color transparent
-        font-size $lg-font-normal-size * 1.8
-        color $font-color-2
-        letter-spacing normal
-        text-transform none
-        border-bottom 2px solid $font-color-2
 
     .m-project-post
       h2
@@ -333,6 +328,14 @@ $margin-bottom = $margin * 4
     margin 0
     padding 0 $margin
     background-color $bg-color-1
+
+
+// Module blog
+.m-project-blog
+  margin 3.25rem 0
+  .m-post-card
+    max-height 60vh
+
 
 // Module opinions
 .m-project-opinions

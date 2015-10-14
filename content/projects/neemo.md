@@ -2,6 +2,7 @@
 title:       An underwater mission with NASA
 short_title: Project NEEMO
 link:        http://neemo.zooniverse.org/
+link_short:  neemo.zooniverse.org
 client:      NASA
 client_logo: nasa.png
 post_url:    http://blog.vizzuality.com/post/11738015652/neemo-crowd-sourcing-a-seafloor-biodiversity

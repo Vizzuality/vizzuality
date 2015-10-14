@@ -2,6 +2,7 @@
 title:       Superbowl XLIX.
 short_title: Google Trends
 link:        http://nfl.vizzuality.com
+link_short:  nfl.vizzuality.com
 client:      Google
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
