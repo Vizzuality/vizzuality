@@ -37,6 +37,10 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **cover:** Symbolic image for using on the detail page _(A football player)_
 * **summary:** Short explanation of the project. It will be used as subtitle on the big cards on the homepage and as a big title on the detail pages _(Half a million people watching forest change)_
 
+## Order of Projects
+
+When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=0). It'll help make sure we're putting the most important projects in the right places!
+
 ## Contributing
 
 1. Fork it!
