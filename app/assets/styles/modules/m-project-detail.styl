@@ -103,13 +103,15 @@ $margin-bottom = $margin * 4
   h1
     text-align center
 
+
   h2,
   .date
     text-align left
     font-size 18px;
 
+
   p
-    font-size rem(20px)
+    font-size rem(24px)
 
   .client-info
     margin-top 0
@@ -120,8 +122,12 @@ $margin-bottom = $margin * 4
       margin 0
     img
       float none
-    p
+
+    h2, p, .date
       font-size rem(18px)
+
+    h2
+      margin 8px 0
     a
       margin-top 1rem
       display none
@@ -201,6 +207,12 @@ $margin-bottom = $margin * 4
 .m-project-detail-article
   margin 0
 
+  h2
+    font-size rem(48px)
+
+  p
+    font-size rem(24px)
+
   &.is-right
     background-color $bg-color-8
 
@@ -210,8 +222,8 @@ $margin-bottom = $margin * 4
   .m-project-article-content
     padding $margin
     margin-bottom $margin
-    h2, p
-      font-size rem(24px)
+
+
 
   .parallax-content
       position relative
