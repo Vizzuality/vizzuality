@@ -2,6 +2,7 @@
 title:       Pixel perfection for forest detection
 short_title: GFW
 link:        http://globalforestwatch.org
+link_short:  globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
 post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global-forest-watchmen

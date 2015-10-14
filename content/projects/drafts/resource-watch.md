@@ -1,7 +1,8 @@
 ---
 title:       Tuning in to our planet's signals together
 short_title: Resource Watch
-link:        http://vizzuality.github.io/WRW-landing/
+link:        http://vizzuality.github.io/WRW-landing
+link_short:  vizzuality.github.io/WRW-landing
 client:      WRI
 client_logo: wri.png
 post_url:    
