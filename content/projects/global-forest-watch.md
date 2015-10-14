@@ -7,9 +7,9 @@ client_logo: wri.png
 svg_logo:    wri.svg
 post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
 post_title:  Standing on the Shoulders of Giant Redwoods
-summary:     Half a million people watching forest change
-image:       gfw_02.jpg
-innerImage : gfw_01.jpg
+summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
+image:       gfw_01.jpg
+cover:       gfw_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 stringDate:  May 2015
@@ -21,12 +21,12 @@ modules:
     text_left:
         title: One eye in the sky...
         description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
-        image: GFW-high1b.jpg
+        image: GFW-high1b.png
 
     text_right:
         title: ...the other on our screens.
         description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques to create a fast, beautiful and easy-to-use map tool. 
-        image: GFW-high2.jpg
+        image: GFW-high2.png
 
     blocks:
         title: High fidelity analysis
