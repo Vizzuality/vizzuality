@@ -8,6 +8,7 @@ post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-half
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
 summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       google_02.jpg
+innerImage : google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
