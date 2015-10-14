@@ -8,7 +8,8 @@ client_logo: calvert.png
 image:       calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       6
+order:       7
+grid:        2
 highlighted:   true
 
 modules:
