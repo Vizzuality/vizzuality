@@ -2,11 +2,12 @@
 title:       Global Forest Watch.
 short_title: GFW
 link:        http://globalforestwatch.org
+link_short:  globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg
-post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
-post_title:  Standing on the Shoulders of Giant Redwoods
+post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global-forest-watchmen
+post_title:  Who watches the (Global Forest) Watchmen?
 summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
 image:       gfw_01.jpg
 innerImage : gfw_01.jpg
@@ -15,18 +16,14 @@ author:      Jamie Gibson
 date:        2015-05-07
 stringDate:  May 2015
 order:       1
-highlighted:   true
+highlighted: true
 align:       left
 
 modules:
     text_left:
         title: One eye in the sky...
         description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
-<<<<<<< HEAD
-        image: GFW-high1.jpg
-=======
-        image: GFW-high1b.png
->>>>>>> origin/feature/styles
+        image: GFW-high1.png
 
     text_right:
         title: ...the other on our screens.

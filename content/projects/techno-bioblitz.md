@@ -1,7 +1,8 @@
 ---
 title:       A toolkit for a Bioblitz with a twist
 short_title: Techno Bioblitz
-link:        http://bioblitz.tdwg.org/
+link:        http://bioblitz.tdwg.org
+link_short:  bioblitz.tdwg.org
 client:      TDWG
 client_logo: tdwg.png
 post_url:    http://blog.vizzuality.com/post/1035773168/bioblitz-at-the-next-tdwg-2010-conference

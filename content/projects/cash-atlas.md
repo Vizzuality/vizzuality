@@ -2,7 +2,8 @@
 title:       Cash Atlas
 short_title: Cash Atlas
 summary:     Following cash on the road to recovery
-link:        http://www.cash-atlas.org/
+link:        http://www.cash-atlas.org
+link_short:  cash-atlas.org
 client:      CALP
 client_title: The Cash Learning Partnership
 client_logo: calp.png

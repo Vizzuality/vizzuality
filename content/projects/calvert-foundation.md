@@ -1,7 +1,8 @@
 ---
 title:       Calvert Foundation Map.
 short_title: Calvert Foundation
-link:        http://map.calvertfoundation.org/
+link:        http://map.calvertfoundation.org
+link_short:  map.calvertfoundation.org
 client:      Calvert Foundation
 client_logo: calvert.png
 summary    : Mapping Success for the Calvert Foundation
@@ -9,7 +10,8 @@ image:       calvert_03.jpg
 innerImage:  calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       3
+order:       7
+grid:        2
 highlighted:   true
 logoWidth:  200
 
