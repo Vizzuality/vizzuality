@@ -50,6 +50,7 @@ modules:
 
     video:
         title: The video
+        style: light
         url: https://www.youtube.com/embed/lTG-0brb98I?rel=0&amp;showinfo=0
 
 opinions:

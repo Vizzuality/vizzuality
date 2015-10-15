@@ -9,13 +9,12 @@ client_title: The Cash Learning Partnership
 client_logo: calp.png
 date_online: February 2015
 image:       cashatlas_03.jpg
-cover:  cashatlas_03.jpg
+cover:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       6
 grid:        1
-highlighted:   true
-video_test_style: true
+highlighted: true
 logoWidth: 200
 
 modules:

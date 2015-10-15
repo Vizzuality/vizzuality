@@ -40,17 +40,11 @@ block main
     
     
   if data.modules.video
-    if data.video_test_style
-      section.m-project-detail-video.data.no-bg
-        .row
-          .grid-sm-14.grid-lg-8.offset-lg-1
-            //- h2= data.modules.video.title
-            iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
-    else
-      section.m-project-detail-video  
-        .row
-          .grid-sm-14.grid-lg-10.offset-lg-2
-            //- h2= data.modules.video.title
+    if data.modules.video.style
+    section(class="m-project-detail-video #{data.modules.video.style}")
+      .row
+        .grid-sm-14.grid-lg-10.offset-lg-2
+          .video-box
             iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
 
   if data.modules.text_left
