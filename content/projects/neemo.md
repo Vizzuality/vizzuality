@@ -20,7 +20,7 @@ modules:
     text_left:
         title: Live Feedback
         description: "This was the first real time application Vizzuality built, using node.js and socket.io. It set the path for many of the projects we've developed since. It also utilised CartoDB as a back end for this data intensive application."
-        image: neemo_high1.jpg
+        image: neemo_high1.png
 
     video:
         title: A guide to the NEEMO tool
