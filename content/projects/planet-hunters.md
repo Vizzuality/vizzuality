@@ -1,7 +1,7 @@
 ---
 title:       Bringing the stars to your living room
 short_title: Planet Hunters
-link:        http://www.planethunters.org
+link:        http://www.planethunters.org/
 link_short:  planethunters.org
 client:      Zooniverse
 client_logo: zooniverse.png
@@ -9,7 +9,7 @@ post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed
 post_title:  "'PH1', the first confirmed planet discovered by Planet Hunters"
 summary:     "Take part in one of the biggest scientific missions of the 21st Century: the search for planets outside our solar system."
 image:       hunters_09.jpg
-innerImage:  hunters_09.jpg
+cover:  hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       13

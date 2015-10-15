@@ -6,7 +6,7 @@ link_short:  afg.scarmarbin.be
 client:      SCAR-MarBIN and ANTABIF
 client_logo: antarctic.png
 image:       antartic_03.jpg
-innerImage:  antartic_03.jpg
+cover:  antartic_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       11

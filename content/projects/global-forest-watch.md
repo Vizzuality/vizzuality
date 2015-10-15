@@ -10,7 +10,6 @@ post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global
 post_title:  Who watches the (Global Forest) Watchmen?
 summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
 image:       gfw_01.jpg
-innerImage : gfw_01.jpg
 cover:       gfw_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
@@ -50,6 +49,7 @@ modules:
 
     video:
         title: The video
+        style: light
         url: https://www.youtube.com/embed/lTG-0brb98I?rel=0&amp;showinfo=0
 
 opinions:

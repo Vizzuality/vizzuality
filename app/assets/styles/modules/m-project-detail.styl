@@ -85,11 +85,6 @@ $margin-bottom = $margin * 4
       font-size 48px
       line-height 41px
 
-
-  @media screen and (min-width: $screen-xl)
-    h1
-      font-size $lg-font-xlarge-size
-
 .btn-check
   width 100%
   @media (min-width: $screen-md)
@@ -103,13 +98,15 @@ $margin-bottom = $margin * 4
   h1
     text-align center
 
+
   h2,
   .date
     text-align left
     font-size 18px;
 
+
   p
-    font-size rem(20px)
+    font-size rem(24px)
 
   .client-info
     margin-top 0
@@ -120,13 +117,17 @@ $margin-bottom = $margin * 4
       margin 0
     img
       float none
-    p
+
+    h2, p, .date
       font-size rem(18px)
+
+    h2
+      margin 8px 0
     a
       margin-top 1rem
       display none
       @media (min-width: $screen-md)
-        display inherit
+        display inline-block
 
   @media screen and (max-width: $screen-sm)
     .row
@@ -143,66 +144,55 @@ $margin-bottom = $margin * 4
 
 // Footer with links
 .m-project-detail-footer
-  // margin-bottom $margin-bottom
-
-  .m-project-url, .m-project-post
-    padding $margin 0
 
   .m-project-url
+    min-height rem(250px)
+    padding $margin 0
     background-color $bg-color-6
 
+
+
+    .link-cover
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+
+    p
+      font-size rem(36px)
+      color $white
+      margin 0 36px 0 0
+
     .btn
+      position relative
       background-color transparent
       letter-spacing normal
+      font-size $font-large-size
+      color $font-color-3
+      text-transform none
+      background-color $bg-color-1
+      &:hover
+        color $malachite
 
-  .m-project-post
-    color $font-color-2
-    text-align center
-    background-color $bg-color-3
-
-    h2
-      margin .3em 0
-
-    .btn, .btn-secondary
-      display block
-      margin .3em $margin
-
-  @media screen and (min-width: $screen-sm)
-    .m-project-post, .m-project-url
-      min-height rem(250px)
-
-      .btn
-        font-size $font-large-size
-        color $font-color-3
-        text-transform none
-        background-color $bg-color-1
-        &:hover
-          color $malachite
-
-      .btn-secondary
-        padding 0
-        border 0
-        background-color transparent
-        font-size $lg-font-normal-size * 1.8
-        color $font-color-2
-        letter-spacing normal
-        text-transform none
-        border-bottom 2px solid $font-color-2
-
-    .m-project-post
-      h2
-        display none
-      a
-        margin-left auto
-        margin-right auto
+    @media screen and (max-width: $screen-sm)
+      flex-direction column
+      p
+        margin 0 0 36px 0
 
 
 // Module articles left and right
 .m-project-detail-article
   margin 0
 
+  h2
+    font-size rem(48px)
+
+  p
+    font-size rem(24px)
+
   &.is-right
-    background-color $bg-color-8
+    background-color $bg-color-9
 
   .btn, .btn-secondary
     display block
@@ -210,8 +200,6 @@ $margin-bottom = $margin * 4
   .m-project-article-content
     padding $margin
     margin-bottom $margin
-    h2, p
-      font-size rem(24px)
 
   .parallax-content
       position relative
@@ -303,32 +291,46 @@ $margin-bottom = $margin * 4
 // Module video
 .m-project-detail-video
   padding 0 $margin
-  // margin-top $margin-bottom
   color $font-color-2
   background-color $bg-color-2
+
+  &.light
+    background-color $bg-color-9
 
   h2
     margin-top 0
 
-  iframe
-    width 100%
-    height rem(210px)
+  .video-box
+    position relative
+    padding-bottom 56%
+    height 0
 
-    @media screen and (min-width: $screen-sm)
-      height rem(720px)
+    iframe
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      width 100%
+      height 100%
 
-  &.no-bg
+// Module blog
+.m-project-blog
+  margin 3.25rem 0
+  .m-post-card
+    // max-height 60vh
+    height auto
+    padding 6.25rem
     margin 0
-    padding 0 $margin
-    background-color $bg-color-1
+
 
 // Module opinions
 .m-project-opinions
   padding ($margin * 4) 0
-  background-color $bg-color-8
+  background-color $bg-color-9
 
   .sameheight
-    justify-content space-between
+    justify-content space-ºetween
 
     .m-project-opinion-item
       margin-bottom $margin

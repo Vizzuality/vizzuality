@@ -10,13 +10,8 @@ image:       kenya.jpg
 innerImage:  kenya.jpg
 author:      Craig Mills
 date:        2015-04-22
-<<<<<<< HEAD
 order:       8
 grid:        1
-=======
-order:       10
-grid:        2
->>>>>>> master
 highlighted: true
 logoWidth:  150
 

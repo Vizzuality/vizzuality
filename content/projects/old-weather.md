@@ -1,7 +1,7 @@
 ---
 title:       Yesterday’s weather for tomorrow’s climate
 short_title: Old Weather
-link:        http://www.oldweather.org
+link:        http://www.oldweather.org/
 link_short:  oldweather.org
 client:      Zooniverse
 client_logo: zooniverse.png
@@ -9,7 +9,7 @@ post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 summary:     "Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)"
 image:       weather_07.jpg
-innerImage:  weather_07.jpg
+cover:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       10

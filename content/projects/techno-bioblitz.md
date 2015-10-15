@@ -1,14 +1,14 @@
 ---
 title:       A toolkit for a Bioblitz with a twist
 short_title: Techno Bioblitz
-link:        http://bioblitz.tdwg.org
+link:        http://bioblitz.tdwg.org/
 link_short:  bioblitz.tdwg.org
 client:      TDWG
 client_logo: tdwg.png
 post_url:    http://blog.vizzuality.com/post/1035773168/bioblitz-at-the-next-tdwg-2010-conference
 post_title:  Bioblitz at the TDWG 2010 Conference
 image:       techno_03b.jpg
-innerImage:  techno_03b.jpg
+cover:  techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
 order:       15

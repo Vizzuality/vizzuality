@@ -1,7 +1,7 @@
 ---
 title:       Catching 3000 whispers
 short_title: Endangered Languages
-link:        http://www.endangeredlanguages.com
+link:        http://www.endangeredlanguages.com/
 link_short:  endangeredlanguages.com
 client:      Google.org and Alliance for Linguistic Diversity
 client_logo: google.png
