@@ -144,13 +144,13 @@ $margin-bottom = $margin * 4
 
 // Footer with links
 .m-project-detail-footer
-  // margin-bottom $margin-bottom
-
-  .m-project-url, .m-project-post
-    padding $margin 0
 
   .m-project-url
+    min-height rem(250px)
+    padding $margin 0
     background-color $bg-color-6
+
+
 
     .link-cover
       position absolute
@@ -162,43 +162,23 @@ $margin-bottom = $margin * 4
     p
       font-size rem(36px)
       color $white
-      margin-right 36px
+      margin 0 36px 0 0
 
     .btn
       position relative
       background-color transparent
       letter-spacing normal
+      font-size $font-large-size
+      color $font-color-3
+      text-transform none
+      background-color $bg-color-1
+      &:hover
+        color $malachite
 
-  .m-project-post
-    color $font-color-2
-    text-align center
-    background-color $bg-color-3
-
-    h2
-      margin .3em 0
-
-    .btn, .btn-secondary
-      display block
-      margin .3em $margin
-
-  @media screen and (min-width: $screen-sm)
-    .m-project-post, .m-project-url
-      min-height rem(250px)
-
-      .btn
-        font-size $font-large-size
-        color $font-color-3
-        text-transform none
-        background-color $bg-color-1
-        &:hover
-          color $malachite
-
-    .m-project-post
-      h2
-        display none
-      a
-        margin-left auto
-        margin-right auto
+    @media screen and (max-width: $screen-sm)
+      flex-direction column
+      p
+        margin 0 0 36px 0
 
 
 // Module articles left and right
@@ -325,7 +305,6 @@ $margin-bottom = $margin * 4
     padding-bottom 56%
     height 0
 
-
     iframe
       position absolute
       top 0
@@ -334,9 +313,6 @@ $margin-bottom = $margin * 4
       bottom 0
       width 100%
       height 100%
-
-
-
 
 // Module blog
 .m-project-blog
