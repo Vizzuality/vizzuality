@@ -8,11 +8,13 @@ post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 summary:     "Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)"
 image:       weather_07.jpg
+innerImage:  weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       14
+order:       10
 grid:        2
 highlighted: true
+logoWidth:  150
 
 modules:
     text_left:

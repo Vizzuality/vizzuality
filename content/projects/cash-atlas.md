@@ -1,24 +1,41 @@
 ---
-title:       Following cash on the road to recovery
+title:       Cash Atlas
 short_title: Cash Atlas
+summary:     Following cash on the road to recovery
 link:        http://www.cash-atlas.org/
 client:      CALP
+client_title: The Cash Learning Partnership
 client_logo: calp.png
+date_online: February 2015
 image:       cashatlas_03.jpg
+innerImage:  cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       8
+order:       6
 grid:        1
 highlighted:   true
+video_test_style: true
+logoWidth: 200
 
 modules:
 
-    text_left:
+    <!-- text_left:
+        title: "Only the data you need"
+        description: "At higher zoom levels, the map would be very cluttered if you had all the data for the smallest level being shown. Progressive disclosure means the data shown is optimised for your current zoom level. And where you select one particular region for analysis, you can see the detail for one and summaries of the neighbouring regions to avoid distractions and allowing you to focus on your work." 
+        image: cashAtlas-wide.jpg -->
+
+    text_left_v2:
         title: "Only the data you need"
         description: "At higher zoom levels, the map would be very cluttered if you had all the data for the smallest level being shown. Progressive disclosure means the data shown is optimised for your current zoom level. And where you select one particular region for analysis, you can see the detail for one and summaries of the neighbouring regions to avoid distractions and allowing you to focus on your work." 
         image: cashAtlas-wide.jpg
 
-    text_right:
+
+    <!-- text_right:
+        title: Evolving charts 
+        description: "Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data."
+        image: cashAtlas-high1.jpg -->
+
+    text_above:
         title: Evolving charts 
         description: "Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data."
         image: cashAtlas-high1.jpg

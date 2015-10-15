@@ -17,6 +17,27 @@
   background-position center
   background-size cover
 
+  .cover-link
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    z-index 5
+
+
+  &.left
+      justify-content flex-start
+      text-align left
+      h1, .description
+        margin-left 0
+
+  &.right
+    justify-content flex-end
+    text-align right
+    h1, .description
+      margin-right 0
+
   h1 > a
     display block
     color $font-color-2
@@ -42,7 +63,11 @@
     max-width 95%
     font-size $lg-font-small-size * 1.7
     font-weight 500
-    z-index 1
+    z-index 7
+    pointer-events none
+
+    .btn-green
+      pointer-events all
 
   .veil
     position absolute
@@ -56,6 +81,7 @@
   @media screen and (min-width: $screen-sm)
     margin-left auto
     margin-right auto
+    padding 0 $margin * 5
 
     .description
       max-width 50%

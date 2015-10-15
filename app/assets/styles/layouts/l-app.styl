@@ -1,9 +1,13 @@
 .l-header
 
   .l-header-top
-    padding ($margin * 2) $margin $margin
+    padding $margin $margin $margin
     background-color transparent
-    z-index 3
+    z-index 25
+    transition color 2 ease
+    @media (min-width: 850px) {
+      padding ($margin * 2) $margin $margin
+    }
 
     .is-project-detail-page &
       background-color transparent
@@ -13,22 +17,34 @@
 
     .l-header-top
       position fixed
-      top 0
+      top -130px
       width 100%
       max-width $max-width
+      padding ($margin * 2) $margin ($margin * 2)
 
-      background-color rgba($bg-color-1, 0.95)
-      
-      animation slideheader .5s ease
+      background-color $bg-color-1
+      transition transform .5s ease
 
       .is-project-detail-page &
-        background-color rgba($bg-color-1, 0.95)
+        background-color rgba($bg-color-1, 1)
         color $font-color-3
         a
           color $font-color-3
           border-color $font-color-3
         #vizzualityPath
           fill $font-color-3
+
+        .btn-burguer
+          .icon-burguer, .icon-burguer:before, .icon-burguer:after
+            background-color #000
+
+      &.show
+        transform translateY(130px)
+
+      &.hide
+        transform translateY(0)
+
+
 
   .brand
     margin 0
@@ -98,9 +114,17 @@ h1 {
   animation-name: slidein;
 }
 
-@keyframes slideheader
+@keyframes hideHeader
   from
-    transform translate(0, -90px)
+    transform translate(0, 0)
 
   to
-    transform translate(0, 0)
+    transform translate(0, -90px)
+
+@keyframes showHeader
+  from
+    transform translate(0, -0)
+
+  to
+    transform translate(0, -90px)
+

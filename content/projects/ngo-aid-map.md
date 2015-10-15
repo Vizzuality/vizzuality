@@ -4,13 +4,18 @@ short_title: NGO Aid Map
 link:        http://ngoaidmap.org/
 client:      Interaction
 client_logo: interaction.png
+svg_logo:    interaction.svg
 summary:     Easy access to accurate information so non-profits can plan effective development actions
 image:       ngo_08b.jpg
+innerImage:  ngo_08b.jpg
 cover:       ngo_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       2
+order:       9
 highlighted:   true
+align:       center
+video_test_style: true
+logoWidth:  105
 
 modules:
     text_left:
