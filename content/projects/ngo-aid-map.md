@@ -1,7 +1,8 @@
 ---
 title:       Mapping data for development
 short_title: NGO Aid Map
-link:        http://ngoaidmap.org/
+link:        http://ngoaidmap.org
+link_short:  ngoaidmap.org
 client:      Interaction
 client_logo: interaction.png
 summary:     Easy access to accurate information so non-profits can plan effective development actions

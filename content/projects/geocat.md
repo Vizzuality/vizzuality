@@ -1,7 +1,8 @@
 ---
 title:       Finding endangered species before it’s too late
 short_title: GEOCAT
-link:        http://geocat.kew.org/
+link:        http://geocat.kew.org
+link_short:  geocat.kew.org
 client:      Kew Gardens, IUCN and ViBRANT
 client_logo: geocat.png
 post_url:    "Opening Data to Increase Impact"
