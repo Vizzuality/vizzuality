@@ -54,9 +54,9 @@ opinions:
         photo: media/irin.png
         autor: <a href="http://www.irinnews.org/report/100420/latest-innovations-in-cash-transfers">IRIN News</a>
     -
-        title: "<a href='http://www.cashlearning.org/admin/viewemail.php?id=224'>I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers.</a>"
+        title: "I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."
         photo: media/calp.png
-        autor: Alexandre Castellano
+        autor: <a href='http://www.cashlearning.org/admin/viewemail.php?id=224'>Alexandre Castellano</a>
 
 ---
 

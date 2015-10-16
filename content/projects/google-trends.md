@@ -27,7 +27,7 @@ modules:
     text_right: 
         title: "Leading from the Front (end)"
         description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
-        image: GoogleTrends-high3.jpg
+        image: GoogleTrends-high3.png
 
     map: 
         title: Watch it for yourself
