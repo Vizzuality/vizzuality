@@ -2,6 +2,7 @@
 title:       NGO Aid Map.
 short_title: NGO Aid Map
 description: Mapping data for development.
+summary:     ''
 link:        http://ngoaidmap.org
 link_short:  ngoaidmap.org
 client:      Interaction

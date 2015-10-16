@@ -2,6 +2,7 @@
 title:       Planet Hunters.
 short_title: Planet Hunters
 description: Bringing the stars to your living room.
+summary:     ''
 link:        http://www.planethunters.org
 link_short:  planethunters.org
 client:      Zooniverse

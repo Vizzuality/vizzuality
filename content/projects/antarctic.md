@@ -1,6 +1,7 @@
 ---
 title:       Antarctic Field Guide.
 short_title: Antarctic Field Guide
+summary:     ''
 description: Prepare for Antarctic Adventures.
 link:        http://afg.scarmarbin.be
 link_short:  afg.scarmarbin.be

@@ -2,6 +2,7 @@
 title:       Old Weather.
 short_title: Old Weather
 description: Yesterday’s weather for tomorrow’s climate.
+summary:     ''
 link:        http://www.oldweather.org
 link_short:  oldweather.org
 client:      Zooniverse

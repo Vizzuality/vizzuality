@@ -2,6 +2,7 @@
 title:       Global Forest Watch.
 short_title: GFW
 description: Pixel perfection for forest detection
+summary:     ''
 link:        http://globalforestwatch.org
 link_short:  globalforestwatch.org
 client:      World Resources Institute
