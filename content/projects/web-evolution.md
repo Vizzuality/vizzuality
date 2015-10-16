@@ -1,7 +1,8 @@
 ---
-title:       Updating the history of the web
+title:       Evolution of the Web.
 short_title: Evolution of the Web
-link:        http://www.evolutionoftheweb.com/
+description: Updating the history of the web.
+link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt
 client_logo: google.png

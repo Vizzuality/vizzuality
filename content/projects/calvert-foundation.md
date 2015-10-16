@@ -1,6 +1,7 @@
 ---
 title:       Calvert Foundation Map.
 short_title: Calvert Foundation
+description: Mapping Success for the Calvert Foundation.
 link:        http://map.calvertfoundation.org
 link:        http://map.calvertfoundation.org/
 link_short:  map.calvertfoundation.org
@@ -14,7 +15,7 @@ date:        2015-05-07
 order:       7
 grid:        2
 highlighted:   true
-logoWidth:  200
+logoWidth:  176
 
 modules:
 

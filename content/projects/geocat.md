@@ -1,8 +1,9 @@
 ---
-title:       Finding endangered species before it’s too late
-short_title: GEOCAT
-summary:     ''
-link:        http://geocat.kew.org/
+title:       GeoCAT.
+short_title: GeoCAT
+summary:     ""
+description: Finding endangered species before it’s too late.
+link:        http://geocat.kew.org
 link_short:  geocat.kew.org
 client:      Kew Gardens, IUCN and ViBRANT
 client_logo: kew.png

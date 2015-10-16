@@ -1,7 +1,8 @@
 ---
-title:       Bringing the stars to your living room
+title:       Planet Hunters.
 short_title: Planet Hunters
-link:        http://www.planethunters.org/
+description: Bringing the stars to your living room.
+link:        http://www.planethunters.org
 link_short:  planethunters.org
 client:      Zooniverse
 client_logo: zooniverse.png
