@@ -2,7 +2,7 @@ extends ../layout.jade
 
 block vars
   - var title = data.short_title + ': ' + data.title + ' | ' + data.client
-  - var description = content.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+  - var description = data.summary.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
 
 block main
   section.m-project-detail
@@ -54,7 +54,7 @@ block main
           .m-project-article-content
             h2= data.modules.text_left.title
             p !{data.modules.text_left.description}
-            a(href="#{data.link}", target="_blank", class="btn-secondary") See online
+            //- a(href="#{data.link}", target="_blank", class="btn-secondary") See online
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_left.image}")
 
