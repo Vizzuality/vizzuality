@@ -1,7 +1,8 @@
 ---
-title:       A toolkit for a Bioblitz with a twist
+title:       Techno Bioblitz.
 short_title: Techno Bioblitz
-link:        http://bioblitz.tdwg.org/
+description: A toolkit for a Bioblitz with a twist.
+link:        http://bioblitz.tdwg.org
 link_short:  bioblitz.tdwg.org
 client:      TDWG
 client_logo: tdwg.png

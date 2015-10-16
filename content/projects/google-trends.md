@@ -1,6 +1,7 @@
 ---
 title:       Superbowl XLIX.
 short_title: Google Trends
+description: Explore the most searched NFL teams on Google.
 link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
