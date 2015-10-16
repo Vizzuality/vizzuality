@@ -8,8 +8,7 @@ client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
 image:       evolution_01.jpg
-cover:  evolution_02.jpg
-color:       "#222"
+cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
 order:       16
