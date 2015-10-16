@@ -2,6 +2,7 @@
 title:       Imazon.
 short_title: Imazon
 description: An accurate picture of Amazon deforestation.
+summary:     ''
 client:      Imazon and Google.org
 client_logo: imazon-google.png 
 image:       imazon_01.jpg

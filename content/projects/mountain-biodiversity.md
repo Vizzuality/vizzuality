@@ -2,6 +2,7 @@
 title:       Mountain Biodiversity.
 short_title: Mountain Biodiversity
 description: Rising to the challenge of exploring biodiversity data.
+summary:     ''
 client:      GMBA and GBIF
 client_logo: mol-gmba.png
 image:       mountain-biodiversity_01.jpg

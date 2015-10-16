@@ -2,7 +2,7 @@
 title:       Cash Atlas.
 short_title: Cash Atlas
 description: Following cash on the road to recovery.
-summary:     Following cash on the road to recovery
+summary:     ''
 link:        http://www.cash-atlas.org/
 link_short:  cash-atlas.org
 client:      CALP
