@@ -1,6 +1,7 @@
 ---
 title:       Global Forest Watch.
 short_title: GFW
+description: Pixel perfection for forest detection
 link:        http://globalforestwatch.org
 link_short:  globalforestwatch.org
 client:      World Resources Institute
@@ -9,9 +10,8 @@ svg_logo:    wri.svg
 post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global-forest-watchmen
 post_title:  Who watches the (Global Forest) Watchmen?
 summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
-image:       gfw_01.jpg
-innerImage : gfw_01.jpg
-cover:       gfw_02.jpg
+image:       gfw_02.jpg
+cover:       gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 stringDate:  May 2015

@@ -1,6 +1,7 @@
 ---
-title:       Analysing climate policy impact
+title:       The Policy Climate.
 short_title: The Policy Climate
+description: Analysing climate policy impact
 link:        http://www.thepolicyclimate.org
 link_short:  thepolicyclimate.org
 client:      Climate Policy Initiative

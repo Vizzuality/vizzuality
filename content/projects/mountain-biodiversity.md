@@ -1,6 +1,7 @@
 ---
-title:       Rising to the challenge of exploring biodiversity data 
+title:       Mountain Biodiversity.
 short_title: Mountain Biodiversity
+description: Rising to the challenge of exploring biodiversity data.
 client:      GMBA and GBIF
 client_logo: mol-gmba.png
 image:       mountain-biodiversity_01.jpg
@@ -8,13 +9,8 @@ innerImage:  mountain-biodiversity_01.jpg
 color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
-<<<<<<< HEAD
 order:       9
-grid:        2
-=======
-order:       12
 grid:        1
->>>>>>> master
 highlighted:   true
 logoWidth:  225
 
