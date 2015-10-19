@@ -1,8 +1,8 @@
 ---
-title:       Evolution of the Web.
+title:       Evolution of the Web
 short_title: Evolution of the Web
-description: Updating the history of the web.
-summary:     ''
+summary: 	 Updating the history of the web
+decription:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
 link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt
@@ -32,11 +32,6 @@ modules:
             -
                 image: webvolution_block6.jpg
                 description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
-# 
-#     map:
-#         title: Take a look
-#         description:
-#         url: http://www.evolutionoftheweb.com/
 
 opinions:
     -
