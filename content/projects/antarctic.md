@@ -7,7 +7,7 @@ link:        http://afg.scarmarbin.be
 link_short:  afg.scarmarbin.be
 client:      SCAR-MarBIN and ANTABIF
 client_logo: antarctic.png
-release_date: 
+release_date: November 2010
 image:       antartic_03.jpg
 cover:  antartic_03.jpg
 author:      Jamie Gibson

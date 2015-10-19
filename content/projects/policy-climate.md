@@ -7,6 +7,7 @@ link:        http://www.thepolicyclimate.org
 link_short:  thepolicyclimate.org
 client:      Climate Policy Initiative
 client_logo: climate.png
+release_date: April 2013
 image:       policy-climate_01b.jpg
 cover: 		 policy-climate_01b.jpg
 author:      Jamie Gibson

@@ -7,6 +7,7 @@ link:        http://bioblitz.tdwg.org
 link_short:  bioblitz.tdwg.org
 client:      TDWG
 client_logo: tdwg.png
+release_date: September 2010
 post_url:    http://blog.vizzuality.com/post/1035773168/bioblitz-at-the-next-tdwg-2010-conference
 post_title:  Bioblitz at the TDWG 2010 Conference
 image:       techno_03b.jpg

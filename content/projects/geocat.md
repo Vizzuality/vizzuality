@@ -7,7 +7,7 @@ link:        http://geocat.kew.org
 link_short:  geocat.kew.org
 client:      Kew Gardens, IUCN and ViBRANT
 client_logo: kew.png
-release_date: 
+release_date: December 2013
 post_url:    http://blog.vizzuality.com/post/122340435976/opening-data-to-increase-impact
 post_title:  "Opening Data to Increase Impact"
 image:       red-list_02.jpg

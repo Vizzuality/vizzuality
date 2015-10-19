@@ -7,7 +7,7 @@ link:        http://www.oldweather.org
 link_short:  oldweather.org
 client:      Zooniverse
 client_logo: zooniverse.png
-release_date: 
+release_date: October 2010
 post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project-is-complete-1-6-million
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 image:       weather_07.jpg

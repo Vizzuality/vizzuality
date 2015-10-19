@@ -8,7 +8,7 @@ link:        http://map.calvertfoundation.org/
 link_short:  map.calvertfoundation.org
 client:      Calvert Foundation
 client_logo: calvert.png
-release_date: 
+release_date: October 2014
 image:       calvert_03.jpg
 cover:  calvert_03.jpg
 author:      Jamie Gibson

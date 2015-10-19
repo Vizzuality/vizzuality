@@ -7,6 +7,7 @@ link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt
 client_logo: google.png
+release_date: June 2012
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
 image:       evolution_01.jpg
