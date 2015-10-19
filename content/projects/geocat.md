@@ -1,8 +1,8 @@
 ---
-title:       GeoCAT.
+title:       Geospatial Conservation Assesment Tool
 short_title: GeoCAT
-description: Finding endangered species before it’s too late.
-summary:     ''
+summary: 	 Finding endangered species before it’s too late
+description: 'An interactive geospatial tool to assess the conservation level of species across the globe'
 link:        http://geocat.kew.org
 link_short:  geocat.kew.org
 client:      Kew Gardens, IUCN and ViBRANT
@@ -10,7 +10,7 @@ client_logo: kew.png
 post_url:    http://blog.vizzuality.com/post/122340435976/opening-data-to-increase-impact
 post_title:  "Opening Data to Increase Impact"
 image:       red-list_02.jpg
-cover:  red-list_02.jpg
+cover:  	 red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       4

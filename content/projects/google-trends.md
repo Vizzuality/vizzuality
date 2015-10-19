@@ -1,15 +1,14 @@
 ---
-title:       Superbowl XLIX.
+title:       Google Trends 
 short_title: Google Trends
-description: Explore the most searched NFL teams on Google.
-summary:     ''
+summary: 	 Giving big data a half-time show
+description: 'Visualising big data from Google's Trends API with a responsive web application'
 link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
 client_logo: google.png
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
-summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills

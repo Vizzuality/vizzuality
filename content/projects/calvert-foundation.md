@@ -1,8 +1,8 @@
 ---
-title:       Calvert Foundation Map.
+title:       Calvert Foundation Map
 short_title: Calvert Foundation
-description: Mapping Success for the Calvert Foundation.
-summary:     Mapping Success for the Calvert Foundation
+summary: 	 Mapping Success for the Calvert Foundation
+description: 'A mobile first application to visualise the success of the Calvert Foundation'
 link:        http://map.calvertfoundation.org
 link:        http://map.calvertfoundation.org/
 link_short:  map.calvertfoundation.org
