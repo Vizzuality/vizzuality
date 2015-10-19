@@ -42,6 +42,7 @@
     "grunt-image-resize": "^1.0.0",
     "grunt-nodemon": "^0.4.0",
     "grunt-shell": "^1.1.2",
+    "grunt-svgmin": "^2.0.1",
     "imagemin-mozjpeg": "^5.1.0",
     "jade": "^1.9.2",
     "jshint-stylish": "^1.0.1",

@@ -1,6 +1,8 @@
 ---
-title:       Yesterday’s weather for tomorrow’s climate
+title:       Old Weather.
 short_title: Old Weather
+description: Yesterday’s weather for tomorrow’s climate.
+summary:     ''
 link:        http://www.oldweather.org
 link_short:  oldweather.org
 client:      Zooniverse
@@ -9,22 +11,24 @@ post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 summary:     "Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)"
 image:       weather_07.jpg
+cover:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       14
+order:       10
 grid:        2
 highlighted: true
+logoWidth:  150
 
 modules:
     text_left:
         title: Rewarding Humans...
         description: "The human eye is often mightier than the computer; recognising patterns in hand writing is second nature to us, but often extremely difficult for computers. To get hundreds or thousands of people to lend their eyes and pattern recognition talents, we needed to build a rewarding experience. The beautiful visualisations and the social recognition of efforts keep people on board."  
-        image: oldWeather-high3.jpg
+        image: oldWeather-high3.png
 
     text_right:
         title: ...for Important Work
         description: "Climate change is one of the key issues of our time. Contributing to the science and our understanding of it could help improve our models, so we can prepare for what’s to come. That kind of impact is why we love working on these kinds of projects." 
-        image: oldWeather-high2.jpg
+        image: oldWeather-high2.png
 
     video:
         title: Javier de la Torre talks about Old Weather at WhereCampDC

@@ -1,7 +1,7 @@
 .m-post-card
   display flex
   align-items center
-  justify-content center
+  //justify-content center
 
   margin-bottom $margin
   padding 0 $margin
@@ -12,13 +12,15 @@
   h1
     color $font-color-3
     font-size $font-xlarge-size
-    margin .3em 0
+    margin 0 0 .3em
 
   h2
-    font-size $font-large-size
+    font-size $lg-font-large-size
     line-height .9
     margin .5em 0
 
+    @media screen and (max-width: 40rem)
+      font-size $font-large-size
   a
     text-decoration none
 
@@ -28,7 +30,7 @@
     padding-right $margin * 5
 
     h1
-      font-size $lg-font-xlarge-size
+      font-size rem(110px)
 
     h2
-      font-size $lg-font-large-size
+      font-size rem(60px)

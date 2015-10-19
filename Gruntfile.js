@@ -34,7 +34,8 @@ module.exports = function(grunt) {
     'cssmin',
     'copy',
     'uglify',
-    'imagemin'
+    'imagemin',
+    'svgmin'
   ]);
 
 };

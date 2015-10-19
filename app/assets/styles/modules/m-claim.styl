@@ -12,26 +12,52 @@
 
   p
     margin-top 0
-    margin-bottom .5em
+    margin-bottom .25em
     line-height .9
     letter-spacing -0.02em
-    max-width 70%
+    max-width 80%
+    &.description
+      margin-bottom .75em
+      line-height 1.1
+      font-size rem(22px)
 
-  .btn, .btn-secondary
+  .btn
     color $font-color-2
-    margin $margin $margin 0 0
-    float left
-
+    margin-left $margin
   .btn-secondary
-    border-color $font-color-3
     color $font-color-3
+    transition: opacity .5s ease;
+    @media (max-width: $screen-md)
+      opacity: 0
+      &.is-visible
+        opacity 1
 
     &:hover
       color $font-color-2
 
+  @media (max-width: $screen-sm)
+    align-items flex-start
+
+    article
+      height 100%
+      margin 0 auto
+
+      .btn
+        position absolute
+        top auto
+        right $margin
+        bottom $margin
+
+      .btn-secondary
+        position absolute
+        top auto
+        bottom $margin
+
   @media screen and (min-width: $screen-md)
-    font-size $lg-font-xlarge-size
+    font-size rem(110px)
     height 95vh
+
+
 
   @media screen and (min-width: $screen-lg)
     padding 0

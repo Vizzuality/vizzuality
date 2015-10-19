@@ -1,6 +1,8 @@
 ---
-title:       An underwater mission with NASA
+title:       Project NEEMO.
 short_title: Project NEEMO
+description: An underwater mission with NASA.
+summary:     ''
 link:        http://neemo.zooniverse.org
 link_short:  neemo.zooniverse.org
 client:      NASA
@@ -8,16 +10,19 @@ client_logo: nasa.png
 post_url:    http://blog.vizzuality.com/post/11738015652/neemo-crowd-sourcing-a-seafloor-biodiversity
 post_title:  "Neemo, crowd-sourcing seafloor biodiversity identification"
 image:       neemo_02c.jpg
+cover:  neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       15
+order:       12
+grid:        1
 highlighted:   true
+logoWidth:  105
 
 modules:
     text_left:
         title: Live Feedback
         description: "This was the first real time application Vizzuality built, using node.js and socket.io. It set the path for many of the projects we've developed since. It also utilised CartoDB as a back end for this data intensive application."
-        image: neemo_high1.jpg
+        image: neemo_high1.png
 
     video:
         title: A guide to the NEEMO tool

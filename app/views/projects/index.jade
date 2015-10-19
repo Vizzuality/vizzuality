@@ -13,54 +13,94 @@ block claim
             | Important work,
             br
             | beautifully crafted.
-          a(class="btn is-anchor", href="/#projects") Our work
+          p.description We craft beautiful data products that enhance
+            br
+            | the impact of the world’s most important organisations.
+          a(class="btn-secondary is-anchor", href="/#projects") Our work
 
 block main
-  - var numberOfProjects = 5
+  - var numberOfProjects = 4
 
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
       each project, index in projects
-        if index < numberOfProjects - 1
-          article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
-            .veil
-            .m-project-content
-              p.client= project.client
-              h1: a(href="/projects/#{project.slug}")= project.title
-              p.description= project.summary
-              a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+        if index < numberOfProjects - 2
+            article.m-project-card(class="#{project.align}", style="background-image: url(/assets/images/projects/#{project.image})")
+              a(href="/projects/#{project.slug}", class="cover-link")
+              .veil
+              .m-project-content
+                if project.svg_logo
+                  img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}" width="#{project.logoWidth}" )
+                else
+                  img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}" width="#{project.logoWidth}")
+                //- p.client= project.client
+                h1: a(href="/projects/#{project.slug}")= project.title
+                p.description= project.summary
+                a(class="btn-green", href="/projects/#{project.slug}") Read more
 
       if lastPost
         article.m-post-card
           .m-post-card-content
             h1 Stay tuned.
-            h2: a(href="/blog/#{lastPost.slug}")= lastPost.title
-            a(class="btn", href="/blog/#{lastPost.slug}") Read our blog
+            h2: a(href="http://blog.vizzuality.com/post/131088982681/an-open-letter-for-open-satellite-data") An open letter for open satellite data
+            a(class="btn", href="http://blog.vizzuality.com/post/131088982681/an-open-letter-for-open-satellite-data") Read our blog
 
       each project, index in projects
-        if index > numberOfProjects - 2 && index < numberOfProjects
+        if index >= numberOfProjects - 2 && index < numberOfProjects - 1
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             .veil
             .m-project-content
-              p.client= project.client
+              if project.svg_logo
+                img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}")
+              else
+                img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
+              //- p.client= project.client
               h1: a(href="/projects/#{project.slug}")= project.title
               p.description= project.summary
-              a(class="btn-secondary", href="/projects/#{project.slug}") Read more
+              a(class="btn-green", href="/projects/#{project.slug}") Read more
     
     if projects.length > numberOfProjects
       .grid-sm-14.grid-lg-12.offset-lg-1
         ul.m-project-grid
           each project, index in projects
-            if index >= numberOfProjects
+            if index >= numberOfProjects - 1
               li(class="is-grid-#{project.grid}", style="background-image: url(/assets/images/projects/#{project.image})")
                 a.m-project-grid-link(href="/projects/#{project.slug}")
                   .veil
                   .m-project-grid-content
-                    p.client= project.client
+                    if project.svg_logo
+                      img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}" width="#{project.logoWidth}")
+                    else 
+                      img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}" width="#{project.logoWidth}")
+                    //- p.client= project.client
                     h2= project.short_title
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        div.m-all-projects
+          a(class="btn allProjectsLink" href="#") See all projects
+
+
+  section.m-clients
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+          ul
+            - clients = ['biodiversity_aq', 'calp', 'calvert', 'climate', 'google', 'interaction', 'nasa', 'tdwg', 'wri', 'zeitz', 'zooniverse']
+            for client in clients
+              li: img(src="/assets/images/clients/#{client}.png")
 
   section.m-message
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
         p Get in touch.
         a(href="/about#contact", class="btn") Contact us
+
+  section.m-subscribe
+    .row
+      .m-subscribe-container
+        .grid-sm-14.grid-lg-12.offset-lg-1
+          .m-subscribe-content
+            span Subscribe to our newsletter
+            form#form-subscribe
+              input(type="email" required placeholder="Your email here")
+              button(type="submit" class="btn-secondary" id ="submitForm") Send
+
+

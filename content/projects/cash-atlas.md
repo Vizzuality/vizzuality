@@ -1,25 +1,42 @@
 ---
-title:       Following cash on the road to recovery
+title:       Cash Atlas.
 short_title: Cash Atlas
-link:        http://www.cash-atlas.org
+description: Following cash on the road to recovery.
+summary:     ''
+link:        http://www.cash-atlas.org/
 link_short:  cash-atlas.org
 client:      CALP
+client_title: The Cash Learning Partnership
 client_logo: calp.png
+date_online: February 2015
 image:       cashatlas_03.jpg
+cover:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       8
+order:       6
 grid:        1
-highlighted:   true
+highlighted: true
+logoWidth: 200
 
 modules:
 
-    text_left:
+    <!-- text_left:
+        title: "Only the data you need"
+        description: "At higher zoom levels, the map would be very cluttered if you had all the data for the smallest level being shown. Progressive disclosure means the data shown is optimised for your current zoom level. And where you select one particular region for analysis, you can see the detail for one and summaries of the neighbouring regions to avoid distractions and allowing you to focus on your work." 
+        image: cashAtlas-wide.jpg -->
+
+    text_left_v2:
         title: "Only the data you need"
         description: "At higher zoom levels, the map would be very cluttered if you had all the data for the smallest level being shown. Progressive disclosure means the data shown is optimised for your current zoom level. And where you select one particular region for analysis, you can see the detail for one and summaries of the neighbouring regions to avoid distractions and allowing you to focus on your work." 
         image: cashAtlas-wide.jpg
 
-    text_right:
+
+    <!-- text_right:
+        title: Evolving charts 
+        description: "Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data."
+        image: cashAtlas-high1.jpg -->
+
+    text_above:
         title: Evolving charts 
         description: "Cash Atlas includes live visualisations to show the finer details of the data. As you explore the map, the charts change to reflect the new areas you’re interested in. You can also use the filters to ensure you’re only seeing the most relevant data."
         image: cashAtlas-high1.jpg
@@ -38,9 +55,9 @@ opinions:
         photo: media/irin.png
         autor: <a href="http://www.irinnews.org/report/100420/latest-innovations-in-cash-transfers">IRIN News</a>
     -
-        title: "<a href='http://www.cashlearning.org/admin/viewemail.php?id=224'>I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers.</a>"
+        title: "I appreciate the fact that it's modern and user friendly. The Cash Atlas can be of great benefit for all humanitarian experts and researchers."
         photo: media/calp.png
-        autor: Alexandre Castellano
+        autor: <a href='http://www.cashlearning.org/admin/viewemail.php?id=224'>Alexandre Castellano</a>
 
 ---
 

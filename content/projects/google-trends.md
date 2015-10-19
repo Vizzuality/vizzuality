@@ -1,6 +1,8 @@
 ---
-title:       Giving data a half-time show
+title:       Superbowl XLIX.
 short_title: Google Trends
+description: Explore the most searched NFL teams on Google.
+summary:     ''
 link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
@@ -12,9 +14,11 @@ image:       google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       3
+order:       2
 grid:        2
 highlighted:   true
+align:       right
+logoWidth:   180
 
 modules:
     text_left:
@@ -25,7 +29,7 @@ modules:
     text_right: 
         title: "Leading from the Front (end)"
         description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
-        image: GoogleTrends-high3.jpg
+        image: GoogleTrends-high3.png
 
     map: 
         title: Watch it for yourself
