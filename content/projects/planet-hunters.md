@@ -1,8 +1,8 @@
 ---
 title:       Planet Hunters
 short_title: Planet Hunters
-description: Bringing the stars to your living room
-summary:     'A web tool for citizens to help NASA search for planets outside our solar system, using a number of powerful visualisation libraries'
+summary:     Bringing the stars to your living room
+description: 'A web tool for citizens to help NASA search for planets outside our solar system, using a number of powerful visualisation libraries'
 link:        http://www.planethunters.org
 link_short:  planethunters.org
 client:      Zooniverse

@@ -1,15 +1,14 @@
 ---
-title:       Old Weather.
+title:       Old Weather
 short_title: Old Weather
-description: Yesterday’s weather for tomorrow’s climate.
-summary:     ''
+summary: 	 Yesterday’s weather for tomorrow’s climate
+description: 'A citizen science application to digitise old weather data, to help us understand our climate today'
 link:        http://www.oldweather.org
 link_short:  oldweather.org
 client:      Zooniverse
 client_logo: zooniverse.png
 post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project-is-complete-1-6-million
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
-summary:     "Join your crewmates, log the weather and improve our understanding of climate change. You might make a Lieutenant one day ;)"
 image:       weather_07.jpg
 cover:       weather_07.jpg
 author:      Jamie Gibson
