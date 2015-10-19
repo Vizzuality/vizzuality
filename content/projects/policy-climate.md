@@ -1,14 +1,14 @@
 ---
-title:       The Policy Climate.
+title:       The Policy Climate
 short_title: The Policy Climate
-description: Analysing climate policy impact
-summary:     ''
+summary: 	 Analysing climate policy impact
+description: 'An interactive website to visualise 3 decades of data about climate change policy, built on Ruby on Rails and CartoDB'
 link:        http://www.thepolicyclimate.org
 link_short:  thepolicyclimate.org
 client:      Climate Policy Initiative
 client_logo: climate.png
 image:       policy-climate_01b.jpg
-cover:  policy-climate_01b.jpg
+cover: 		 policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       14
