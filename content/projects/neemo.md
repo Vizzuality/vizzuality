@@ -7,6 +7,7 @@ link:        http://neemo.zooniverse.org
 link_short:  neemo.zooniverse.org
 client:      NASA
 client_logo: nasa.png
+release_date: October 2011
 post_url:    http://blog.vizzuality.com/post/11738015652/neemo-crowd-sourcing-a-seafloor-biodiversity
 post_title:  "Neemo, crowd-sourcing seafloor biodiversity identification"
 image:       neemo_02c.jpg

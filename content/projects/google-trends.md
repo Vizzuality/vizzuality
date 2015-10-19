@@ -7,6 +7,7 @@ link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
 client_logo: google.png
+release_date: February 2015
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
 image:       google_02.jpg

@@ -7,6 +7,7 @@ link:        http://www.endangeredlanguages.com
 link_short:  endangeredlanguages.com
 client:      Google.org and Alliance for Linguistic Diversity
 client_logo: google.png
+release_date: 
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  "A collaborative tool for documenting endangered languages"
 image:       languages_08c.jpg

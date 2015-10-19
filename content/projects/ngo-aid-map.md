@@ -8,6 +8,7 @@ link_short:  ngoaidmap.org
 client:      Interaction
 client_logo: interaction.png
 svg_logo:    interaction.svg
+release_date: 
 image:       ngo_09.jpg
 cover:       ngo_08b.jpg
 author:      Jamie Gibson

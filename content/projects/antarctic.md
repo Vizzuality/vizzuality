@@ -7,6 +7,7 @@ link:        http://afg.scarmarbin.be
 link_short:  afg.scarmarbin.be
 client:      SCAR-MarBIN and ANTABIF
 client_logo: antarctic.png
+release_date: 
 image:       antartic_03.jpg
 cover:  antartic_03.jpg
 author:      Jamie Gibson
@@ -29,7 +30,7 @@ modules:
                 description: Working with scientists allowed us to get the best data. The custom backoffice we built allows experts to enter the information and link with external resources with ease.
             -
                 image: ant_block3.jpg
-                description: For this project we made a great effort to improve previous solutions for taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!.
+                description: For this project we made a great effort to improve previous solutions for taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!
 
 opinions:
     -

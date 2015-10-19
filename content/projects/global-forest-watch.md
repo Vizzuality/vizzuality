@@ -8,6 +8,7 @@ link_short:  globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg
+release_date: February 2014
 post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global-forest-watchmen
 post_title:  "Who watches the (Global Forest) Watchmen?"
 image:       gfw_02.jpg

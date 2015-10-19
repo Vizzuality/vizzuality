@@ -7,6 +7,7 @@ link:        http://www.planethunters.org
 link_short:  planethunters.org
 client:      Zooniverse
 client_logo: zooniverse.png
+release_date: 
 post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed-planet-discovered-by
 post_title:  "'PH1', the first confirmed planet discovered by Planet Hunters"
 image:       hunters_09.jpg

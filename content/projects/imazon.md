@@ -4,7 +4,8 @@ short_title: Imazon
 summary:     An accurate picture of Amazon deforestation
 description: 'Using powerful geospatial software to help detect deforestation in the Amazon'
 client:      Imazon and Google.org
-client_logo: imazon-google.png 
+client_logo: imazon-google.png
+release_date:  
 image:       imazon_01.jpg
 cover:       imazon_01.jpg
 author:      Craig Mills
