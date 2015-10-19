@@ -1,8 +1,8 @@
 ---
-title:       Mountain Biodiversity.
+title:       Mountain Biodiversity
 short_title: Mountain Biodiversity
-description: Rising to the challenge of exploring biodiversity data.
-summary:     ''
+summary: 	 Rising to the challenge of exploring biodiversity data
+description: 'We developed a web tool to visualise mountain biodiversity data using PostgreSQL, custom Java software and Pixel Bender technology'
 client:      GMBA and GBIF
 client_logo: mol-gmba.png
 image:       mountain-biodiversity_01.jpg
