@@ -330,8 +330,6 @@ $margin-bottom = $margin * 4
   background-color $bg-color-9
 
   .sameheight
-    justify-content center
-
     .m-project-opinion-item
       margin-bottom $margin
       padding ($margin * 2)
@@ -358,15 +356,15 @@ $margin-bottom = $margin * 4
       a
         text-decoration none
 
-    @media screen and (min-width: $screen-sm)
-      .row > div
-        display flex
-        justify-content stretch
+  @media screen and (min-width: $screen-sm)
+    .row  > div
+      display flex
+      justify-content stretch
 
-      .m-project-opinion-item
-        display flex
-        align-items center
-        margin-bottom 0
+    .m-project-opinion-item
+      display flex
+      align-items center
+      margin-bottom 0
 
 // Module next project
 .m-project-detail-next
