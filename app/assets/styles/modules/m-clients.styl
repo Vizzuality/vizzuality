@@ -14,8 +14,8 @@
     display flex
     align-items center
     justify-content center
-    width 50%
-
+    width 33%
+    margin rem(20px) 0
     background-color white
 
     &:after
@@ -35,6 +35,14 @@
       opacity .5
       filter saturate(0)
 
-  @media screen and (min-width: $screen-sm)
+  @media screen and (min-width: 0) and (max-width: $screen-sm)
+    li
+      width 50%
+
+  @media screen and (min-width: $screen-md)
     li
       width 25%
+
+  // @media screen and (min-width: $screen-lg)
+  //   li
+  //     width 50%
