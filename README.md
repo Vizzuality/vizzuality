@@ -36,6 +36,8 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **image:** Obvious representation of the project for homepage “cards” _(Screenshot of vizzualization)_
 * **cover:** Symbolic image for using on the detail page _(A football player)_
 * **summary:** Short explanation of the project. It will be used as subtitle on the big cards on the homepage and as a big title on the detail pages _(Half a million people watching forest change)_
+* **fb_title** Title to display when the page is shared on Facebook
+* **fb_description** Description of the project to display when the page is shared on Facebook
 
 ## Order of Projects
 

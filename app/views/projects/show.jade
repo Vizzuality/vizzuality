@@ -3,6 +3,8 @@ extends ../layout.jade
 block vars
   - var title = data.short_title + ': ' + data.title + ' | ' + data.client
   - var description = data.description.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+  - var fb_title = data.fb_title
+  - var fb_description = data.fb_description
 
 block main
   section.m-project-detail

@@ -3,6 +3,8 @@ title:       Global Forest Watch
 short_title: GFW
 summary: 	 Pixel perfection for forest detection
 description: "An award-winning responsive web application to visualise changes to the world's forests"
+fb_title:    ""
+fb_description: ""
 link:        http://globalforestwatch.org
 link_short:  globalforestwatch.org
 client:      World Resources Institute
