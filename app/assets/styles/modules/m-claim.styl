@@ -1,17 +1,18 @@
 .m-claim
   display flex
-  align-items center
   height 90vh
+  align-items start
   padding 0 $margin
   font-size $font-xlarge-size
   font-weight 500
+  @media screen and (min-width: $screen-md)
+    align-items center
 
   article
     width 100%
     margin rem(-43px) auto 0 auto
 
   p
-    margin-top 0
     margin-bottom .25em
     line-height .9
     letter-spacing -0.02em
@@ -25,14 +26,16 @@
 
   .btn
     color $font-color-2
-    margin-left $margin
+
   .btn-secondary
-    position absolute
     color $font-color-3
     transition: opacity .5s ease;
+    margin 0 $margin 0 0
     @media (max-width: $screen-md)
+      display none
       opacity: 0
       &.is-visible
+        display inline-block
         opacity 1
 
     &:hover
