@@ -2,7 +2,7 @@
 title:       Google Trends 
 short_title: Google Trends
 summary: 	 Giving big data a half-time show
-description: 'Visualising big data from Google's Trends API with a responsive web application'
+description: "Visualising big data from Google's Trends API with a responsive web application"
 link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
@@ -14,7 +14,7 @@ image:       google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       2
+order:       3
 grid:        2
 highlighted:   true
 align:       right

@@ -14,7 +14,7 @@ image:       hunters_09.jpg
 cover:  hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       13
+order:       15
 grid:        1
 highlighted: true
 logoWidth:  150

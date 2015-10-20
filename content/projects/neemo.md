@@ -2,7 +2,7 @@
 title:       Project NEEMO
 short_title: Project NEEMO
 summary: 	 An underwater mission with NASA
-description: 'Dive into some of NASA's biodiversity data with our live web application built on node.js'
+description: "Dive into some of NASA's biodiversity data with our live web application built on node.js"
 link:        http://neemo.zooniverse.org
 link_short:  neemo.zooniverse.org
 client:      NASA
@@ -14,7 +14,7 @@ image:       neemo_02c.jpg
 cover:  	 neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       12
+order:       14
 grid:        1
 highlighted:   true
 logoWidth:  105

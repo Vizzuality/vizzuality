@@ -11,7 +11,7 @@ cover:       mountain-biodiversity_01.jpg
 color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
-order:       9
+order:       12
 grid:        1
 highlighted:   true
 logoWidth:  225

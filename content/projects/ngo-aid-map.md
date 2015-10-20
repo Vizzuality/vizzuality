@@ -13,7 +13,7 @@ image:       ngo_09.jpg
 cover:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       9
+order:       2
 grid:        2
 highlighted:   true
 align:       center
