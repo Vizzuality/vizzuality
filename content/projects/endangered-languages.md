@@ -1,15 +1,15 @@
 ---
-title:       Endangered Languages.
+title:       Endangered Languages
 short_title: Endangered Languages
-description: Catching 3000 whispers.
-summary:     ''
+summary: 	 Catching 3000 whispers
+description: 'An intuitive, interactive web application uniting researchers and citizens to preserve endangered languages'
 link:        http://www.endangeredlanguages.com
 link_short:  endangeredlanguages.com
 client:      Google.org and Alliance for Linguistic Diversity
 client_logo: google.png
+release_date: June 2012
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  "A collaborative tool for documenting endangered languages"
-summary:     "Uniting researchers, citizens and communities to halt the mass extinction of languages across the world"
 image:       languages_08c.jpg
 author:      Jamie Gibson
 date:        2015-05-07

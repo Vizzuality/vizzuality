@@ -1,14 +1,14 @@
 ---
-title:       Cash Atlas.
+title:       Cash Atlas
 short_title: Cash Atlas
-description: Following cash on the road to recovery.
-summary:     ''
+summary: 	 Following cash on the road to recovery
+description: 'A fast web interface to analyse the impact of cash transfer programmes on the fly'
 link:        http://www.cash-atlas.org/
 link_short:  cash-atlas.org
 client:      CALP
 client_title: The Cash Learning Partnership
 client_logo: calp.png
-date_online: February 2015
+release_date: February 2015
 image:       cashatlas_03.jpg
 cover:       cashatlas_03.jpg
 author:      Jamie Gibson

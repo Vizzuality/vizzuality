@@ -1,14 +1,14 @@
 ---
-title:       NGO Aid Map.
+title:       NGO Aid Map
 short_title: NGO Aid Map
-description: Mapping data for development.
-summary:     ''
+summary:     Mapping data for development
+description: 'An interactive website visualising accurate information on the work of non-profits across the world'
 link:        http://ngoaidmap.org
 link_short:  ngoaidmap.org
 client:      Interaction
 client_logo: interaction.png
 svg_logo:    interaction.svg
-summary:     Easy access to accurate information so non-profits can plan effective development actions
+release_date: May 2011
 image:       ngo_09.jpg
 cover:       ngo_08b.jpg
 author:      Jamie Gibson

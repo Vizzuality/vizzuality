@@ -1,13 +1,13 @@
 ---
-title:       Big Data, Small Screens.
+title:       Big Data, Small Screens
 short_title: Big Data, Small Screens
-description: The future of farming is satellite SMS.
-summary:     ''
+summary: 	 The future of farming is satellite SMS
+description: 'Building software to empower smallholder farmers with satellite data through an SMS service'
 client:      Zeitz Foundation
 client_logo: zeitz.png
+release_date: Work in progress
 post_url:    "http://blog.vizzuality.com/post/114042422481/thought-for-food"
 post_title:  "Thought for Food: we’re bringing satellite data to smallholders"
-summary:     "Live feeds of information straight from satellites to an SMS or smartphone, direct to the world’s poorest farmers."
 image:       kenya.jpg
 cover:       kenya.jpg
 author:      Craig Mills
