@@ -132,20 +132,12 @@ block main
     section.m-project-opinions
       .row.uncollapse.sameheight
         for opinion, index in data.opinions
-          if index == 0
-            .grid-sm-14.grid-lg-4.offset-lg-1
-              .m-project-opinion-item: div
-                if opinion.photo
-                  p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
-                p.m-project-opinion-text !{opinion.title}
-                p.m-project-opinion-autor !{opinion.autor}
-          else   
-            .grid-sm-14.grid-lg-4
-              .m-project-opinion-item: div
-                if opinion.photo
-                  p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
-                p.m-project-opinion-text !{opinion.title}
-                p.m-project-opinion-autor !{opinion.autor}
+          .grid-sm-14.grid-lg-4
+            .m-project-opinion-item: div
+              if opinion.photo
+                p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
+              p.m-project-opinion-text !{opinion.title}
+              p.m-project-opinion-autor !{opinion.autor}
 
   if data.link || data.post_url
     footer.m-project-detail-footer
