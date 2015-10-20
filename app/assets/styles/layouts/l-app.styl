@@ -35,7 +35,8 @@
 
         .btn-burguer
           .icon-burguer, .icon-burguer:before, .icon-burguer:after
-            background-color #000
+            background-color #222
+
 
       &.show
         transform translateY(130px)
@@ -67,8 +68,13 @@
 
   .btn-burguer
     position absolute
-    top rem(-10px)
+    top 50%
     right 0
+    transform translate(0, -50%)
+    .icon-burguer,
+    .icon-burguer:before,
+    .icon-burguer:after
+      height 2px
 
   .is-member-page .m-claim
     min-height 0
