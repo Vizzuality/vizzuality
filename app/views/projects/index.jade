@@ -36,7 +36,7 @@ block main
                 //- p.client= project.client
                 h1: a(href="/projects/#{project.slug}")= project.title + '.'
                 p.description= project.summary + '.'
-                a(class="btn-green", href="/projects/#{project.slug}") Read more
+                a(class="btn-third", href="/projects/#{project.slug}") Read more
 
       if lastPost
         article.m-post-card
@@ -57,7 +57,7 @@ block main
               //- p.client= project.client
               h1: a(href="/projects/#{project.slug}")= project.title + '.'
               p.description= project.summary + '.'
-              a(class="btn-green", href="/projects/#{project.slug}") Read more
+              a(class="btn-third", href="/projects/#{project.slug}") Read more
     
     if projects.length > numberOfProjects
       .grid-sm-14.grid-lg-12.offset-lg-1
