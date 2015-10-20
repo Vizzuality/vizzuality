@@ -10,7 +10,7 @@ image:       imazon_01.jpg
 cover:       imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       7
+order:       9
 grid:        1
 highlighted:   true
 logoWidth:  225

@@ -12,7 +12,7 @@ image:       policy-climate_01b.jpg
 cover: 		 policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       14
+order:       16
 grid:        1
 highlighted: true
 logoWidth:  135

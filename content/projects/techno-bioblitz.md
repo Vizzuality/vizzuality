@@ -14,7 +14,7 @@ image:       techno_03b.jpg
 cover: 		 techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
-order:       15
+order:       17
 grid:        2
 highlighted: true
 logoWidth:  150

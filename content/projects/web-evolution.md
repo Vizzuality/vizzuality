@@ -14,7 +14,7 @@ image:       evolution_01.jpg
 cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       16
+order:       18
 grid:        1
 highlighted: true
 logoWidth:  120

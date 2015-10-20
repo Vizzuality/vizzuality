@@ -14,7 +14,7 @@ image:       neemo_02c.jpg
 cover:  	 neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       12
+order:       14
 grid:        1
 highlighted:   true
 logoWidth:  105
