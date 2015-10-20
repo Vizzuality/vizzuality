@@ -2,7 +2,7 @@
 title:       Endangered Languages
 short_title: Endangered Languages
 summary: 	 Catching 3000 whispers
-description: 'An intuitive, interactive web application uniting researchers and citizens to preserve endangered languages'
+description: "An intuitive, interactive web application uniting researchers and citizens to preserve endangered languages"
 link:        http://www.endangeredlanguages.com
 link_short:  endangeredlanguages.com
 client:      Google.org and Alliance for Linguistic Diversity
