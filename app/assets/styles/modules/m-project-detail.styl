@@ -318,10 +318,12 @@ $margin-bottom = $margin * 4
 .m-project-blog
   margin 3.25rem 0
   .m-post-card
-    // max-height 60vh
-    height auto
-    padding 6.25rem
+    height inherit
+    max-height none
+    padding 2.25rem
     margin 0
+    @media screen and (min-width: $screen-sm)
+      padding 6.25rem
 
 
 // Module opinions
@@ -386,7 +388,7 @@ $margin-bottom = $margin * 4
 
   h1
     margin 0 auto
-    // line-height 1.1
+    line-height 1.1
     max-width 70%
 
   p
@@ -402,4 +404,4 @@ $margin-bottom = $margin * 4
   veil()
 
   @media screen and (min-width: $screen-sm)
-    min-height rem(350px)
+    height rem(350px)
