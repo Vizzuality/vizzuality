@@ -1,17 +1,20 @@
 ---
-title:       Updating the history of the web
+title:       Evolution of the Web
 short_title: Evolution of the Web
-link:        http://www.evolutionoftheweb.com/
+summary: 	 Updating the history of the web
+decription:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
+link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt
 client_logo: google.png
+release_date: June 2012
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
 image:       evolution_01.jpg
 cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       16
+order:       18
 grid:        1
 highlighted: true
 logoWidth:  120
@@ -30,11 +33,6 @@ modules:
             -
                 image: webvolution_block6.jpg
                 description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
-# 
-#     map:
-#         title: Take a look
-#         description:
-#         url: http://www.evolutionoftheweb.com/
 
 opinions:
     -

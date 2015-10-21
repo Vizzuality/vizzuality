@@ -34,9 +34,9 @@ block main
                 else
                   img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}" width="#{project.logoWidth}")
                 //- p.client= project.client
-                h1: a(href="/projects/#{project.slug}")= project.title
-                p.description= project.summary
-                a(class="btn-green", href="/projects/#{project.slug}") Read more
+                h1: a(href="/projects/#{project.slug}")= project.title + '.'
+                p.description= project.summary + '.'
+                a(class="btn-third", href="/projects/#{project.slug}") Read more
 
       if lastPost
         article.m-post-card
@@ -55,9 +55,9 @@ block main
               else
                 img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}")
               //- p.client= project.client
-              h1: a(href="/projects/#{project.slug}")= project.title
-              p.description= project.summary
-              a(class="btn-green", href="/projects/#{project.slug}") Read more
+              h1: a(href="/projects/#{project.slug}")= project.title + '.'
+              p.description= project.summary + '.'
+              a(class="btn-third", href="/projects/#{project.slug}") Read more
     
     if projects.length > numberOfProjects
       .grid-sm-14.grid-lg-12.offset-lg-1
@@ -93,15 +93,14 @@ block main
         p Get in touch.
         a(href="/about#contact", class="btn") Contact us
 
-  section.m-subscribe
+  section.m-subscribe.is-hidden
     .row
       .m-subscribe-container
-        .grid-sm-14.grid-md-6.grid-lg-6.offset-lg-1
+        .grid-sm-14.grid-lg-12.offset-lg-1
           .m-subscribe-content
             span Subscribe to our newsletter
-        .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
-          form#form-subscribe
-            input(type="email" required placeholder="Your email here")
-            button(type="submit" class="btn-secondary" id ="submitForm") Send
+            form#form-subscribe
+              input(type="email" required placeholder="Your email here")
+              button(type="submit" class="btn-secondary" id ="submitForm") Send
 
 

@@ -8,6 +8,8 @@ html(lang="en")
     meta(charset="utf-8")
     title= (title ? title + ' | ' : '') + 'Vizzuality'
     meta(name="description", content=description)
+    meta(property="og:title", content=fb_title || title)
+    meta(property="og:description", content=fb_description || description)
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css")
     if 'production' == process.env.NODE_ENV

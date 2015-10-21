@@ -34,7 +34,7 @@ $margin-bottom = $margin * 4
   @media (max-width: $screen-md)
     .m-project-detail
       header
-        height 87vh
+        height 82vh
 
 // Header
 .m-project-detail-header
@@ -93,7 +93,7 @@ $margin-bottom = $margin * 4
 // Content
 .m-project-detail-content
   margin 0
-  padding ($margin) ($margin) 0
+  padding $margin
 
   h1
     text-align center
@@ -331,7 +331,6 @@ $margin-bottom = $margin * 4
 
   .sameheight
     justify-content center
-
     .m-project-opinion-item
       margin-bottom $margin
       padding ($margin * 2)
@@ -358,15 +357,15 @@ $margin-bottom = $margin * 4
       a
         text-decoration none
 
-    @media screen and (min-width: $screen-sm)
-      .row > div
-        display flex
-        justify-content stretch
+  @media screen and (min-width: $screen-sm)
+    .row  > div
+      display flex
+      justify-content stretch
 
-      .m-project-opinion-item
-        display flex
-        align-items center
-        margin-bottom 0
+    .m-project-opinion-item
+      display flex
+      align-items center
+      margin-bottom 0
 
 // Module next project
 .m-project-detail-next

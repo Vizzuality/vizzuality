@@ -2,7 +2,9 @@ extends ../layout.jade
 
 block vars
   - var title = data.short_title + ': ' + data.title + ' | ' + data.client
-  - var description = data.summary.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+  - var description = data.description.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+  - var fb_title = data.fb_title
+  - var fb_description = data.fb_description
 
 block main
   section.m-project-detail
@@ -13,8 +15,8 @@ block main
         .grid-sm-14.grid-lg-12.offset-lg-1
           //- p(style= data.color ? "color: #{data.color}" : "")
           //-   strong #{data.short_title}
-          h1(style= data.color ? "color: #{data.color}" : "")= data.title
-          p(class="summary")= data.summary       
+          h1(style= data.color ? "color: #{data.color}" : "")= data.title + '.'
+          p(class="summary")= data.summary + '.'
 
     a(href="#{data.link}" class="btn btn-check") Check it online
 

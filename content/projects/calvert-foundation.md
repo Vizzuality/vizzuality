@@ -1,12 +1,14 @@
 ---
-title:       Calvert Foundation Map.
+title:       Calvert Foundation Map
 short_title: Calvert Foundation
+summary: 	 Mapping Success for the Calvert Foundation
+description: 'A mobile first application to visualise the success of the Calvert Foundation'
 link:        http://map.calvertfoundation.org
 link:        http://map.calvertfoundation.org/
 link_short:  map.calvertfoundation.org
 client:      Calvert Foundation
 client_logo: calvert.png
-summary    : Mapping Success for the Calvert Foundation
+release_date: October 2014
 image:       calvert_03.jpg
 cover:  calvert_03.jpg
 author:      Jamie Gibson
@@ -14,7 +16,7 @@ date:        2015-05-07
 order:       7
 grid:        2
 highlighted:   true
-logoWidth:  200
+logoWidth:  176
 
 modules:
 

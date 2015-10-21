@@ -1,17 +1,20 @@
 ---
-title:       A toolkit for a Bioblitz with a twist
+title:       Techno Bioblitz
 short_title: Techno Bioblitz
-link:        http://bioblitz.tdwg.org/
+summary:     A toolkit for a bioblitz with a twist
+description: 'We developed tools for citizens to collect data about biodiversity as part of a Bioblitz in 2010'
+link:        http://bioblitz.tdwg.org
 link_short:  bioblitz.tdwg.org
 client:      TDWG
 client_logo: tdwg.png
+release_date: September 2010
 post_url:    http://blog.vizzuality.com/post/1035773168/bioblitz-at-the-next-tdwg-2010-conference
 post_title:  Bioblitz at the TDWG 2010 Conference
 image:       techno_03b.jpg
-cover:  techno_03b.jpg
+cover: 		 techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
-order:       15
+order:       17
 grid:        2
 highlighted: true
 logoWidth:  150

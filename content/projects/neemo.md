@@ -1,17 +1,20 @@
 ---
-title:       An underwater mission with NASA
+title:       Project NEEMO
 short_title: Project NEEMO
-link:        http://neemo.zooniverse.org/
+summary: 	 An underwater mission with NASA
+description: "Dive into some of NASA's biodiversity data with our live web application built on node.js"
+link:        http://neemo.zooniverse.org
 link_short:  neemo.zooniverse.org
 client:      NASA
 client_logo: nasa.png
+release_date: October 2011
 post_url:    http://blog.vizzuality.com/post/11738015652/neemo-crowd-sourcing-a-seafloor-biodiversity
 post_title:  "Neemo, crowd-sourcing seafloor biodiversity identification"
 image:       neemo_02c.jpg
-cover:  neemo_02c.jpg
+cover:  	 neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       12
+order:       14
 grid:        1
 highlighted:   true
 logoWidth:  105
