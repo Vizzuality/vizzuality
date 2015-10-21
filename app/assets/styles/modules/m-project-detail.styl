@@ -405,4 +405,10 @@ $margin-bottom = $margin * 4
   veil()
 
   @media screen and (min-width: $screen-sm)
-    height rem(350px)
+    min-height rem(350px)
+
+.ie
+    @media screen and (min-width: $screen-sm)
+      .m-project-detail-next
+        min-height auto
+        height rem(350px)
