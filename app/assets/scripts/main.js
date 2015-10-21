@@ -596,6 +596,14 @@
 
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('Trident');
+
+    if (msie > 0) {
+      document.body.className = document.body.className + ' ie';
+    }
+
     mobileNavigation();
     anchorButtons();
     contactForm();
