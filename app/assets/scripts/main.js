@@ -490,14 +490,14 @@
       return;
     }
 
-    var backgroundImage = parallaxContent.getAttribute('style');
-    parallaxContent.style.backgroundImage = backgroundImage;
+    // var backgroundImage = parallaxContent.getAttribute('style');
+    // parallaxContent.style.backgroundImage = backgroundImage;
 
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
 
       this.setAttribute(
-        'style', backgroundImage + '; transform: translate3d(0,' + translateY + 'px, 0); -webkit-transform: translate3d(0,' + translateY + 'px, 0)'
+        'style', 'transform: translate3d(0,' + translateY + 'px, 0); -webkit-transform: translate3d(0,' + translateY + 'px, 0)'
       );
     };
 
