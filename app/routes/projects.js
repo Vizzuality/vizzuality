@@ -77,6 +77,7 @@ module.exports = function(app) {
 
       res.render('projects/show', {
         data: result,
+        prev: projects[index - 1],
         next: projects[index + 1],
         content: result.html,
         className: 'is-project-detail-page'

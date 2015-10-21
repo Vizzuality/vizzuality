@@ -2,6 +2,7 @@
 title:       "Science and Art in Madrid"
 short_title: 101 Masterpieces
 link:        http://www.101obrasmaestras.com/en
+link_short:  101obrasmaestras.com/en
 client:      
 client_logo: 
 image:       101_02.jpg
@@ -25,8 +26,8 @@ modules:
                 image: 
                 description: "With a highly customise Drupal distribution, content management is made easy."
     map:
-        title: Explore for yourself
-        description: 101 masterpieces in 30 institutions: how many will you see?
+        title: "Explore for yourself"
+        description: "101 masterpieces in 30 institutions: how many will you see?"
         url: http://www.101obrasmaestras.com/en
 
 ---

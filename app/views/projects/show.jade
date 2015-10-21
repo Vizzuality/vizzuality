@@ -2,75 +2,96 @@ extends ../layout.jade
 
 block vars
   - var title = data.short_title + ': ' + data.title + ' | ' + data.client
-  - var description = content.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+  - var description = data.description.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...'
+  - var fb_title = data.fb_title
+  - var fb_description = data.fb_description
 
 block main
   section.m-project-detail
     
-    header.m-project-detail-header(style="background-image: url(/assets/images/projects/#{data.image})")
+    header.m-project-detail-header(style="background-image: url(/assets/images/projects/#{data.cover})")
       .veil
       .row
         .grid-sm-14.grid-lg-12.offset-lg-1
-          p(style= data.color ? "color: #{data.color}" : "") A project for 
-            strong #{data.client}
-          h1(style= data.color ? "color: #{data.color}" : "")= data.title            
+          //- p(style= data.color ? "color: #{data.color}" : "")
+          //-   strong #{data.short_title}
+          h1(style= data.color ? "color: #{data.color}" : "")= data.title + '.'
+          p(class="summary", style= data.color ? "color: #{data.color}" : "")= data.summary + '.'
+
+    a(href="#{data.link}" class="btn btn-check") Check it online
 
     .m-project-detail-content
       .row
-        if data.client_logo
-          .grid-sm-14.grid-lg-8.offset-lg-2
-            | !{content}
-          .grid-sm-14.grid-lg-2
-            img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
-        else
-          .grid-sm-14.grid-lg-10.offset-lg-2
-            | !{content}
-    
-    if data.link || data.post_url
-      footer.m-project-detail-footer
-        .row.sameheight
-          if data.link && data.post_url
-            .grid-sm-14.grid-lg-7.is-grid-centered.m-project-url
-              div: a(href="#{data.link}", class="btn") Check it online
-          else if data.link
-            .grid-sm-14.grid-lg-14.is-grid-centered.m-project-url
-              div: a(href="#{data.link}", class="btn") Check it online
 
-          if data.link && data.post_url
-            .grid-sm-14.grid-lg-7.is-grid-centered.m-project-post
-              div
-                if data.post_title
-                  h2= data.post_title
-                a(href="#{data.post_url}", class="btn-secondary") Read blog post
-          else if data.post_url
-            .grid-sm-14.grid-lg-14.is-grid-centered.m-project-post
-              div
-                if data.post_title
-                  h2= data.post_title
-                a(href="#{data.post_url}", class="btn-secondary") Read blog post
+        if data.client_logo
+          .grid-sm-8.grid-md-8.grid-lg-8.offset-lg-1
+            | !{content}
+          .grid-sm-5.grid-md-5.grid-lg-4.offset-sm-1.offset-md-1.offset-lg-1
+            .client-info
+              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
+              if data.client
+                h2 #{data.client}.
+              if data.stringDate
+                p(class="date") #{data.stringDate}.
+              if data.link
+                p
+                  a(href="#{data.link}" class="btn") Check it online
+        else
+          .grid-sm-14.grid-lg-3.offset-lg-1
+            | !{content}
     
+    
+  if data.modules.video
+    if data.modules.video.style
+    section(class="m-project-detail-video #{data.modules.video.style}")
+      .row
+        .grid-sm-14.grid-lg-10.offset-lg-2
+          .video-box
+            iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+
   if data.modules.text_left
     section.m-project-detail-article.is-left
-      .row.sameheight
-        .grid-sm-14.grid-lg-5.offset-lg-1
+      .row.sameheight.is-grid-centered
+        .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
           .m-project-article-content
             h2= data.modules.text_left.title
             p !{data.modules.text_left.description}
-            a(href="#{data.link}", class="btn") See online
+            //- a(href="#{data.link}", target="_blank", class="btn-secondary") See online
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_left.image}")
+
+
+  if data.modules.text_left_v2
+    section.m-project-detail-article.is-left
+      .row
+        .grid-sm-14.grid-lg-8.offset-lg-1.is-grid-centered
+          .m-project-article-content
+            h2= data.modules.text_left_v2.title
+            p !{data.modules.text_left_v2.description}
+            //- a(href="#{data.link}", target="_blank", class="btn") See online
+        
+        div#parallax-content.parallax-content
+          div(style="background-image: url('/assets/images/projects/#{data.modules.text_left_v2.image}')")
     
   if data.modules.text_right
     section.m-project-detail-article.is-right
       .row.sameheight
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_right.image}")
-        .grid-sm-14.grid-lg-5
+        .grid-sm-14.grid-lg-5.is-grid-centered
           .m-project-article-content
             h2= data.modules.text_right.title
             p !{data.modules.text_right.description}
 
-
+  if data.modules.text_above
+    section.m-project-detail-article
+      .row.sameheight
+        .grid-sm-14.grid-lg-8.offset-lg-1
+          .m-project-article-content
+            h2= data.modules.text_above.title
+            p !{data.modules.text_above.description}
+            img(src="/assets/images/projects/#{data.modules.text_above.image}")
+        
   if data.modules.blocks
     section.m-project-detail-blocks
       .row.uncollapse
@@ -97,37 +118,45 @@ block main
               iframe(src=data.modules.map.url, frameborder="0")
           p !{data.modules.map.description}
 
-  if data.modules.video
-    section.m-project-detail-video
+  if data.title && data.post_url
+    section.m-project-blog
       .row
-        .grid-sm-14.grid-lg-10.offset-lg-2
-          h2= data.modules.video.title
-          iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
+        .grid-sm-14.grid-lg-12.offset-lg-1
+          article.m-post-card
+            .m-post-card-content
+              h1 Stay tuned.
+              h2: a(href="#{data.post_url}")= data.post_title
+              a(class="btn", href="#{data.post_url}") Read our blog
   
   if data.opinions && data.opinions.length
     section.m-project-opinions
       .row.uncollapse.sameheight
         for opinion, index in data.opinions
-          if index == 0
-            .grid-sm-14.grid-lg-4.offset-lg-1
-              .m-project-opinion-item: div
-                if opinion.photo
-                  p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
-                p.m-project-opinion-text !{opinion.title}
-                p.m-project-opinion-autor !{opinion.autor}
-          else
-            .grid-sm-14.grid-lg-4
-              .m-project-opinion-item: div
-                if opinion.photo
-                  p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
-                p.m-project-opinion-text !{opinion.title}
-                p.m-project-opinion-autor !{opinion.autor}
+          .grid-sm-14.grid-lg-4
+            .m-project-opinion-item: div
+              if opinion.photo
+                p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
+              p.m-project-opinion-text !{opinion.title}
+              p.m-project-opinion-autor !{opinion.autor}
+
+  if data.link || data.post_url
+    footer.m-project-detail-footer
+      .row.sameheight
+        if data.link && data.link_short
+          .grid-sm-14.is-grid-centered.m-project-url
+            a(href="#{data.link}", target="_blank", class="link-cover")
+            div: p !{data.link_short}
+            div: a(href="#{data.link}", target="_blank", class="btn") Check it online
+        
 
   section.m-message
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
         p Get in touch.
         a(href="/about#contact", class="btn") Contact us
+
+  //- if (prev)
+  //-   section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{prev.image})")
 
   if (next)
     section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{next.image})")

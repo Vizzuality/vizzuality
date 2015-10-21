@@ -1,0 +1,49 @@
+.m-subscribe
+  padding 4.5rem 1.25rem
+  background-color $bg-color-3
+
+  @media screen and (max-width:$screen-sm)
+    .m-subscribe-container
+      flex-direction column
+
+
+  .m-subscribe-container
+    display flex
+    align-items center
+    .m-subscribe-content
+      display flex
+      align-items center
+      justify-content space-around
+
+      span
+        font-size rem(48px)
+        font-weight 500
+        color $white
+      @media screen and (max-width:$screen-sm)
+        flex-direction column
+        span
+          font-size 2.25rem
+          text-align center
+        form input
+          font-size $font-medium-size
+    form
+      display flex
+      justify-content space-between
+      margin-top $margin
+      align-items center
+      padding-bottom rem(5px)
+      border-bottom 2px solid rgba(255,255,255, .5)
+      input
+        width 75%
+        background-color transparent
+        border 0
+        font-size rem(48px)
+        color $white
+        &::-webkit-input-placeholder
+          color $white
+        // @media screen and (max-width:$screen-sm)
+        //   font-size $font-medium-size
+
+      .btn-secondary
+        margin 0
+        border 0

@@ -2,6 +2,7 @@
 title:       "The Footprints of Spain's Tourists"
 short_title: "BBVA"
 link:        http://bbvatourism.vizzuality.com
+link_short:  bbvatourism.vizzuality.com
 client:      "BBVA"
 client_logo: 
 post_url:    bbva-launch

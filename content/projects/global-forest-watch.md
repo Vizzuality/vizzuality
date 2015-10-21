@@ -1,24 +1,32 @@
 ---
-title:       Pixel perfection for forest detection
+title:       Global Forest Watch
 short_title: GFW
+summary: 	 Pixel perfection for forest detection
+description: "An award-winning responsive web application to visualise changes to the world's forests"
+fb_title:    ""
+fb_description: ""
 link:        http://globalforestwatch.org
+link_short:  globalforestwatch.org
 client:      World Resources Institute
 client_logo: wri.png
-post_url:    http://blog.vizzuality.com/post/116039071836/standing-on-the-shoulders-of-giant-redwoods
-post_title:  Standing on the Shoulders of Giant Redwoods
-summary:     Distilling complex science and data into an elegant interface for anyone to track changes to the world’s forests.
-image:       gfw_01.jpg
-cover:       gfw_02.jpg
+svg_logo:    wri.svg
+release_date: February 2014
+post_url:    http://blog.vizzuality.com/post/129077179181/who-watches-the-global-forest-watchmen
+post_title:  "Who watches the (Global Forest) Watchmen?"
+image:       gfw_02.jpg
+cover:       gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
+stringDate:  May 2015
 order:       1
-highlighted:   true
+highlighted: true
+align:       left
 
 modules:
     text_left:
         title: One eye in the sky...
         description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
-        image: GFW-high1b.png
+        image: GFW-high1.png
 
     text_right:
         title: ...the other on our screens.
@@ -45,6 +53,7 @@ modules:
 
     video:
         title: The video
+        style: light
         url: https://www.youtube.com/embed/lTG-0brb98I?rel=0&amp;showinfo=0
 
 opinions:
@@ -66,3 +75,4 @@ opinions:
 We’ve been tracking the changes in our forests for centuries, but with all of the technological capabilities available in the 21st Century it was time for a new approach to sharing this. 
 
 Over the course of 18 months Vizzuality and WRI came up with a new way to visualise forest data and bring forests to life. Our approach was to concentrate on the small design details that deliver a memorable experience, then push the limits of APIs and engineering to make it all possible. Once launched, we continued to work with WRI to refine the site, navigation, and available data, improving the experience for GFW’s half a million visitors. 
+  

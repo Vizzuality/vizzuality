@@ -1,21 +1,27 @@
 ---
-title:       Analysing climate policy impact
+title:       The Policy Climate
 short_title: The Policy Climate
-link:        http://www.thepolicyclimate.org/
+summary: 	 Analysing climate policy impact
+description: 'An interactive website to visualise 3 decades of data about climate change policy, built on Ruby on Rails and CartoDB'
+link:        http://www.thepolicyclimate.org
+link_short:  thepolicyclimate.org
 client:      Climate Policy Initiative
 client_logo: climate.png
+release_date: April 2013
 image:       policy-climate_01b.jpg
+cover: 		 policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       17
-grid:        2
+order:       16
+grid:        1
 highlighted: true
+logoWidth:  135
 
 modules:
     text_left:
         title: Insight through interaction
         description: At Vizzuality we strongly believe that if people are entertained and surprised by a visualisation they can more easily engage with the data and gain new understanding of a topic. The vertical bar on every page combines the enjoyment reward of interaction with the analytical power needed to find insight. 
-        image: pc_block2.jpg
+        image: pc_block2.png
 
 opinions:
     -

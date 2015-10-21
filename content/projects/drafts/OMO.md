@@ -2,6 +2,7 @@
 title:       Omo Valley
 short_title: Omo Valley
 link:        http://www.hrw.org/node/123131
+link_short:  hrw.org/node/123131
 client:      Human Rights Watch
 client_logo: 
 summary:     Telling the untold story of degradation in the Omo Valley

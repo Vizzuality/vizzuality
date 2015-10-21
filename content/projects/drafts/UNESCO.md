@@ -2,6 +2,7 @@
 title:       UNESCO Places
 short_title: UNESCO Places
 link:        
+link_short:  
 client:      Own project
 client_logo: 
 image:       unesco_02.jpg

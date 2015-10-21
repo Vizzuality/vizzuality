@@ -1,5 +1,11 @@
-font-face("Akzidenz", "/assets/fonts/akzidenzgrotesk-light-webfont", 300, normal)
-font-face("Akzidenz", "/assets/fonts/akzidenzgrotesk-medium-webfont", 500, normal)
+font-face("Akzidenz", "http://x-vizzuality.herokuapp.com/assets/fonts/akzidenzgrotesk-light-webfont", 300, normal)
+font-face("Akzidenz", "http://x-vizzuality.herokuapp.com/assets/fonts/akzidenzgrotesk-medium-webfont", 500, normal)
+
+@font-face
+  font-family 'Akzidenz'
+  src data
+  font-weight 300
+  font-style normal
 
 *,
 *:before,
@@ -46,22 +52,23 @@ h1, h2, h3, h4, h5, h5, strong
 
 h1, h2, h3
   letter-spacing -0.02em
+  line-height 0.95
 
 h1
   font-size $font-large-size
-  line-height $line-height * 0.9
+  // line-height $line-height * 0.9
   letter-spacing -0.04em
 
   @media screen and (min-width: $screen-sm)
     font-size $lg-font-large-size
-    line-height $line-height * 0.75
+    // line-height $line-height * 0.75
 
 h2
   font-size $font-medium-size
 
   @media screen and (min-width: $screen-sm)
     font-size $lg-font-medium-size
-    line-height 1.1
+    // line-height 1.1
 
 a
   color $font-color-1

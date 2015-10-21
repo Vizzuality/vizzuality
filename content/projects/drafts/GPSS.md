@@ -1,7 +1,8 @@
 ---
 title:       Global Programme for Safer Schools
 short_title: GPSS
-link:        http://gpss.vizzuality.com/
+link:        http://gpss.vizzuality.com
+link_short:  gpss.vizzuality.com
 client:      World Bank
 client_logo: 
 image:       gpss_01.jpg
@@ -12,8 +13,8 @@ highlighted:   true
 
 modules:
     text_left:
-        title: Dealing with heterogeneous data
-        description: The datasets to be visualised are all very different, in terms of type and quality, and come from a number of different national and international sources. We built a flexible back end that was able to deal with this variety and serve accurate geospatial data to the front end. In the future we hope to add layers with other hazards at the global and local level and analysis capabilities. 
+        title: "Dealing with heterogeneous data"
+        description: "The datasets to be visualised are all very different, in terms of type and quality, and come from a number of different national and international sources. We built a flexible back end that was able to deal with this variety and serve accurate geospatial data to the front end. In the future we hope to add layers with other hazards at the global and local level and analysis capabilities." 
         image: GPSS_high1.png
 
 ---

@@ -1,14 +1,21 @@
 ---
-title:       Prepare for Antarctic Adventures
+title:       Antarctic Field Guide
 short_title: Antarctic Field Guide
-link:        http://afg.scarmarbin.be/
+summary:     Prepare for Antarctic Adventures
+description: 'Pure HTML5 and javascript provides an interactive interface into data about the Antarctic'
+link:        http://afg.scarmarbin.be
+link_short:  afg.scarmarbin.be
 client:      SCAR-MarBIN and ANTABIF
 client_logo: antarctic.png
+release_date: November 2010
 image:       antartic_03.jpg
+cover:  antartic_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       7
+order:       11
+grid:        1
 highlighted:   true
+logoWidth:  225
 
 modules:
 
@@ -23,7 +30,7 @@ modules:
                 description: Working with scientists allowed us to get the best data. The custom backoffice we built allows experts to enter the information and link with external resources with ease.
             -
                 image: ant_block3.jpg
-                description: For this project we made a great effort to improve previous solutions for taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!.
+                description: For this project we made a great effort to improve previous solutions for taxonomy browsing. We think this is the best Taxonomic Browser we have built to date and is all pure HTML+JS!
 
 opinions:
     -

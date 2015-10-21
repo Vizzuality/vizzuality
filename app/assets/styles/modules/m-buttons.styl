@@ -1,4 +1,4 @@
-.btn, .btn-secondary
+.btn, .btn-secondary, .btn-third
   display inline-block
   padding ($margin / 1.5) rem(30px)
 
@@ -30,13 +30,25 @@
   background-color $bg-color-1
   color $font-color-3
   margin-top $margin
+  border-color $font-color-3
+
 
   &:hover
     color $font-color-2
 
+.btn-third
+  color $font-color-2
+  border 1px solid $font-color-2
+  background-color transparent
+  &:hover
+    // color $white
+    // border: 1px solid $white
+    background rgba($font-color-2, .1)
+
+
 .btn-burguer
-  width rem(50px)
-  height rem(50px)
+  width rem(19px)
+  height 100%
   padding 0
   border 0
 

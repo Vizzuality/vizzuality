@@ -1,12 +1,15 @@
 ---
-title:       Giving data a half-time show
+title:       Google Trends 
 short_title: Google Trends
+summary: 	 Giving big data a half-time show
+description: "Visualising big data from Google's Trends API with a responsive web application"
 link:        http://nfl.vizzuality.com
+link_short:  nfl.vizzuality.com
 client:      Google
 client_logo: google.png
+release_date: February 2015
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
-summary:     Replay the 2014/2015 NFL season through the eyes of the fans using Google Trends data 
 image:       google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills
@@ -14,6 +17,8 @@ date:        2015-04-22
 order:       3
 grid:        2
 highlighted:   true
+align:       right
+logoWidth:   180
 
 modules:
     text_left:
@@ -24,7 +29,7 @@ modules:
     text_right: 
         title: "Leading from the Front (end)"
         description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
-        image: GoogleTrends-high3.jpg
+        image: GoogleTrends-high3.png
 
     map: 
         title: Watch it for yourself

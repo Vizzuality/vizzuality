@@ -31,6 +31,11 @@ $margin-bottom = $margin * 4
     position relative
     margin-top rem(-90px)
 
+  @media (max-width: $screen-md)
+    .m-project-detail
+      header
+        height 82vh
+
 // Header
 .m-project-detail-header
   position relative
@@ -44,96 +49,181 @@ $margin-bottom = $margin * 4
   background-size cover
 
   h1
-    margin-top 0.5rem
-    margin-bottom .6em
+    // margin-top 0.5rem
+    margin-bottom .2em
     max-width 70%
+    font-size 36px
+
+
+  .summary
+    margin 0 0 25px
+    font-size 90px
+    font-weight 400
+    letter-spacing -1.8px
+    line-height 85px
+
 
   p
     margin-bottom 0
-    padding-left .3rem
+    padding-left .1rem
     font-size $font-medium-size
+    strong
+      font-size $font-large-size
 
   @media screen and (min-width: $screen-sm)
     height 80vh
     align-items flex-end
     padding-bottom ($margin * 2)
 
-  @media screen and (min-width: $screen-xl)
+  @media (max-width: $screen-md)
+    align-items flex-end
     h1
-      font-size $lg-font-xlarge-size
+      font-size 20px
+
+    .summary
+      margin $margin 0 ($margin * 2)
+      font-size 48px
+      line-height 41px
+
+.btn-check
+  width 100%
+  @media (min-width: $screen-md)
+    display none
 
 // Content
 .m-project-detail-content
-  padding ($margin * 2) $margin
+  margin 0
+  padding $margin
 
-  h1, h2
+  h1
     text-align center
+
+
+  h2,
+  .date
+    text-align left
+    font-size 18px;
+
+
+  p
+    font-size rem(24px)
+
+  .client-info
+    margin-top 0
+    @media (min-width: $screen-md)
+      margin-top 1.75rem
+
+    img, p
+      margin 0
+    img
+      float none
+
+    h2, p, .date
+      font-size rem(18px)
+
+    h2
+      margin 8px 0
+    a
+      margin-top 1rem
+      display none
+      @media (min-width: $screen-md)
+        display inline-block
+
+  @media screen and (max-width: $screen-sm)
+    .row
+      display flex
+      flex-direction column-reverse
+
 
   @media screen and (min-width: $screen-sm)
     .m-project-client-logo
       float right
-      margin-top $margin
+      // margin-top $margin
       margin-bottom $margin
       margin-left $margin * 2
 
 // Footer with links
 .m-project-detail-footer
-  margin-bottom $margin-bottom
-
-  .m-project-url, .m-project-post
-    padding $margin 0
 
   .m-project-url
+    min-height rem(250px)
+    padding $margin 0
     background-color $bg-color-6
 
+
+
+    .link-cover
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+
+    p
+      font-size rem(36px)
+      color $white
+      margin 0 36px 0 0
+
     .btn
+      position relative
       background-color transparent
+      letter-spacing normal
+      font-size $font-large-size
+      color $font-color-3
+      text-transform none
+      background-color $bg-color-1
+      &:hover
+        color $malachite
 
-  .m-project-post
-    color $font-color-2
-    text-align center
-    background-color $bg-color-3
-
-    h2
-      margin .3em 0
-
-    .btn, .btn-secondary
-      display block
-      margin .3em $margin
-
-  @media screen and (min-width: $screen-sm)
-    .m-project-post, .m-project-url
-      min-height rem(250px)
-
-      .btn, .btn-secondary
-        padding 0
-        border 0
-        color $font-color-2
-        font-size $lg-font-normal-size * 1.8
-        text-transform none
-        border-bottom 2px solid $font-color-2
-        background-color transparent
-
-    .m-project-post
-      h2
-        display none
-      a
-        margin-left auto
-        margin-right auto
+    @media screen and (max-width: $screen-sm)
+      flex-direction column
+      p
+        margin 0 0 36px 0
 
 
 // Module articles left and right
 .m-project-detail-article
-  margin-bottom $margin-bottom
+  margin 0
+
+  h2
+    font-size rem(48px)
+
+  p
+    font-size rem(24px)
 
   &.is-right
-    background-color $bg-color-8
+    background-color $bg-color-9
 
   .btn, .btn-secondary
     display block
 
   .m-project-article-content
-    padding $margin ($margin * 2)
+    padding $margin
+    margin-bottom $margin
+
+  .parallax-content
+      position relative
+      width 100%
+      height 550px
+      overflow hidden
+      div
+        position absolute
+        top -300px
+        left 0
+        right 0
+        bottom -300px
+        background-size contain
+        background-position 50% 0
+        background-repeat no-repeat
+        background-image: url('/assets/images/projects/cashAtlas-wide.jpg')
+
+  @media screen and (max-width: $screen-sm)
+    .parallax-content
+      height 150px
+
+  @media screen and (min-width: $screen-md) and (max-width: $screen-lg)
+    .parallax-content
+      height 300px
 
   @media screen and (min-width: $screen-sm)
     .m-project-article-content
@@ -143,7 +233,10 @@ $margin-bottom = $margin * 4
 // Module blocks
 .m-project-detail-blocks
   padding $margin
-  margin-bottom $margin-bottom
+  // margin-bottom $margin-bottom
+
+  p
+    font-size $font-medium-size
 
   .thumb
     margin-top 1px
@@ -198,53 +291,77 @@ $margin-bottom = $margin * 4
 
 // Module video
 .m-project-detail-video
-  padding ($margin * 3) $margin
+  padding 0 $margin
   color $font-color-2
   background-color $bg-color-2
+
+  &.light
+    background-color $bg-color-9
 
   h2
     margin-top 0
 
-  iframe
-    width 100%
-    height rem(210px)
+  .video-box
+    position relative
+    padding-bottom 56%
+    height 0
 
+    iframe
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      width 100%
+      height 100%
+
+// Module blog
+.m-project-blog
+  margin 3.25rem 0
+  .m-post-card
+    height inherit
+    max-height none
+    padding 2.25rem
+    margin 0
     @media screen and (min-width: $screen-sm)
-      height rem(720px)
+      padding 6.25rem
+
 
 // Module opinions
 .m-project-opinions
   padding ($margin * 4) 0
-  background-color $bg-color-8
+  background-color $bg-color-9
 
-  .m-project-opinion-item
-    margin-bottom $margin
-    padding ($margin * 2)
-    background-color $bg-color-1
+  .sameheight
+    justify-content center
+    .m-project-opinion-item
+      margin-bottom $margin
+      padding ($margin * 2)
+      background-color $bg-color-1
 
-  .m-project-opinion-photo
-    text-align center
-    margin-top 0
+    .m-project-opinion-photo
+      text-align center
+      margin-top 0
 
-    img
-      width auto
-      max-height rem(50px)
+      img
+        width auto
+        max-height rem(50px)
 
-  .m-project-opinion-text
-    margin-top .3em
-    font-size $font-medium-size
-    text-align center
+    .m-project-opinion-text
+      margin-top .3em
+      font-size $font-medium-size
+      text-align center
 
-  .m-project-opinion-autor
-    text-align center
-    font-weight 500
-    max-width 90%
-    margin auto
-    a
-      text-decoration none
+    .m-project-opinion-autor
+      text-align center
+      font-weight 500
+      max-width 90%
+      margin auto
+      a
+        text-decoration none
 
   @media screen and (min-width: $screen-sm)
-    .row > div
+    .row  > div
       display flex
       justify-content stretch
 
@@ -289,3 +406,9 @@ $margin-bottom = $margin * 4
 
   @media screen and (min-width: $screen-sm)
     min-height rem(350px)
+
+.ie
+    @media screen and (min-width: $screen-sm)
+      .m-project-detail-next
+        min-height auto
+        height rem(350px)
