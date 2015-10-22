@@ -1,14 +1,20 @@
 ---
 title:       UNESCO Places
 short_title: UNESCO Places
+summary:	 
+description: 
+fb_title:	 ""
+fb_description: ""
 link:        
 link_short:  
 client:      Own project
 client_logo: 
 image:       unesco_02.jpg
+cover:		 
 author:      Jamie Gibson
 date:        2015-06-03
-order:       23
+stringdate:	 
+order:       
 highlighted:   true
 
     blocks:
