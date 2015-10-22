@@ -15,6 +15,8 @@
     font-size $font-medium-size
 
   .m-post-content
+    line-height 1.4
+
     img
       display inline-block
       margin 1em 0
@@ -22,12 +24,18 @@
       width 100%
       height auto
 
+    figure
+      margin 1rem 0
+
   .btn
     margin $margin 0
 
-  @media screen and (min-width: $screen-sm)
-    // margin ($margin * 8) 0
+  .m-post-footer
+    .like_button, .reblog_button
+      float left
+      margin-right rem(10px)
 
+  @media screen and (min-width: $screen-sm)
     h1
       font-size $lg-font-large-size * 0.85
 
