@@ -2,7 +2,7 @@
 title:       Evolution of the Web
 short_title: Evolution of the Web
 summary: 	 Updating the history of the web
-decription:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
+description:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
 link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt

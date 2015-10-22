@@ -15,9 +15,9 @@ cover:  	 red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 order:       6
-grid:        2
+grid:        1
 highlighted:   true
-logoWidth:  200
+logoWidth:  160
 
 modules:
 
