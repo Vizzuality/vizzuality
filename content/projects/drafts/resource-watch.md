@@ -1,16 +1,22 @@
 ---
-title:       Tuning in to our planet's signals together
+title:       Resource Watch
 short_title: Resource Watch
-link:        http://vizzuality.github.io/WRW-landing
-link_short:  vizzuality.github.io/WRW-landing
+summary:     "Tuning in to our planet's signals"
+description: "We developed a platform for accurate, accessible and understandable insights about our world, working with WRI and many other partners"
+fb_title:    ""
+fb_description: "" 
+link:        http://resourcewatch.org
+link_short:  resourcewatch.org
 client:      WRI
 client_logo: wri.png
+svg_logo:    wri.svg
 post_url:    
 post_title:  
-summary:     An open platform to listen, learn and take action towards a sustainable society
 image:       
+cover:       
 author:      Jamie Gibson
 date:        2015-10-16
+stringDate:  October 2015
 order:       1
 highlighted: true  
 
@@ -29,21 +35,14 @@ modules:
         title: Capitalising on the big trends of our age
         modules:
             -
-                image: Millions going mobile first
+                image: 
                 description: "Today there are 5 times more people accessing the internet on mobiles than desktops. In 5 years four fifths of the world’s adults will own a smartphone and around 90% of the world will have 3G coverage. By building mobile first services, Resource Watch will be able to reach a global audience of billions."
             -
                 image: 
                 description: "For the poorest people in the world, mobile technology can balance inequalities in access to information. By releasing more open data and presenting it in a way that people can understand and easily access, Resource Watch will be a tool for all."
             -
-                image: Democratised Data
+                image: 
                 description: "Already, citizen scientists are contributing more observations of key species than professional academics. With advanced, easy-to-use analytical tools, these scientists can also create knowledge and insight, right here on Resource Watch."
 
-opinions:
-    -
-        title: Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt.
-        photo: gfw-profile-1.png
-        autor: Javier de la Torre
-
 ---
-
-The world's resources are becoming scarce; at the same time, we aren't providing enough for everyone to live well and prosper. We've teamed up with the World Resources Institute to build Resource Watch an open platform for everyone to explore accurate, up-to-date insights about our planet. Anyone can create visualisations or apps, using data from satellites, sensors and social media, to tell stories about the state of our planet. Then, with seamless sharing tools, show the world what you've learnt and inspire action.
+The world's resources are becoming scarce; at the same time, we aren't providing enough for everyone to live well and prosper. We've teamed up with the World Resources Institute to build Resource Watch, an open platform for everyone to explore accurate, up-to-date insights about our planet. Anyone can create visualisations or apps using data from satellites, sensors and social media, to tell stories about the state of our planet. Then, with seamless sharing tools, show the world what you've learnt and inspire action.
