@@ -3,18 +3,21 @@ title:       Evolution of the Web
 short_title: Evolution of the Web
 summary: 	 Updating the history of the web
 description:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
+fb_title:    ""
+fb_description: ""
 link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt
 client_logo: google.png
-release_date: June 2012
+svg_logo:    
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
 image:       evolution_01.jpg
 cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       18
+stringDate:  June 2012
+order:       21
 grid:        1
 highlighted: true
 logoWidth:  120

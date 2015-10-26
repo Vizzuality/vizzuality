@@ -3,18 +3,21 @@ title:       Endangered Languages
 short_title: Endangered Languages
 summary: 	 Catching 3000 whispers
 description: "An intuitive, interactive web application uniting researchers and citizens to preserve endangered languages"
+fb_title:    ""
+fb_description: ""
 link:        http://www.endangeredlanguages.com
 link_short:  endangeredlanguages.com
 client:      Google.org and Alliance for Linguistic Diversity
 client_logo: google.png
-release_date: June 2012
+svg_logo:    
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  "A collaborative tool for documenting endangered languages"
 cover:       languages_08c.jpg
 image:       languages_08c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       5
+stringDate:  June 2012
+order:       9
 grid:        1
 highlighted:   true
 logoWidth:  120
