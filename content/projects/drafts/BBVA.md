@@ -1,28 +1,34 @@
 ---
-title:       "The Footprints of Spain's Tourists"
-short_title: "BBVA"
+title:       "Footprints of Spain's tourists in Summer 2014"
+short_title: BBVA
+summary:     Design and development to discover big data
+description: An interactive visualisation of big data made possible with modern design principles and innovative software development
+fb_title:    ""
+fb_desctiption: ""
 link:        http://bbvatourism.vizzuality.com
 link_short:  bbvatourism.vizzuality.com
-client:      "BBVA"
+client:      BBVA
 client_logo: 
-post_url:    bbva-launch
-post_title:  "Designing for the Discovery of Big Data"
-summary:     "Using Big Data to uncover the spending behaviour of tourists in Spain for summer 2014"
+svg_logo:    
+post_url:    http://blog.vizzuality.com/post/130263330306/designing-for-the-discovery-of-big-data
+post_title:  Designing for the Discovery of Big Data
 image:       bbva_01.jpg
+cover:       bbva_01.jpg
 author:      Jamie Gibson
 date:        2015-09-22
-order:      
-grid:              
+stringDate:  August 2015
+order:       3
+grid:        1      
 highlighted:   true
 
 modules:
     text_left:
-        title: "Taking code to new territories"
-        description: "Over five million records is a rather large amount of data, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process, the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
+        title: Taking code to new territories
+        description: "Over five million records is a rather large amount of data to store, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process, the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
         image: bbva-01.png
 
     text_right:
-        title: "A tool to discover stories" 
+        title: A tool to discover stories 
         description: "Vizzuality is committed to making data easy to look at and understand, so everyone can find their own angle on the data. Our designers paid close attention to crafting an interface that lends itself to clear presentation and powerful analysis. They also structured the visualisations into four smaller, digestible tabs, providing a host of opportunities to gain deep understanding of all the facets of this dataset. Finished with pixel perfect implementation, we created a beautiful, usable, interactive visualisation." 
         image: bbva-03.png
 
