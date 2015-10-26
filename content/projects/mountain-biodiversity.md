@@ -3,15 +3,18 @@ title:       Mountain Biodiversity
 short_title: Mountain Biodiversity
 summary: 	 Rising to the challenge of exploring biodiversity data
 description: 'We developed a web tool to visualise mountain biodiversity data using PostgreSQL, custom Java software and Pixel Bender technology'
+fb_title: ""
+fb_description: ""
 client:      GMBA and GBIF
 client_logo: mol-gmba.png
-release_date: May 2011
+svg_logo:    
 image:       mountain-biodiversity_01.jpg
 cover:       mountain-biodiversity_01.jpg
 color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
-order:       12
+stringDate:  May 2011
+order:       15
 grid:        1
 highlighted:   true
 logoWidth:  225

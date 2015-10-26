@@ -3,18 +3,21 @@ title:       Google Trends
 short_title: Google Trends
 summary: 	 Giving big data a half-time show
 description: "Visualising big data from Google's Trends API with a responsive web application"
+fb_title:    ""
+fb_description: ""
 link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
 client_logo: google.png
-release_date: February 2015
+svg_logo:     
 post_url:    http://blog.vizzuality.com/post/110056301126/data-gets-its-own-halftime-show-vizzuality
 post_title:  "Data gets its own halftime show: Vizzuality launches the new Google Trends API"
 image:       google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       3
+stringDate:  February 2015
+order:       7
 grid:        2
 highlighted:   true
 align:       right

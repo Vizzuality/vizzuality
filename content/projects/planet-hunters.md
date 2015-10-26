@@ -3,18 +3,21 @@ title:       Planet Hunters
 short_title: Planet Hunters
 summary:     Bringing the stars to your living room
 description: 'A web tool for citizens to help NASA search for planets outside our solar system, using a number of powerful visualisation libraries'
+fb_title:   ""
+fb_description: ""
 link:        http://www.planethunters.org
 link_short:  planethunters.org
 client:      Zooniverse
 client_logo: zooniverse.png
-release_date: July 2011
+svg_logo:    
 post_url:    http://blog.vizzuality.com/post/33701908803/ph1-the-first-confirmed-planet-discovered-by
 post_title:  "'PH1', the first confirmed planet discovered by Planet Hunters"
 image:       hunters_09.jpg
-cover:  hunters_09.jpg
+cover:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       15
+stringDate:  July 2011
+order:       18
 grid:        1
 highlighted: true
 logoWidth:  150
