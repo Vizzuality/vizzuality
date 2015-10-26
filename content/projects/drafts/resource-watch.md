@@ -17,7 +17,7 @@ cover:
 author:      Jamie Gibson
 date:        2015-10-16
 stringDate:  October 2015
-order:       1
+order:       2
 highlighted: true  
 
 modules:
