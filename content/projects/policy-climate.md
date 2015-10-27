@@ -16,7 +16,7 @@ author:      Jamie Gibson
 date:        2015-05-07
 stringDate:  April 2013
 order:       19
-grid:        1
+grid:        2
 highlighted: true
 logoWidth:  135
 

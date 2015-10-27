@@ -18,9 +18,9 @@ author:      Jamie Gibson
 date:        2015-05-07
 stringDate:  December 2013
 order:       10
-grid:        1
+grid:        2
 highlighted:   true
-logoWidth:  160
+logoWidth:  102
 
 modules:
 
