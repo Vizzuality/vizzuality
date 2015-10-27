@@ -1,6 +1,6 @@
 ---
 title:       Energy Information System
-short_title: 'e-sios'
+short_title: "e-sios"
 summary:     "Discover Spain’s energy grid, one dataset at a time"
 description: "We built an interactive open data platform to give the public unprecedented access to real-time information about Spain's energy grid."
 fb_title:     ""
