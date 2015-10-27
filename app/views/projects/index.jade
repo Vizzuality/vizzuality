@@ -31,9 +31,8 @@ block main
               .m-project-content
                 if project.svg_logo
                   img(src="/assets/images/clients/white/#{project.svg_logo}", alt="#{project.client}" width="#{project.logoWidth}" )
-                else
+                else if project.client_logo
                   img(src="/assets/images/clients/white/#{project.client_logo}", alt="#{project.client}" width="#{project.logoWidth}")
-                //- p.client= project.client
                 h1: a(href="/projects/#{project.slug}")= project.title + '.'
                 p.description= project.summary + '.'
                 a(class="btn-third", href="/projects/#{project.slug}") Read more

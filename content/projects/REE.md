@@ -7,7 +7,7 @@ fb_title:     ""
 fb_description: "" 
 link:        https://www.esios.ree.es/en
 link_short:  esios.ree.es/en
-client:      "Red Electrica de España"
+client:      "Red Eléctrica de España"
 client_logo: 
 svg_lgo:     
 post_url:    
@@ -35,7 +35,7 @@ modules:
     map:
         title: Take a look!
         url: https://www.esios.ree.es/en/embed/generation-consumption-variation
-        description: You can get data out of the platform in numerous ways: print it, download as csv, json or exel, or embed it as an iframe. 
+        description: "You can get data out of the platform in numerous ways: print it, download as csv, json or exel, or embed it as an iframe." 
 
 ---
 Vizzuality are renowned for releasing open data on the web through beautifully designed, interactive, usable applications and tools. We were honoured when Red Electrica de España (REE), operator of Spain’s electricity grid, asked us to help them create their new open data platform, giving the public unprecedented access to real-time data on Spain’s energy grid. Over the last 18 months we have worked with them and the thousands of indicators they monitor to deliver the e·sios (System Information of Operation System). 
