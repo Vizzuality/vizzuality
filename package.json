@@ -52,12 +52,15 @@
     "mandrill-api": "^1.0.45",
     "moment": "^2.10.3",
     "morgan": "^1.5.3",
+    "serve-favicon": "^2.3.0",
     "showdown": "^0.4.0",
     "stylus": "^0.50.0",
     "underscore": "^1.8.3",
     "underscore.string": "^3.0.3"
   },
   "engines": {
-    "node": "0.12.x"
-  }
+    "node": "4.2.x",
+    "npm": "2.14.x"
+  },
+  "cacheDirectories": ["node_modules", "bower_components", "public/assets"]
 }
