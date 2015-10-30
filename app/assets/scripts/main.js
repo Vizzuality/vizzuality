@@ -627,7 +627,6 @@
     loadBtn();
     decodeEmail();
 
-
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
 
