@@ -2,9 +2,6 @@
   padding 4.5rem 1.25rem
   background-color $bg-color-3
 
-  @media screen and (max-width:$screen-sm)
-    .m-subscribe-container
-      flex-direction column
 
 
   .m-subscribe-container
@@ -14,36 +11,48 @@
       display flex
       align-items center
       justify-content space-around
-
       span
         font-size rem(48px)
         font-weight 500
         color $white
-      @media screen and (max-width:$screen-sm)
+      @media screen and (max-width: 960px)
         flex-direction column
         span
           font-size 2.25rem
           text-align center
-        form input
-          font-size $font-medium-size
+          margin 0 0 rem(20px) 0
+        form
+          .email
+            font-size $font-medium-size
     form
       display flex
       justify-content space-between
-      margin-top $margin
       align-items center
       padding-bottom rem(5px)
-      border-bottom 2px solid rgba(255,255,255, .5)
-      input
-        width 75%
+      border-bottom 2px solid rgba($white, .5)
+      .email
+        width 98%
         background-color transparent
         border 0
         font-size rem(48px)
         color $white
         &::-webkit-input-placeholder
           color $white
-        // @media screen and (max-width:$screen-sm)
-        //   font-size $font-medium-size
 
-      .btn-secondary
+      .submit
         margin 0
-        border 0
+        padding ($margin / 1.5) rem(30px)
+        border 1px solid $bg-color-3;
+        background-color $bg-color-1;
+        text-align: center;
+        color $font-color-3;
+        font-size $font-small-size
+        font-weight 500
+        letter-spacing 0.15em
+        text-transform uppercase
+        transition background-color .2s ease
+        &::-webkit-input-placeholder
+          color $white
+        &:hover
+          color $font-color-2
+          background-color $bg-color-6
