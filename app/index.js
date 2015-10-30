@@ -36,7 +36,7 @@ app.locals.prune = require('underscore.string/prune');
 // Routes
 require(root + '/app/routes/projects')(app); // About page
 require(root + '/app/routes/about')(app); // About page
-require(root + '/app/routes/blog')(app); // Blog page
+// require(root + '/app/routes/blog')(app); // Blog page
 require(root + '/app/routes/contact')(app); // Contact mail
 
 // Catch 404 and forward to error handler
@@ -49,7 +49,7 @@ app.use(function(req, res, next) {
 // Error handlers
 // Development error handler will print stacktrace
 if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
+  app.use(function(err, req, res) {
     res.status(err.status || 500);
     res.render('errors/index', {
       message: err.message,
@@ -59,7 +59,7 @@ if (app.get('env') === 'development') {
 }
 
 // Production error handler no stacktraces leaked to user
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   res.status(err.status || 500);
   res.render('errors/index', {
     message: err.message,
