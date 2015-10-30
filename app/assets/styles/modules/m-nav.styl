@@ -25,12 +25,10 @@
   width 100%
   height 100%
   padding ($margin * 2) $margin
-
   background-color $bg-color-3
+  z-index 1001
 
-  z-index 100
-
-  .logo
+  .icon-logo-vizzuality
     fill $font-color-2
 
   h1
@@ -43,15 +41,16 @@
 
     font-size $font-xlarge-size
     font-weight 500
-    line-height 1.2
-    color $font-color-2
+    line-height rem(46px)
+    color $font-color-1
     text-decoration none
+    &::first-letter
+      text-transform uppercase
 
-    &.is-current
-      border-bottom 2px solid $font-color-2
+
 
   .btn-close
     position absolute
     top rem(33px)
     right $margin
-    color $font-color-2
+    color $font-color-1
