@@ -22,15 +22,7 @@ html(lang="en")
       link(rel="stylesheet", href="/assets/styles/main.css")
     include partials/head
 
-    - var style = '.empty {width: 0; height: 0; position: absolute; background: '
-    each project, index in projects
-      - style += 'url(/assets/images/projects/' + project.image + '), '
-    - styles += ';}'
-    style.
-      #{style}
-
   body(class=className)
-    .empty
     include partials/icons
     header.l-header#header
       .l-header-top
