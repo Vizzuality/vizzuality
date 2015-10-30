@@ -84,7 +84,7 @@ block main
           ul
             - clients = ['biodiversity_aq', 'calp', 'calvert', 'climate', 'google', 'interaction', 'nasa', 'tdwg', 'wri', 'zeitz', 'zooniverse']
             for client in clients
-              li: img(src="/assets/images/clients/#{client}.png")
+              li: img(src="/assets/images/clients/#{client}.png" alt="#{client}-logo")
 
   section.m-message
     .row
