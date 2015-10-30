@@ -563,25 +563,6 @@
     http.send();
   }
 
-  function subscribeNewsletter(e) {
-
-    var form = document.getElementById('form-subscribe');
-
-    if (form) {
-
-      form.onsubmit = function(e) {
-        if (e) {
-          e.preventDefault();
-        }
-
-        var userMail = form[0].value;
-
-        // Add to newsletter;
-        // ...
-      }
-    }
-  }
-
   var loadBtn = function() {
     if (!document.querySelector('.is-project-page')) {
       return;
@@ -622,7 +603,6 @@
     geolocationMap();
     allProjectsModal();
     doParallax();
-    subscribeNewsletter();
     arrowsNavigation();
     loadBtn();
     decodeEmail();
