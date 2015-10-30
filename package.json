@@ -52,6 +52,7 @@
     "mandrill-api": "^1.0.45",
     "moment": "^2.10.3",
     "morgan": "^1.5.3",
+    "serve-favicon": "^2.3.0",
     "showdown": "^0.4.0",
     "stylus": "^0.50.0",
     "underscore": "^1.8.3",
