@@ -61,5 +61,6 @@
   "engines": {
     "node": "4.2.x",
     "npm": "2.14.x"
-  }
+  },
+  "cacheDirectories": ["node_modules", "bower_components", "public/assets"]
 }
