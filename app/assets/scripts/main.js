@@ -594,6 +594,18 @@
     }, 2000)
   }
 
+  var decodeEmail = function() {
+    if (!document.querySelector('.is-about-page')) {
+      return;
+    }
+
+    var email = document.querySelector('.m-contact-footer a'),
+      decodedEmail = atob(email.getAttribute('href').split(':')[1]);
+
+    email.setAttribute('href', 'mailto:' +  decodedEmail);
+    email.text = atob(email.text);
+  }
+
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
 
@@ -613,6 +625,8 @@
     subscribeNewsletter();
     arrowsNavigation();
     loadBtn();
+    decodeEmail();
+
 
     window.onscroll = utils.throtle(fixHeader(), 100);
   });
