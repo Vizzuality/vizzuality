@@ -22,13 +22,15 @@ html(lang="en")
       link(rel="stylesheet", href="/assets/styles/main.css")
     include partials/head
   body(class=className)
+    include partials/icons
     header.l-header#header
       .l-header-top
         .row
           .grid-sm-14.grid-md-7.grid-lg-6.offset-lg-1
             h1.brand
               a(href='/')
-                include partials/logo
+                svg(class="icon-logo-vizzuality")
+                  use(xlink:href="#icon-logo-vizzuality")
             button#burgerLink.btn-burguer.is-md-hidden.is-lg-hidden
               span.icon-burguer
 
@@ -46,7 +48,8 @@ html(lang="en")
       .row
         .grid-sm-14.grid-md-3.grid-lg-3.offset-lg-1
           a.footer-logo(href='/')
-            include partials/logo
+            svg(class="icon-logo-vizzuality")
+              use(xlink:href="#icon-logo-vizzuality")
 
         .grid-sm-14.grid-md-11.grid-lg-9
           ul.m-social
@@ -64,11 +67,12 @@ html(lang="en")
     #mobileNav.m-mobile-nav.is-sm-hidden.is-md-hidden.is-lg-hidden
       button#mobileNavClose.btn-close &times;
       h1
-        include partials/logo
+        svg(class="icon-logo-vizzuality")
+          use(xlink:href="#icon-logo-vizzuality")
       .grid-sm-14.grid-md-7.grid-lg-6
         nav
           a(href='/', class= className == 'is-project-page' || className == 'is-project-detail-page' ? 'is-current' : null) projects
-          a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) about
+          a(href='/about', class= className == 'is-about-page' || className == 'is-team-page' ? 'is-current' : null) about us
           a(href='/about#contact') contact
     
     #projectsModal.m-modal.is-hidden
@@ -85,16 +89,17 @@ html(lang="en")
         e.src='https://www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-6363508-12','auto');ga('send','pageview');
-        
+
       // Mixpanel
       script.
         (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
         for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
         mixpanel.init("2cb5073fd0a0809fd64b936e7e8d35fe");
 
-      script(src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js")
+    script(src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js")
+    if 'production' != process.env.NODE_ENV
       script(src="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.js")
       script(src="/assets/lib/t.js")
-      script(src="/assets/scripts/main.js")
-      script(src="//cdn.optimizely.com/js/543960191.js")
+    script(src="/assets/scripts/main.js")
+    script(src="//cdn.optimizely.com/js/543960191.js")
 
