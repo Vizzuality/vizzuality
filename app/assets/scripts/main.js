@@ -308,7 +308,6 @@
     var lastScrollTop = 0;
     var header = document.getElementById('header');
     var headerTop = document.querySelector('.l-header-top');
-    var background = document.querySelector('.m-project-detail header');
 
     return function() {
       var pageY = window.pageYOffset;
@@ -572,8 +571,8 @@
 
     setTimeout(function() {
       btn.classList.add('is-visible');
-    }, 2000)
-  }
+    }, 2000);
+  };
 
   var decodeEmail = function() {
     if (!document.querySelector('.is-about-page')) {
@@ -585,7 +584,7 @@
 
     email.setAttribute('href', 'mailto:' +  decodedEmail);
     email.text = atob(email.text);
-  }
+  };
 
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
