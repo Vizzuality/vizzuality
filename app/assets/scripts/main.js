@@ -308,7 +308,6 @@
     var lastScrollTop = 0;
     var header = document.getElementById('header');
     var headerTop = document.querySelector('.l-header-top');
-    var background = document.querySelector('.m-project-detail header');
 
     return function() {
       var pageY = window.pageYOffset;
@@ -563,25 +562,6 @@
     http.send();
   }
 
-  function subscribeNewsletter(e) {
-
-    var form = document.getElementById('form-subscribe');
-
-    if (form) {
-
-      form.onsubmit = function(e) {
-        if (e) {
-          e.preventDefault();
-        }
-
-        var userMail = form[0].value;
-
-        // Add to newsletter;
-        // ...
-      }
-    }
-  }
-
   var loadBtn = function() {
     if (!document.querySelector('.is-project-page')) {
       return;
@@ -591,8 +571,8 @@
 
     setTimeout(function() {
       btn.classList.add('is-visible');
-    }, 2000)
-  }
+    }, 2000);
+  };
 
   var decodeEmail = function() {
     if (!document.querySelector('.is-about-page')) {
@@ -604,7 +584,7 @@
 
     email.setAttribute('href', 'mailto:' +  decodedEmail);
     email.text = atob(email.text);
-  }
+  };
 
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
@@ -622,7 +602,6 @@
     geolocationMap();
     allProjectsModal();
     doParallax();
-    subscribeNewsletter();
     arrowsNavigation();
     loadBtn();
     decodeEmail();
