@@ -44,6 +44,7 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **client_logo** no more than 200x200 and .png, add to app/images/client. can also add **svg_logo** where it exists
 * **post_url** and **post_title** for latest blog entry
 * **release_date** is the month/ year it was launched
+* ** logoWidth** specifies the width (in px) of the logo. If you don't want to use this value, just put a "initial" value (i.e.: logoWidth: initial, logoWidth: 125). This attribute is mandatory.
 
 ## Order of Projects
 

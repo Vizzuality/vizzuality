@@ -20,6 +20,7 @@ release_date:  August 2015
 order:       3
 grid:        1      
 highlighted:   true
+logoWidth:   initial
 
 modules:
     text_left:
