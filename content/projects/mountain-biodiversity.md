@@ -13,7 +13,7 @@ cover:       mountain-biodiversity_01.jpg
 color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
-stringDate:  May 2011
+release_date:  May 2011
 order:       15
 grid:        1
 highlighted:   true

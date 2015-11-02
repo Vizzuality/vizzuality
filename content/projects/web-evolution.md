@@ -16,7 +16,7 @@ image:       evolution_01.jpg
 cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
-stringDate:  June 2012
+release_date:  June 2012
 order:       21
 grid:        1
 highlighted: true

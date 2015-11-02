@@ -16,7 +16,7 @@ image:       hunters_09.jpg
 cover:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  July 2011
+release_date:  July 2011
 order:       18
 grid:        1
 highlighted: true

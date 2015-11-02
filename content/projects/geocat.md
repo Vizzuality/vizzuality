@@ -16,7 +16,7 @@ image:       red-list_02.jpg
 cover:  	 red-list_02.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  December 2013
+release_date:  December 2013
 order:       10
 grid:        1
 highlighted:   true

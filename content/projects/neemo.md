@@ -16,7 +16,7 @@ image:       neemo_02c.jpg
 cover:  	 neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  October 2011
+release_date:  October 2011
 order:       17
 grid:        1
 highlighted:   true

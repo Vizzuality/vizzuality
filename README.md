@@ -43,7 +43,7 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **client** who was it for
 * **client_logo** no more than 200x200 and .png, add to app/images/client. can also add **svg_logo** where it exists
 * **post_url** and **post_title** for latest blog entry
-* **stringDate** is the month/ year it was launched
+* **release_date** is the month/ year it was launched
 
 ## Order of Projects
 

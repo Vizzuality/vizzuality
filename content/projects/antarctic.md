@@ -13,7 +13,7 @@ image:       antartic_03.jpg
 cover:       antartic_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  November 2010
+release_date:  November 2010
 order:       14
 grid:        1
 highlighted:   true

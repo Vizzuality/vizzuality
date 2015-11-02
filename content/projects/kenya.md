@@ -14,7 +14,7 @@ image:       kenya.jpg
 cover:       kenya.jpg
 author:      Craig Mills
 date:        2015-04-22
-stringDate:  Work in progress
+release_date:  Work in progress
 order:       4
 grid:        1
 highlighted: true

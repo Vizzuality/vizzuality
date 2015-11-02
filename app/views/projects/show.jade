@@ -31,8 +31,8 @@ block main
               img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}" alt="#{data.client}-logo")
               if data.client
                 h2 #{data.client}.
-              if data.stringDate
-                p(class="date") #{data.stringDate}.
+              if data.release_date
+                p(class="date") #{data.release_date}.
               if data.link
                 a(href="#{data.link}" class="btn") Check it online
         else
