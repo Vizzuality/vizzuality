@@ -20,7 +20,6 @@ release_date:  February 2014
 order:       1
 highlighted: true
 align:       left
-logoWidth:   inherit
 
 modules:
     text_left:
