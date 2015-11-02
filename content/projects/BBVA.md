@@ -16,7 +16,7 @@ image:       bbva_01.jpg
 cover:       bbva_01.jpg
 author:      Jamie Gibson
 date:        2015-09-22
-stringDate:  August 2015
+release_date:  August 2015
 order:       3
 grid:        1      
 highlighted:   true

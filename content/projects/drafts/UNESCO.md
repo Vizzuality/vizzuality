@@ -13,7 +13,7 @@ image:       unesco_02.jpg
 cover:		 
 author:      Jamie Gibson
 date:        2015-06-03
-stringdate:	 
+release_date:	 
 order:       
 highlighted:   true
 

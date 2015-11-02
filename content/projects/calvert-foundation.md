@@ -13,7 +13,7 @@ image:       calvert_03.jpg
 cover:       calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  October 2014
+release_date:  October 2014
 order:       11
 grid:        2
 highlighted:   true
