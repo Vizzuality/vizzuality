@@ -75,10 +75,10 @@ block main
     
   if data.modules.text_right
     section.m-project-detail-article.is-right
-      .row.sameheight
+      .row.sameheight.is-grid-centered
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_right.image}")
-        .grid-sm-14.grid-lg-5.is-grid-centered
+        .grid-sm-14.grid-lg-5
           .m-project-article-content
             h2= data.modules.text_right.title
             p !{data.modules.text_right.description}
