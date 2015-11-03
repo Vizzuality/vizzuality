@@ -14,7 +14,7 @@ image:       ngo_09.jpg
 cover:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  May 2011
+release_date:  May 2011
 order:       6
 grid:        2
 highlighted:   true

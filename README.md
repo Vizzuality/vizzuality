@@ -38,6 +38,13 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **summary:** Short explanation of the project. It will be used as subtitle on the big cards on the homepage and as a big title on the detail pages _(Half a million people watching forest change)_
 * **fb_title** Title to display when the page is shared on Facebook
 * **fb_description** Description of the project to display when the page is shared on Facebook
+* **link** full URL for the site
+* **link_short** remove http etc, this is for the text
+* **client** who was it for
+* **client_logo** no more than 200x200 and .png, add to app/images/client. can also add **svg_logo** where it exists
+* **post_url** and **post_title** for latest blog entry
+* **release_date** is the month/ year it was launched
+* ** logoWidth** specifies the width (in px) of the logo(i.e.: logoWidth: 125). This attribute is mandatory.
 
 ## Order of Projects
 

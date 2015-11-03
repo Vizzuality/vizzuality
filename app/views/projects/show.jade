@@ -28,16 +28,15 @@ block main
             | !{content}
           .grid-sm-5.grid-md-5.grid-lg-4.offset-sm-1.offset-md-1.offset-lg-1
             .client-info
-              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}")
+              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}" alt="#{data.client}-logo")
               if data.client
                 h2 #{data.client}.
-              if data.stringDate
-                p(class="date") #{data.stringDate}.
+              if data.release_date
+                p(class="date") #{data.release_date}.
               if data.link
-                p
-                  a(href="#{data.link}" class="btn") Check it online
+                a(href="#{data.link}" class="btn") Check it online
         else
-          .grid-sm-14.grid-lg-3.offset-lg-1
+          .grid-sm-14.grid-lg-8.offset-lg-1
             | !{content}
     
     
@@ -56,9 +55,8 @@ block main
           .m-project-article-content
             h2= data.modules.text_left.title
             p !{data.modules.text_left.description}
-            //- a(href="#{data.link}", target="_blank", class="btn-secondary") See online
         .grid-sm-14.grid-lg-8
-          img(src="/assets/images/projects/#{data.modules.text_left.image}")
+          img(src="/assets/images/projects/#{data.modules.text_left.image}" alt="#{data.short_title}-highlight")
 
 
   if data.modules.text_left_v2
@@ -75,10 +73,10 @@ block main
     
   if data.modules.text_right
     section.m-project-detail-article.is-right
-      .row.sameheight
+      .row.sameheight.is-grid-centered
         .grid-sm-14.grid-lg-8
           img(src="/assets/images/projects/#{data.modules.text_right.image}")
-        .grid-sm-14.grid-lg-5.is-grid-centered
+        .grid-sm-14.grid-lg-5
           .m-project-article-content
             h2= data.modules.text_right.title
             p !{data.modules.text_right.description}
@@ -90,7 +88,7 @@ block main
           .m-project-article-content
             h2= data.modules.text_above.title
             p !{data.modules.text_above.description}
-            img(src="/assets/images/projects/#{data.modules.text_above.image}")
+            img(src="/assets/images/projects/#{data.modules.text_above.image}" alt="#{data.short_title}-highlight")
         
   if data.modules.blocks
     section.m-project-detail-blocks
@@ -101,11 +99,11 @@ block main
         each m, i in data.modules.blocks.modules
           if i == 0
             .grid-sm-14.grid-md-4.grid-lg-4.offset-lg-1
-              .thumb: img(src="/assets/images/projects/#{m.image}")
+              .thumb: img(src="/assets/images/projects/#{m.image}" alt="#{data.short_title}-details")
               p !{m.description}
           else
             .grid-sm-14.grid-md-4.grid-lg-4
-              .thumb: img(src="/assets/images/projects/#{m.image}")
+              .thumb: img(src="/assets/images/projects/#{m.image}" alt="#{data.short_title}-details")
               p !{m.description}
 
   if data.modules.map
@@ -135,7 +133,7 @@ block main
           .grid-sm-14.grid-lg-4
             .m-project-opinion-item: div
               if opinion.photo
-                p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}")
+                p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}" alt="#{data.short_title}-opinion")
               p.m-project-opinion-text !{opinion.title}
               p.m-project-opinion-autor !{opinion.autor}
 

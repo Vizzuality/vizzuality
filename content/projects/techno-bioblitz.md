@@ -16,7 +16,7 @@ image:       techno_03b.jpg
 cover: 		 techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
-stringDate:  September 2010
+release_date:  September 2010
 order:       20
 grid:        2
 highlighted: true

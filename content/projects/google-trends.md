@@ -16,7 +16,7 @@ image:       google_02.jpg
 cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
-stringDate:  February 2015
+release_date:  February 2015
 order:       7
 grid:        2
 highlighted:   true

@@ -16,7 +16,7 @@ cover:       languages_08c.jpg
 image:       languages_08c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  June 2012
+release_date:  June 2012
 order:       9
 grid:        1
 highlighted:   true

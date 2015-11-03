@@ -16,7 +16,7 @@ image:       edi_03.jpg
 cover:  	 edi_03.jpg
 author:      Jamie
 date:        2015-06-01
-stringDate:  May 2015
+release_date:  May 2015
 order:       8
 highlighted: true
 logoWidth:  300

@@ -16,7 +16,7 @@ image:       gfw_02.jpg
 cover:       gfw_01.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-stringDate:  February 2014
+release_date:  February 2014
 order:       1
 highlighted: true
 align:       left
