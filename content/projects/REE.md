@@ -17,8 +17,7 @@ cover:       ree_05.jpg
 author:      Jamie Gibson
 date:        2015-10-26
 release_date:  September 2015
-order:      
-grid:        5     
+order:      5
 highlighted:   true
 
 modules:

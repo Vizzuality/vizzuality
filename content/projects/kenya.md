@@ -15,8 +15,7 @@ cover:       kenya.jpg
 author:      Craig Mills
 date:        2015-04-22
 release_date:  Work in progress
-order:       4
-grid:        1
+order:       6
 highlighted: true
 logoWidth:  150
 
