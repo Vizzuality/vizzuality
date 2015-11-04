@@ -8,7 +8,7 @@ fb_desctiption: ""
 link:        http://bbvatourism.vizzuality.com
 link_short:  bbvatourism.vizzuality.com
 client:      BBVA
-client_logo: 
+client_logo: bbva.png
 svg_logo:    
 post_url:    http://blog.vizzuality.com/post/130263330306/designing-for-the-discovery-of-big-data
 post_title:  Designing for the Discovery of Big Data
