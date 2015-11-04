@@ -8,28 +8,29 @@ fb_description: ""
 link:        https://www.esios.ree.es/en
 link_short:  esios.ree.es/en
 client:      "Red Eléctrica de España"
-client_logo: 
+client_logo: ree.png
 svg_lgo:     
 post_url:    
 post_title:  "Discover Spain’s energy grid, one dataset at a time"
-image:       
+image:       ree_05.jpg
 cover:       ree_05.jpg
 author:      Jamie Gibson
 date:        2015-10-26
 release_date:  September 2015
 order:      5
 highlighted:   true
+logoWidth: 175
 
 modules:
     text_left:
         title: Slow reveal
         description: "There’s no point committing to open data and transparency if you make it hard for people to actually understand the details and nuance of the data. We built the platform using the idea of progressive disclosure, introducing people to the data slowly then providing more complicated datasets and advanced analysis when you've found the data you're looking for." 
-        image: 
+        image: ree_high1.png
 
     text_right:
         title: Strong software
         description: "With thousands of indicators, many updating every 10 minutes, we had to build a strong back-end to hold and serve all this data. We then visualise the data as interactive graphs through a series of widgets. This keeps the performance of front-end high, helping us entertain and enchant the users with rich, interactive data visualisations."
-        image: 
+        image: ree_high2.png
 
     map:
         title: Take a look!
