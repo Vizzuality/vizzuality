@@ -23,19 +23,19 @@ highlighted: true
 logoWidth:  150
 
 modules:
-    text_left:
-        title: Uploading Species Pictures
-        description: The FlickrTagger is a desktop tool that allows users to upload pictures and geotag them. Developed in Flex, it draws on the interactive capabilities of this technology for organizing and categorizing the user pictures in an optimal way.
-        image: tech_high1.jpg
+    -   text_left:
+            title: Uploading Species Pictures
+            description: The FlickrTagger is a desktop tool that allows users to upload pictures and geotag them. Developed in Flex, it draws on the interactive capabilities of this technology for organizing and categorizing the user pictures in an optimal way.
+            image: tech_high1.jpg
 
-    text_right:
-        title: Classifying Observations
-        description: The Taxonomizer is a web tool that helps to categorize species observed during the BioBlitz, showing pictures and asking the user for identifying. It uses the GBIF species database as a suggestions dictionary.
-        image: tech_high0.jpg
+    -   text_right:
+            title: Classifying Observations
+            description: The Taxonomizer is a web tool that helps to categorize species observed during the BioBlitz, showing pictures and asking the user for identifying. It uses the GBIF species database as a suggestions dictionary.
+            image: tech_high0.jpg
 
-    video: 
-        title: "Take a look inside the Bioblitz Lab"
-        url: https://player.vimeo.com/video/15530649
+    -   video: 
+            title: "Take a look inside the Bioblitz Lab"
+            url: https://player.vimeo.com/video/15530649
         
 opinions:
     -

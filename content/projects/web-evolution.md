@@ -24,18 +24,18 @@ logoWidth:  120
 
 modules:
 
-    blocks:
-        title: Stunning design, pixel perfect implementation
-        modules:
-            -
-                image: webvolution_block1.jpg
-                description: "We always want to push the boundaries of how data can be visualised, allowing our designs to come to life uncompromised. Using vectors and SVG, for example, allowed us to implement zooming and panning, while moving the framework to D3.js gave us more options for visualisation."
-            -
-                image: webvolution_block5.jpg
-                description: "Everyone's different; some users prefer light backgrounds on their webpages while others desire darker background. With night and day mode, you're free to explore the web's evolution in a way that suits you."
-            -
-                image: webvolution_block6.jpg
-                description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
+    -   blocks:
+            title: Stunning design, pixel perfect implementation
+            modules:
+                -
+                    image: webvolution_block1.jpg
+                    description: "We always want to push the boundaries of how data can be visualised, allowing our designs to come to life uncompromised. Using vectors and SVG, for example, allowed us to implement zooming and panning, while moving the framework to D3.js gave us more options for visualisation."
+                -
+                    image: webvolution_block5.jpg
+                    description: "Everyone's different; some users prefer light backgrounds on their webpages while others desire darker background. With night and day mode, you're free to explore the web's evolution in a way that suits you."
+                -
+                    image: webvolution_block6.jpg
+                    description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
 
 opinions:
     -

@@ -24,20 +24,20 @@ align:       right
 logoWidth:   180
 
 modules:
-    text_left:
-        title: "Big Sports means Big Data"
-        description: "There was a lot of potential data to visualise, so our first challenge was to identify the most important pieces needed to tell the story of the season. With this in hand we worked in the back end to make sure we didn’t overwhelm the browser with data, which would lead to slow, lagged performance, ultimately compromising the vision of the designers and partners. Design is also important here, with a clear and vivid design making the overall story engaging and simple to understand, while also allowing the key moments to stand out."
-        image: GoogleTrends-high1.png 
+    -   text_left:
+            title: "Big Sports means Big Data"
+            description: "There was a lot of potential data to visualise, so our first challenge was to identify the most important pieces needed to tell the story of the season. With this in hand we worked in the back end to make sure we didn’t overwhelm the browser with data, which would lead to slow, lagged performance, ultimately compromising the vision of the designers and partners. Design is also important here, with a clear and vivid design making the overall story engaging and simple to understand, while also allowing the key moments to stand out."
+            image: GoogleTrends-high1.png 
 
-    text_right: 
-        title: "Leading from the Front (end)"
-        description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
-        image: GoogleTrends-high3.png
+    -   text_right: 
+            title: "Leading from the Front (end)"
+            description: "Building on the work of the design and back end teams, our engineers innovated with a number of different languages (including SVG to animate D3.js) to achieve the performace, responsiveness and quality that we wanted from the front end application. By using these languages in new ways we can unleash the full vision and proposal put forward in the sketches and wireframes, delivering a great experience whether you're looking on your phone or your desktop."
+            image: GoogleTrends-high3.png
 
-    map: 
-        title: Watch it for yourself
-        url: http://nfl.vizzuality.com/?embed=true&theme=light#visualisation/1
-        description: 
+    -   map: 
+            title: Watch it for yourself
+            url: http://nfl.vizzuality.com/?embed=true&theme=light#visualisation/1
+            description: 
 
 opinions:
     -

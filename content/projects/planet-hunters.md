@@ -24,22 +24,22 @@ logoWidth:  150
 
 modules:
     
-    blocks:
-        title: A fluid interface for scientifically valid results
-        modules:
-            -
-                image: ph_h1.jpg
-                description: Making it easy for anyone to recognise the transits and have some fun at the same time 
-            -
-                image: ph_h2.jpg
-                description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
-            -
-                image: ph_h3.jpg
-                description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications
+    -   blocks:
+            title: A fluid interface for scientifically valid results
+            modules:
+                -
+                    image: ph_h1.jpg
+                    description: Making it easy for anyone to recognise the transits and have some fun at the same time 
+                -
+                    image: ph_h2.jpg
+                    description:  We played around with different tech (including heaps of customisation) until we ended up at an interface that was just right
+                -
+                    image: ph_h3.jpg
+                    description: We collaborated with scientists and researchers to create a workflow and features that ensured valid identifications
 
-    video:
-        title: "Behind the scenes of Planet Hunters"
-        url: https://player.vimeo.com/video/21618431
+    -   video:
+            title: "Behind the scenes of Planet Hunters"
+            url: https://player.vimeo.com/video/21618431
 
 opinions:
     -

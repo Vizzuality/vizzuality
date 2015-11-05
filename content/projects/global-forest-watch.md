@@ -22,38 +22,38 @@ highlighted: true
 align:       left
 
 modules:
-    text_left:
-        title: One eye in the sky...
-        description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
-        image: GFW-high1.png
+    -   text_left:
+            title: One eye in the sky...
+            description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
+            image: GFW-high1.png
 
-    text_right:
-        title: ...the other on our screens.
-        description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques to create a fast, beautiful and easy-to-use map tool. 
-        image: GFW-high2.png
+    -   text_right:
+            title: ...the other on our screens.
+            description: At Vizzuality, we like to work at the edge of APIs and push the boundaries of visualisation technology. We integrated a host of different front end techniques to create a fast, beautiful and easy-to-use map tool. 
+            image: GFW-high2.png
 
-    blocks:
-        title: High fidelity analysis
-        modules:
-            -
-                image: GFW-block-a1.jpg
-                description: Anyone can use the data to tell their story about forest change and share it with the world. 
-            -
-                image: GFW-block-a2.jpg
-                description: Get an overview at the global level or dive into the details for one country with our local and global modes
-            -
-                image: GFW-block-a3.jpg
-                description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
+    -   blocks:
+            title: High fidelity analysis
+            modules:
+                -
+                    image: GFW-block-a1.jpg
+                    description: Anyone can use the data to tell their story about forest change and share it with the world. 
+                -
+                    image: GFW-block-a2.jpg
+                    description: Get an overview at the global level or dive into the details for one country with our local and global modes
+                -
+                    image: GFW-block-a3.jpg
+                    description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
     
-    map:
-        title: Embeddable maps.
-        url: http://www.globalforestwatch.org/embed/map/9/42.97/-2.59/ESP-16/terrain/loss,forestgain/612,591?begin=2001-01-01&end=2014-12-31&threshold=30
-        description: Share your findings with your networks with our range of embed options.
+    -   map:
+            title: Embeddable maps.
+            url: http://www.globalforestwatch.org/embed/map/9/42.97/-2.59/ESP-16/terrain/loss,forestgain/612,591?begin=2001-01-01&end=2014-12-31&threshold=30
+            description: Share your findings with your networks with our range of embed options.
 
-    video:
-        title: The video
-        style: light
-        url: https://www.youtube.com/embed/lTG-0brb98I?rel=0&amp;showinfo=0
+    -   video:
+            title: The video
+            style: light
+            url: https://www.youtube.com/embed/lTG-0brb98I?rel=0&amp;showinfo=0
 
 opinions:
     -
