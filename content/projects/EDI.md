@@ -22,19 +22,19 @@ highlighted: true
 logoWidth:  300
 
 modules:
-    text_left:
-        title: Progressive disclosure for progressive causes
-        description: Getting the data out there is great but, to command the attention this important issue deserves, you need a fast, interactive and captivating application. The EDI contains a lot of data. We created an intelligent architecture that places the most important information up top, then reveals greater detail when you find a topic you want to analyse more deeply.
-        image: EDI_high1.png
+    -   text_left:
+            title: Progressive disclosure for progressive causes
+            description: Getting the data out there is great but, to command the attention this important issue deserves, you need a fast, interactive and captivating application. The EDI contains a lot of data. We created an intelligent architecture that places the most important information up top, then reveals greater detail when you find a topic you want to analyse more deeply.
+            image: EDI_high1.png
 
-    text_right:
-        title: Strong design to strengthen transparency
-        description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and data access barriers, the EDI website makes the data truly transparent.
-        image: EDI_high2.png
+    -   text_right:
+            title: Strong design to strengthen transparency
+            description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and data access barriers, the EDI website makes the data truly transparent.
+            image: EDI_high2.png
 
-    video:
-        title: Lalanath DeSilva talks about the Environmental Democracy Index
-        url: https://www.youtube.com/embed/HuFk7RYy91Q
+    -   video:
+            title: Lalanath DeSilva talks about the Environmental Democracy Index
+            url: https://www.youtube.com/embed/HuFk7RYy91Q
 
 opinions:
     -

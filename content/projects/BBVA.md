@@ -23,15 +23,15 @@ highlighted:   true
 logoWidth: 105
 
 modules:
-    text_left:
-        title: Taking code to new territories
-        description: "Over five million records is a rather large amount of data to store, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process, the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
-        image: bbva-01.png
+    -   text_left:
+            title: Taking code to new territories
+            description: "Over five million records is a rather large amount of data to store, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process, the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
+            image: bbva-01.png
 
-    text_right:
-        title: A tool to discover stories 
-        description: "Vizzuality is committed to making data easy to look at and understand, so everyone can find their own angle on the data. Our designers paid close attention to crafting an interface that lends itself to clear presentation and powerful analysis. They also structured the visualisations into four smaller, digestible tabs, providing a host of opportunities to gain deep understanding of all the facets of this dataset. Finished with pixel perfect implementation, we created a beautiful, usable, interactive visualisation." 
-        image: bbva-03.png
+    -   text_right:
+            title: A tool to discover stories 
+            description: "Vizzuality is committed to making data easy to look at and understand, so everyone can find their own angle on the data. Our designers paid close attention to crafting an interface that lends itself to clear presentation and powerful analysis. They also structured the visualisations into four smaller, digestible tabs, providing a host of opportunities to gain deep understanding of all the facets of this dataset. Finished with pixel perfect implementation, we created a beautiful, usable, interactive visualisation." 
+            image: bbva-03.png
 
 opinions:
     -

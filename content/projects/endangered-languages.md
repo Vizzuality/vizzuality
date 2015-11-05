@@ -24,27 +24,27 @@ logoWidth:  120
 
 modules:
 
-    blocks:
-        title: Exploring languages with ease
-        modules:
-            -
-                image: endangeredLanguages-high1.jpg
-                description: "The main part of the website is an intuitive, interactive map that allows users to explore languages by location, level of threat or number of speakers"
-            -
-                image: language_high2.jpg
-                description: "We used Django and a number of techniques to build a high performance front-end able deal with the large audience"
-            -
-                image: language_block3.jpg
-                description: Latest activity and other social features recognise and promote user contributions to documentation
+    -   blocks:
+            title: Exploring languages with ease
+            modules:
+                -
+                    image: endangeredLanguages-high1.jpg
+                    description: "The main part of the website is an intuitive, interactive map that allows users to explore languages by location, level of threat or number of speakers"
+                -
+                    image: language_high2.jpg
+                    description: "We used Django and a number of techniques to build a high performance front-end able deal with the large audience"
+                -
+                    image: language_block3.jpg
+                    description: Latest activity and other social features recognise and promote user contributions to documentation
 
-    map:
-        title: Take a look for yourself
-        description: "We've centred the map on Central America, where there's a high level of at-risk languages (indicated in yellow) or those where we are not sure of their vitality. <a href=\"http://www.endangeredlanguages.com/\">Take a look and see if you can help out </a>" 
-        url: http://www.endangeredlanguages.com/#/5/17.193/-90.593/0/100000/0/low/mid/high/dormant/awakening/unknown
+    -   map:
+            title: Take a look for yourself
+            description: "We've centred the map on Central America, where there's a high level of at-risk languages (indicated in yellow) or those where we are not sure of their vitality. <a href=\"http://www.endangeredlanguages.com/\">Take a look and see if you can help out </a>" 
+            url: http://www.endangeredlanguages.com/#/5/17.193/-90.593/0/100000/0/low/mid/high/dormant/awakening/unknown
 
-    video:
-        title: An Introduction to Endangered Languages
-        url: http://player.vimeo.com/video/48882390
+    -   video:
+            title: An Introduction to Endangered Languages
+            url: http://player.vimeo.com/video/48882390
 
 opinions:
     -
