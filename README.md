@@ -51,7 +51,7 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=0). It'll help make sure we're putting the most important projects in the right places!
 
 ## Order of Project's Modules (11/05/2015)
-From now on, you can modify the order of project's module appearance. In order to do that you have to do two things:
+From now on, you can modify the order of project's module appearance. In order to do this you have to do two things:
 
 **Add dashes and tabulations.**
 
@@ -88,6 +88,8 @@ If you have the next modules in your markdown:
     -   map: randomMapProperties
 
 In the web you will see the next order: text_left, video, map (from top to bottom).
+
+If you still have any doubt, feel free to ask!
 
 
 ## Contributing
