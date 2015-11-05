@@ -13,8 +13,6 @@ block main
       .veil
       .row
         .grid-sm-14.grid-lg-12.offset-lg-1
-          //- p(style= data.color ? "color: #{data.color}" : "")
-          //-   strong #{data.short_title}
           h1(style= data.color ? "color: #{data.color}" : "")= data.title + '.'
           p(class="summary", style= data.color ? "color: #{data.color}" : "")= data.summary + '.'
 
@@ -39,82 +37,83 @@ block main
           .grid-sm-14.grid-lg-8.offset-lg-1
             | !{content}
     
-    
-  if data.modules.video
-    if data.modules.video.style
-    section(class="m-project-detail-video #{data.modules.video.style}")
-      .row
-        .grid-sm-14.grid-lg-10.offset-lg-2
-          .video-box
-            iframe(src=data.modules.video.url, frameborder="0", allowfullscreen)
 
-  if data.modules.text_left
-    section.m-project-detail-article.is-left
-      .row.sameheight.is-grid-centered
-        .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
-          .m-project-article-content
-            h2= data.modules.text_left.title
-            p !{data.modules.text_left.description}
-        .grid-sm-14.grid-lg-8
-          img(src="/assets/images/projects/#{data.modules.text_left.image}" alt="#{data.short_title}-highlight")
+  each m, i in data.modules
+
+    if m.video
+      if m.video.style
+      section(class="m-project-detail-video #{m.video.style}")
+        .row
+          .grid-sm-14.grid-lg-10.offset-lg-2
+            .video-box
+              iframe(src=m.video.url, frameborder="0", allowfullscreen)
+
+    if m.text_left
+      section.m-project-detail-article.is-left
+        .row.sameheight.is-grid-centered
+          .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
+            .m-project-article-content
+              h2= m.text_left.title
+              p !{m.text_left.description}
+          .grid-sm-14.grid-lg-8
+            img(src="/assets/images/projects/#{m.text_left.image}" alt="#{data.short_title}-highlight")
 
 
-  if data.modules.text_left_v2
-    section.m-project-detail-article.is-left
-      .row
-        .grid-sm-14.grid-lg-8.offset-lg-1.is-grid-centered
-          .m-project-article-content
-            h2= data.modules.text_left_v2.title
-            p !{data.modules.text_left_v2.description}
-            //- a(href="#{data.link}", target="_blank", class="btn") See online
-        
-        div#parallax-content.parallax-content
-          div(style="background-image: url('/assets/images/projects/#{data.modules.text_left_v2.image}')")
-    
-  if data.modules.text_right
-    section.m-project-detail-article.is-right
-      .row.sameheight.is-grid-centered
-        .grid-sm-14.grid-lg-8
-          img(src="/assets/images/projects/#{data.modules.text_right.image}")
-        .grid-sm-14.grid-lg-5
-          .m-project-article-content
-            h2= data.modules.text_right.title
-            p !{data.modules.text_right.description}
+    if m.text_left_v2
+      section.m-project-detail-article.is-left
+        .row
+          .grid-sm-14.grid-lg-8.offset-lg-1.is-grid-centered
+            .m-project-article-content
+              h2= m.text_left_v2.title
+              p !{m.text_left_v2.description}
+          
+          div#parallax-content.parallax-content
+            div(style="background-image: url('/assets/images/projects/#{m.text_left_v2.image}')")
+      
+    if m.text_right
+      section.m-project-detail-article.is-right
+        .row.sameheight.is-grid-centered
+          .grid-sm-14.grid-lg-8
+            img(src="/assets/images/projects/#{m.text_right.image}")
+          .grid-sm-14.grid-lg-5
+            .m-project-article-content
+              h2= m.text_right.title
+              p !{m.text_right.description}
 
-  if data.modules.text_above
-    section.m-project-detail-article
-      .row.sameheight
-        .grid-sm-14.grid-lg-8.offset-lg-1
-          .m-project-article-content
-            h2= data.modules.text_above.title
-            p !{data.modules.text_above.description}
-            img(src="/assets/images/projects/#{data.modules.text_above.image}" alt="#{data.short_title}-highlight")
-        
-  if data.modules.blocks
-    section.m-project-detail-blocks
-      .row.uncollapse
-        .grid-sm-14.grid-lg-12.offset-lg-1
-          h2= data.modules.blocks.title
-      .row.uncollapse
-        each m, i in data.modules.blocks.modules
-          if i == 0
-            .grid-sm-14.grid-md-4.grid-lg-4.offset-lg-1
-              .thumb: img(src="/assets/images/projects/#{m.image}" alt="#{data.short_title}-details")
-              p !{m.description}
-          else
-            .grid-sm-14.grid-md-4.grid-lg-4
-              .thumb: img(src="/assets/images/projects/#{m.image}" alt="#{data.short_title}-details")
-              p !{m.description}
+    if m.text_above
+      section.m-project-detail-article
+        .row.sameheight
+          .grid-sm-14.grid-lg-8.offset-lg-1
+            .m-project-article-content
+              h2= m.text_above.title
+              p !{m.text_above.description}
+              img(src="/assets/images/projects/#{m.text_above.image}" alt="#{data.short_title}-highlight")
 
-  if data.modules.map
-    section.m-project-detail-iframe
-      .row
-        .grid-sm-14.grid-lg-12.offset-lg-1
-          h2= data.modules.map.title
-          .m-project-iframe
-            .m-project-iframe-content
-              iframe(src=data.modules.map.url, frameborder="0")
-          p !{data.modules.map.description}
+    if m.map
+      section.m-project-detail-iframe
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= m.map.title
+            .m-project-iframe
+              .m-project-iframe-content
+                iframe(src=m.map.url, frameborder="0")
+            p !{m.map.description}
+          
+    if m.blocks
+      section.m-project-detail-blocks
+        .row.uncollapse
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= m.blocks.title
+        .row.uncollapse
+          each b, i in m.blocks.modules
+            if i == 0
+              .grid-sm-14.grid-md-4.grid-lg-4.offset-lg-1
+                .thumb: img(src="/assets/images/projects/#{b.image}" alt="#{data.short_title}-details")
+                p !{b.description}
+            else
+              .grid-sm-14.grid-md-4.grid-lg-4
+                .thumb: img(src="/assets/images/projects/#{b.image}" alt="#{data.short_title}-details")
+                p !{b.description}
 
   if data.title && data.post_url
     section.m-project-blog
@@ -152,9 +151,6 @@ block main
       .grid-sm-14.grid-lg-12.offset-lg-1
         p Get in touch.
         a(href="/about#contact", class="btn") Contact us
-
-  //- if (prev)
-  //-   section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{prev.image})")
 
   if (next)
     section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{next.image})")
