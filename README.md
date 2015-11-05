@@ -50,6 +50,48 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 
 When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=0). It'll help make sure we're putting the most important projects in the right places!
 
+## Order of Project's Modules (11/05/2015)
+From now on, you can modify the order of project's module appearance. In order to do this you have to do two things:
+
+**Add dashes and tabulations.**
+
+You should add dashes for every module you want to add. Be careful and tab properly (see differences in the example). Dashes and tabulations are mandatory.
+
+Example:
+    
+**_BEFORE_**:
+
+    text_left:
+        title: One eye in the sky...
+        description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
+        image: GFW-high1.png
+
+**_NOW_**:
+
+    -   text_left:
+            title: One eye in the sky...
+            description: We are losing around 18 million ha of forest every year, according to the latest estimates. With enhanced satellite capabilities and analysis of earth observations, we can monitor changes to our planet more easily than ever before
+            image: GFW-high1.png
+
+You should add dashes for every module you want to add. Be careful and tab properly (see differences in the example). Dashes and tabulations are mandatory.
+
+**Every thing in it's place** :bamboo:
+
+The order you choose in the markdown is the order that it will display in the web.
+
+Example:
+
+If you have the next modules in your markdown:
+    
+    -   text_left: randomContentProperties,
+    -   video: randomVideoProperties,
+    -   map: randomMapProperties
+
+In the web you will see the next order: text_left, video, map (from top to bottom).
+
+If you still have any doubt, feel free to ask!
+
+
 ## Contributing
 
 1. Fork it!
