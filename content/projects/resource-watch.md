@@ -7,7 +7,7 @@ fb_title:    ""
 fb_description: "" 
 link:        http://resourcewatch.org
 link_short:  resourcewatch.org
-client:      WRI
+client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg
 post_url:    
@@ -23,7 +23,7 @@ highlighted: true
 modules:
     -   text_left:
             title: The data you need
-            description: "First we've brought together data on water, food security, conservation, climate change and much much more. But we know that if you want to truly understand these issues, and the interrelations between them, you need intuitive visualisations. With insights, dashboards and Planet Pulse, you've got multiple angles to analyse the data."
+            description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. With 'Insights', 'Dashboards',  and Planet Pulse, you've got multiple angles to analyse the data."
             image: 
 
     -   text_right:

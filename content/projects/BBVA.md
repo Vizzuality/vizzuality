@@ -1,7 +1,7 @@
 ---
-title:       "Footprints of Spain's tourists in Summer 2014"
+title:       "Revealing tourist footprints from big data"
 short_title: BBVA
-summary:     Design and development to discover big data
+summary:     Design and development to discover valuable insight
 description: An interactive visualisation of big data made possible with modern design principles and innovative software development
 fb_title:    ""
 fb_desctiption: ""
