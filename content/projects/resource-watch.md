@@ -35,13 +35,13 @@ modules:
             title: Capitalising on the big trends of our age
             modules:
                 -
-                    image: 
+                    image: rw_block1.jpg
                     description: "Today there are 5 times more people accessing the internet on mobiles than desktops. In 5 years four fifths of the world’s adults will own a smartphone and around 90% of the world will have 3G coverage. By building mobile first services, Resource Watch will be able to reach a global audience of billions."
                 -
-                    image: 
+                    image: rw_block2.jpg
                     description: "For the poorest people in the world, mobile technology can balance inequalities in access to information. By releasing more open data and presenting it in a way that people can understand and easily access, Resource Watch will be a tool for all."
                 -
-                    image: 
+                    image: rw_block3.jpg
                     description: "Already, citizen scientists are contributing more observations of key species than professional academics. With advanced, easy-to-use analytical tools, these scientists can also create knowledge and insight, right here on Resource Watch."
 
 ---
