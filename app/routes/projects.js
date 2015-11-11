@@ -11,7 +11,7 @@ module.exports = function(app) {
   var isProduction = (app.get('env') === 'production');
   var t = Math.pow(10, 15);
 
-  Home and projects page
+  // Home and projects page
   app.get('/', function(req, res) {
 
     // file.getFiles(postsPath, isProduction, function(err, posts) {
