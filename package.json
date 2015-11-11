@@ -59,8 +59,7 @@
     "underscore.string": "^3.0.3"
   },
   "engines": {
-    "node": "4.2.x",
-    "npm": "2.14.x"
+    "node": "0.12.x",
   },
   "cacheDirectories": ["node_modules", "bower_components", "public/assets"]
 }
