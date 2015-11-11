@@ -12,7 +12,7 @@ client_logo: ree.png
 svg_lgo:     
 post_url:    http://blog.vizzuality.com/post/132075428431/discover-spains-energy-grid-one-dataset-at-a
 post_title:  "Discover Spain’s energy grid, one dataset at a time"
-image:       ree_05.jpg
+image:       esios.jpg
 cover:       ree_05.jpg
 author:      Jamie Gibson
 date:        2015-10-26

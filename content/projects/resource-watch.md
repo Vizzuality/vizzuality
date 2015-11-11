@@ -12,8 +12,8 @@ client_logo: wri.png
 svg_logo:    wri.svg
 post_url:    
 post_title:  
-image:       
-cover:       
+image:       resourcewatch.jpg
+cover:       resourcewatch_2.jpg
 author:      Jamie Gibson
 date:        2015-10-16
 release_date:  October 2015
@@ -21,15 +21,15 @@ order:       2
 highlighted: true  
 
 modules:
-    -   text_left:
+    -   text_left_v2:
             title: The data you need
-            description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. With 'Insights', 'Dashboards',  and Planet Pulse, you've got multiple angles to analyse the data."
-            image: 
+            description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. We've given you multiple angles to analyse the data, from dashboards and maps to innovative features like 'Insights' and 'Planet Pulse'."
+            image: rw_high1.jpg
 
-    -   text_right:
+    -   text_above:
             title: Serving Global Goals
             description: "To reach the lofty Sustainable Development Goals agreed in September 2015, we need precise data to act in the right places at the right time. Moreover we need to share this data widely, using advances in machine learning, data processing and mobile phone ownership to give insights to the people on the frontline of social development and environmental protection."
-            image: 
+            image: rw_high2.png
 
     -   blocks:
             title: Capitalising on the big trends of our age
