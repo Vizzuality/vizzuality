@@ -11,30 +11,30 @@ module.exports = function(app) {
   var isProduction = (app.get('env') === 'production');
   var t = Math.pow(10, 15);
 
-  // Home and projects page
-  // app.get('/', function(req, res) {
+  Home and projects page
+  app.get('/', function(req, res) {
 
-  //   file.getFiles(postsPath, isProduction, function(err, posts) {
+    // file.getFiles(postsPath, isProduction, function(err, posts) {
 
-  //     var lastPost = _.first(_.sortBy(posts, function(p) {
-  //       return new Date(p.date).valueOf() * -1;
-  //     }));
+      // var lastPost = _.first(_.sortBy(posts, function(p) {
+      //   return new Date(p.date).valueOf() * -1;
+      // }));
 
-  //     file.getFiles(projectsPath, isProduction, function(err, data) {
-  //       res.render('projects/index', {
-  //         projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
-  //           var time = new Date(d.date).valueOf();
-  //           var order = d.order ? parseInt(d.order) : 0;
-  //           return (order * t) + time;
-  //         }),
-  //         lastPost: lastPost,
-  //         className: 'is-project-page'
-  //       });
-  //     });
+      file.getFiles(projectsPath, isProduction, function(err, data) {
+        res.render('projects/index', {
+          projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
+            var time = new Date(d.date).valueOf();
+            var order = d.order ? parseInt(d.order) : 0;
+            return (order * t) + time;
+          }),
+          // lastPost: lastPost,
+          className: 'is-project-page'
+        });
+      });
 
-  //   });
+    // });
 
-  // });
+  });
 
   // Projects routes redirect to index
   app.get('/projects', function(req, res) {
