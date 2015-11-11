@@ -57,27 +57,14 @@
                   {/block:Body}
                 {/block:Text}
 
-                {block:Answer}
-                  <div class="m-post-answers">
-                    <div class="question">
-                      <div class="asker">{Asker}</div>
-                      <div class="asker-question">{Question}</div>
-                      <img class="asker-avatar" src="{AskerPortraitURL-96}" alt="">
-                    </div>
-
-                    {block:Answerer}
-                      <div class="answer">
-                        <div class="answerer">{Answerer}</div>
-                        <div class="answerer-answer">{Answer}</div>
-                        <img class="answerer-avatar" src="{AnswererPortraitURL-96}" alt="">
-                      </div>
-                    {/block:Answerer}
-
-                    <div class="replies">
-                      {Replies}
-                    </div>
+                {block:Photo}
+                  <div class="post photo">
+                    <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+                    {block:Caption}
+                      <div class="caption">{Caption}</div>
+                    {/block:Caption}
                   </div>
-                {/block:Answer}
+                {/block:Photo}
 
                 <footer class="m-post-footer">
                   {block:IndexPage}
