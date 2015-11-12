@@ -43,6 +43,20 @@ modules:
                 -
                     image: rw_block3.jpg
                     description: "Already, citizen scientists are contributing more observations of key species than professional academics. With advanced, easy-to-use analytical tools, these scientists can also create knowledge and insight, right here on Resource Watch."
+                    
+    -   opinions:
+                - 
+                    title: "Kudos to @Vizzuality on bridging the digital divide by prototyping SMS and audio data hotline! #EOESUMMIT15"
+                    photo: media/twitter.png
+                    autor: <a href="https://twitter.com/EKTyson/status/651762750197231616">Elizabeth Tyson</a>
+                -   
+                    title: "YES: we could have the best data in the world but if we don't tell compelling stories with it, nothing will change-@Vizzuality #EOESUMMIT15"
+                    photo: media/twitter.png
+                    autor: <a href="https://twitter.com/zararah/status/651759034706427908">Zara Rahman</a>
+                -  
+                    title: "Craig Mills of #Vizzuality presents Resourcewatch - great design for visualizing #WRI #GIS #remotesensing data and information"
+                    photo: media/twitter.png
+                    autor: <a href="https://twitter.com/AndrewKSkidmore/status/651762955806240769">Andrew Skidmore</a>
 
 ---
 The world's resources are becoming scarce; at the same time, we aren't providing enough for everyone to live well and prosper. We've teamed up with the World Resources Institute to build Resource Watch, an open platform for everyone to explore accurate, up-to-date insights about our planet. Anyone can create visualisations or apps using data from satellites, sensors and social media, to tell stories about the state of our planet. Then, with seamless sharing tools, show the world what you've learnt and inspire action.
