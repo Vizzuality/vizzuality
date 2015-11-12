@@ -35,9 +35,9 @@ modules:
 
 opinions:
     -
-        title: "Genial representación del gasto turístico en España. Bien por @BBVAData y @Vizzuality!!! #bigdata #bigdataanalytics" 
-        photo: media/twitter.png
-        autor: <a href="https://twitter.com/_danielros/status/634627079682846720"> Daniel Ros </a>
+        title: "Barcelona takes the lion’s share of 23% of all spending, while the Balearic Islands is where foreigners outspend Spaniards the most" 
+        photo: media/elpais.png
+        autor: <a href="http://elpais.com/elpais/2015/08/20/inenglish/1440090145_983960.html"> El Pais </a>
     -
         title: "Apart from looking like it could be a piece of artwork, the map actually displays some exciting information about who and how individuals are spending in Spain in the summer months."
         photo: media/wired.png
