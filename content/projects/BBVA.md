@@ -12,8 +12,8 @@ client_logo: bbva.png
 svg_logo:    
 post_url:    http://blog.vizzuality.com/post/130263330306/designing-for-the-discovery-of-big-data
 post_title:  Designing for the Discovery of Big Data
-image:       bbva_01.jpg
-cover:       bbva_01.jpg
+image:       bbva.jpg
+cover:       bbva.jpg
 author:      Jamie Gibson
 date:        2015-09-22
 release_date:  August 2015
