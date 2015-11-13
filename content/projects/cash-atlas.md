@@ -1,6 +1,7 @@
 ---
 title:       Cash Atlas
 short_title: Cash Atlas
+slug_title:  cash-atlas
 summary: 	 Following cash on the road to recovery
 description: 'A fast web interface to analyse the impact of cash transfer programmes on the fly'
 fb_title:    ""

@@ -489,8 +489,6 @@
       return;
     }
 
-    // var backgroundImage = parallaxContent.getAttribute('style');
-    // parallaxContent.style.backgroundImage = backgroundImage;
 
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
