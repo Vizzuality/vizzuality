@@ -18,7 +18,8 @@ author:      Jamie Gibson
 date:        2015-10-16
 release_date:  October 2015
 order:       2
-highlighted: true  
+highlighted: true
+parallax_bg: rw_high1.jpg
 
 modules:
     -   text_left_v2:
