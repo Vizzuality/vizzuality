@@ -1,7 +1,7 @@
 ---
 name: 		Elena de Pomar      
 position:   Designer
-phrase:     "My goal is to create beautiful, simple and useful digital products, enjoying myself all the way"
+phrase:     "I aim to create beautiful, simple and useful digital products"
 twitter:    elenadepomar
 linkedin:   "https://es.linkedin.com/in/elena-de-pomar-b921012b"
 behance:	elenadepomar

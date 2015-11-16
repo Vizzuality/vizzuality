@@ -1,7 +1,7 @@
 ---
 name:       Clément Prod'homme 
 position:   Engineer
-phrase:     "Every experience, every project, is another chance for me to learn something new"
+phrase:     "Every experience is another chance to learn something new"
 twitter:    ClementPrdhomme
 linkedin:   "https://es.linkedin.com/pub/clément-prod-homme/5b/a81/158"
 github:		clementprdhomme
