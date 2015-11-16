@@ -47,6 +47,7 @@ block main
       each project, index in projects
         if index >= numberOfProjects - 2 && index < numberOfProjects
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
+            a(href="/projects/#{project.slug}", class="cover-link")
             .veil
             .m-project-content
               if project.svg_logo

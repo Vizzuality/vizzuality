@@ -2,7 +2,7 @@ var _ = require('underscore');
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var projectsPath = root + '/content/projects';
-var postsPath = root + '/content/posts';
+// var postsPath = root + '/content/posts';
 
 module.exports = function(app) {
 
@@ -14,11 +14,11 @@ module.exports = function(app) {
   // Home and projects page
   app.get('/', function(req, res) {
 
-    file.getFiles(postsPath, isProduction, function(err, posts) {
+    // file.getFiles(postsPath, isProduction, function(err, posts) {
 
-      var lastPost = _.first(_.sortBy(posts, function(p) {
-        return new Date(p.date).valueOf() * -1;
-      }));
+      // var lastPost = _.first(_.sortBy(posts, function(p) {
+      //   return new Date(p.date).valueOf() * -1;
+      // }));
 
       file.getFiles(projectsPath, isProduction, function(err, data) {
         res.render('projects/index', {
@@ -27,12 +27,12 @@ module.exports = function(app) {
             var order = d.order ? parseInt(d.order) : 0;
             return (order * t) + time;
           }),
-          lastPost: lastPost,
+          // lastPost: lastPost,
           className: 'is-project-page'
         });
       });
 
-    });
+    // });
 
   });
 

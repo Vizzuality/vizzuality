@@ -67,8 +67,9 @@ block main
               h2= m.text_left_v2.title
               p !{m.text_left_v2.description}
           
-          div#parallax-content.parallax-content
-            div(style="background-image: url('/assets/images/projects/#{m.text_left_v2.image}')")
+          div#parallax-content(class="#{data.slug_title} parallax-content")
+            div.parallax-bg
+          
       
     if m.text_right
       section.m-project-detail-article.is-right
@@ -127,6 +128,7 @@ block main
   
   if data.opinions && data.opinions.length
     section.m-project-opinions
+      h2 What people are saying about it?
       .row.uncollapse.sameheight
         for opinion, index in data.opinions
           .grid-sm-14.grid-lg-4
