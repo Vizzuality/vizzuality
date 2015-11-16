@@ -66,9 +66,11 @@ block main
             .m-project-article-content
               h2= m.text_left_v2.title
               p !{m.text_left_v2.description}
-          
-          div#parallax-content(class="#{data.slug_title} parallax-content")
-            div.parallax-bg
+
+
+      section.m-parallax
+        div.parallax-container
+          div.parallax-bg(style="background-image: url('/assets/images/projects/#{data.parallax_bg}')")
           
       
     if m.text_right
