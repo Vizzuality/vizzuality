@@ -12,8 +12,8 @@ client_logo: bbva.png
 svg_logo:    
 post_url:    http://blog.vizzuality.com/post/130263330306/designing-for-the-discovery-of-big-data
 post_title:  Designing for the Discovery of Big Data
-image:       bbva_01.jpg
-cover:       bbva_01.jpg
+image:       bbva.jpg
+cover:       bbva.jpg
 author:      Jamie Gibson
 date:        2015-09-22
 release_date:  August 2015
@@ -26,18 +26,18 @@ modules:
     -   text_left:
             title: Taking code to new territories
             description: "Over five million records is a rather large amount of data to store, especially when you add a geospatial dimension. Instead of simplifying or splitting up the transactions to make them easy to process, the whole dataset was loaded into CartoDB and queried when needed using their SQL API. To produce a cohesive visualization made up of multiple maps and timelines that run in unison, we modified and extended CartoDB's Torque.js library, so you can quickly jump back and forth in time and drill down to the transactions you want to see."
-            image: bbva-01.png
+            image: bbva_high1.png
 
     -   text_right:
             title: A tool to discover stories 
             description: "Vizzuality is committed to making data easy to look at and understand, so everyone can find their own angle on the data. Our designers paid close attention to crafting an interface that lends itself to clear presentation and powerful analysis. They also structured the visualisations into four smaller, digestible tabs, providing a host of opportunities to gain deep understanding of all the facets of this dataset. Finished with pixel perfect implementation, we created a beautiful, usable, interactive visualisation." 
-            image: bbva-03.png
+            image: bbva_high2.png
 
 opinions:
     -
-        title: "Genial representación del gasto turístico en España. Bien por @BBVAData y @Vizzuality!!! #bigdata #bigdataanalytics" 
-        photo: media/twitter.png
-        autor: <a href="https://twitter.com/_danielros/status/634627079682846720"> Daniel Ros </a>
+        title: "Barcelona takes the lion’s share of 23% of all spending, while the Balearic Islands is where foreigners outspend Spaniards the most" 
+        photo: media/elpais.png
+        autor: <a href="http://elpais.com/elpais/2015/08/20/inenglish/1440090145_983960.html"> El Pais </a>
     -
         title: "Apart from looking like it could be a piece of artwork, the map actually displays some exciting information about who and how individuals are spending in Spain in the summer months."
         photo: media/wired.png
