@@ -609,6 +609,8 @@
       document.body.className = document.body.className + ' ie';
     }
 
+    var fHeader = utils.throtle(fixHeader(), 100);
+
     mobileNavigation();
     anchorButtons();
     contactForm();
@@ -618,8 +620,8 @@
     loadBtn();
     decodeEmail();
 
-    window.addEventListener('scroll', function() {
-      utils.throtle(fixHeader(), 100);
+    window.addEventListener('scroll', function () {
+      fHeader();
       doParallax();
     });
 
