@@ -23,7 +23,7 @@ logoWidth: 175
 
 modules:
     -   text_left:
-            title: Slow reveal
+            title: Data design
             description: "There’s no point committing to open data and transparency if you make it hard for people to actually understand the details and nuance of the data. We built the platform using the idea of progressive disclosure, introducing people to the data slowly then providing more complicated datasets and advanced analysis when you've found the data you're looking for." 
             image: ree_high1.png
 
