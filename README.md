@@ -48,7 +48,9 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 
 ## Order of Projects
 
-When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=0). It'll help make sure we're putting the most important projects in the right places!
+When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=697157388). It'll help make sure we're putting the most important projects in the right places!
+
+We also have a tab for the [order of staff as well](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=1805787218)
 
 ## Order of Project's Modules (11/05/2015)
 From now on, you can modify the order of project's module appearance. In order to do this you have to do two things:
