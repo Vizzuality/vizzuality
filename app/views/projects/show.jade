@@ -68,9 +68,10 @@ block main
               p !{m.text_left_v2.description}
 
 
-      section.m-parallax
-        div.parallax-container
-          div.parallax-bg(style="background-image: url('/assets/images/projects/#{data.parallax_bg}')")
+      if data.parallax_bg
+        section.m-parallax
+          div.parallax-container
+            div.parallax-bg(style="background-image: url('/assets/images/projects/#{data.parallax_bg}')")
           
       
     if m.text_right
