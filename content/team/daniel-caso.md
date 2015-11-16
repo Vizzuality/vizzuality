@@ -9,7 +9,7 @@ email:      daniel.caso@vizzuality.com
 photo:      Dani.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		  6
+order: 		  5
 ---
 
 Daniel joined Vizzuality in 2011 as a visual and interaction designer, after receiving a Senior Design Technician qualification at the Escuela de Arte de Salamanca. He has spent many years working on user interfaces for mobile and desktop applications and graphic design in advertising. 
