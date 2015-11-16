@@ -26,7 +26,7 @@ block main
             | !{content}
           .grid-sm-5.grid-md-5.grid-lg-4.offset-sm-1.offset-md-1.offset-lg-1
             .client-info
-              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}" alt="#{data.client}-logo")
+              img.m-project-client-logo(src="/assets/images/clients/#{data.client_logo}" style="width: #{data.logoWidth}px" alt="#{data.client}-logo")
               if data.client
                 h2 #{data.client}.
               if data.release_date
