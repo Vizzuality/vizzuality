@@ -487,8 +487,14 @@
 
   // Parallax effect in project page
   function doParallax() {
-    var parallaxContent = document.querySelector('.parallax-bg'),
-      parallaxModule = document.querySelector('.m-parallax'),
+
+    var parallaxContent = document.querySelector('.parallax-bg');
+
+    if(!parallaxContent) {
+      return;
+    }
+
+    var parallaxModule = document.querySelector('.m-parallax'),
       parallaxBackground = document.getElementsByClassName('parallax-bg')[0].style['backgroundImage'],
       cssBackground = 'background-image:' + parallaxBackground,
       parallaxSize = {
@@ -496,11 +502,6 @@
         bottom: parallaxModule.offsetTop + parallaxModule.offsetHeight
       },
       scrollY = utils.getScroll();
-
-
-    if(!parallaxContent) {
-      return;
-    }
 
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
