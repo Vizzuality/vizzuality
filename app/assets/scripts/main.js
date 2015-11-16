@@ -514,7 +514,7 @@
       this.style['-moz-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
     };
 
-    if (scrollY < parallaxSize.bottom) {
+    if (scrollY < parallaxSize.bottom + 100) {
       parallax.apply(parallaxContent);
     }
   }
