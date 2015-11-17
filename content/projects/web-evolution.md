@@ -3,8 +3,8 @@ title:       Evolution of the Web
 short_title: Evolution of the Web
 summary: 	 Updating the history of the web
 description:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Evolution of the Web | Vizzuality"
+fb_description: "An interactive guide to the evolution of web browsers over time"
 link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt

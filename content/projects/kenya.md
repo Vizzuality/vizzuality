@@ -3,8 +3,8 @@ title:       Big Data, Small Screens
 short_title: Big Data, Small Screens
 summary: 	 The future of farming is satellite SMS
 description: 'Building software to empower smallholder farmers with satellite data through an SMS service'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Big Data, Small Screens | Vizzuality"
+fb_description: "Building software to empower smallholder farmers with satellite data through SMS"
 client:      Zeitz Foundation
 client_logo: zeitz.png
 svg_logo:     

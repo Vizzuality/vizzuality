@@ -3,8 +3,8 @@ title:       Antarctic Field Guide
 short_title: Antarctic Field Guide
 summary:     Prepare for Antarctic Adventures
 description: 'Pure HTML5 and javascript provides an interactive interface into data about the Antarctic'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Antarctic Field Guide | Vizzuality"
+fb_description: "An interactive interface into biodiversity data about the Antarctic"
 link:        http://afg.scarmarbin.be
 link_short:  afg.scarmarbin.be
 client:      SCAR-MarBIN and ANTABIF

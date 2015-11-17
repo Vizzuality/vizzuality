@@ -3,8 +3,8 @@ title:       Calvert Foundation Map
 short_title: Calvert Foundation
 summary: 	 Mapping Success for the Calvert Foundation
 description: 'A mobile first application to visualise the success of the Calvert Foundation'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Calvert Foundation Map | Vizzuality"
+fb_description: "Mapping the success of the Calvert Foundation"
 link:        http://map.calvertfoundation.org
 link_short:  map.calvertfoundation.org
 client:      Calvert Foundation

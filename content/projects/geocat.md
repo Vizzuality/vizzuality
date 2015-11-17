@@ -3,8 +3,8 @@ title:       Geospatial Conservation Assesment Tool
 short_title: GeoCAT
 summary: 	 Finding endangered species before it’s too late
 description: 'An interactive geospatial tool to assess the conservation level of species across the globe'
-fb_title:    ""
-fb_description: ""
+fb_title:    "GeoCAT | Vizzuality"
+fb_description: "A tool to assess the conservation level of species across the globe"
 link:        http://geocat.kew.org
 link_short:  geocat.kew.org
 client:      Kew Gardens, IUCN and ViBRANT

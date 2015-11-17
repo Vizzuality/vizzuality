@@ -3,8 +3,8 @@ title:       "Red Eléctrica de España"
 short_title: "e-sios"
 summary:     "Discover Spain’s energy grid, one dataset at a time"
 description: "We built an interactive open data platform to give the public unprecedented access to real-time information about Spain's energy grid."
-fb_title:     ""
-fb_description: "" 
+fb_title:     "e-sios | Vizzuality"
+fb_description: "An interactive open data platform to reveal real-time information about Spain's energy grid" 
 link:        https://www.esios.ree.es/en
 link_short:  esios.ree.es/en
 client:      "Red Eléctrica de España"

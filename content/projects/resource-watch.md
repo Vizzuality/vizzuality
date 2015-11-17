@@ -3,8 +3,8 @@ title:       Resource Watch
 short_title: Resource Watch
 summary:     "Tuning in to our planet's signals"
 description: "We developed a platform for accurate, accessible and understandable insights about our world, working with WRI and many other partners"
-fb_title:    ""
-fb_description: "" 
+fb_title:    "Resource Watch | Vizzuality"
+fb_description: "A new platform for accurate, accessible and understandable insights about our world" 
 link:        http://resourcewatch.org
 link_short:  resourcewatch.org
 client:      World Resources Institute

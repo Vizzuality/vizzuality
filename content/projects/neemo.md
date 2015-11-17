@@ -3,8 +3,8 @@ title:       Project NEEMO
 short_title: Project NEEMO
 summary: 	 An underwater mission with NASA
 description: "Dive into some of NASA's biodiversity data with our live web application built on node.js"
-fb_title:	 ""
-fb_description: ""
+fb_title:	 "Project NEEMO | Vizzuality"
+fb_description: "Helping NASA classify pictures of the seafloor biodiversity"
 link:        http://neemo.zooniverse.org
 link_short:  neemo.zooniverse.org
 client:      NASA
