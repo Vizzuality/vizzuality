@@ -1,7 +1,6 @@
 ---
 title:       Resource Watch
 short_title: Resource Watch
-slug_title:  resource-watch
 summary:     "Tuning in to our planet's signals"
 description: "We developed a platform for accurate, accessible and understandable insights about our world, working with WRI and many other partners"
 fb_title:    ""
@@ -19,7 +18,8 @@ author:      Jamie Gibson
 date:        2015-10-16
 release_date:  October 2015
 order:       2
-highlighted: true  
+highlighted: true
+parallax_bg: rw_high1.jpg
 
 modules:
     -   text_left_v2:

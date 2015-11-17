@@ -202,6 +202,10 @@
     };
   };
 
+  utils.getScroll = function() {
+    return window.pageYOffset;
+  };
+
   utils.Template = window.t;
 
   // Function to search target and go to scroll using Smooth Scroll
@@ -483,26 +487,37 @@
 
   // Parallax effect in project page
   function doParallax() {
-    var parallaxContent = document.querySelector('.parallax-content > div');
+
+    var parallaxContent = document.querySelector('.parallax-bg');
 
     if(!parallaxContent) {
       return;
     }
 
+    var parallaxModule = document.querySelector('.m-parallax'),
+      parallaxBackground = document.getElementsByClassName('parallax-bg')[0].style['backgroundImage'],
+      cssBackground = 'background-image:' + parallaxBackground,
+      parallaxSize = {
+        top: parallaxModule.offsetTop,
+        bottom: parallaxModule.offsetTop + parallaxModule.offsetHeight
+      },
+      scrollY = utils.getScroll();
 
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
 
-      this.setAttribute(
-        'style', 'transform: translate3d(0,' + translateY + 'px, 0); -webkit-transform: translate3d(0,' + translateY + 'px, 0)'
-      );
+      if(!this.style['backgroundImage']) {
+        this.style['backgroundImage'] = cssBackground;
+      }
+
+      this.style['transform'] = 'translate3d(0,' + translateY + 'px, 0)';
+      this.style['-webkit-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
+      this.style['-moz-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
     };
 
-    parallax.apply(parallaxContent);
-
-    window.addEventListener('scroll', function() {
+    if (scrollY < parallaxSize.bottom + 100) {
       parallax.apply(parallaxContent);
-    });
+    }
   }
 
   // Navigation between projects using arrow keys
@@ -594,17 +609,22 @@
       document.body.className = document.body.className + ' ie';
     }
 
+    var fHeader = utils.throtle(fixHeader(), 100);
+
     mobileNavigation();
     anchorButtons();
     contactForm();
     geolocationMap();
     allProjectsModal();
-    doParallax();
     arrowsNavigation();
     loadBtn();
     decodeEmail();
 
-    window.onscroll = utils.throtle(fixHeader(), 100);
+    window.addEventListener('scroll', function () {
+      fHeader();
+      doParallax();
+    });
+
   });
 
 })();

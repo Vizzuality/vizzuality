@@ -2,7 +2,7 @@
 name:       Andrés González
 position:   Engineer
 phrase:     "I am the Real deal when it comes to front-ends"
-twitter:    VAlandiI
+twitter:    _Kyri3
 linkedin:   "https://es.linkedin.com/pub/andr%C3%A9s-gonz%C3%A1lez-mu%C3%B1oz/b6/608/593"
 github:		andres-gnlez
 email:      andres.gonzalez@vizzuality.com
