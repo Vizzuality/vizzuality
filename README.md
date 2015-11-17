@@ -45,7 +45,6 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **post_url** and **post_title** for latest blog entry
 * **release_date** is the month/ year it was launched
 * ** logoWidth** specifies the width (in px) of the logo(i.e.: logoWidth: 125). This attribute is mandatory.
-* ** parallax_bg ** image used in parallax (if exists)
 ## Order of Projects
 
 When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=697157388). It'll help make sure we're putting the most important projects in the right places!

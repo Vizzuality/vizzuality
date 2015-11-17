@@ -19,14 +19,13 @@ order:       12
 grid:        1
 highlighted: true
 logoWidth: 200
-parallax_bg: cashAtlas-wide.jpg
 
 modules:
 
-    -   text_left_v2:
+    -   text_parallax:
             title: "Only the data you need"
             description: "At higher zoom levels, the map would be very cluttered if you had all the data for the smallest level being shown. Progressive disclosure means the data shown is optimised for your current zoom level. And where you select one particular region for analysis, you can see the detail for one and summaries of the neighbouring regions to avoid distractions and allowing you to focus on your work." 
-            image: cashAtlas-wide.jpg
+            parallax: cashAtlas-wide.jpg
 
     -   text_above:
             title: Evolving charts 
