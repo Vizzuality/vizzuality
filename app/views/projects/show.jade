@@ -59,19 +59,19 @@ block main
             img(src="/assets/images/projects/#{m.text_left.image}" alt="#{data.short_title}-highlight")
 
 
-    if m.text_left_v2
+    if m.text_parallax
       section.m-project-detail-article.is-left
         .row
           .grid-sm-14.grid-lg-8.offset-lg-1.is-grid-centered
             .m-project-article-content
-              h2= m.text_left_v2.title
-              p !{m.text_left_v2.description}
+              h2= m.text_parallax.title
+              p !{m.text_parallax.description}
 
 
-      if data.parallax_bg
+      if m.text_parallax.parallax
         section.m-parallax
           div.parallax-container
-            div.parallax-bg(style="background-image: url('/assets/images/projects/#{data.parallax_bg}')")
+            div.parallax-bg(style="background-image: url('/assets/images/projects/#{m.text_parallax.parallax}')")
           
       
     if m.text_right

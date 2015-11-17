@@ -19,13 +19,12 @@ date:        2015-10-16
 release_date:  October 2015
 order:       2
 highlighted: true
-parallax_bg: rw_high1.jpg
 
 modules:
-    -   text_left_v2:
+    -   text_parallax:
             title: The data you need
             description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. We've given you multiple angles to analyse the data, from dashboards and maps to innovative features like 'Insights' and 'Planet Pulse'."
-            image: rw_high1.jpg
+            parallax: rw_high1.jpg
 
     -   text_above:
             title: Serving Global Goals

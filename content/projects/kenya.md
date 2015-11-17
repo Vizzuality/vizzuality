@@ -25,10 +25,10 @@ modules:
             description: "African mobile use is accelerating and globally it is anticipated that 4bn people will be using internet services through smartphones by 2020."
             image: kenya-high2.png
 
-    -   text_left_v2:
+    -   text_parallax:
             title: "Farming under pressure"
             description: "Across Africa, farmers have to cope with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion."
-            image: kenya-parallax.jpg
+            parallax: kenya-parallax.jpg
 
 opinions:
     -
