@@ -14,7 +14,7 @@ image:       101_02.jpg
 cover:      
 author:      Jamie Gibson  
 date:        2015-06-03
-release_date:   
+release_date:   September 2013
 order:       23
 highlighted:   true
 logoWidth: 125
