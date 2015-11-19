@@ -1,14 +1,14 @@
 ---
 title:       
 short_title: 
-summary:     
-description: 
-fb_title:    
-fb_description: 
+summary:     Calculating the climate costs of forest loss
+description: A web application to analyse carbon emissions arising from forest loss, created with the World Resources Institute and the Global Forest Watch team
+fb_title:    "GFW Climate | Vizzuality"
+fb_description: "Analyse carbon emissions caused by forest loss across the world"
 link:        
 link_short:  
-client:      
-client_logo: 
+client:      World Resources Institute
+client_logo: wri.png
 svg_logo:    
 post_url:    
 post_title:  
@@ -56,12 +56,6 @@ modules:
 			title:
 			style:
 			url:
-
-opinions:
-	-
-		title:
-		photo:
-		autor:
 
 ---
 

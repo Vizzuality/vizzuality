@@ -1,6 +1,6 @@
 ---
-title:       
-short_title: 
+title:       Climate Resilience Atlas
+short_title: Resilisnce Atlas
 summary:     
 description: 
 fb_title:    
@@ -56,12 +56,6 @@ modules:
 			title:
 			style:
 			url:
-
-opinions:
-	-
-		title:
-		photo:
-		autor:
 
 ---
 

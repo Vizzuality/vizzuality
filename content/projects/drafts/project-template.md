@@ -19,6 +19,7 @@ date:
 release_date: 
 order:       
 highlighted: 
+logoWidth:		125
 
 modules:
 	- 	text_parallax:
@@ -43,6 +44,7 @@ modules:
 
 	- 	blocks:
 			title:
+			modules:
 				- 
 					image:
 					description:
