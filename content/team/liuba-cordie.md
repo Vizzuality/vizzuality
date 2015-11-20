@@ -6,7 +6,7 @@ email:      liuba.cordie@vizzuality.com
 photo:      liuba.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		14
+order: 		18
 ---
 
 Liuba is our Operations expert and comes to Vizzuality with over a decade of experience in operations and administration across many different sectors.
