@@ -83,9 +83,8 @@ block main
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
           ul
-            - clients = ['biodiversity_aq', 'calp', 'calvert', 'climate', 'google', 'interaction', 'nasa', 'tdwg', 'wri', 'zeitz', 'zooniverse', 'ree']
-            for client in clients
-              li: img(src="/assets/images/clients/#{client}.png" alt="#{client}-logo" style="max-width: 175px")
+            for client in clientsLogo
+              li: img(src="/assets/images/clients/#{client.src}" alt="#{client.name} logo" style="max-width: #{client.width}px")
 
   section.m-message
     .row
@@ -116,4 +115,3 @@ block main
                   input(type="text" name="b_9f847f274fa7ec6a3b432fbf4_74452a0dec" tabindex="-1" value="")
                 input(type="submit" value="send" name="subscribe" id="mc-embedded-subscribe" class="submit")
                 
-
