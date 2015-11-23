@@ -10,31 +10,31 @@ logos:
   -
     name: 'calp'
     src: 'calp.png'
-    width: 150
+    width: 130
   -
     name: 'calvert'
     src: 'calvert.png'
-    width: 150
+    width: 130
   -
     name: 'Climate Policy Initiate'
     src: 'climate.png'
-    width: 150
+    width: 130
   -
     name: 'conservation international'
     src: 'conservation-international.png'
-    width: 150
+    width: 130
   -
     name: 'csic'
     src: 'csic.png'
-    width: 150
+    width: 130
   -
     name: 'ESA'
     src: 'esa.png'
-    width: 150
+    width: 130
   -
     name: 'Google'
     src: 'google.png'
-    width: 150
+    width: 130
   -
     name: 'Human rights watch'
     src: 'humanrightswatch.png'
@@ -42,27 +42,27 @@ logos:
   -
     name: 'IADB'
     src: 'iadb.png'
-    width: 150
+    width: 130
   -
     name: 'Interaction'
     src: 'interaction.png'
-    width: 150
+    width: 130
   -
     name: 'JRC'
     src: 'jrc.png'
-    width: 150
+    width: 130
   -
     name: 'Kew'
     src: 'kew.png'
-    width: 150
+    width: 130
   -
     name: 'Nasa'
     src: 'nasa.png'
-    width: 150
+    width: 130
   -
     name: 'Neptis'
     src: 'neptis.png'
-    width: 150
+    width: 160
   -
     name: 'REE'
     src: 'ree.png'
@@ -70,15 +70,15 @@ logos:
   -
     name: 'SCAR'
     src: 'scar.png'
-    width: 150
+    width: 110
   -
     name: 'tdwg'
     src: 'tdwg.png'
-    width: 150
+    width: 130
   -
     name: 'UE'
     src: 'ue.png'
-    width: 150
+    width: 130
   -
     name: 'UNDP'
     src: 'undp.png'
@@ -86,19 +86,19 @@ logos:
   -
     name: 'Unep'
     src: 'unep.png'
-    width: 150
+    width: 80
   -
     name: 'Warwick'
     src: 'warwick.png'
-    width: 150
+    width: 130
   -
     name: 'World Bank Group'
     src: 'worldbank.png'
-    width: 150
+    width: 180
   -
     name: 'WRI'
     src: 'wri.png'
-    width: 150
+    width: 160
   -
     name: 'Zeitz Foundation'
     src: 'zeitz.png'
@@ -106,4 +106,4 @@ logos:
   -
     name: 'Zooniverse'
     src: 'zooniverse.png'
-    width: 150
+    width: 160
