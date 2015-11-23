@@ -3,8 +3,8 @@ title:       NGO Aid Map
 short_title: NGO Aid Map
 summary:     Mapping data for development
 description: 'An interactive website visualising accurate information on the work of non-profits across the world'
-fb_title:    ""
-fb_description: ""
+fb_title:    "NGO Aid Map | Vizzuality"
+fb_description: "Easily find out where NGOs are working and in what sectors"
 link:        http://ngoaidmap.org
 link_short:  ngoaidmap.org
 client:      Interaction

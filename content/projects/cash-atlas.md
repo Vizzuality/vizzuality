@@ -3,8 +3,8 @@ title:       Cash Atlas
 short_title: Cash Atlas
 summary: 	 Following cash on the road to recovery
 description: 'A fast web interface to analyse the impact of cash transfer programmes on the fly'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Cash Atlas | Vizzuality"
+fb_description: "Quickly analyse the extent of cash transfer programmes in your browser"
 link:        http://www.cash-atlas.org/
 link_short:  cash-atlas.org
 client:      CALP

@@ -3,8 +3,8 @@ title:       Environmental Democracy Index
 short_title: EDI
 summary: 	 "Open data to initiate transparent discussions"
 description: 'An intuitive website to make transparent data truly open using an intelligent information architecture and strong design'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Environmental Democracy Index | Vizzuality"
+fb_description: "Take a look at access to environmental democracy in countries across the world"
 link:        http://environmentaldemocracyindex.org
 link_short:  environmentaldemocracyindex.org
 client:      World Resources Institute

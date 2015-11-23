@@ -3,8 +3,8 @@ title:       Techno Bioblitz
 short_title: Techno Bioblitz
 summary:     A toolkit for a bioblitz with a twist
 description: 'We developed tools for citizens to collect data about biodiversity as part of a Bioblitz in 2010'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Techno Bioblitz | Vizzuality"
+fb_description: "Tools to help citizens collect data about biodiversity"
 link:        http://bioblitz.tdwg.org
 link_short:  bioblitz.tdwg.org
 client:      TDWG
