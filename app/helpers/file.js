@@ -77,7 +77,7 @@ module.exports = {
     }
     var data = yaml.safeLoad(fs.readFileSync(dir, 'utf8'));
     data = data.logos.map(function(d) {
-      d.width = d.width || 175;
+      d.width = d.width || 105;
       return d;
     });
     cache[dir] = data;
