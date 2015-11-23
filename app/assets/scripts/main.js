@@ -202,6 +202,10 @@
     };
   };
 
+  utils.getScroll = function() {
+    return window.pageYOffset;
+  };
+
   utils.Template = window.t;
 
   // Function to search target and go to scroll using Smooth Scroll
@@ -308,7 +312,6 @@
     var lastScrollTop = 0;
     var header = document.getElementById('header');
     var headerTop = document.querySelector('.l-header-top');
-    var background = document.querySelector('.m-project-detail header');
 
     return function() {
       var pageY = window.pageYOffset;
@@ -484,28 +487,37 @@
 
   // Parallax effect in project page
   function doParallax() {
-    var parallaxContent = document.querySelector('.parallax-content > div');
+
+    var parallaxContent = document.querySelector('.parallax-bg');
 
     if(!parallaxContent) {
       return;
     }
 
-    // var backgroundImage = parallaxContent.getAttribute('style');
-    // parallaxContent.style.backgroundImage = backgroundImage;
+    var parallaxModule = document.querySelector('.m-parallax'),
+      parallaxBackground = document.getElementsByClassName('parallax-bg')[0].style['backgroundImage'],
+      cssBackground = 'background-image:' + parallaxBackground,
+      parallaxSize = {
+        top: parallaxModule.offsetTop,
+        bottom: parallaxModule.offsetTop + parallaxModule.offsetHeight
+      },
+      scrollY = utils.getScroll();
 
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
 
-      this.setAttribute(
-        'style', 'transform: translate3d(0,' + translateY + 'px, 0); -webkit-transform: translate3d(0,' + translateY + 'px, 0)'
-      );
+      if(!this.style['backgroundImage']) {
+        this.style['backgroundImage'] = cssBackground;
+      }
+
+      this.style['transform'] = 'translate3d(0,' + translateY + 'px, 0)';
+      this.style['-webkit-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
+      this.style['-moz-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
     };
 
-    parallax.apply(parallaxContent);
-
-    window.addEventListener('scroll', function() {
+    if (scrollY < parallaxSize.bottom + 100) {
       parallax.apply(parallaxContent);
-    });
+    }
   }
 
   // Navigation between projects using arrow keys
@@ -563,25 +575,6 @@
     http.send();
   }
 
-  function subscribeNewsletter(e) {
-
-    var form = document.getElementById('form-subscribe');
-
-    if (form) {
-
-      form.onsubmit = function(e) {
-        if (e) {
-          e.preventDefault();
-        }
-
-        var userMail = form[0].value;
-
-        // Add to newsletter;
-        // ...
-      }
-    }
-  }
-
   var loadBtn = function() {
     if (!document.querySelector('.is-project-page')) {
       return;
@@ -591,8 +584,20 @@
 
     setTimeout(function() {
       btn.classList.add('is-visible');
-    }, 2000)
-  }
+    }, 2000);
+  };
+
+  var decodeEmail = function() {
+    if (!document.querySelector('.is-about-page')) {
+      return;
+    }
+
+    var email = document.querySelector('.m-contact-footer a'),
+      decodedEmail = atob(email.getAttribute('href').split(':')[1]);
+
+    email.setAttribute('href', 'mailto:' +  decodedEmail);
+    email.text = atob(email.text);
+  };
 
   // Start application
   document.addEventListener('DOMContentLoaded', function() {
@@ -604,17 +609,22 @@
       document.body.className = document.body.className + ' ie';
     }
 
+    var fHeader = utils.throtle(fixHeader(), 100);
+
     mobileNavigation();
     anchorButtons();
     contactForm();
     geolocationMap();
     allProjectsModal();
-    doParallax();
-    subscribeNewsletter();
     arrowsNavigation();
     loadBtn();
+    decodeEmail();
 
-    window.onscroll = utils.throtle(fixHeader(), 100);
+    window.addEventListener('scroll', function () {
+      fHeader();
+      doParallax();
+    });
+
   });
 
 })();

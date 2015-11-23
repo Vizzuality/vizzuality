@@ -3,36 +3,39 @@ title:       Old Weather
 short_title: Old Weather
 summary: 	 Yesterday’s weather for tomorrow’s climate
 description: 'A citizen science application to digitise old weather data, to help us understand our climate today'
+fb_title:    "Old Weather | Vizzuality"
+fb_description: "Digitise old weather data to improve climate change models"
 link:        http://www.oldweather.org
 link_short:  oldweather.org
 client:      Zooniverse
 client_logo: zooniverse.png
-release_date: October 2010
+svg_logo:     
 post_url:    http://blog.vizzuality.com/post/28339411124/the-old-weather-project-is-complete-1-6-million
 post_title:  "The Old Weather project is complete - 1.6 million new observations" 
 image:       weather_07.jpg
 cover:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       13
+release_date:  October 2010
+order:       16
 grid:        2
 highlighted: true
 logoWidth:  150
 
 modules:
-    text_left:
-        title: Rewarding Humans...
-        description: "The human eye is often mightier than the computer; recognising patterns in hand writing is second nature to us, but often extremely difficult for computers. To get hundreds or thousands of people to lend their eyes and pattern recognition talents, we needed to build a rewarding experience. The beautiful visualisations and the social recognition of efforts keep people on board."  
-        image: oldWeather-high3.png
+    -   text_left:
+            title: Rewarding Humans...
+            description: "The human eye is often mightier than the computer; recognising patterns in hand writing is second nature to us, but often extremely difficult for computers. To get hundreds or thousands of people to lend their eyes and pattern recognition talents, we needed to build a rewarding experience. The beautiful visualisations and the social recognition of efforts keep people on board."  
+            image: oldWeather-high3.png
 
-    text_right:
-        title: ...for Important Work
-        description: "Climate change is one of the key issues of our time. Contributing to the science and our understanding of it could help improve our models, so we can prepare for what’s to come. That kind of impact is why we love working on these kinds of projects." 
-        image: oldWeather-high2.png
+    -   text_right:
+            title: ...for Important Work
+            description: "Climate change is one of the key issues of our time. Contributing to the science and our understanding of it could help improve our models, so we can prepare for what’s to come. That kind of impact is why we love working on these kinds of projects." 
+            image: oldWeather-high2.png
 
-    video:
-        title: Javier de la Torre talks about Old Weather at WhereCampDC
-        url: https://www.youtube.com/embed/blYoUW4og1w
+    -   video:
+            title: Javier de la Torre talks about Old Weather at WhereCampDC
+            url: https://www.youtube.com/embed/blYoUW4og1w
 
 opinions:
     -

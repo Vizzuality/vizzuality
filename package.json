@@ -34,7 +34,7 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-cssmin": "^0.12.2",
-    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-stylus": "^0.21.0",
     "grunt-contrib-symlink": "^0.3.0",
@@ -46,18 +46,26 @@
     "grunt-svgmin": "^2.0.1",
     "imagemin-mozjpeg": "^5.1.0",
     "jade": "^1.9.2",
+    "js-yaml": "^3.4.5",
     "jshint-stylish": "^1.0.1",
     "load-grunt-config": "^0.17.1",
     "load-grunt-tasks": "^3.1.0",
     "mandrill-api": "^1.0.45",
     "moment": "^2.10.3",
     "morgan": "^1.5.3",
+    "serve-favicon": "^2.3.0",
     "showdown": "^0.4.0",
     "stylus": "^0.50.0",
     "underscore": "^1.8.3",
     "underscore.string": "^3.0.3"
   },
   "engines": {
-    "node": "0.12.x"
-  }
+    "node": "4.2.x",
+    "npm": "2.14.x"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "bower_components",
+    "public/assets"
+  ]
 }

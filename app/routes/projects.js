@@ -2,7 +2,7 @@ var _ = require('underscore');
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var projectsPath = root + '/content/projects';
-var postsPath = root + '/content/posts';
+var clientsPath = root + '/content/clients/logos.yml';
 
 module.exports = function(app) {
 
@@ -14,12 +14,7 @@ module.exports = function(app) {
   // Home and projects page
   app.get('/', function(req, res) {
 
-    file.getFiles(postsPath, isProduction, function(err, posts) {
-
-      var lastPost = _.first(_.sortBy(posts, function(p) {
-        return new Date(p.date).valueOf() * -1;
-      }));
-
+    file.getYaml(clientsPath, isProduction, function(err, clientsLogo) {
       file.getFiles(projectsPath, isProduction, function(err, data) {
         res.render('projects/index', {
           projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
@@ -27,11 +22,10 @@ module.exports = function(app) {
             var order = d.order ? parseInt(d.order) : 0;
             return (order * t) + time;
           }),
-          lastPost: lastPost,
+          clientsLogo: clientsLogo,
           className: 'is-project-page'
         });
       });
-
     });
 
   });

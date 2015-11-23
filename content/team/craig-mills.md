@@ -1,7 +1,7 @@
 ---
 name:       Craig Mills
 position:   CEO
-phrase:     "It is somewhere in the mix of design, science and great user experience where we create the stories that matter"
+phrase:     "In the mix of design, science and great user experience, we create stories that matter"
 twitter:    CraigMMills
 linkedin:   "https://www.linkedin.com/pub/craig-mills/16/179/677"
 github:		craigmmills

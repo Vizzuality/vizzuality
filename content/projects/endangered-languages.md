@@ -3,45 +3,48 @@ title:       Endangered Languages
 short_title: Endangered Languages
 summary: 	 Catching 3000 whispers
 description: "An intuitive, interactive web application uniting researchers and citizens to preserve endangered languages"
+fb_title:    "Endangered Languages | Vizzuality"
+fb_description: "A tool uniting researchers and citizens to preserve endangered languages"
 link:        http://www.endangeredlanguages.com
 link_short:  endangeredlanguages.com
 client:      Google.org and Alliance for Linguistic Diversity
 client_logo: google.png
-release_date: June 2012
+svg_logo:    
 post_url:    http://blog.vizzuality.com/post/25647286145/a-collaborative-tool-for-documenting-endangered
 post_title:  "A collaborative tool for documenting endangered languages"
 cover:       languages_08c.jpg
 image:       languages_08c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       5
+release_date:  June 2012
+order:       9
 grid:        1
 highlighted:   true
 logoWidth:  120
 
 modules:
 
-    blocks:
-        title: Exploring languages with ease
-        modules:
-            -
-                image: endangeredLanguages-high1.jpg
-                description: "The main part of the website is an intuitive, interactive map that allows users to explore languages by location, level of threat or number of speakers"
-            -
-                image: language_high2.jpg
-                description: "We used Django and a number of techniques to build a high performance front-end able deal with the large audience"
-            -
-                image: language_block3.jpg
-                description: Latest activity and other social features recognise and promote user contributions to documentation
+    -   blocks:
+            title: Exploring languages with ease
+            modules:
+                -
+                    image: endangeredLanguages-high1.jpg
+                    description: "The main part of the website is an intuitive, interactive map that allows users to explore languages by location, level of threat or number of speakers"
+                -
+                    image: language_high2.jpg
+                    description: "We used Django and a number of techniques to build a high performance front-end able deal with the large audience"
+                -
+                    image: language_block3.jpg
+                    description: Latest activity and other social features recognise and promote user contributions to documentation
 
-    map:
-        title: Take a look for yourself
-        description: "We've centred the map on Central America, where there's a high level of at-risk languages (indicated in yellow) or those where we are not sure of their vitality. <a href=\"http://www.endangeredlanguages.com/\">Take a look and see if you can help out </a>" 
-        url: http://www.endangeredlanguages.com/#/5/17.193/-90.593/0/100000/0/low/mid/high/dormant/awakening/unknown
+    -   map:
+            title: Take a look for yourself
+            description: "We've centred the map on Central America, where there's a high level of at-risk languages (indicated in yellow) or those where we are not sure of their vitality. <a href=\"http://www.endangeredlanguages.com/\">Take a look and see if you can help out </a>" 
+            url: http://www.endangeredlanguages.com/#/5/17.193/-90.593/0/100000/0/low/mid/high/dormant/awakening/unknown
 
-    video:
-        title: An Introduction to Endangered Languages
-        url: http://player.vimeo.com/video/48882390
+    -   video:
+            title: An Introduction to Endangered Languages
+            url: http://player.vimeo.com/video/48882390
 
 opinions:
     -

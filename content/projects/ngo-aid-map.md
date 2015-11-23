@@ -3,17 +3,19 @@ title:       NGO Aid Map
 short_title: NGO Aid Map
 summary:     Mapping data for development
 description: 'An interactive website visualising accurate information on the work of non-profits across the world'
+fb_title:    "NGO Aid Map | Vizzuality"
+fb_description: "Easily find out where NGOs are working and in what sectors"
 link:        http://ngoaidmap.org
 link_short:  ngoaidmap.org
 client:      Interaction
 client_logo: interaction.png
 svg_logo:    interaction.svg
-release_date: May 2011
 image:       ngo_09.jpg
 cover:       ngo_08b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-order:       2
+release_date:  May 2011
+order:       4
 grid:        2
 highlighted:   true
 align:       center
@@ -21,19 +23,19 @@ video_test_style: true
 logoWidth:  105
 
 modules:
-    text_left:
-        title: Data for Development
-        description: "Non-profit organisations need accurate, up-to-date data so they can plan new activities, coordinate existing work and report on what they’ve done. With NGO Aid Map you can quickly find out which activities are happening in a particular sector or geographic area." 
-        image: NGO-high1.jpg
+    -   text_left:
+            title: Data for Development
+            description: "Non-profit organisations need accurate, up-to-date data so they can plan new activities, coordinate existing work and report on what they’ve done. With NGO Aid Map you can quickly find out which activities are happening in a particular sector or geographic area." 
+            image: NGO-high1.jpg
 
-    text_right:
-        title: Data when you need it 
-        description: "We wanted to remove as much of the burden involved in finding, entering or updating data as possible, to make the process quick and easy. This is especially important when trying to mobilise emergency responses: NGO Aid Map was used in Haiti after the 2010 earthquake and recently in the Horn of Africa." 
-        image: NGO-high2.jpg
+    -   text_right:
+            title: Data when you need it 
+            description: "We wanted to remove as much of the burden involved in finding, entering or updating data as possible, to make the process quick and easy. This is especially important when trying to mobilise emergency responses: NGO Aid Map was used in Haiti after the 2010 earthquake and recently in the Horn of Africa." 
+            image: ngo_high2.png
 
-    video:
-        title: The video
-        url: https://www.youtube.com/embed/HsSJclRmb_w
+    -   video:
+            title: The video
+            url: https://www.youtube.com/embed/HsSJclRmb_w
 
 opinions:
     -

@@ -9,7 +9,7 @@ block main
     .grid-sm-14.grid-lg-12.offset-lg-1
       article.m-team
         header
-          .photo(style="background-image: url(/assets/images/team/#{data.photo})"): img(src="/assets/images/team/#{data.photo}")
+          .photo(style="background-image: url(/assets/images/team/#{data.photo})"): img(src="/assets/images/team/#{data.photo}" alt="#{data.name}")
           p.main-phrase= data.phrase
           h1= data.name
           p.position= data.position
@@ -19,6 +19,9 @@ block main
 
         footer
           p
+            if data.twitter
+              a(href="https://twitter.com/#{data.twitter}") Twitter
+              br
             if data.twitter == 'danielcasius'
               a(href="http://open.spotify.com/track/4hnMsfqrEM6K8FIRPmxnZs") 1375°C - Los hijos de la Plaga (2010)
               br
@@ -27,6 +30,9 @@ block main
               br
             if data.github
               a(href="https://github.com/#{data.github}") Github
+              br
+            if data.behance
+              a(href="https://www.behance.net/#{data.behance}") Behance
               br
             if data.linkedin
               a(href="#{data.linkedin}") Linkedin

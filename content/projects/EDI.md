@@ -3,36 +3,38 @@ title:       Environmental Democracy Index
 short_title: EDI
 summary: 	 "Open data to initiate transparent discussions"
 description: 'An intuitive website to make transparent data truly open using an intelligent information architecture and strong design'
+fb_title:    "Environmental Democracy Index | Vizzuality"
+fb_description: "Take a look at access to environmental democracy in countries across the world"
 link:        http://environmentaldemocracyindex.org
 link_short:  environmentaldemocracyindex.org
 client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg
-release_date: May 2015
 post_url:    http://blog.vizzuality.com/post/119448597451/new-launch-the-environmental-democracy-index-is
 post_title:  "New Launch! Environmental Democracy Index is now live"
 image:       edi_03.jpg
 cover:  	 edi_03.jpg
 author:      Jamie
 date:        2015-06-01
-order:       4
+release_date:  May 2015
+order:       8
 highlighted: true
 logoWidth:  300
 
 modules:
-    text_left:
-        title: Progressive disclosure for progressive causes
-        description: Getting the data out there is great but, to command the attention this important issue deserves, you need a fast, interactive and captivating application. The EDI contains a lot of data. We created an intelligent architecture that places the most important information up top, then reveals greater detail when you find a topic you want to analyse more deeply.
-        image: EDI_high1.png
+    -   text_left:
+            title: Progressive disclosure for progressive causes
+            description: Getting the data out there is great but, to command the attention this important issue deserves, you need a fast, interactive and captivating application. The EDI contains a lot of data. We created an intelligent architecture that places the most important information up top, then reveals greater detail when you find a topic you want to analyse more deeply.
+            image: EDI_high1.png
 
-    text_right:
-        title: Strong design to strengthen transparency
-        description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and data access barriers, the EDI website makes the data truly transparent.
-        image: EDI_high2.png
+    -   text_right:
+            title: Strong design to strengthen transparency
+            description: Applications need a clean, simple design with plenty of interactivity and visual rewards to attract and engage viewers. By removing all the technological, design and data access barriers, the EDI website makes the data truly transparent.
+            image: EDI_high2.png
 
-    video:
-        title: Lalanath DeSilva talks about the Environmental Democracy Index
-        url: https://www.youtube.com/embed/HuFk7RYy91Q
+    -   video:
+            title: Lalanath DeSilva talks about the Environmental Democracy Index
+            url: https://www.youtube.com/embed/HuFk7RYy91Q
 
 opinions:
     -

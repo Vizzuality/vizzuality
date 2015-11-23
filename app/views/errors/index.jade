@@ -1,0 +1,14 @@
+extends ../layout.jade
+
+block vars
+  - var title = 'Error'
+
+block main
+  section
+    .row
+      .grid-sm-14.grid-md-12.offset-md-1.grid-lg-8.offset-lg-3
+        article.m-post
+          header
+            h1 Ops! An error...
+          .m-post-content
+            p= message

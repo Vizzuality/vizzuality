@@ -1,0 +1,109 @@
+logos:
+  -
+    name: 'BBVA'
+    src: 'bbva.png'
+    width: 110
+  -
+    name: 'Biodiversity_AQ'
+    src: 'biodiversity_aq.png'
+    width: 120
+  -
+    name: 'calp'
+    src: 'calp.png'
+    width: 130
+  -
+    name: 'calvert'
+    src: 'calvert.png'
+    width: 150
+  -
+    name: 'Climate Policy Initiate'
+    src: 'climate.png'
+    width: 150
+  -
+    name: 'conservation international'
+    src: 'conservation-international.png'
+    width: 150
+  -
+    name: 'csic'
+    src: 'csic.png'
+    width: 150
+  -
+    name: 'ESA'
+    src: 'esa.png'
+    width: 130
+  -
+    name: 'Google'
+    src: 'google.png'
+    width: 150
+  -
+    name: 'Human rights watch'
+    src: 'humanrightswatch.png'
+    width: 110
+  -
+    name: 'IADB'
+    src: 'iadb.png'
+    width: 130
+  -
+    name: 'Interaction'
+    src: 'interaction.png'
+    width: 130
+  -
+    name: 'JRC'
+    src: 'jrc.png'
+    width: 130
+  -
+    name: 'Kew'
+    src: 'kew.png'
+    width: 120
+  -
+    name: 'Nasa'
+    src: 'nasa.png'
+    width: 130
+  -
+    name: 'Neptis'
+    src: 'neptis.png'
+    width: 160
+  -
+    name: 'REE'
+    src: 'ree.png'
+    width: 150
+  -
+    name: 'SCAR'
+    src: 'scar.png'
+    width: 110
+  -
+    name: 'tdwg'
+    src: 'tdwg.png'
+    width: 130
+  -
+    name: 'UE'
+    src: 'ue.png'
+    width: 130
+  -
+    name: 'UNDP'
+    src: 'undp.png'
+    width: 55
+  -
+    name: 'Unep'
+    src: 'unep.png'
+    width: 80
+  -
+    name: 'Warwick'
+    src: 'warwick.png'
+    width: 130
+  -
+    name: 'World Bank Group'
+    src: 'worldbank.png'
+    width: 180
+  -
+    name: 'WRI'
+    src: 'wri.png'
+    width: 160
+  -
+    name: 'Zeitz Foundation'
+    src: 'zeitz.png'
+    width: 150
+  -
+    name: 'Zooniverse'
+    src: 'zooniverse.png'
+    width: 160

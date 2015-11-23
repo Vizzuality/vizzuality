@@ -3,30 +3,32 @@ title:       Big Data, Small Screens
 short_title: Big Data, Small Screens
 summary: 	 The future of farming is satellite SMS
 description: 'Building software to empower smallholder farmers with satellite data through an SMS service'
+fb_title:    "Big Data, Small Screens | Vizzuality"
+fb_description: "Building software to empower smallholder farmers with satellite data through SMS"
 client:      Zeitz Foundation
 client_logo: zeitz.png
-release_date: Work in progress
-post_url:    "http://blog.vizzuality.com/post/114042422481/thought-for-food"
+svg_logo:     
+post_url:    http://blog.vizzuality.com/post/114042422481/thought-for-food
 post_title:  "Thought for Food: we’re bringing satellite data to smallholders"
 image:       kenya.jpg
 cover:       kenya.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       10
-grid:        1
+release_date:  Work in progress
+order:       6
 highlighted: true
 logoWidth:  150
 
 modules:
-    text_left:
-        title: "A mobile continent"
-        description: "African mobile use is accelerating and globally it is anticipated that 4bn people will be using internet services through smartphones by 2020."
-        image: kenya-high2.png
+    -   text_left:
+            title: "A mobile continent"
+            description: "African mobile use is accelerating and globally it is anticipated that 4bn people will be using internet services through smartphones by 2020."
+            image: kenya-high2.png
 
-    text_right:
-        title: "Farming under pressure"
-        description: "Across Africa, farmers have to cope with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion."
-        image: kenya-high1.png
+    -   text_parallax:
+            title: "Farming under pressure"
+            description: "Across Africa, farmers have to cope with a combination of pressures from climate change impacts, water availability, flooding, and destruction of plants, livestock and buildings from wildlife invasion."
+            parallax: kenya-parallax.jpg
 
 opinions:
     -

@@ -3,36 +3,39 @@ title:       Evolution of the Web
 short_title: Evolution of the Web
 summary: 	 Updating the history of the web
 description:  'We developed an interactive guide to the evolution of web browsers using a combination of the latest data visualisation technologies'
+fb_title:    "Evolution of the Web | Vizzuality"
+fb_description: "An interactive guide to the evolution of web browsers over time"
 link:        http://www.evolutionoftheweb.com
 link_short:  evolutionoftheweb.com
 client:      Google Chrome and Hyperakt
 client_logo: google.png
-release_date: June 2012
+svg_logo:    
 post_url:    http://blog.vizzuality.com/post/25950950757/evolution-of-the-web-2-0
 post_title:  Evolution of the Web 2.0
 image:       evolution_01.jpg
 cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
-order:       18
+release_date:  June 2012
+order:       21
 grid:        1
 highlighted: true
 logoWidth:  120
 
 modules:
 
-    blocks:
-        title: Stunning design, pixel perfect implementation
-        modules:
-            -
-                image: webvolution_block1.jpg
-                description: "We always want to push the boundaries of how data can be visualised, allowing our designs to come to life uncompromised. Using vectors and SVG, for example, allowed us to implement zooming and panning, while moving the framework to D3.js gave us more options for visualisation."
-            -
-                image: webvolution_block5.jpg
-                description: "Everyone's different; some users prefer light backgrounds on their webpages while others desire darker background. With night and day mode, you're free to explore the web's evolution in a way that suits you."
-            -
-                image: webvolution_block6.jpg
-                description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
+    -   blocks:
+            title: Stunning design, pixel perfect implementation
+            modules:
+                -
+                    image: webvolution_block1.jpg
+                    description: "We always want to push the boundaries of how data can be visualised, allowing our designs to come to life uncompromised. Using vectors and SVG, for example, allowed us to implement zooming and panning, while moving the framework to D3.js gave us more options for visualisation."
+                -
+                    image: webvolution_block5.jpg
+                    description: "Everyone's different; some users prefer light backgrounds on their webpages while others desire darker background. With night and day mode, you're free to explore the web's evolution in a way that suits you."
+                -
+                    image: webvolution_block6.jpg
+                    description: "We added a new visualization to Evolution of the Web 2.0, showing the rise in the number of users and web traffic through the last 20 years. To keep the context of the main visualisation we included the appearance of new features and browsers to the x axis."
 
 opinions:
     -
