@@ -18,6 +18,7 @@ release_date: October 2014
 order: 24
 highlighted: true
 logoWidth: 125
+grid:   1
 
 modules:
     - text_above:
