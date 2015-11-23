@@ -17,7 +17,7 @@ date: 2015-06-03
 release_date: October 2014
 order: 24
 highlighted: true
-logoWidth: 125
+logoWidth: 180
 grid:   1
 
 modules:
