@@ -1,7 +1,7 @@
 ---
 title: Global Programme for Safer Schools
 short_title: GPSS
-summary:
+summary: 'Mapping hazards to increase resilience'
 description: 'A prototype visualisation of the resilience of schools to natural hazards, working with the World Bank'
 fb_title: 'GPSS | Vizzuality'
 fb_description: 'See where schools are most resilient to natural hazards'
@@ -18,6 +18,7 @@ release_date: October 2014
 order: 24
 highlighted: true
 logoWidth: 125
+grid:   1
 
 modules:
     - text_above:

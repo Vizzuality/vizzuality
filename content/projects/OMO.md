@@ -20,6 +20,7 @@ release_date: March 2014
 order: 22
 highlighted: true
 logoWidth: 125
+grid:   2
 
 modules:
     - text_parallax:
