@@ -3,8 +3,8 @@ title:       The Policy Climate
 short_title: The Policy Climate
 summary: 	 Analysing climate policy impact
 description: 'An interactive website to visualise 3 decades of data about climate change policy, built on Ruby on Rails and CartoDB'
-fb_title:    ""
-fb_description: ""
+fb_title:    "The Policy Climate | Vizzuality"
+fb_description: "An interactive website visualising 30 years of data on climate change policy"
 link:        http://www.thepolicyclimate.org
 link_short:  thepolicyclimate.org
 client:      Climate Policy Initiative

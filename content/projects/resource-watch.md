@@ -3,8 +3,8 @@ title:       Resource Watch
 short_title: Resource Watch
 summary:     "Tuning in to our planet's signals"
 description: "We developed a platform for accurate, accessible and understandable insights about our world, working with WRI and many other partners"
-fb_title:    ""
-fb_description: "" 
+fb_title:    "Resource Watch | Vizzuality"
+fb_description: "A new platform for accurate, accessible and understandable insights about our world" 
 link:        http://resourcewatch.org
 link_short:  resourcewatch.org
 client:      World Resources Institute
@@ -23,7 +23,7 @@ highlighted: true
 modules:
     -   text_parallax:
             title: The data you need
-            description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. We've given you multiple angles to analyse the data, from dashboards and maps to innovative features like 'Insights' and 'Planet Pulse'."
+            description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. Especially when you consider the volume of data, we wanted to create new design patterns that empower people all over the world to understand and tell stories with the data. We've given you multiple angles to analyse the data, from dashboards and maps to innovative features like 'Insights' and 'Planet Pulse'."
             parallax: rw_high1.jpg
 
     -   text_above:

@@ -2,9 +2,9 @@
 title:       Imazon
 short_title: Imazon
 summary:     An accurate picture of Amazon deforestation
-description: 'Using powerful geospatial software to help detect deforestation in the Amazon'
-fb_title:    ""
-fb_description: ""
+description: 'Using powerful geospatial software to analyse satellite pictures of deforestation in the Amazon'
+fb_title:    "Imazon | Vizzuality"
+fb_description: "Software to analyse satellite pictures of deforestation in the Amazon"
 client:      Imazon and Google.org
 client_logo: imazon-google.png 
 svg_logo:    

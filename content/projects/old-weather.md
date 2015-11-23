@@ -3,8 +3,8 @@ title:       Old Weather
 short_title: Old Weather
 summary: 	 Yesterday’s weather for tomorrow’s climate
 description: 'A citizen science application to digitise old weather data, to help us understand our climate today'
-fb_title:    ""
-fb_description: ""
+fb_title:    "Old Weather | Vizzuality"
+fb_description: "Digitise old weather data to improve climate change models"
 link:        http://www.oldweather.org
 link_short:  oldweather.org
 client:      Zooniverse

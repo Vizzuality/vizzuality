@@ -3,8 +3,8 @@ title:       "Red Eléctrica de España"
 short_title: "e-sios"
 summary:     "Discover Spain’s energy grid, one dataset at a time"
 description: "We built an interactive open data platform to give the public unprecedented access to real-time information about Spain's energy grid."
-fb_title:     ""
-fb_description: "" 
+fb_title:     "e-sios | Vizzuality"
+fb_description: "An interactive open data platform to reveal real-time information about Spain's energy grid" 
 link:        https://www.esios.ree.es/en
 link_short:  esios.ree.es/en
 client:      "Red Eléctrica de España"
@@ -38,6 +38,6 @@ modules:
             description: "You can get data out of the platform in numerous ways: print it, download as csv, json or exel, or embed it as an iframe."
 
 ---
-Vizzuality are [renowned for releasing open data on the web](/projects/EDI) through beautifully designed, interactive, usable applications and tools. We were honoured when Red Electrica de España (REE), operator of Spain’s electricity grid, asked us to help them create their new open data platform, giving the public unprecedented access to real-time data on Spain’s energy grid. Over the last 18 months we have worked with them and the thousands of indicators they monitor to deliver the e·sios (Information System of the Operation System). 
+Vizzuality are [renowned for releasing open data on the web](/projects/EDI) through beautifully designed, interactive, usable applications and tools. With energy generation a key area for the world to reduce greenhouse gas emissions, we thought it was important to team up with Red Electrica de España (REE), operator of Spain’s electricity grid, to make their data more transparent. The result is a new open data platform, which gives the public unprecedented access to real-time data on Spain’s energy grid. Over the last 18 months we have worked with them and the thousands of indicators they monitor to deliver the e·sios (Information System of the Operation System). 
 
 We had to find a way to organise and reveal the indicators so they would actually be found, analysed and understood. Our solution uses a mixture of modern design principles and innovative software development, revealing the data progressively through an interactive, high performance platform. 

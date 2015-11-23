@@ -1,10 +1,10 @@
 ---
-title:       Google Trends 
+title:       Visualising Google Trends 
 short_title: Google Trends
 summary: 	 Giving big data a half-time show
 description: "Visualising big data from Google's Trends API with a responsive web application"
-fb_title:    ""
-fb_description: ""
+fb_title:    "A big data half-time show | Vizzuality"
+fb_description: "Visualising big data from Google's Trends API for the 2014-15 NFL season"
 link:        http://nfl.vizzuality.com
 link_short:  nfl.vizzuality.com
 client:      Google
