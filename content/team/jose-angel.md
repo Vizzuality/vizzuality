@@ -6,7 +6,7 @@ twitter:    j8seangel
 linkedin:   "https://es.linkedin.com/in/joseangelparreno"
 github:		j8seangel
 email:      joseangel.parreno@vizzuality.com
-photo:      joseangel.jpg
+photo:      jose-angel.jpg
 author:     Jamie Gibson
 date:       2015-11-16
 order:      27
