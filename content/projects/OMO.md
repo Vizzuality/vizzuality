@@ -8,7 +8,7 @@ fb_description:	"Find out the risks of developing sugar plantations and processi
 link: http://www.hrw.org/node/123131
 link_short: hrw.org/node/123131
 client: Human Rights Watch
-client_logo:
+client_logo: humanrights.png
 svg_logo:
 post_url:
 post_title:
