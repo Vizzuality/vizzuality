@@ -1,7 +1,7 @@
 ---
 name:       Laura Yebra
 position:   Financial Controller
-phrase:     "Some times you win, some times you learn"
+phrase:     "Sometimes you win, sometimes you learn"
 twitter:    l_yebra
 linkedin:   "https://es.linkedin.com/in/yebra/en"
 github:		
