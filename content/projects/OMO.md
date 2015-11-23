@@ -8,7 +8,7 @@ fb_description:	"Find out the risks of developing sugar plantations and processi
 link: http://www.hrw.org/node/123131
 link_short: hrw.org/node/123131
 client: Human Rights Watch
-client_logo:
+client_logo:    humanrightswatch.png
 svg_logo:
 post_url:
 post_title:
@@ -19,11 +19,11 @@ date: 2015-06-03
 release_date: March 2014
 order: 22
 highlighted: true
-logoWidth: 125
+logoWidth: 110
 grid:   2
 
 modules:
-    - text_parallax:
+    - text_left:
         title: Pictures to tell thousands of words
         description: They say a picture tells a thousand words and we think this principle is most striking in these cases which gain very little attention. Clear visualisations that tell a compelling story are essential for the success of all our projects, so we are proud to use our expertise in this area to raise awareness of the problems facing the population relying on the OMO valley for their survival.  
         image: omo_h1.jpg
