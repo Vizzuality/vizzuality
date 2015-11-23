@@ -14,19 +14,19 @@ logos:
   -
     name: 'calvert'
     src: 'calvert.png'
-    width: 130
+    width: 150
   -
     name: 'Climate Policy Initiate'
     src: 'climate.png'
-    width: 130
+    width: 150
   -
     name: 'conservation international'
     src: 'conservation-international.png'
-    width: 130
+    width: 150
   -
     name: 'csic'
     src: 'csic.png'
-    width: 130
+    width: 150
   -
     name: 'ESA'
     src: 'esa.png'
@@ -34,7 +34,7 @@ logos:
   -
     name: 'Google'
     src: 'google.png'
-    width: 130
+    width: 150
   -
     name: 'Human rights watch'
     src: 'humanrightswatch.png'
@@ -54,7 +54,7 @@ logos:
   -
     name: 'Kew'
     src: 'kew.png'
-    width: 130
+    width: 120
   -
     name: 'Nasa'
     src: 'nasa.png'
