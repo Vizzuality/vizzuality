@@ -23,7 +23,7 @@ logoWidth: 125
 grid:   2
 
 modules:
-    - text_parallax:
+    - text_left:
         title: Pictures to tell thousands of words
         description: They say a picture tells a thousand words and we think this principle is most striking in these cases which gain very little attention. Clear visualisations that tell a compelling story are essential for the success of all our projects, so we are proud to use our expertise in this area to raise awareness of the problems facing the population relying on the OMO valley for their survival.  
         image: omo_h1.jpg
