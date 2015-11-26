@@ -1,4 +1,6 @@
 var _ = require('underscore');
+var csrf = require('csurf');
+var csrfProtection = csrf({ cookie: true });
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var teamPath = root + '/content/team';
@@ -11,7 +13,7 @@ module.exports = function(app) {
   var t = Math.pow(10, 15);
 
   // About page
-  app.get('/about', function(req, res) {
+  app.get('/about', csrfProtection, function(req, res) {
     file.getFiles(teamPath, isProduction, function(err, data) {
       var result = [];
       var team = _.sortBy(data, function(d) {
@@ -25,7 +27,8 @@ module.exports = function(app) {
       }
       res.render('about/index', {
         team: result,
-        className: 'is-about-page'
+        className: 'is-about-page',
+        csrfToken: req.csrfToken()
       });
     });
   });

@@ -86,6 +86,8 @@ block main
           .form-row.m-contact-submit
             button(type="submit", class="btn") Send
 
+          input(type="hidden" name="_csrf" value="#{csrfToken}")
+
         p.m-contact-footer Or contact us by email
           |  
           a(href="mailto:aGVsbG9Adml6enVhbGl0eS5jb20=") aGVsbG9Adml6enVhbGl0eS5jb20=
