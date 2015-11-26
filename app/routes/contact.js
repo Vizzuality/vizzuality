@@ -1,5 +1,10 @@
 'use strict';
 
+var csrf = require('csurf');
+var csrfProtection = csrf({ cookie: true });
+var bodyParser = require('body-parser');
+var parseForm = bodyParser.urlencoded({ extended: false });
+
 require('dotenv').load({ silent: true });
 
 var mandrill = require('mandrill-api/mandrill');
@@ -7,7 +12,7 @@ var mandrillClient = new mandrill.Mandrill(process.env.MANDRILL_API_KEY);
 
 module.exports = function(app) {
 
-  app.post('/contact', function(req, res) {
+  app.post('/contact', parseForm, csrfProtection, function(req, res) {
 
     var emailTemplate = ''+
       '<h1>Thank you!</h1>'+
