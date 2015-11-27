@@ -1,7 +1,7 @@
 ---
 title:       Resilience Atlas
-short_title: Resilisnce Atlas
-summary:     Mapping out resilient livelihoods
+short_title: Resilience Atlas
+summary:     Map the route to resilient livelihoods
 description: “Analyse variations in resilience and vulnerability around the world using interactive maps, created with Conservation International”
 fb_title:    Map out resilient livelihoods
 fb_description: "Analyse variations in resilience and vulnerability around the world using interactive maps"
@@ -16,9 +16,10 @@ image:
 cover:       
 author:      Jamie Gibson
 date:        2015-11-20
-release_date: November 2015
-order:       
-highlighted:
+release_date: December 2015
+order:       3
+grid: 		
+highlighted: yes
 logoWidth:	125
 
 modules:

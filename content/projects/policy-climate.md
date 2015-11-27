@@ -15,7 +15,7 @@ cover: 		 policy-climate_01b.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  April 2013
-order:       19
+order:       20
 grid:        2
 highlighted: true
 logoWidth:  135

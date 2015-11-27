@@ -17,7 +17,7 @@ image:       languages_08c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  June 2012
-order:       9
+order:       10
 grid:        1
 highlighted:   true
 logoWidth:  120

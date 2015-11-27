@@ -15,7 +15,7 @@ cover: gpss_01.jpg
 author: Jamie Gibson
 date: 2015-06-03
 release_date: October 2014
-order: 24
+order: 
 highlighted: true
 logoWidth: 180
 grid:   1

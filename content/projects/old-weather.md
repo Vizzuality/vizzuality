@@ -17,7 +17,7 @@ cover:       weather_07.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  October 2010
-order:       16
+order:       17
 grid:        2
 highlighted: true
 logoWidth:  150
