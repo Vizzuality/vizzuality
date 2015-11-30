@@ -33,6 +33,19 @@ modules:
 			description: "Throughout each journey you can choose to look at the data on the map. With a wide range of indicators to choose from, you can dig even deeper and see how the possession of different assets improves resilience, or which shocks an area is most at risk from. Once you’ve found the data you want, you can find out where the data came from, download it for further analysis, or share it with your networks."
 			image:
 
+	- 	blocks
+			title: Interactive tools for strong analysis
+			modules:
+				-
+					image:
+					description: 'Using the slider, you can quickly change the transparency of the layers you’ve selected on the map.'
+				-
+					image:
+					description: 'Once you’ve found the insight you’re looking for, embed a map on your site to help tell your story.'
+				-
+					image:
+					description: 'Not sure where to start? Read through the journeys to learn about some of the most pressing issues.'
+
 	- 	map:
 			title: Take a look
 			url: "http://www.resilienceatlas.org/embed/map?layers=%5B%7B%22id%22%3A6%2C%22opacity%22%3A1%2C%22order%22%3A13%7D%2C%7B%22id%22%3A54%2C%22opacity%22%3A0.39%2C%22order%22%3A15%7D%2C%7B%22id%22%3A8%2C%22opacity%22%3A1%2C%22order%22%3A12%7D%5D&zoom=6&center=%7B%22lat%22%3A7.509534926636508%2C%22lng%22%3A41.50634765625%7D"
