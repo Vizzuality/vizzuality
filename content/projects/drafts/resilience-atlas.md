@@ -2,7 +2,7 @@
 title:       Resilience Atlas
 short_title: Resilience Atlas
 summary:     Map the route to resilient livelihoods
-description: “Analyse variations in resilience and vulnerability around the world using interactive maps, created with Conservation International”
+description: “Find the most vulnerable people in the world and how they adapt to stresses and shocks”
 fb_title:    Map out resilient livelihoods
 fb_description: "Analyse variations in resilience and vulnerability around the world using interactive maps"
 link:        http://www.resilienceatlas.org
@@ -25,12 +25,12 @@ logoWidth:	125
 modules:
 	- 	text_parallax:
 			title: Start your journey
-			description: "To illustrate some of the most important stories across the world we’ve collected together map layers, pictures and stories into compelling journeys. Quickly assess the livelihoods at stake, the stressors and shocks affecting livelihoods and the vulnerabilities that could undermine them."
+			description: "To illustrate some of the most important stories across the world we’ve collected together map layers, pictures and stories into compelling journeys. Quickly assess the livelihoods at stake, the stresses and shocks that affect those livelihoods and the vulnerabilities that could undermine them."
 			parallax:
 
 	- 	text_left:
-			title: Map it your way
-			description: "Throughout each journey you can choose to look at the data on the map. With a wide range of indicators to choose from, you can dig even deeper and see how the possession of different assets improves resilience or which shocks an area is most at risk from. Once you’ve found the data you want, you can download it, share it, or find out where the data came from."
+			title: Then dig deeper
+			description: "Throughout each journey you can choose to look at the data on the map. With a wide range of indicators to choose from, you can dig even deeper and see how the possession of different assets improves resilience, or which shocks an area is most at risk from. Once you’ve found the data you want, you can find out where the data came from, download it for further analysis, or share it with your networks."
 			image:
 
 	- 	map:
@@ -39,4 +39,6 @@ modules:
 			description: With simple share and embed tools you can let the world know what you've found out.  
 
 ---
-Collating the world’s best data to inform decisions that enhance resilience to stressors and shocks in vulnerable areas of Africa and Asia. Working with Conservation International, we built an interactive tool that provides users with a deep understanding of the  resilience of specific systems (like livestock or agriculture) to changes in a range of parameters, such as precipitation, temperature or population. By using a combination of different javascript frameworks - like Leaflet and D3 - to create the interface, you can quickly and easily generate custom maps to share with the world. Finished with love by our expert engineers, the application achieves high performance, superb detail and ease of use. 
+Working with Conservation International, we built an interactive tool that provides users with a deep understanding of the resilience of specific systems (like livestock or agriculture) to changes in a range of parameters, such as precipitation, temperature or population. By using a combination of different javascript frameworks - like Leaflet and D3 - to create the interface, you can quickly and easily generate custom maps to share with the world. Finished with love by our expert engineers, the application achieves high performance, superb detail and ease of use. 
+
+A key challenge was working out how to visualise more than 12 terabytes of data in a way that a range of key users could comprehend, analyse and share with the world. We took time to deeply understand the data and experimented with new patterns of design that would empower every user to uncover the incredible resilience stories in the data. Take a look now and see for yourself! 
