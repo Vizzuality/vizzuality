@@ -14,7 +14,7 @@ cover:       calvert_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  October 2014
-order:       11
+order:       12
 grid:        2
 highlighted:   true
 logoWidth:  176

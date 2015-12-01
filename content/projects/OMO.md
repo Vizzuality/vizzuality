@@ -15,7 +15,7 @@ cover: omo_03.jpg
 author: Jamie Gibson
 date: 2015-06-03
 release_date: March 2014
-order: 22
+order: 23
 highlighted: true
 logoWidth: 110
 grid:   2
