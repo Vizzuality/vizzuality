@@ -20,7 +20,6 @@ release_date: December 2015
 order:      4
 grid:       1
 highlighted: true
-logoWidth: 125
 
 
 modules:
