@@ -12,8 +12,8 @@ client_logo: wri.png
 svg_logo:    wri.svg
 post_url:    http://blog.vizzuality.com/post/134336765486/reddy-or-not-find-out-with-gfw-climate
 post_title:  "REDDy or not? Find out with GFW Climate"
-image:       gfwclimate-image.jpg
-cover:       gfwclimate-cover.jpg
+image:       gfwc-01.jpg
+cover:       gfwc-02.png
 author:      Jamie Gibson
 date:        2015-11-20
 release_date: December 2015
