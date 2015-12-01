@@ -2,7 +2,7 @@
 title:       Global Forest Watch Climate
 short_title: GFW Climate
 summary:     Calculating the climate costs of forest loss
-description: ‘A web application to analyse carbon emissions arising from forest loss, created with the World Resources Institute’
+description: "A web application to analyse carbon emissions arising from forest loss, created with the World Resources Institute"
 fb_title:    "GFW Climate | Vizzuality"
 fb_description: "Revealing carbon emissions caused by forest loss across the world"
 link:        http://climate.globalforestwatch.org
@@ -17,18 +17,18 @@ cover:       gfwclimate-cover.jpg
 author:      Jamie Gibson
 date:        2015-11-20
 release_date: December 2015
-order:       4
+order:      4
 grid:   	1
 highlighted: true
 logoWidth: 125
 
 modules:
-	- 	text_parallax:
+	- 	text_left:
 			title: "Control the interface"
 			description: "Each country has a dedicated page where you can quickly grasp the extent and direction of trends in deforestation, associated emissions and biomass. But we know that no two people are alike; everyone has different preferences for measuring these things. On each graph you can change the unit of measurement, the time range, % canopy density and the dataset shown for each indicator. When you have the data you want, the way you want it, you can save it, print it or share it!"
 			image: gfwclimate-1.png
 
-	- 	text_left:
+	- 	text_right:
 			title: "Keep up with the neighbours"
 			description: "We also added a section where you can compare indicators for specific locations, whether that’s countries, jurisdictions or areas of interest like Protected Areas. It you ever wanted to see if [Guatemala or Guyana](http://climate.globalforestwatch.org/compare-countries/GTM+0+0/GUY+0+0) are doing better at halting deforestation, or if [Kenya’s Protected Areas are conserving more biomass than Tanzania’s](http://climate.globalforestwatch.org/compare-countries/KEN+0+24/TZA+0+24), you can! With so many different types of people coming to use the tool, we wanted to give you as much flexibility as possible so you can get the data you need."
 			image: gfwclimate-2.png
