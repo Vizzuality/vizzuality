@@ -1,10 +1,12 @@
 .m-claim
   display flex
-  height 90vh
+  min-height 90vh
   align-items start
   padding 0 $margin
+
   font-size $font-xlarge-size
   font-weight 500
+
   @media screen and (min-width: $screen-md)
     align-items center
 
@@ -30,7 +32,7 @@
   .btn-secondary
     color $font-color-3
     transition: opacity .5s ease;
-    margin 0 $margin 0 0
+    margin 0 $margin ($margin * 2) 0
     @media (max-width: $screen-md)
       display none
       opacity: 0
@@ -43,7 +45,7 @@
 
   @media screen and (min-width: $screen-md)
     font-size rem(110px)
-    height 95vh
+    min-height 95vh
 
   @media screen and (min-width: $screen-lg)
     padding 0
