@@ -30,7 +30,7 @@ modules:
 
     -   text_right:
             title: "Keep up with the neighbours"
-            description: "We also added a section where you can compare indicators for specific locations, whether that’s countries, jurisdictions or areas of interest like Protected Areas. It you ever wanted to see if <a href="http://climate.globalforestwatch.org/compare-countries/GTM+0+0/GUY+0+0">Guatemala or Guyana</a> are doing better at halting deforestation, or if <a href="http://climate.globalforestwatch.org/compare-countries/KEN+0+24/TZA+0+24">Kenya’s Protected Areas are conserving more biomass than Tanzania’s</a>, you can! With so many different types of people coming to use the tool, we wanted to give you as much flexibility as possible so you can get the data you need."
+            description: "We also added a section where you can compare indicators for specific locations, whether that’s countries, jurisdictions or areas of interest like Protected Areas. It you ever wanted to see if <a href='http://climate.globalforestwatch.org/compare-countries/GTM+0+0/GUY+0+0'>Guatemala or Guyana</a> are doing better at halting deforestation, or if <a href='http://climate.globalforestwatch.org/compare-countries/KEN+0+24/TZA+0+24'>Kenya’s Protected Areas are conserving more biomass than Tanzania’s</a>, you can! With so many different types of people coming to use the tool, we wanted to give you as much flexibility as possible so you can get the data you need."
             image: gfwclimate-2.png
 
     -   blocks:
