@@ -17,7 +17,7 @@ cover:       evolution_02.jpg
 author:      Craig Mills
 date:        2015-04-22
 release_date:  June 2012
-order:       21
+order:       22
 grid:        1
 highlighted: true
 logoWidth:  120

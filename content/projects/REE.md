@@ -17,7 +17,7 @@ cover:       ree_05.jpg
 author:      Jamie Gibson
 date:        2015-10-26
 release_date:  September 2015
-order:      5
+order:      3
 highlighted:   true
 logoWidth: 175
 

@@ -14,8 +14,8 @@ cover:       antartic_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  November 2010
-order:       14
-grid:        1
+order:       15
+grid:        2
 highlighted:   true
 logoWidth:  225
 
