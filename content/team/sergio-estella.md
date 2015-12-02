@@ -1,6 +1,6 @@
 ---
 name:       Sergio Estella
-position:   Head of Design
+position:   Head of Design & Co-Founder
 phrase:     "What we create has to be clear, easy to use and of course beautiful!"
 twitter:    sergio_estella
 linkedin:   "https://es.linkedin.com/pub/sergio-estella/6/b87/533"
@@ -12,7 +12,7 @@ date:       2015-05-08
 order: 		3
 ---
 
- Sergio is Head of Design at Vizzuality. Using his research into data visualization, information design and interface design, he sets the visual direction for many of our products. 
+ Sergio is Head of Design and co-founded Vizzuality. Using his research into data visualization, information design and interface design, he sets the visual direction for many of our products. 
 
  Sergio has always been interested in design; he combined Interior Design studies with a Fine Arts degree at Universidad Complutense de Madrid. During his final year at University, Sergio started working as a web designer and art director.
 
