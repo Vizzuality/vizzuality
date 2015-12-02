@@ -14,8 +14,8 @@ image:       cashatlas_03.jpg
 cover:       cashatlas_03.jpg
 author:      Jamie Gibson
 date:        2015-05-07
-release_date:  February 2015
-order:       13
+release_date: February 2015
+order:       12
 grid:        1
 highlighted: true
 logoWidth: 200
