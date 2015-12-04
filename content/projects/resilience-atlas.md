@@ -2,7 +2,7 @@
 title:       Resilience Atlas
 short_title: Resilience Atlas
 summary:     Map the route to resilient livelihoods
-description: “Find the most vulnerable people in the world and how they adapt to stresses and shocks”
+description: "“Find the most vulnerable people in the world and how they adapt to stresses and shocks”"
 fb_title:    Map out resilient livelihoods
 fb_description: "Analyse variations in resilience and vulnerability around the world using interactive maps"
 link:        http://www.resilienceatlas.org
@@ -19,7 +19,7 @@ date:        2015-11-20
 release_date: December 2015
 order:       3
 grid:       
-highlighted: yes
+highlighted: true
 logoWidth:  125
 
 modules:
@@ -33,18 +33,18 @@ modules:
             description: "Throughout each journey you can choose to look at the data on the map. With a wide range of indicators to choose from, you can dig even deeper and see how the possession of different assets improves resilience, or which shocks an area is most at risk from. Once you’ve found the data you want, you can find out where the data came from, download it for further analysis, or share it with your networks."
             image:
 
-    -   blocks
+    -   blocks:
             title: Interactive tools for strong analysis
             modules:
                 -
-                    image:
-                    description: 'Using the slider, you can quickly change the transparency of the layers you’ve selected on the map.'
+                    image: ""
+                    description: "Using the slider, you can quickly change the transparency of the layers you’ve selected on the map."
                 -
-                    image:
-                    description: 'Once you’ve found the insight you’re looking for, embed a map on your site to help tell your story.'
+                    image: ""
+                    description: "Once you’ve found the insight you’re looking for, embed a map on your site to help tell your story."
                 -
-                    image:
-                    description: 'Not sure where to start? Read through the journeys to learn about some of the most pressing issues.'
+                    image: ""
+                    description: "Not sure where to start? Read through the journeys to learn about some of the most pressing issues."
 
     -   map:
             title: Take a look
