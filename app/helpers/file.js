@@ -4,7 +4,7 @@ var fs        = require('fs');
 var path      = require('path');
 var matter    = require('gray-matter');
 var Showdown  = require('showdown');
-var yaml      = require('js-yaml')
+var yaml      = require('js-yaml');
 var converter = new Showdown.converter();
 var cache = {};
 
@@ -60,7 +60,6 @@ module.exports = {
     });
     for (var i = 0, len = files.length; i < len; i++) {
       var file = files[i];
-      var filePath = path.join(dir, file);
       var element = {};
       element.slug = file.split('.png')[0];
       element.src = file;
@@ -71,7 +70,6 @@ module.exports = {
   },
 
   getYaml: function(dir, hasCache, next) {
-    var data = [];
     if (hasCache && cache[dir]) {
       return next(null, cache[dir]);
     }

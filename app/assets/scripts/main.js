@@ -495,7 +495,7 @@
     }
 
     var parallaxModule = document.querySelector('.m-parallax'),
-      parallaxBackground = document.getElementsByClassName('parallax-bg')[0].style['backgroundImage'],
+      parallaxBackground = document.getElementsByClassName('parallax-bg')[0].style.backgroundImage,
       cssBackground = 'background-image:' + parallaxBackground,
       parallaxSize = {
         top: parallaxModule.offsetTop,
@@ -506,11 +506,11 @@
     var parallax = function() {
       var translateY = window.pageYOffset / 8;
 
-      if(!this.style['backgroundImage']) {
-        this.style['backgroundImage'] = cssBackground;
+      if(!this.style.backgroundImage) {
+        this.style.backgroundImage = cssBackground;
       }
 
-      this.style['transform'] = 'translate3d(0,' + translateY + 'px, 0)';
+      this.style.transform = 'translate3d(0,' + translateY + 'px, 0)';
       this.style['-webkit-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
       this.style['-moz-transform'] = 'translate3d(0,' + translateY + 'px, 0)';
     };
