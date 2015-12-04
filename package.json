@@ -53,6 +53,7 @@
     "load-grunt-config": "^0.17.1",
     "load-grunt-tasks": "^3.1.0",
     "mandrill-api": "^1.0.45",
+    "mobile-detect": "^1.3.0",
     "moment": "^2.10.3",
     "morgan": "^1.5.3",
     "serve-favicon": "^2.3.0",
