@@ -13,7 +13,7 @@ svg_logo:
 post_url:    
 post_title:  
 image:       resilience.png
-cover:       resilience.png
+cover:       resilience-top.jpg
 author:      Jamie Gibson
 date:        2015-11-20
 release_date: December 2015
