@@ -20,6 +20,7 @@ release_date: December 2015
 order:      4
 grid:       1
 highlighted: true
+video: gfwc-video.mp4
 
 
 modules:

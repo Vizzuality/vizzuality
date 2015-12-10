@@ -52,6 +52,7 @@ $margin-bottom = $margin * 4
   background-repeat none
   background-position center
   background-size cover
+  overflow hidden
 
   h1
     // margin-top 0.5rem
@@ -398,3 +399,15 @@ $margin-bottom = $margin * 4
       .m-project-detail-next
         min-height auto
         height rem(350px)
+
+#projectVideo
+  position absolute
+  bottom 50%
+  right 50%
+  -webkit-transform translateX(50%) translateY(50%)
+  transform translateX(50%) translateY(50%)
+  min-width 100%
+  min-height 100%
+  width auto
+  height auto
+  overflow hidden

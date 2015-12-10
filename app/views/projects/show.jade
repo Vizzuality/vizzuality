@@ -8,8 +8,10 @@ block vars
 
 block main
   section.m-project-detail
-    
-    header.m-project-detail-header(style="background-image: url(/assets/images/projects/#{data.cover})")
+
+    header.m-project-detail-header(style=!data.video || isMobile ? "background-image: url(/assets/images/projects/#{data.cover})" : "")
+      if data.video && !isMobile
+        video#projectVideo(src="/assets/videos/projects/#{data.video}", autoplay="true", preload="auto", loop="true", muted="true")
       .veil
       .row
         .grid-sm-14.grid-lg-12.offset-lg-1

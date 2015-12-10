@@ -18,7 +18,7 @@ author:      Jamie Gibson
 date:        2015-09-22
 release_date:  August 2015
 order:       5
-grid:        1      
+grid:        2      
 highlighted:   true
 logoWidth: 105
 

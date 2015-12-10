@@ -18,7 +18,7 @@ author:      Craig Mills
 date:        2015-04-22
 release_date:  June 2012
 order:       22
-grid:        1
+grid:        2
 highlighted: true
 logoWidth:  120
 

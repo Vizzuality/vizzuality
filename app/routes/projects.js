@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var MobileDetect = require('mobile-detect');
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var projectsPath = root + '/content/projects';
@@ -53,6 +54,8 @@ module.exports = function(app) {
   // Project detail page
   app.get('/projects/:project', function(req, res) {
 
+    var md = new MobileDetect(req.headers['user-agent']);
+
     file.getFiles(projectsPath, isProduction, function(err, projects) {
       var result, index;
 
@@ -74,7 +77,8 @@ module.exports = function(app) {
         prev: projects[index - 1],
         next: projects[index + 1],
         content: result.html,
-        className: 'is-project-detail-page'
+        className: 'is-project-detail-page',
+        isMobile: !!md.mobile()
       });
 
     });
