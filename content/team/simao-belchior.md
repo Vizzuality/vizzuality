@@ -6,7 +6,7 @@ twitter:    belchior
 linkedin:   "https://www.linkedin.com/in/simaobelchior"
 github:		simaob
 email:      simao.belchior@vizzuality.com
-photo:      simao-belchior.png
+photo:      simao.jpg
 author:     David Inga
 date:       2015-04-23
 order:      11
