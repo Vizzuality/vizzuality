@@ -46,5 +46,16 @@ modules:
                 -
                     image: gfwclimate-5.png
                     description: 'Or just watch the change over time on our interactive visualisation.'
+
+opinions:
+    - 
+        title: "Look at this awesome website built by @Vizzuality on climate, data and answers - <a href="http://climate.globalforestwatch.org">climate.globalforestwatch.org</a>"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/saleiva/status/671754501695676416"> Saleiva</a>
+    - 
+        title: "Nice Work!"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/govertschoof/status/672744711287873536"> Govert Schoof </a>
+
 ---
 Our job was to remove the uncertainties around emissions occurring from forest loss. Working closely with the World Resources Institute, we’ve cherry-picked the most important data from the Global Forest Watch Platform and added brand new layers about carbon density and biomass, so you can easily analyse the climate impacts that result. With global scale data analysis, on CartoDB and Google Earth Engine, and simple intuitive interfaces, you can get the data you want, for the areas you care about, just the way you want it. 
