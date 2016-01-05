@@ -80,6 +80,7 @@ html(lang="en")
         .row
           .grid-sm-14.grid-md-14.grid-lg-14
             #contentModal
+              
     if 'production' == process.env.NODE_ENV && process.env.GOOGLE_ANALYTICS
       script.
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -87,7 +88,7 @@ html(lang="en")
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='https://www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create',process.env.GOOGLE_ANALYTICS,'auto');ga('send','pageview');
+        ga('create','#{process.env.GOOGLE_ANALYTICS}','auto');ga('send','pageview');
 
       // Mixpanel
       script.
