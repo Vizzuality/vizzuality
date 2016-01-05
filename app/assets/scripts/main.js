@@ -206,6 +206,17 @@
     return window.pageYOffset;
   };
 
+  utils.once = function(fn, context) {
+    var result;
+    return function() {
+      if(fn) {
+        result = fn.apply(context || this, arguments);
+        fn = null;
+      }
+      return result;
+    };
+  };
+
   utils.Template = window.t;
 
   // Function to search target and go to scroll using Smooth Scroll
@@ -244,6 +255,16 @@
       var len = words.length;
       var counter = 0;
       var regards = document.getElementById('closeString');
+      var bodyTextarea = form.querySelector('textarea');
+
+      function sendGAEvent() {
+        // Google Analytics event
+        if (ga) {
+          ga('send', 'event', 'Contact us', 'Begins typing');
+        }
+      }
+
+      bodyTextarea.addEventListener('keyup', utils.once(sendGAEvent));
 
       regards.onclick = function() {
         counter = counter + 1;
@@ -251,6 +272,10 @@
           counter = 0;
         }
         regards.textContent = words[counter];
+        // Google Analytics event
+        if (ga) {
+          ga('send', 'event', 'Contact us', 'Click cheers');
+        }
       };
 
       // On submit form
@@ -281,6 +306,10 @@
           } else {
             var message = JSON.parse(response).message;
             formContent.innerHTML = '<h1>%1</h1>'.format(message);
+          }
+          // Google Analytics event
+          if (ga) {
+            ga('send', 'event', 'Contact us', 'Form Submitted');
           }
         });
       };
