@@ -12,8 +12,8 @@ client_logo: conservation-international.png
 svg_logo:    
 post_url:    
 post_title:  
-image:       resilience.png
-cover:       resilience-top.jpg
+image:       resilience-cover.jpg
+cover:       resilience.png
 author:      Jamie Gibson
 date:        2015-11-20
 release_date: December 2015
