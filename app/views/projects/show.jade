@@ -18,7 +18,7 @@ block main
           h1(style= data.color ? "color: #{data.color}" : "")= data.title + '.'
           p(class="summary", style= data.color ? "color: #{data.color}" : "")= data.summary + '.'
 
-    a(href="#{data.link}" class="btn btn-check") Check it online
+    a(href="#{data.link}" class="btn btn-check" target="_blank") Check it online
 
     .m-project-detail-content
       .row
@@ -34,7 +34,7 @@ block main
               if data.release_date
                 p(class="date") #{data.release_date}.
               if data.link
-                a(href="#{data.link}" class="btn") Check it online
+                a(href="#{data.link}" class="btn" target="_blank") Check it online
         else
           .grid-sm-14.grid-lg-8.offset-lg-1
             | !{content}
