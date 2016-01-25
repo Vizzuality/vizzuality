@@ -2,7 +2,7 @@
 title:       Resilience Atlas
 short_title: Resilience Atlas
 summary:     Map the route to resilient livelihoods
-description: "“Find the most vulnerable people in the world and how they adapt to stresses and shocks.”"
+description: "Find the most vulnerable people in the world and how they adapt to stresses and shocks."
 fb_title:    Map out resilient livelihoods
 fb_description: "Analyse variations in resilience and vulnerability around the world using interactive maps"
 link:        'http://www.resilienceatlas.org'
@@ -10,8 +10,8 @@ link_short:  resilienceatlas.org
 client:      Conservation International
 client_logo: conservation-international.png
 svg_logo:    
-post_url:    
-post_title:  
+post_url:    'http://blog.vizzuality.com/post/134980768320/filling-a-data-void-with-beautiful-tools-to'
+post_title:  'Filling a data void with beautiful tools to increase global resilience'
 image:       resilience-cover.jpg
 cover:       resilience.png
 author:      Jamie Gibson
@@ -47,8 +47,12 @@ opinions:
         title: ".@Vizzuality & @ConservationOrg identify resilience factors for some of world's most vulnerable people <a href='http://www.vizzuality.com/projects/resilience-atlas'>resilienceatlas.org</a>"
         photo: media/conservation-international.png
         autor: '<a href="https://twitter.com/ConservationOrg/status/675319333308928001"> Conservation International</a>'
+    -
+        title: '#ResilienceAtlas, another by @Vizzuality for @ConservationOrg maps and analyzes stressors and vulnerability trends, <a href="http://www.resilienceatlas.org/">resilienceatlas.org</a>'
+        photo: media/twitter.png
+        autor: '<a href="https://twitter.com/adamformica/status/686595927868616704">Adam Formica</a>'
 
 ---
-Working with Conservation International, we built an interactive tool that provides users with a deep understanding of the resilience of specific systems (like livestock or agriculture) to changes in a range of parameters, such as precipitation, temperature or population. By using a combination of different javascript frameworks - like Leaflet and D3 - to create the interface, you can quickly and easily generate custom maps to share with the world. Finished with love by our expert engineers, the application achieves high performance, superb detail and ease of use.
+Working with Conservation International, one of the largest environmental NGOs in the world, we built an interactive tool that provides users with a deep understanding of the resilience of specific systems (like livestock or agriculture) to changes in a range of parameters, such as precipitation, temperature or population. By using a combination of different javascript frameworks - like Leaflet and D3 - to create the interface, you can quickly and easily generate custom maps to share with the world. Finished with love by our expert engineers, the application achieves high performance, superb detail and ease of use.
 
 A key challenge was working out how to visualise more than 12 terabytes of data in a way that a range of key users could comprehend, analyse and share with the world. We took time to deeply understand the data and experimented with new patterns of design that would empower every user to uncover the incredible resilience stories in the data. Take a look now and see for yourself!
