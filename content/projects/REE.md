@@ -29,7 +29,7 @@ modules:
 
     -   text_right:
             title: Robust software
-            description: "With thousands of indicators, many updating every 10 minutes, we had to build a strong back-end to hold and serve all this data. We then visualise the data as interactive graphs through a series of widgets. This keeps the performance of front-end high, helping us entertain and enchant the users with rich, interactive data visualisations."
+            description: "With thousands of indicators, many updating every 10 minutes, we had to build a strong back-end to hold and serve all this data. This includes building an open and public API, which is already being used by researchers and universities to request data access or build their own tools. We then visualise the data as interactive graphs through a series of widgets. This keeps the performance of front-end high, helping us entertain and enchant the users with rich, interactive data visualisations."
             image: ree_high2.png
 
     -   map:
