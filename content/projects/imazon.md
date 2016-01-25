@@ -1,6 +1,6 @@
 ---
-title:       Imazon
-short_title: Imazon
+title:       Deforestation Alert System
+short_title: Deforestation Alerts
 summary:     An accurate picture of Amazon deforestation
 description: 'Using powerful geospatial software to analyse satellite pictures of deforestation in the Amazon'
 fb_title:    "Imazon | Vizzuality"

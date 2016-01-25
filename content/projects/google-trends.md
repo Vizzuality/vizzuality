@@ -1,6 +1,6 @@
 ---
 title:       Visualising Google Trends 
-short_title: Google Trends
+short_title: Superbowl Visualisation
 summary: 	 Giving big data a half-time show
 description: "Visualising big data from Google's Trends API with a responsive web application"
 fb_title:    "A big data half-time show | Vizzuality"
