@@ -1,6 +1,6 @@
 ---
 title:       Calvert Foundation Map
-short_title: Calvert Foundation
+short_title: Stories of Success
 summary: 	 Mapping Success for the Calvert Foundation
 description: 'A mobile first application to visualise the success of the Calvert Foundation'
 fb_title:    "Calvert Foundation Map | Vizzuality"

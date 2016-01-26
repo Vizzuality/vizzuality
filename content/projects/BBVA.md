@@ -1,6 +1,6 @@
 ---
 title:       "Revealing tourist footprints from big data"
-short_title: BBVA
+short_title: "Tourist Footprints"
 summary:     Design and development to discover valuable insight
 description: An interactive visualisation of big data made possible with modern design principles and innovative software development
 fb_title:    "Revealing tourist footprints from big data | Vizzuality"

@@ -1,6 +1,6 @@
 ---
 title:       Environmental Democracy Index
-short_title: EDI
+short_title: Environmental Democracy Index
 summary: 	 "Open data to initiate transparent discussions"
 description: 'An intuitive website to make transparent data truly open using an intelligent information architecture and strong design'
 fb_title:    "Environmental Democracy Index | Vizzuality"
