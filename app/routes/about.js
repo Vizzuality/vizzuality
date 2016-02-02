@@ -51,6 +51,8 @@ module.exports = function(app) {
 
     if (_.contains(OLDMEMBERS, req.params.member)) {
       return res.redirect('/about');
+    } else if (MEMBERS[req.params.member]) {
+      return res.redirect('/about/' + MEMBERS[req.params.member]);
     }
 
     file.getFiles(teamPath, isProduction, function(err, team) {
