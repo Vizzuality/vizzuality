@@ -4,6 +4,17 @@ var csrfProtection = csrf({ cookie: true });
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var teamPath = root + '/content/team';
+var OLDMEMBERS = [
+  'henrick', 'kartones', 'rbarroso', 'eduardo-villuendas', 'jatorre'
+];
+var MEMBERS = {
+  'andres_gonzalez': 'andres-gonzalez',
+  'david_inga': 'david-inga',
+  'jose_hernandez': 'jose-hernandez',
+  'tiago_garcia': 'tiago-garcia',
+  'sebastian_schkundlara': 'sebastian-schkundlara',
+  'simao_belchior': 'simao-belchior'
+};
 
 module.exports = function(app) {
 
@@ -38,6 +49,10 @@ module.exports = function(app) {
 
     var result, index;
 
+    if (_.contains(OLDMEMBERS, req.params.member)) {
+      return res.redirect('/about');
+    }
+
     file.getFiles(teamPath, isProduction, function(err, team) {
 
       team = _.sortBy(team, function(d) {
@@ -63,6 +78,20 @@ module.exports = function(app) {
 
     });
 
+  });
+
+  // Redirects
+  app.get('/team', function(req, res) {
+    res.redirect('/about');
+  });
+
+  app.get('/team/:member', function(req, res) {
+    if (_.contains(OLDMEMBERS, req.params.member)) {
+      return res.redirect('/about');
+    } else if (MEMBERS[req.params.member]) {
+      return res.redirect('/about/' + MEMBERS[req.params.member]);
+    }
+    res.redirect('/about');
   });
 
 };
