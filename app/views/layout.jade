@@ -8,7 +8,7 @@ html(lang="en")
     meta(charset="utf-8")
     title= (title ? title + ' | ' : '') + 'Vizzuality'
     meta(name="description", content=description)
-    meta(property="og:title", content=fb_title || title)
+    meta(property="og:title", content='Vizzuality' + (fb_title ? ': ' + fb_title : ''))
     meta(property="og:description", content= fb_description || description)
     meta(property="og:image", content="https://pbs.twimg.com/profile_images/614456667254599680/dYuns8hf_200x200.png")
     meta(name="viewport", content="width=device-width, initial-scale=1")
