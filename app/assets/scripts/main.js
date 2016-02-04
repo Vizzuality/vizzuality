@@ -238,6 +238,13 @@
     }
   }
 
+  // Google Analytics event
+  function sendGAEvent() {
+    if (ga) {
+      ga('send', 'event', 'Contact us', 'Begins typing');
+    }
+  }
+
   // Contact form
   function contactForm() {
     var form = document.getElementById('contactForm');
@@ -256,13 +263,6 @@
       var counter = 0;
       var regards = document.getElementById('closeString');
       var bodyTextarea = form.querySelector('textarea');
-
-      function sendGAEvent() {
-        // Google Analytics event
-        if (ga) {
-          ga('send', 'event', 'Contact us', 'Begins typing');
-        }
-      }
 
       bodyTextarea.addEventListener('keyup', utils.once(sendGAEvent));
 

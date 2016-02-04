@@ -72,6 +72,10 @@ module.exports = function(app) {
         }
       });
 
+      if (!result) {
+        return res.redirect('/projects');
+      }
+
       res.render('projects/show', {
         data: result,
         prev: projects[index - 1],

@@ -8,10 +8,9 @@ html(lang="en")
     meta(charset="utf-8")
     title= (title ? title + ' | ' : '') + 'Vizzuality'
     meta(name="description", content=description)
-    if fb_title
-      meta(property="og:title", content=fb_title)
-    if fb_description
-      meta(property="og:description", content= fb_description)
+    meta(property="og:title", content='Vizzuality' + (fb_title ? ': ' + fb_title : ''))
+    meta(property="og:description", content= fb_description || description)
+    meta(property="og:image", content="https://pbs.twimg.com/profile_images/614456667254599680/dYuns8hf_200x200.png")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css")
     if 'production' == process.env.NODE_ENV
@@ -102,4 +101,3 @@ html(lang="en")
       script(src="/assets/lib/t.js")
     script(src="/assets/scripts/main.js")
     script(src="//cdn.optimizely.com/js/543960191.js")
-
