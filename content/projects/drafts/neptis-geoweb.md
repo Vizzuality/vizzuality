@@ -4,9 +4,9 @@ short_title:    Neptis Geoweb
 summary:        A powerful open data tool for a sustainable city
 description:    "Visualising open data about economic, social and environmental issues for the Greater Toronto region"
 fb_title:       Neptis Geoweb
-fb_description: "See what's affecting growth in Greater Toronto region over the coming decades"
-link:        
-link_short:  
+fb_description: "Raise the level of debate on growth in the Greater Toronto region"
+link:          http://www.neptisgeoweb.org
+link_short:    neptisgeoweb.org
 client:        Neptis Foundation
 client_logo:   neptis.png
 svg_logo:    
@@ -24,14 +24,14 @@ logoWidth:		125
 
 modules:
 	- 	text_left: 
-			title: "Create a Map"
-			description: "At the heart of the tool is an interactive map where you can mix and match all kinds of layers about economic, social and environmental issues, from planned infrastructure development to protected areas and prime agricultural lands. With the analysis tool you can draw custom polygons and look at the different land classifications within your area of interest."
+			title: "Mix and Match Maps"
+			description: "At the heart of the tool is an interactive map where you can mix and match all kinds of layers about economic, social and environmental issues, from planned infrastructure development to protected areas and prime agricultural lands. We finished it with little details, like being able to change the transparency of each layer or automatically zooming to an area when certain local-scale layers are selected, to ensure a great experience."
 			image:
 
 	- 	text_right:
-			title: "and tell the world"
- 			description: "With all this open data released and so many different viewpoints looking at the data, we wanted to make sure there was a way for people to share the stories they find. In just a few clicks you can create a data-rich user story to share with the world in the User Stories section."
-			image:
+			title: "Intelligent Information Architecture"
+ 			description: "The data are displayed in a number of different ways, taking inspiration from the various concerns people would relate to.  On the map, the data layers are arranged in an intuitive order and revealed progressively, so it's easy to find the information you need. People also feel a strong connection to certain places or certain themes, so we added Profiles and Topics pages to provide different hooks into the same data."
+			image: 
 
 	- 	map:
 			title: "Take a look"
