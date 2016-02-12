@@ -20,51 +20,51 @@ release_date:
 order:   
 grid:             
 highlighted: 
-logoWidth:		125
+logoWidth:      125
 
 modules:
-	- 	text_parallax:
-			title:
-			description:
-			parallax:
+    -   text_parallax:
+            title:
+            description:
+            parallax:
 
-	- 	text_above:
-			title:
-			description:
-			image:
+    -   text_above:
+            title:
+            description:
+            image:
 
-	- 	text_left:
-			title:
-			description:
-			image:
+    -   text_left:
+            title:
+            description:
+            image:
 
-	- 	text_right:
-			title:
-			description:
-			image:
+    -   text_right:
+            title:
+            description:
+            image:
 
-	- 	blocks:
-			title:
-			modules:
-				- 
-					image:
-					description:
+    -   blocks:
+            title:
+            modules:
+                - 
+                    image:
+                    description:
 
-	- 	map:
-			title:
-			url:
-			description:
+    -   map:
+            title:
+            url:
+            description:
 
-	- 	video:
-			title:
-			style:
-			url:
+    -   video:
+            title:
+            style:
+            url:
 
 opinions:
-	-
-		title:
-		photo:
-		autor:
+    -
+        title:
+        photo:
+        autor:
 
 ---
 
