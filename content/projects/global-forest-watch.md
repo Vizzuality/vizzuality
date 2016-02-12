@@ -43,7 +43,7 @@ modules:
                     description: Get an overview at the global level or dive into the details for one country with our local and global modes
                 -
                     image: GFW-block-a3.jpg
-                    description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
+                    description: A tool that works in the office or in the field; with the mobile version, you can tell your story no matter where you are. 
     
     -   map:
             title: Embeddable maps.
