@@ -17,8 +17,6 @@ cover:       hunters_09.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  July 2011
-order:       19
-grid:        1
 highlighted: true
 logoWidth:  150
 

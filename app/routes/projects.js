@@ -2,7 +2,8 @@ var _ = require('underscore');
 var MobileDetect = require('mobile-detect');
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
-var projectsPath = root + '/content/projects';
+var projectsPath = root + '/content/projects',
+    projectsOrderConfig = require(root + '/config/projects.json');
 var clientsPath = root + '/content/clients/logos.yml';
 
 module.exports = function(app) {
@@ -17,10 +18,20 @@ module.exports = function(app) {
 
     file.getYaml(clientsPath, isProduction, function(err, clientsLogo) {
       file.getFiles(projectsPath, isProduction, function(err, data) {
+        var projectsWithOrder = _.map(data, function(d) {
+          var projectConfig = projectsOrderConfig[d.slug];
+
+          if (projectConfig !== undefined) {
+            d.grid = projectConfig.grid;
+            d.order = projectConfig.order;
+          }
+          return d;
+        });
+
         res.render('projects/index', {
-          projects: _.sortBy(_.where(data, { highlighted: true }), function(d) {
+          projects: _.sortBy(_.where(projectsWithOrder, { highlighted: true }), function(d) {
             var time = new Date(d.date).valueOf();
-            var order = d.order ? parseInt(d.order) : 0;
+            var order = d.order ? parseInt(d.order, 10) : 0;
             return (order * t) + time;
           }),
           clientsLogo: clientsLogo,

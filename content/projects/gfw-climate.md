@@ -17,8 +17,6 @@ cover:       gfwc-01.jpg
 author:      Jamie Gibson
 date:        2015-11-20
 release_date: December 2015
-order:      4
-grid:       1
 highlighted: true
 video: gfwc-video.mp4
 

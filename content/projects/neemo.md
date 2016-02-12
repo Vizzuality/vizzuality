@@ -17,8 +17,6 @@ cover:  	 neemo_02c.jpg
 author:      Jamie Gibson
 date:        2015-05-07
 release_date:  October 2011
-order:       18
-grid:        2
 highlighted:   true
 logoWidth:  105
 
