@@ -73,7 +73,7 @@ opinions:
 
 We’ve been tracking the changes in our forests for centuries, but with all of the technological capabilities available in the 21st Century it was time for a new approach to sharing this. 
 
-Over the course of 18 months Vizzuality and WRI came up with a new way to visualise forest data and bring forests to life. Our approach was to concentrate on the small design details that deliver a memorable experience, then push the limits of APIs and engineering to make it all possible. Shortly after, Global Forest Watch won the UN Big Data Climate Challenge award.
+Over the course of 18 months Vizzuality engaged with WRI and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership"> partners in GFW </a> to come up with a new way to visualise forest data and bring forests to life. Our approach was to concentrate on the small design details that deliver a memorable experience, then push the limits of APIs and engineering to make it all possible. Shortly after, Global Forest Watch won the UN Big Data Climate Challenge award.
 
 Once launched, we continued to work with WRI to refine the site, navigation, and available data, improving the experience for the thousands of visitors coming to the site every day.  
   
