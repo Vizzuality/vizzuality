@@ -17,8 +17,6 @@ cover:       google_01.jpg
 author:      Craig Mills
 date:        2015-04-22
 release_date:  February 2015
-order:       9
-grid:        2
 highlighted:   true
 align:       right
 logoWidth:   180

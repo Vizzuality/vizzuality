@@ -14,8 +14,6 @@ color:       "#222"
 author:      Craig Mills
 date:        2015-04-22
 release_date:  May 2011
-order:       16
-grid:        1
 highlighted:   true
 logoWidth:  225
 
