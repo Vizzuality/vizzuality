@@ -17,8 +17,6 @@ cover:       resilience.png
 author:      Jamie Gibson
 date:        2015-11-20
 release_date: December 2015
-order:       3
-grid:       
 highlighted: true
 logoWidth:  125
 
