@@ -19,6 +19,7 @@ date:        2015-11-20
 release_date: December 2015
 highlighted: true
 logoWidth:  125
+align       right
 
 modules:
     -   text_left:
