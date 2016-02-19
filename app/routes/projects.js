@@ -1,5 +1,7 @@
 var _ = require('underscore');
 var MobileDetect = require('mobile-detect');
+var request = require('request');
+
 var root = process.cwd();
 var file = require(root + '/app/helpers/file');
 var projectsPath = root + '/content/projects',
@@ -28,15 +30,37 @@ module.exports = function(app) {
           return d;
         });
 
-        res.render('projects/index', {
-          projects: _.sortBy(_.where(projectsWithOrder, { highlighted: true }), function(d) {
-            var time = new Date(d.date).valueOf();
-            var order = d.order ? parseInt(d.order, 10) : 0;
-            return (order * t) + time;
-          }),
-          clientsLogo: clientsLogo,
-          className: 'is-project-page'
-        });
+        // var url = 'https://api.medium.com/v1/me?accessToken=' +
+        //   process.env.MEDIUM_ACCESS_TOKEN;
+        // request(url, function (error, response, body) {
+        //   if (!error && response.statusCode == 200) {
+        //     var userId = JSON.parse(body).data.id;
+        //     var publicationsUrl = 'https://api.medium.com/v1/users/' + userId +
+        //     '/publications?accessToken=' + process.env.MEDIUM_ACCESS_TOKEN;
+
+        //     request(publicationsUrl, function (error, response, body) {
+        //       var blogInfo;
+        //       if (!error && response.statusCode == 200) {
+        //         blogInfo = JSON.parse(body).data[0];
+        //       }
+
+              res.render('projects/index', {
+                projects: _.sortBy(_.where(projectsWithOrder, {
+                  highlighted: true
+                }), function(d) {
+                  var time = new Date(d.date).valueOf();
+                  var order = d.order ? parseInt(d.order, 10) : 0;
+                  return (order * t) + time;
+                }),
+                // blogInfo: blogInfo,
+                clientsLogo: clientsLogo,
+                className: 'is-project-page'
+              });
+
+        //     });
+        //   }
+        // });
+
       });
     });
 
