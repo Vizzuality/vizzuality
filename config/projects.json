@@ -53,6 +53,10 @@
     "order": 19,
     "grid": 2
   },
+  "neptis-geoweb" {
+    "order": 9,
+    "grid": 1
+  },
   "ngo-aid-map": {
     "order": 7,
     "grid": 1
