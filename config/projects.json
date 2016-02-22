@@ -4,11 +4,11 @@
     "grid": 1
   },
   "BBVA": {
-    "order": 6,
-    "grid": 2
+    "order": 7,
+    "grid": 1
   },
   "calvert-foundation": {
-    "order": 13,
+    "order": 14,
     "grid": 1
   },
   "cash-atlas": {
@@ -16,61 +16,65 @@
     "grid": 1
   },
   "EDI": {
-    "order": 9,
+    "order": 10,
     "grid": 2
   },
   "endangered-languages": {
-    "order": 11,
-    "grid": 1
+    "order": 18,
+    "grid": 2
   },
   "geocat": {
     "order": 12,
     "grid": 1
   },
   "gfw-climate": {
-    "order": 5
+    "order": 6,
+    "grid": 2
   },
   "global-forest-watch": {
     "order": 1
   },
   "google-trends": {
-    "order": 10,
-    "grid": 2
-  },
-  "imazon": {
-    "order": 15,
-    "grid": 2
-  },
-  "kenya": {
     "order": 8,
     "grid": 1
   },
-  "mountain-biodiversity": {
+  "imazon": {
     "order": 17,
     "grid": 1
   },
-  "neemo": {
-    "order": 19,
-    "grid": 2
-  },
-  "ngo-aid-map": {
-    "order": 7,
+  "kenya": {
+    "order": 11,
     "grid": 1
   },
-  "old-weather": {
-    "order": 18,
-    "grid": 2
-  },
-  "OMO": {
-    "order": 24,
-    "grid": 1
-  },
-  "planet-hunters": {
+  "mountain-biodiversity": {
     "order": 20,
     "grid": 1
   },
-  "policy-climate": {
+  "neemo": {
     "order": 21,
+    "grid": 1
+  },
+  "neptis-geoweb": {
+    "order": 9,
+    "grid": 1
+  },
+  "ngo-aid-map": {
+    "order": 5
+  },
+  "old-weather": {
+    "order": 19,
+    "grid": 2
+  },
+  "OMO": {
+    "order": 25,
+    "grid": 1
+  },
+  "planet-hunters": {
+    "order": 24,
+    "grid": 2
+  },
+  "policy-climate": {
+    "order": 22,
     "grid": 1
   },
   "REE": {
@@ -83,11 +87,11 @@
     "order": 2
   },
   "techno-bioblitz": {
-    "order": 22,
-    "grid": 2
+    "order": 23,
+    "grid": 1
   },
   "web-evolution": {
-    "order": 23,
+    "order": 15,
     "grid": 2
   }
 }
