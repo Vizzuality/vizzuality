@@ -11,8 +11,9 @@ client:        Neptis Foundation
 client_logo: neptis.png
 post_url:    
 post_title:  
-image:    neptis-dashboard.jpg
-cover:    neptis-map.jpg
+image:    neptis-map.jpg
+cover:    neptis-dashboard.jpg
+color:       "#222"
 author:      Jamie Gibson
 date:        8/2/2016
 release_date: February 2016    
