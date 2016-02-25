@@ -8,17 +8,16 @@ fb_description: "Raise the level of debate on growth in the Greater Toronto regi
 link:          http://www.neptisgeoweb.org
 link_short:    neptisgeoweb.org
 client:        Neptis Foundation
-client_logo:   neptis.png
-svg_logo:    
+client_logo: neptis.png
 post_url:    
 post_title:  
-image:    neptis-map.jpg
-cover:    neptis-dashboard.jpg
+image:    neptis-dashboard.jpg
+cover:    neptis-map.jpg
 author:      Jamie Gibson
 date:        8/2/2016
 release_date: February 2016    
 highlighted:  true
-logoWidth:    125
+logoWidth:    300
 
 modules:
     -   text_left: 
