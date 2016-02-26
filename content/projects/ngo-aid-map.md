@@ -16,7 +16,7 @@ author:      Jamie Gibson
 date:        2015-05-07
 release_date:  May 2011
 highlighted:   true
-align:       center
+align:       left
 video_test_style: true
 logoWidth:  105
 
