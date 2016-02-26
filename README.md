@@ -39,7 +39,7 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **link** full URL for the site
 * **link_short** remove http etc, this is for the text
 * **client** who was it for
-* **client_logo** no more than 200x200 and .png, add to app/images/client. can also add **svg_logo** where it exists
+* **client_logo** no more than 200x200 and .png, add to app/images/client/white and app/images/client/. can also add **svg_logo** where it exists. Don't forget to update the file content/clients/logos.yml!
 * **post_url** and **post_title** for latest blog entry
 * **image:** Obvious representation of the project for homepage “cards” _(Screenshot of vizzualization)_
 * **cover:** Symbolic image for using on the detail page _(A football player)_
@@ -47,6 +47,7 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * ** logoWidth** specifies the width (in px) of the logo(i.e.: logoWidth: 125). This attribute is mandatory.
 * **Order and Grid** used to denote the page's place on the home page and the width of the cell _(if in the main group of projects)_. This is now done through through projects.json, in the config folder.
 * **Align** is used on main block projects, to align the text on the homepage. Align the text away from the main focus of the image _(left, right or centre)_
+* **color** is used to change the colour of the title font on project pages, where cover is very light. "#222" is black
 
 
 ## Order of Projects
