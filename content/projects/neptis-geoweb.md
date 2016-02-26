@@ -13,8 +13,7 @@ svg_logo:    neptis.svg
 post_url:    
 post_title:  
 image:    neptis-map.jpg
-cover:    neptis-dashboard.jpg
-color:       "#222"
+cover:    neptis-coverpic.jpg
 author:      Jamie Gibson
 date:        8/2/2016
 release_date: February 2016    
