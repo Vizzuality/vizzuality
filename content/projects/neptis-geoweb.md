@@ -37,7 +37,7 @@ modules:
             modules:
                 - 
                     image: neptis_img_04.jpg
-                    description: With a huge range of layers to examine, our designers spent a long time perfecting the presentation of each so they could be layered in an intuitive way while maintaining clean, beautiful cartography. By obssessing over the small details, it's easier for everyone to reveal the stories within the data.
+                    description: With a huge range of layers to examine, our designers perfected the presentation of each so they could be layered in an intuitive way while maintaining clean, beautiful cartography. By obssessing over the small details, it's easier for everyone to reveal the stories within the data.
                 - 
                     image: neptis_img_03.jpg
                     description: People care about places. Whether it's the great outdoors of the Greenbelt, their own backyard or where they work, spaces matter. To tap into this area of concern we've created profile pages where you can see all the key data, from population to the job market and types of dwellings.
