@@ -18,7 +18,7 @@ author:      Jamie Gibson
 date:        2015-05-07
 release_date:  February 2014
 highlighted: true
-align:       left
+align:       center
 
 modules:
     -   text_left:
@@ -42,7 +42,7 @@ modules:
                     description: Get an overview at the global level or dive into the details for one country with our local and global modes
                 -
                     image: GFW-block-a3.jpg
-                    description: A tool that works in the office or on the go; with the mobile version, you can tell your story no matter where you are. 
+                    description: A tool that works in the office or in the field; with the mobile version, you can tell your story no matter where you are. 
     
     -   map:
             title: Embeddable maps.
@@ -72,7 +72,7 @@ opinions:
 
 We’ve been tracking the changes in our forests for centuries, but with all of the technological capabilities available in the 21st Century it was time for a new approach to sharing this. 
 
-Over the course of 18 months Vizzuality and WRI came up with a new way to visualise forest data and bring forests to life. Our approach was to concentrate on the small design details that deliver a memorable experience, then push the limits of APIs and engineering to make it all possible. Shortly after, Global Forest Watch won the UN Big Data Climate Challenge award.
+Over the course of 18 months Vizzuality engaged with WRI and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership"> partners in GFW </a> to come up with a new way to visualise forest data and bring forests to life. Our approach was to concentrate on the small design details that deliver a memorable experience, then push the limits of APIs and engineering to make it all possible. Shortly after, Global Forest Watch won the UN Big Data Climate Challenge award.
 
 Once launched, we continued to work with WRI to refine the site, navigation, and available data, improving the experience for the thousands of visitors coming to the site every day.  
   

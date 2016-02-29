@@ -36,13 +36,14 @@ block main
                 h1: a(href="/projects/#{project.slug}")= project.title + '.'
                 p.description= project.summary + '.'
                 a(class="btn-third", href="/projects/#{project.slug}") Read more
-
-      if lastPost
-        article.m-post-card
-          .m-post-card-content
-            h1 Stay tuned.
-            h2: a(href="http://blog.vizzuality.com/post/131088982681/an-open-letter-for-open-satellite-data") An open letter for open satellite data
-            a(class="btn", href="http://blog.vizzuality.com/post/131088982681/an-open-letter-for-open-satellite-data") Read our blog
+      
+      //- if blogInfo
+      article.m-post-card
+        .m-post-card-content
+          h1 Stay tuned.
+          //- h2: a(href="https://medium.com/vizzuality-blog/latest") An open letter for open satellite data
+          //- h2: a(class="m-story" href=blogInfo.url)= blogInfo.description
+          a(class="btn", href="https://medium.com/vizzuality-blog/latest") Read our blog
 
       each project, index in projects
         if index >= numberOfProjects - 2 && index < numberOfProjects
