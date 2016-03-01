@@ -16,9 +16,7 @@ image:
 cover:       
 author:      
 date:        
-release_date: 
-order:   
-grid:             
+release_date:             
 highlighted: 
 logoWidth:      125
 
