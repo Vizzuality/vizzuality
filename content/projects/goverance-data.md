@@ -10,15 +10,14 @@ link_short:  governancedata.org
 client:      Governance Data Alliance
 client_logo: GDA.png
 svg_logo:    GDA.svg
-post_url:    
-post_title:  
+post_url:    "https://medium.com/vizzuality-blog/data-and-dashboards-for-open-governance-across-the-world-b6566b459faa#.srdf9t9l5"
+post_title:  Data and dashboards for open governance across the world
 image:       GDA_Home.jpg
 cover:       GDA_coverdetail.jpg
 author:      Jamie
 date:        2016-02-29
 release_date: March 2016     
 highlighted:  true
-logoWidth:      125
 
 modules:
     -   text_above:
