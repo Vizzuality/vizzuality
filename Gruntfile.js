@@ -37,5 +37,6 @@ module.exports = function(grunt) {
     'imagemin',
     'svgmin'
   ]);
+  grunt.registerTask('test', []);
 
 };
