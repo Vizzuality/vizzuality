@@ -5,7 +5,7 @@ phrase:     JS developer by vocation, teacher by hobby
 twitter:    rrequero
 linkedin:   "https://es.linkedin.com/in/requerogarciaraul"
 github:     rrequero
-email:      raul.garcia@vizzuality.com
+email:      raul.requero@vizzuality.com
 photo:      raul.jpg
 author:     jamie
 date:       2016-2-29
