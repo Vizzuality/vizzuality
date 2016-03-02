@@ -8,8 +8,8 @@ fb_description: "How transparent is your government? Find out here"
 link:      http://governancedata.org  
 link_short:  governancedata.org
 client:      Governance Data Alliance
-client_logo: GDA.png
-svg_logo:    GDA.svg
+client_logo: gda-logo.jpg
+svg_logo:    gda-white.svg
 post_url:    "https://medium.com/vizzuality-blog/data-and-dashboards-for-open-governance-across-the-world-b6566b459faa#.srdf9t9l5"
 post_title:  Data and dashboards for open governance across the world
 image:       GDA_Home.jpg
