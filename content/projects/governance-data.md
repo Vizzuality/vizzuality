@@ -20,7 +20,7 @@ release_date: March 2016
 highlighted:  true
 
 modules:
-    -   text_above:
+    -   text_left:
             title: Responsive to your needs
             description: "Whether in Lagos or London, the way most people learn about the world is through their phones. This is especially the case in less developed countries, where mobiles are providing new ways of communicating to hundreds of millions of people. It’s these people we want to benefit most from the data in the dashboard, so it was only logical that we adopted mobile first principles, so the site looks just as good on a phone or tablet as it does on a laptop or conference projector."
             image: GDA_detail03-1.jpg
