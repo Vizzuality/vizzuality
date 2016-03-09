@@ -6,7 +6,7 @@ twitter:    rrequero
 linkedin:   "https://es.linkedin.com/in/requerogarciaraul"
 github:     rrequero
 email:      raul.requero@vizzuality.com
-photo:      raul.jpg
+photo:      Raul.jpg
 author:     jamie
 date:       2016-2-29
 order:      26
