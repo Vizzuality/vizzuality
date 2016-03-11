@@ -8,7 +8,7 @@ fb_description: "How transparent is your government? Find out here"
 link:      http://governancedata.org  
 link_short:  governancedata.org
 client:      Governance Data Alliance
-client_logo: gda-logo.jpg
+client_logo: gda-logo.png
 svg_logo:    gda-white.svg
 post_url:    "https://medium.com/vizzuality-blog/data-and-dashboards-for-open-governance-across-the-world-b6566b459faa#.srdf9t9l5"
 post_title:  Data and dashboards for open governance across the world
@@ -29,6 +29,16 @@ modules:
             title: The first impression matters
             description: "The GDA Dashboard contains a huge range of datasets. For a new pair of eyes, rows and rows of numbers can be pretty daunting. But humans are fantastic at finding meaning when presented with the same data in a more visual and appealing way. An intuitive and striking colour scheme on the country and compare pages draws your attention from the first glance so any user, no matter their familiarity with the data, can find insight with ease."
             image: GDA_detail02.jpg
+
+opinions:
+    -
+        title: "Really neat. It actually gathers lots of governance data in one big database allowing for CSV download and API access."
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/georg_neu/status/704713278258331649"> Georg Neumann </a>
+    -
+        title: "What a ridiculously good job Vizzuality did building the @ovDataAlliance data dashboards and website."
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/Integrilicious/status/704721130519527424"> Nathaniel Heller</a>
 
 ---
 At vizzuality, we want to help citizens, civil society organisations and governments realise a world full of transparent governance. A world where everyone can take part in important political decisions and is empowered to hold their government to account. The Governance Data Alliance is a unique collaboration of organisations working to achieve that vision. With their data you can start to see how open your government is: how much of a say do you have in policy-making? How easily can you access information on budgets and other processes? If you find one area to be lacking compared to your neighbours, you can use that data to start conversations with governments calling for stronger participation and transparency. 
