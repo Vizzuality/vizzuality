@@ -36,6 +36,10 @@ logos:
     src: 'google.png'
     width: 150
   -
+    name: 'Governance Data Alliance'
+    src:  'gda-logo.png'
+    width: 150
+  -
     name: 'Human rights watch'
     src: 'humanrightswatch.png'
     width: 110
