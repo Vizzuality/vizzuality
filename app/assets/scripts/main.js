@@ -368,7 +368,7 @@
     if (!elem) { return false; }
 
     var MADRID = L.latLng(40.4346730, -3.7005350);
-    var CAMBRIDGE = L.latLng(52.201812, 0.115949);
+    var CAMBRIDGE = L.latLng(52.200521, 0.138486);
     var mapOptions = {
       center: MADRID,
       zoom: 8,
