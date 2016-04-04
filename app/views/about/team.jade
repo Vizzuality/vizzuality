@@ -45,13 +45,13 @@ block main
         .m-prev-next-team-items
           if (prev)
             .m-prev-team-item: div
-              a(href="/about/#{prev.slug}")
+              a(class="full-clickable" href="/about/#{prev.slug}")
               p Previous
               h2 #{prev.name}
               p.position= prev.position
           if (next)
             .m-next-team-item: div
-              a(href="/about/#{next.slug}")
+              a(class="full-clickable" href="/about/#{next.slug}")
               p Next
               h2 #{next.name}
               p.position= next.position
