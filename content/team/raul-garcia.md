@@ -9,7 +9,7 @@ email:      raul.requero@vizzuality.com
 photo:      raul-garcia.jpg
 author:     jamie
 date:       2016-2-29
-order:      26
+order:      24
 ---
 
 Raúl is one of vizzuality's full-stack developers. With his love of Javascript and a passion for learning something new everyday, he is a natural fit for the team and we're very excited to have him on board. 
