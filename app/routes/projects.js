@@ -30,6 +30,23 @@ module.exports = function(app) {
           return d;
         });
 
+
+        var renderPage = function(postInfo) {
+
+          res.render('projects/index', {
+            projects: _.sortBy(_.where(projectsWithOrder, {
+              highlighted: true
+            }), function(d) {
+              var time = new Date(d.date).valueOf();
+              var order = d.order ? parseInt(d.order, 10) : 0;
+              return (order * t) + time;
+            }),
+            postInfo: postInfo == 'undefined' ? null : postInfo,
+            clientsLogo: clientsLogo,
+            className: 'is-project-page'
+          });
+        };
+
         var options = {
           url: 'http://api.tumblr.com/v2/blog/vizzuality.tumblr.com/posts',
           api_key: 'L9h1IOB5XDKZy4LbeT6A5naG7QoafH003pY6dqrhWR1I92dKcU',
@@ -47,26 +64,19 @@ module.exports = function(app) {
         }, function (error, response, body) {
 
           if (!error && response.statusCode == 200) {
-            var content = JSON.parse(body);
-            var latestPost = content.response.posts[0];
+            var latestPost = JSON.parse(body).response.posts[0];
 
             var postInfo = {
               title: latestPost.title,
               url: latestPost.post_url
             };
 
-            res.render('projects/index', {
-              projects: _.sortBy(_.where(projectsWithOrder, {
-                highlighted: true
-              }), function(d) {
-                var time = new Date(d.date).valueOf();
-                var order = d.order ? parseInt(d.order, 10) : 0;
-                return (order * t) + time;
-              }),
-              postInfo: postInfo,
-              clientsLogo: clientsLogo,
-              className: 'is-project-page'
-            });
+            renderPage(postInfo);
+
+          } else {
+
+            renderPage();
+
           }
         });
       });
