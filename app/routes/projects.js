@@ -30,37 +30,45 @@ module.exports = function(app) {
           return d;
         });
 
-        // var url = 'https://api.medium.com/v1/me?accessToken=' +
-        //   process.env.MEDIUM_ACCESS_TOKEN;
-        // request(url, function (error, response, body) {
-        //   if (!error && response.statusCode == 200) {
-        //     var userId = JSON.parse(body).data.id;
-        //     var publicationsUrl = 'https://api.medium.com/v1/users/' + userId +
-        //     '/publications?accessToken=' + process.env.MEDIUM_ACCESS_TOKEN;
+        var options = {
+          url: 'http://api.tumblr.com/v2/blog/vizzuality.tumblr.com/posts',
+          api_key: 'L9h1IOB5XDKZy4LbeT6A5naG7QoafH003pY6dqrhWR1I92dKcU',
+          offset: 0,
+          limit: 1
+        };
 
-        //     request(publicationsUrl, function (error, response, body) {
-        //       var blogInfo;
-        //       if (!error && response.statusCode == 200) {
-        //         blogInfo = JSON.parse(body).data[0];
-        //       }
+        request({
+          url: options.url,
+          qs: {
+            api_key: options.api_key,
+            offset: options.offset,
+            limit: options.limit
+          }
+        }, function (error, response, body) {
 
-              res.render('projects/index', {
-                projects: _.sortBy(_.where(projectsWithOrder, {
-                  highlighted: true
-                }), function(d) {
-                  var time = new Date(d.date).valueOf();
-                  var order = d.order ? parseInt(d.order, 10) : 0;
-                  return (order * t) + time;
-                }),
-                // blogInfo: blogInfo,
-                clientsLogo: clientsLogo,
-                className: 'is-project-page'
-              });
+          if (!error && response.statusCode == 200) {
+            var content = JSON.parse(body);
+            var latestPost = content.response.posts[0];
 
-        //     });
-        //   }
-        // });
+            var postInfo = {
+              title: latestPost.title,
+              url: latestPost.post_url
+            };
 
+            res.render('projects/index', {
+              projects: _.sortBy(_.where(projectsWithOrder, {
+                highlighted: true
+              }), function(d) {
+                var time = new Date(d.date).valueOf();
+                var order = d.order ? parseInt(d.order, 10) : 0;
+                return (order * t) + time;
+              }),
+              postInfo: postInfo,
+              clientsLogo: clientsLogo,
+              className: 'is-project-page'
+            });
+          }
+        });
       });
     });
 
