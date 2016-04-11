@@ -1,0 +1,22 @@
+prose:
+  rooturl: ''
+  siteurl: 'http://www.vizzuality.com'
+  media: 'app/assets/images'
+  ignore:
+    - app
+    - config
+    - extras
+    - lib
+    - public
+    - .editorconfig
+    - .env.sample
+    - .gitignore
+    - .jshintrc
+    - .travis.yml
+    - Gruntfile.js
+    - _prose.yml
+    - LICENSE
+    - Procfile
+    - bower.json
+    - package.json
+    - server.js
