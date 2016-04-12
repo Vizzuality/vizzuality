@@ -1,6 +1,6 @@
 ---
 name:       Alba Fernández
-position:   Engineer
+position:   Engineering Intern
 phrase:     "Forests are not a hobby, they are necessary"
 twitter:    
 linkedin:   

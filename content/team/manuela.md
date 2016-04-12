@@ -1,6 +1,6 @@
 ---
 name:     Manuela Stögerer  
-position: Intern  
+position: Data Design Intern  
 phrase:   "Maps are amazing: when well made they certainly won't leave you unaffected"  
 twitter:    
 linkedin:   
