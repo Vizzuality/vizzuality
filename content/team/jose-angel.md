@@ -9,7 +9,7 @@ email:      joseangel.parreno@vizzuality.com
 photo:      joseangel.jpg
 author:     Jamie Gibson
 date:       2015-11-16
-order:      27
+order:      19
 ---
 
 Jose Angel is a front end engineer with a specialism in HTML, CSS and Javascript. While studying a degree in Electronics and Automation, Jose discovered a love of web development and has followed that passion ever since. That passion brought him to Madrid this summer, and now to Vizzuality.

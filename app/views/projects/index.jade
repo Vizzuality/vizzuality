@@ -37,13 +37,13 @@ block main
                 p.description= project.summary + '.'
                 a(class="btn-third", href="/projects/#{project.slug}") Read more
       
-      //- if blogInfo
-      article.m-post-card
-        .m-post-card-content
-          h1 Stay tuned.
-          //- h2: a(href="https://medium.com/vizzuality-blog/latest") An open letter for open satellite data
-          //- h2: a(class="m-story" href=blogInfo.url)= blogInfo.description
-          a(class="btn", href="https://medium.com/vizzuality-blog/latest") Read our blog
+      if postInfo
+        article.m-post-card
+          .m-post-card-content
+            h1 Stay tuned.
+            h2: a(href="#{postInfo.url}")= postInfo.title
+            //- h2: a(class="m-story" href=blogInfo.url)= blogInfo.description
+            a(class="btn", href="http://blog.vizzuality.com/") Read our blog
 
       each project, index in projects
         if index >= numberOfProjects - 2 && index < numberOfProjects
