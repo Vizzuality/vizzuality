@@ -10,8 +10,8 @@ link_short:    neptisgeoweb.org
 client:        Neptis Foundation
 client_logo: neptis.png
 svg_logo:    neptis.svg
-post_url:    
-post_title:  
+post_url:    "https://medium.com/vizzuality-blog/building-a-powerful-tool-for-sustainable-cities-a891474ea36f#.7twlzsw0i"
+post_title:  "Building a Powerful Tool for Sustainable Cities"
 image:    neptis-map.jpg
 cover:    neptis-coverpic.jpg
 author:      Jamie Gibson
