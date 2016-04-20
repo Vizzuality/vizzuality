@@ -39,8 +39,12 @@ opinions:
         title: "What a ridiculously good job Vizzuality did building the @ovDataAlliance data dashboards and website."
         photo: media/twitter.png
         autor: <a href="https://twitter.com/Integrilicious/status/704721130519527424"> Nathaniel Heller</a>
+    -
+        title: 'These dashboards...bring together...governance assessments presented in an accessible and user-friendly way.'
+        photo: media/marketsforgood.png
+        autor: '<a href="http://marketsforgood.org/modernizing-the-marketplace-for-governance-data/">Caroline Poirrier</a>'
 
 ---
-At vizzuality, we want to help citizens, civil society organisations and governments realise a world full of transparent governance. A world where everyone can take part in important political decisions and is empowered to hold their government to account. The Governance Data Alliance is a unique collaboration of organisations working to achieve that vision. With their data you can start to see how open your government is: how much of a say do you have in policy-making? How easily can you access information on budgets and other processes? If you find one area to be lacking compared to your neighbours, you can use that data to start conversations with governments calling for stronger participation and transparency. 
+We want to help citizens, civil society organisations and governments realise a world full of transparent governance. A world where everyone can take part in important political decisions and is empowered to hold their government to account. The Governance Data Alliance is a unique collaboration of organisations working to achieve that vision. With their data you can start to see how open your government is: how much of a say do you have in policy-making? How easily can you access information on budgets and other processes? If you find one area to be lacking compared to your neighbours, you can use that data to start conversations with governments calling for stronger participation and transparency. 
 
 It was a great pleasure to be asked by the Alliance to develop a web application that puts their data in the hands of many people across the world for the first time, so they can use it to create a more transparent country. It was crucial to build the site in a way that led to quick and easy understanding of the data for general users and, at the same time, stirred governments into action to be as transparent and participatory as possible. A combination of intuitive design and pixel perfect implementation delivered a site with the right features for the job, including country dashboards and a compare function. 

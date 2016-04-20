@@ -51,6 +51,10 @@ opinions:
         photo: media/twitter.png
         autor: '<a href="https://twitter.com/saleiva/status/671754501695676416"> Saleiva</a>'
     -
+        title: 'Global Forest Watch Climate shows that tropical deforestation led to the release of more than 2,200 million metric tons of carbon every year between 2001 and 2013.'
+        photo: media/mongabay.png
+        autor: '<a href="http://news.mongabay.com/2016/01/vines-may-be-bad-news-for-forest-carbon-storage/">Morgan Erickson-Davis</a>'
+    -
         title: "Nice Work!"
         photo: media/twitter.png
         autor: '<a href="https://twitter.com/govertschoof/status/672744711287873536"> Govert Schoof </a>'
