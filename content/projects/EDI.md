@@ -44,6 +44,10 @@ opinions:
         title: 'Fabulous job from Vizzuality in helping WRI produce the <a href="http://www.environmentaldemocracyindex.org">Environmental Democracy Index</a> @Vizzuality @WRIgovernance'
         photo: media/twitter.png
         autor: '<a href="https://twitter.com/markrWRI/status/601134682693115905"> Mark Robinson, WRI</a>'
+    -
+        title: 'Curious about the places of most of the Western European countries in the Environmental Democracy Index'
+        photo: media/twitter.png
+        autor: '<a href="https://twitter.com/MartijnKool68/status/657899910759653376">Martijn Kool</a>'
 
 ---
 

@@ -10,8 +10,8 @@ link_short:    neptisgeoweb.org
 client:        Neptis Foundation
 client_logo: neptis.png
 svg_logo:    neptis.svg
-post_url:    
-post_title:  
+post_url:    "https://medium.com/vizzuality-blog/building-a-powerful-tool-for-sustainable-cities-a891474ea36f#.7twlzsw0i"
+post_title:  "Building a Powerful Tool for Sustainable Cities"
 image:    neptis-map.jpg
 cover:    neptis-coverpic.jpg
 author:      Jamie Gibson
@@ -48,6 +48,20 @@ modules:
             title: Take a look.
             url: http://www.neptisgeoweb.org/embed?map=4eabb611d2c68d5c8fb7
             description: With the option to share any map or embed it in your own website, you're only a few clicks away from telling the world what you've found out.
+
+opinions:
+    -
+        title: 'Great tool for mapping future #totransit plans from @NeptisRegions <a href="http://www.neptisgeoweb.org/">neptisgeoweb</a> HT @Urban_Toronto forum user 44north'
+        photo: media/twitter.png
+        autor: '<a href="https://twitter.com/davidrbrake/status/721002504234864642">David Brake</a>'
+    -
+        title: 'Geoweb by @NeptisRegions is a powerful data visualization tool at the intersection of land use, transpo, enviro & ag'
+        photo: media/twitter.png
+        autor: '<a href="https://twitter.com/RyersonCBI/status/697461882458894336">Ryserson CBI</a>'
+    -
+        title: 'revamp of the #neptisgeoweb looking really good!'
+        photo: media/twitter.png
+        autor: '<a href="https://twitter.com/MichaelMarkieta/status/702557821615738880">Micheal Markieta</a>'
 
 ---
 
