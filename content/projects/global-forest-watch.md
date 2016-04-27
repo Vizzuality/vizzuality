@@ -1,7 +1,7 @@
 ---
 title:       Global Forest Watch
 short_title: GFW
-summary: 	 Pixel perfection for forest detection
+summary:     Pixel perfection for forest detection
 description: "An award-winning responsive web application to visualise changes to the world's forests"
 fb_title:    "Global Forest Watch | Vizzuality"
 fb_description: "An award-winning platform to visualise changes to the world's forests"
@@ -23,12 +23,12 @@ align:       center
 modules:
     -   text_left:
             title: Open, reusable foundations
-            description: As the lead technology partner on the Flagship site, we’ve led the creation of many different elements of the whole GFW platform. The whole site is built using a unique combination of customised open source softwareb, bringing together the most advanced technologies and data providers. The codebase is also open source. We created the platform’s design guidelines, ensuring a clean, professional and understandable experience across all of the various parts of the site. We also manage the public API, delivering constant improvements so anyone can build their own applications using the great GFW data.
+            description: "As the lead technology partner on the Flagship site, we’ve led the creation of many different elements of the whole GFW platform. The whole site is built using a unique combination of customised open source softwareb, bringing together the most advanced technologies and data providers. The codebase is also open source. We created the platform’s design guidelines, ensuring a clean, professional and understandable experience across all of the various parts of the site. We also manage the public API, delivering constant improvements so anyone can build their own applications using the great GFW data."
             image: GFW-high1.png
 
     -   text_right:
             title: Last week on GFW
-            description: With the Global Land Analysis and Discovery alerts, we can release fresh new data every week about how forests have changed in that week. What used to be a yearly routine of can now be undertaken every week. And that data is extremely precise: we can detect change at a scale of just 30x30m (half the size of a football pitch). By encoding multiple years of data into single map tiles, changes over time can be animated much more quickly, without the need to download the data for each transition; this significantly boosts performance.
+            description: "With the Global Land Analysis and Discovery alerts, we can release fresh new data every week about how forests have changed in that week. What used to be a yearly routine of can now be undertaken every week. And that data is extremely precise: we can detect change at a scale of just 30x30m (half the size of a football pitch). By encoding multiple years of data into single map tiles, changes over time can be animated much more quickly, without the need to download the data for each transition; this significantly boosts performance."
             image: GFW-high2.png
 
     -   blocks:
@@ -36,13 +36,13 @@ modules:
             modules:
                 -
                     image: GFW-block-a1.jpg
-                    description: Tell your own story. With understandable data and a range of options to publish insight, anyone can create knowledge. 
+                    description: "Tell your own story. With understandable data and a range of options to publish insight, anyone can create knowledge." 
                 -
                     image: gfw_usersblock.jpg
-                    description: People powered. Working with WRI, our team conducts ongoing research into who uses the tool, and how, so we can continually improve the experience.
+                    description: "People powered. Working with WRI, our team conducts ongoing research into who uses the tool, and how, so we can continually improve the experience."
                 -
                     image: GFW-block-a3.jpg
-                    description: A tool that works in the office or in the field; with the mobile version, you can tell your story no matter where you are. 
+                    description: "A tool that works in the office or in the field; with the mobile version, you can tell your story no matter where you are." 
     
     -   map:
             title: Embeddable maps.
@@ -69,7 +69,6 @@ opinions:
         autor: <a href="http://motherboard.vice.com/read/the-world-lost-an-oklahoma-sized-amount-of-forest-in-2013-satellite-data-shows">  Brian Merchant, Motherboard </a>
 
 ---
-
 Uniting sophisticated monitoring and analysis with cutting-edge visualisation software, Global Forest Watch revolutionises our ability to track what’s happening in our forests right now.  
 
 Over the last three years vizzuality has engaged with the World Resources Institute and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership">partners in GFW</a> to create a new way of visualising forest data. Using the excellent datasets provided by the partnership, we have designed, developed and refined Global Forest Watch into a sophisticated, responsive web-mapping application that puts near real-time data at the tips of your fingers. You can find out if protected areas are conserving forests, explore key trends in your country or see where trees were lost in the last week. 
