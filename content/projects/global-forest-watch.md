@@ -23,12 +23,12 @@ align:       center
 modules:
     -   text_left:
             title: Open, reusable foundations
-            description: "As the lead technology partner on the Flagship site, we’ve led the creation of many different elements of the whole GFW platform. The whole site is built using a unique combination of customised open source softwareb, bringing together the most advanced technologies and data providers. The codebase is also open source. We created the platform’s design guidelines, ensuring a clean, professional and understandable experience across all of the various parts of the site. We also manage the public API, delivering constant improvements so anyone can build their own applications using the great GFW data."
+            description: "The whole site is built using a unique combination of customised open source software, bringing together the most advanced technologies and data providers to deliver an interactive and understanable experience. We created the platform’s design guidelines, ensuring a clean, professional and understandable experience across all of the various parts of the site. With our open source codebase and the strong public API, you can use and re-use any part of the platform in your own application."
             image: GFW-high1.png
 
     -   text_right:
             title: Last week on GFW
-            description: "With the Global Land Analysis and Discovery alerts, we can release fresh new data every week about how forests have changed in that week. What used to be a yearly routine of can now be undertaken every week. And that data is extremely precise: we can detect change at a scale of just 30x30m (half the size of a football pitch). By encoding multiple years of data into single map tiles, changes over time can be animated much more quickly, without the need to download the data for each transition; this significantly boosts performance."
+            description: "With the Global Land Analysis and Discovery alerts, we can release fresh new data every week about how forests have changed. What used to be a yearly routine can now be undertaken weekly. And that data is extremely precise: we can detect change at a scale of just 30x30m (half the size of a football pitch). By encoding multiple years of data into single map tiles, changes over time can be animated much more quickly, without the need to download the data for each transition; this significantly boosts performance."
             image: GFW-high2.png
 
     -   blocks:
@@ -36,7 +36,7 @@ modules:
             modules:
                 -
                     image: GFW-block-a1.jpg
-                    description: "Tell your own story. With understandable data and a range of options to publish insight, anyone can create knowledge." 
+                    description: "Tell your own story. With understandable data and a range of options to publish your insight, anyone can create new knowledge." 
                 -
                     image: gfw_usersblock.jpg
                     description: "People powered. Working with WRI, our team conducts ongoing research into who uses the tool, and how, so we can continually improve the experience."
@@ -71,7 +71,7 @@ opinions:
 ---
 Uniting sophisticated monitoring and analysis with cutting-edge visualisation software, Global Forest Watch revolutionises our ability to track what’s happening in our forests right now.  
 
-Over the last three years vizzuality has engaged with the World Resources Institute and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership">partners in GFW</a> to create a new way of visualising forest data. Using the excellent datasets provided by the partnership, we have designed, developed and refined Global Forest Watch into a sophisticated, responsive web-mapping application that puts near real-time data at the tips of your fingers. You can find out if protected areas are conserving forests, explore key trends in your country or see where trees were lost in the last week. 
+Over the last three years vizzuality has engaged with the World Resources Institute and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership">partners in GFW</a> to create a new way of visualising forest data. Using the excellent datasets provided by the partnership, we have designed, developed and refined Global Forest Watch into a sophisticated, responsive web-mapping application that puts near real-time data at your fingertips. You can find out if protected areas are conserving forests, explore key trends in your country or see where trees were lost in the last week. 
 
 The sheer amount and variety of data provides a huge design and engineering challenge. Never before has anyone put together such a vast amount of data about different aspects of forests in an accessible, understandable, easy to use tool. Our mixture of modern design principles, deep understanding of user needs and coding at the edge of APIs helped deliver an award-winning user experience. 
 
