@@ -12,7 +12,7 @@ html(lang="en")
     meta(property="og:description", content= fb_description || description)
     meta(property="og:image", content="https://pbs.twimg.com/profile_images/614456667254599680/dYuns8hf_200x200.png")
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    link(rel="stylesheet", href="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css")
     if 'production' == process.env.NODE_ENV
       link(rel="stylesheet", href="/assets/styles/main.css")
     else
@@ -95,7 +95,7 @@ html(lang="en")
         for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
         mixpanel.init("2cb5073fd0a0809fd64b936e7e8d35fe");
 
-    script(src="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js")
     if 'production' != process.env.NODE_ENV
       script(src="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.js")
       script(src="/assets/lib/t.js")
