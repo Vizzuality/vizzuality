@@ -10,4 +10,5 @@ photo:
 author:     
 date:       
 order:      
+published: false
 ---

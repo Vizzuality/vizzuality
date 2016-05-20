@@ -18,6 +18,7 @@ author:
 date:        
 release_date:             
 highlighted: 
+colour: 
 logoWidth:      125
 
 modules:
