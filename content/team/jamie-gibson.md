@@ -9,6 +9,7 @@ photo:      jamie-gibson.jpg
 author:     Alicia
 date:       2015-05-08
 order:		14
+published:  true
 ---
 
  Jamie is Vizzuality’s social scientist. His main role is to work out how people think about the world around them, so that the things we build fit into their daily lives. Before Vizzuality, Jamie spent two years working with the United Nations Environment Programme, looking into the different ways governments collect and manage their environmental data. 

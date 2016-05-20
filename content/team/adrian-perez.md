@@ -10,6 +10,7 @@ photo:      adrian.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		7
+published:  true
 ---
 
  Adrián developed a keen interest in computers during his childhood, going on to study Software Engineering in Valladolid University. He started his first internship as a web developer there and after that started working for Spanish Government projects in Neoris, a software consultancy company.

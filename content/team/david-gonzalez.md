@@ -10,6 +10,7 @@ photo:      david-gonzalez.jpg
 author:     Alicia
 date:       2015-05-08
 order:      2
+published:  true
 ---
 
 David is Head of Technology and co-founded Vizzuality. He sets the technical direction for the company, ensuring each project will make a difference, and enabling a creative and innovative use of technology. David has spent nearly 20 years working at the forefront of informatics and data. Over the past decade he has been devoted to the development of digital solutions and interfaces for a range of data visualization, research and educational projects.

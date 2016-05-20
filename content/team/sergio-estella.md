@@ -10,6 +10,7 @@ photo:		sergio-estella.jpg
 author:     Sergio
 date:       2015-05-08
 order: 		3
+published:  true
 ---
 
  Sergio is Chief Designer Officer and co-founded Vizzuality. Using his research into data visualization, information design and interface design, he sets the visual and interaction direction as well as user experience for our products.
