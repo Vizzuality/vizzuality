@@ -29,18 +29,21 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
     grunt deploy
 
 
-## Content. Markdown references
+## Project Content. Markdown references
+
+These are all captured in project-template.md, in vizzuality/content/projects/drafts
 
 * **title:** Name of the project. It will be shown big on the main page and little on detail page. _(Global Forest Watch)_
 * **short_title:** Short version, if needed, for using on the little boxes of the homepage. Write the same than tittle if there isn’t short version _(GFW)_
 * **summary:** Short explanation of the project. It will be used as subtitle on the big cards on the homepage and as a big title on the detail pages _(Half a million people watching forest change)_
+* **description** SEO text
 * **fb_title** Title to display when the page is shared on Facebook
 * **fb_description** Description of the project to display when the page is shared on Facebook
 * **link** full URL for the site
 * **link_short** remove http etc, this is for the text
 * **client** who was it for
 * **client_logo** no more than 200x200 and .png, add to app/images/client/white and app/images/client/. can also add **svg_logo** where it exists. Don't forget to update the file content/clients/logos.yml!
-* **post_url** and **post_title** for latest blog entry
+* **post_url** and **post_title** for latest blog entry. Remember to change this when we write new blog posts about projects!
 * **image:** Obvious representation of the project for homepage “cards” _(Screenshot of vizzualization)_
 * **cover:** Symbolic image for using on the detail page _(A football player)_
 * **release_date** is the month/ year it was launched
@@ -49,6 +52,22 @@ To deploy we use Heroku Toolbet [https://toolbelt.heroku.com](instructions to in
 * **Align** is used on main block projects, to align the text on the homepage. Align the text away from the main focus of the image _(left, right or centre)_
 * **color** is used to change the colour of the title font on project pages, where cover is very light. "#222" is black
 
+
+## Staff Contents: Markdown References
+
+These are all captured in staff-template.md, in vizzuality/content/team/drafts
+
+* **name** is self explanatory
+* **position** will usually be Designer or Engineer
+* **phase** is the inspirational quote at the top of the page
+* **twitter** is the twitter handle
+* **linkedin** is full URL of linkedin account, wrapped in ""
+* **github** is github username
+* **email** is their @vizz email address
+* **photo** is name of photo (in the team images folder)
+* **author and date** is who wrote it, when
+* **order** is location in the wall of faces
+* **published** is either false or true
 
 ## Order of Projects
 
