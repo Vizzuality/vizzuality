@@ -10,6 +10,7 @@ photo:      andres.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		16
+published:  true
 ---
 
  Andrés got a professional degree in Web Application Development in 2014 and immediately joined Vizzuality. This awoke something inside him about the necessity of building nice and modern sites that help people to lead a better life. He thinks design is as important as content in a website, so really loves to create beautiful and colourful sites! 

@@ -10,6 +10,7 @@ photo:      clara.jpg
 author:     David Inga
 date:       2015-04-22
 order: 		8
+published:  true
 ---
 
 After some years studying Architecture at ’Universidad Politécnica de Madrid’ and some more years working as an architect, always interested in new technology and visual communication, Clara decided to research new career paths. It was then she decided to teach herself web development.

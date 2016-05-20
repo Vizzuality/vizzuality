@@ -10,6 +10,7 @@ photo:      alex-velasco.jpg
 author:     jamie
 date:       4-5-2016
 order:      26
+published:  false
 ---
 Alex is the latest addition to our cohort of designers. He has a background in Industrial and Product design, which started with his Undergraduate degree in Madrid and a Masters degree in Milan. For the last few years he’s extended those skills further as a UI and visual designer for the mobile phone company Tuenti, which will be a great asset as we move towards more mobile first projects.
 

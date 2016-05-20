@@ -10,6 +10,7 @@ photo:      simao.jpg
 author:     David Inga
 date:       2015-04-23
 order:      11
+published:  true
 ---
 
 Simão joined Vizzuality in December 2014 as a Product Developer. He likes to be involved in all the phases of a product’s lifecycle from idea to reality and enjoys being part of a team that creates products that make people’s life easier and contribute to the greater good. 
