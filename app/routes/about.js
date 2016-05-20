@@ -27,7 +27,7 @@ module.exports = function(app) {
   app.get('/about', csrfProtection, function(req, res) {
     file.getFiles(teamPath, isProduction, function(err, data) {
       var result = [];
-      var team = _.sortBy(data, function(d) {
+      var team = _.sortBy(_.where(data, {published: true}), function(d) {
         var time = new Date(d.date).valueOf();
         var order = d.order ? parseInt(d.order) : 0;
         return (order * t) + time;

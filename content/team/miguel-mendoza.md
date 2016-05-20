@@ -8,6 +8,7 @@ photo:      miguel-mendoza.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		10
+published:  true
 ---
 
 Miguel has been working full time at Vizzuality since 2014, following several years of fruitful collaboration, taking on back end set-up, databases and anything Ruby. Since the tender age of 12 he's been learning to code, from Basic and assembler to make video games to learning Pascal, Cobol, Fortran, C, DBase, javascript, Flash and now Ruby on Rails for all kinds of applications. His experimental multimedia installations were exhibited in the first International Festival of Art, Science and Technology.

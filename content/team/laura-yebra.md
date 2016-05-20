@@ -10,6 +10,7 @@ photo:      laura-yebra.png
 author:     Jamie
 date:       2015-06-24
 order:      21
+published:  true
 ---
 
 Laura is Vizzuality's Financial Controller. She joins us after three years working in accounting for a number of retail, renewable energy and telecommunications companies. With a masters in International Management from the prestigious IE Business School, a keen eye for visualising data and a love of working in sectors that make a difference to the world, Laura is the perfect person to perform this essential role as we continue to grow in the next few years. 
