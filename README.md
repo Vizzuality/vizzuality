@@ -64,9 +64,10 @@ These are all captured in staff-template.md, in vizzuality/content/team/drafts
 * **linkedin** is full URL of linkedin account, wrapped in ""
 * **github** is github username
 * **email** is their @vizz email address
+* **behance** or **dribble** can be used for anyone with a design portfolio on these sites
 * **photo** is name of photo (in the team images folder)
 * **author and date** is who wrote it, when
-* **order** is location in the wall of faces
+* **order** is location in the wall of faces. Any gaps are plugged with images in app/assets/images/office, as described in app/views/about/index.jade
 * **published** is either false or true
 
 ## Order of Projects
