@@ -456,9 +456,7 @@
       }).addTo(map);
 
       map.on('locationfound', onLocationFound);
-      map.on('locationerror', function() {
-        L.marker(MADRID, { icon: customIcons[1] }).addTo(map);
-      });
+      map.on('locationerror', onLocationFound);
 
       map.locate();
     }
