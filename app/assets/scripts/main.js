@@ -416,7 +416,8 @@
     }
 
     function onLocationFound(ev) {
-      var userPos = ev.latlng;
+      var userPos = ev.latlng || MADRID;
+
       var madridOffice = document.getElementById('madridOffice');
       var cambridgeOffice = document.getElementById('cambridgeOffice');
       var barcelonaOffice = document.getElementById('barcelonaOffice');
