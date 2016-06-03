@@ -415,8 +415,17 @@
       }, 500);
     }
 
+    function defaultLocation() {
+      var userPos = MADRID;
+      setLocation(userPos);
+    }
+
     function onLocationFound(ev) {
       var userPos = ev.latlng;
+      setLocation(userPos);
+    }
+
+    function setLocation(userPos) {
       var madridOffice = document.getElementById('madridOffice');
       var cambridgeOffice = document.getElementById('cambridgeOffice');
       var barcelonaOffice = document.getElementById('barcelonaOffice');
@@ -454,11 +463,9 @@
         maxZoom: 19
       }).addTo(map);
 
-      map.on('locationfound', onLocationFound);
-      map.on('locationerror', function() {
-        L.marker(MADRID, { icon: customIcons[1] }).addTo(map);
-      });
+      defaultLocation();
 
+      map.on('locationfound', onLocationFound);
       map.locate();
     }
   }
