@@ -1,18 +1,20 @@
 ---
 name:      Camellia Williams 
 position:  Lead Writer 
-phrase:    "" 
+phrase:    "Everyone has a story to share, let’s tell yours together" 
 twitter:   camellia_will 
 linkedin:  "https://www.linkedin.com/in/camellia-williams-131a2836 " 
-github:		
+github:		camelliawill
 behance: 
 email:   camellia.williams@vizzuality.com   
 photo:    camellia.jpg  
 author:     Jamie
 date:       5/20/2016
 order:      26
-published: false
+published: true
 ---
-Camellia is vizzuality's lead writer. It's her job to raise the level of debate about digital products to improve our world through all of vizzuality’s communications. Camellia has been giving a voice to the species and ecosystems we all depend on to survive for nearly five years now. From the smallest fish in the Great Barrier Reef to the tapirs of the Amazon, she’s worked to inspire sustainable behaviour in the public and policy-makers by communicating high-quality science. With a masters in Conservation and Biodiversity to boot, 
+Camellia is vizzuality's lead writer. It's her job to raise the level of debate  about using digital products to improve our world, through all of vizzuality’s communications. We’ve brought Camellia on board as our first dedicated communications specialist to uncover the best ways to captivate audiences with stories that matter. 
 
-If she’s not talking about them, you’ll find Camellia out and about in the sunny countryside, snapping pics for her carefully collated instagram. Just look at this cute picture of a field mouse she took on her first data at vizzuality! #blessed. Rumour has it her spirit animal is Channing Tatum. 
+From the smallest fish in the Great Barrier Reef to the lowland tapirs of the Pantanal, Camellia has been giving a voice to the species and ecosystems we all depend on for survival for nearly five years now. She’s worked for a number of NGOs and inter-governmental organisations in that time, inspiring sustainable behaviour in the public and policymakers by communicating high-quality science. She also has a Masters in Conservation and Biodiversity from the University of Exeter to boot.
+
+If she’s not writing about nature, you’ll find Camellia out and about snapping pics for her carefully collated instagram. Rumour has it her spirit animal is Channing Tatum, but her dance moves are more Joey Tribbiani than Magic Mike.
