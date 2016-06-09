@@ -17,4 +17,4 @@ Camellia is vizzuality's lead writer. It's her job to raise the level of debate 
 
 From the smallest fish in the Great Barrier Reef to the lowland tapirs of the Pantanal, Camellia has been giving a voice to the species and ecosystems we all depend on for survival for nearly five years now. She’s worked for a number of NGOs and inter-governmental organisations in that time, inspiring sustainable behaviour in the public and policymakers by communicating high-quality science. She also has a Masters in Conservation and Biodiversity from the University of Exeter to boot.
 
-If she’s not writing about nature, you’ll find Camellia out and about snapping pics for her carefully collated instagram. Just look at this cute picture of goats she took on her first day at vizzuality! Rumour has it her spirit animal is Channing Tatum, but her dance moves are more Joey Tribbiani than Magic Mike.
+If she’s not writing about nature, you’ll find Camellia out and about snapping pics for her carefully collated instagram. Rumour has it her spirit animal is Channing Tatum, but her dance moves are more Joey Tribbiani than Magic Mike.
