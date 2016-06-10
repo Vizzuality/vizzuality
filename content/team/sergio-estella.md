@@ -1,6 +1,6 @@
 ---
 name:       Sergio Estella
-position:   Head of Design & Co-Founder
+position:   Founder, CDO
 phrase:     "What we create has to be clear, easy to use and of course beautiful!"
 twitter:    sergio_estella
 linkedin:   "https://es.linkedin.com/pub/sergio-estella/6/b87/533"
@@ -13,7 +13,7 @@ order: 		3
 published:  true
 ---
 
- Sergio is Chief Designer Officer and co-founded Vizzuality. Using his research into data visualization, information design and interface design, he sets the visual and interaction direction as well as user experience for our products.
+ Sergio is Chief Designer Officer and founded Vizzuality with the goal of making beautiful data design a true driver of change and impact on people's lives. His focused creative direction combined with a deep understanding of how humans communicate have made Vizzuality one of the most respected data visualization firms. Using his research into data visualization, information design and interface design, he sets the visual and interaction direction as well as user experience for our products.
 
 Sergio has always been interested in design; he combined Interior Design studies with a Fine Arts degree at Universidad Complutense de Madrid where he started designing his first interfaces. During his final year at University, Sergio started working as a web designer and art director more than 15 years ago.
 
