@@ -9,7 +9,7 @@ email:      sergio.estella@vizzuality.com
 photo:		sergio-estella.jpg
 author:     Sergio
 date:       2015-05-08
-order: 		3
+order: 		2
 published:  true
 ---
 
