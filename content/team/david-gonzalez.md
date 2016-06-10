@@ -1,6 +1,6 @@
 ---
 name:       David González
-position:   Head of Technology & Co-Founder
+position:   Founder, CTO
 phrase:     "Small details make the biggest difference"
 twitter:    d4vidGC
 linkedin:   "https://es.linkedin.com/in/davidgonzalezcamara/en"
