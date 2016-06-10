@@ -9,7 +9,7 @@ email:      craig.mills@vizzuality.com
 photo:      Craig.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		1
+order: 		3
 published:  true
 ---
 
