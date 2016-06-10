@@ -9,7 +9,7 @@ email:      david.gonzalez@vizzuality.com
 photo:      david-gonzalez.jpg
 author:     Alicia
 date:       2015-05-08
-order:      2
+order:      1
 published:  true
 ---
 
