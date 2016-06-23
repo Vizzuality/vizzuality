@@ -41,6 +41,10 @@ module.exports = {
       var filePath = path.join(dir, file);
       var result = matter(fs.readFileSync(filePath, 'utf8'));
       var element = result.data;
+      // TODO: add published in all project files and improve this statement
+      if (element.published === false) {
+        continue;
+      }
       element.slug = file.split('.md')[0];
       element.html = converter.makeHtml(result.content);
       element.grid = !element.grid ? 1 : element.grid > 3 ? 3 : element.grid;
