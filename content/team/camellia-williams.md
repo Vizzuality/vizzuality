@@ -7,7 +7,7 @@ linkedin:  "https://www.linkedin.com/in/camellia-williams-131a2836 "
 github:		camelliawill
 behance: 
 email:   camellia.williams@vizzuality.com   
-photo:    camellia.jpg  
+photo:    camellia_512.jpg  
 author:     Jamie
 date:       5/20/2016
 order:      26
