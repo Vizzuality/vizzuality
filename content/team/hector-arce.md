@@ -1,7 +1,7 @@
 ---
 name:     Hector Arce       
 position: Engineering and Design Intern   
-phrase:   “Keep it simple and the content will shine through”    
+phrase:   Keep it simple and the content will shine through    
 twitter:  hectoruch   
 linkedin: "https://es.linkedin.com/in/hectorarce" 
 github:	  hectoruch
