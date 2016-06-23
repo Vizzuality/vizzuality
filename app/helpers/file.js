@@ -41,7 +41,7 @@ module.exports = {
       var filePath = path.join(dir, file);
       var result = matter(fs.readFileSync(filePath, 'utf8'));
       var element = result.data;
-      if (element.published === false) {
+      if (!element.published) {
         continue
       }
       element.slug = file.split('.md')[0];
