@@ -7,8 +7,7 @@ var parseForm = bodyParser.urlencoded({ extended: false });
 
 require('dotenv').load({ silent: true });
 
-var mandrill = require('mandrill-api/mandrill');
-var mandrillClient = new mandrill.Mandrill(process.env.MANDRILL_API_KEY);
+var mailer = require('../lib/sparkpost_mailer');
 
 module.exports = function(app) {
 
@@ -20,48 +19,35 @@ module.exports = function(app) {
       '<p>Your message: <br>' + req.body.message + '</p>';
 
     var userMessage = {
-      text: 'Thank you! We love it when people get in touch with us. One of our expert humans will be sure to respond very shortly',
-      html: emailTemplate,
+      content: emailTemplate,
       subject: 'Thank you for contacting us',
       'from_email': process.env.EMAIL_USER,
-      'form_name': process.env.EMAIL_NAME,
-      to: [{
-        email: req.body.email,
-        type: 'to'
+      'from_name': process.env.EMAIL_NAME,
+      recipients: [{
+        address: req.body.email
       }]
     };
 
     var staffMessage = {
-      html: req.body.message,
-      'from_email': req.body.email,
+      content: req.body.message,
       subject: 'Contact form',
-      to: [{
-        email: process.env.EMAIL_RECEIVER,
-        type: 'to'
+      'from_email': req.body.email,
+      recipients: [{
+        address: process.env.EMAIL_RECEIVER
       }]
     };
 
-    mandrillClient.messages.send({
-      message: staffMessage,
-      async: false
-    }, function() {
-
-      mandrillClient.messages.send({
-        message: userMessage,
-        async: false
-      }, function() {
-        // Success
-        res.status(200).json({ message: 'Thank you.' });
-      }, function(e) {
-        if (e) {
+    // To user
+    mailer(userMessage, function(err) {
+      if (err) {
+        return res.status(400).json({ message: 'We’re sorry, but something went wrong. Please try again later.' });
+      }
+      mailer(staffMessage, function(err2) {
+        if (err2) {
           res.status(400).json({ message: 'We’re sorry, but something went wrong. Please try again later.' });
         }
+        res.status(200).json({ message: 'Thank you.' });
       });
-
-    }, function(e) {
-      if (e) {
-        res.status(400).json({ message: 'We’re sorry, but something went wrong. Please try again later.' });
-      }
     });
 
   });
