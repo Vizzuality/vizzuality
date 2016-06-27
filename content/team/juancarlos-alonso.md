@@ -7,7 +7,7 @@ email: juancarlos.alonso@vizzuality.com
 photo: juancarlos.jpg     
 author: camellia    
 date: 2016-06-27       
-order: 29     
+order: 29
 published: true
 ---
 

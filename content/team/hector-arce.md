@@ -10,7 +10,7 @@ email:    hector.arce@vizzuality.com
 photo:    hector.jpg 
 author:   Camellia Williams  
 date:     06/23/2016  
-order:    30  
+order:    28
 published: true
 ---
 Raised in Alicante, Hector is interning with us as a front end engineer and designer. He has qualifications in multimedia engineering and a masters in graphic design, making him a bit of a rare species. Hector loves thinking about the interactions we use to bring maps to life and how to make them really simple for people to use. 

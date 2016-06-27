@@ -9,7 +9,7 @@ email:      joseangel.parreno@vizzuality.com
 photo:      joseangel.jpg
 author:     Jamie Gibson
 date:       2015-11-16
-order:      19
+order:      18
 published:  true
 ---
 

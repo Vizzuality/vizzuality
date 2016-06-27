@@ -9,7 +9,7 @@ email:      miguel.barrenechea@vizzuality.com
 photo:      Miguel.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		13
+order: 		12
 published:  true
 ---
 

@@ -9,7 +9,7 @@ email:      gerardo.pacheco@vizzuality.com
 photo:      gerardo.jpg
 author:     David Inga
 date:       2015-04-22
-order:		32
+order:		16
 published:  true
 ---
 
