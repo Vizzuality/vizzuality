@@ -29,7 +29,7 @@ module.exports = function(app) {
   app.get('/about', csrfProtection, function(req, res) {
     file.getFiles(teamPath, isProduction, function(err, data) {
       var result = [];
-      for (var i = 1, len = teamOrder.length; i < len; i++) {
+      for (var i = 0, len = teamOrder.length; i < len; i++) {
         var member = _.findWhere(data, {slug: teamOrder[i]});
         result.push(member);
       }
