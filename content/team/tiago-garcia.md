@@ -7,7 +7,7 @@ email:      tiago.garcia@vizzuality.com
 photo:      tiago.jpg
 author:     Alicia
 date:       2015-05-08
-order:      22
+order:      21
 published:  true
 ---
 

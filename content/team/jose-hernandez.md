@@ -6,7 +6,7 @@ email:      jose.hernandez@vizzuality.com
 photo:      jose.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		27
+order: 		26
 published:  true
 ---
 

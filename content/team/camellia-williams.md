@@ -10,7 +10,7 @@ email:   camellia.williams@vizzuality.com
 photo:    camellia_512.jpg  
 author:     Jamie
 date:       5/20/2016
-order:      26
+order:      25
 published: true
 ---
 Camellia is vizzuality's lead writer. It's her job to raise the level of debate  about using digital products to improve our world, through all of vizzuality’s communications. We’ve brought Camellia on board as our first dedicated communications specialist to uncover the best ways to captivate audiences with stories that matter. 

@@ -7,7 +7,7 @@ email:      miguel.mendoza@vizzuality.com
 photo:      miguel-mendoza.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		10
+order: 		9
 published:  true
 ---
 

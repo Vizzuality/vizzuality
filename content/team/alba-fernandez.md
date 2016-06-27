@@ -9,7 +9,7 @@ email:      alba.fernandez@vizzuality.com
 photo:      alba.jpg
 author:     Jamie
 date:       4-12-2016
-order:      25
+order:      24
 published:  true
 ---
 Alba Fernández works with us as a front-end developer. As well as qualifications in web application programming, Alba has qualifications in forest management and previously worked to protect and reforest the Regional Park of Guadarrama River. 

@@ -9,7 +9,7 @@ email:      raul.requero@vizzuality.com
 photo:      raul-garcia.jpg
 author:     jamie
 date:       2016-2-29
-order:      24
+order:      23
 published:  true
 ---
 

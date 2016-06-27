@@ -9,7 +9,7 @@ email:      adam.mulligan@vizzuality.com
 photo:      Adam.jpg
 author:     Alicia
 date:       2015-05-08
-order:      20
+order:      19
 published:  true
 ---
 

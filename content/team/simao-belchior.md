@@ -9,7 +9,7 @@ email:      simao.belchior@vizzuality.com
 photo:      simao.jpg
 author:     David Inga
 date:       2015-04-23
-order:      11
+order:      10
 published:  true
 ---
 

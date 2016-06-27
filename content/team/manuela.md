@@ -9,7 +9,7 @@ email:    manuela.stoegerer@vizzuality.com
 photo:    manuela.jpg  
 author:   Jamie  
 date:     4/2/2015  
-order:    28
+order:    27
 published:  true
 ---
 

@@ -8,7 +8,7 @@ email:      jamie.gibson@vizzuality.com
 photo:      jamie-gibson.jpg
 author:     Alicia
 date:       2015-05-08
-order:		14
+order:		13
 published:  true
 ---
 

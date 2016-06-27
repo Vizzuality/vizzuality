@@ -16,6 +16,8 @@ var MEMBERS = {
   'simao_belchior': 'simao-belchior'
 };
 
+var teamOrder = require(root + '/config/team.json');
+
 module.exports = function(app) {
 
   'use strict';
@@ -27,14 +29,9 @@ module.exports = function(app) {
   app.get('/about', csrfProtection, function(req, res) {
     file.getFiles(teamPath, isProduction, function(err, data) {
       var result = [];
-      var team = _.sortBy(_.where(data, {published: true}), function(d) {
-        var time = new Date(d.date).valueOf();
-        var order = d.order ? parseInt(d.order) : 0;
-        return (order * t) + time;
-      });
-      var max = _.max(_.pluck(team, 'order'));
-      for (var i = 1, len = max + 1; i < len; i++) {
-        result.push(_.findWhere(team, { order: i }));
+      for (var i = 0, len = teamOrder.length; i < len; i++) {
+        var member = _.findWhere(data, {slug: teamOrder[i]});
+        result.push(member);
       }
       res.render('about/index', {
         team: result,
