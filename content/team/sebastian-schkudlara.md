@@ -9,7 +9,7 @@ email:      sebastian.schkudlara@vizzuality.com
 photo:      sebastian.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		9
+order: 		8
 published:  true
 ---
 

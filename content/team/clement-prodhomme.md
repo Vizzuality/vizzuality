@@ -9,7 +9,7 @@ email:      clement.prodhomme@vizzuality.com
 photo:      Clement.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		23
+order: 		22
 published:  true
 ---
 

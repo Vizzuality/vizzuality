@@ -9,7 +9,7 @@ email:      andres.gonzalez@vizzuality.com
 photo:      andres.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		16
+order: 		15
 published:  true
 ---
 

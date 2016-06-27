@@ -9,7 +9,7 @@ email:      elena.depomar@vizzuality.com
 photo:      elena.jpg
 author:     Jamie Gibson
 date:       2015-11-16
-order:      12
+order:      11
 published:  true
 ---
 Elena de Pomar is an illustrator and Madrileño, with a diploma in Graphic Design from the School or Arts number 10. Elena comes to us after 5 years working as a UX and visual designer, bringing a range of skills like UX conceptualisation, developing communication strategies and interaction design that are essential for building great digital products. 

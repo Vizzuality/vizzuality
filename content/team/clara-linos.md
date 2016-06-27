@@ -9,7 +9,7 @@ email:      clara.linos@vizzuality.com
 photo:      clara.jpg
 author:     David Inga
 date:       2015-04-22
-order: 		8
+order: 		7
 published:  true
 ---
 

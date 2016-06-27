@@ -9,7 +9,7 @@ email:      adrian.perez@vizzuality.com
 photo:      adrian.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		7
+order: 		6
 published:  true
 ---
 

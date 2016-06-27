@@ -9,7 +9,7 @@ email:      laura.yebra@vizzuality.com
 photo:      laura-yebra.png
 author:     Jamie
 date:       2015-06-24
-order:      21
+order:      20
 published:  true
 ---
 

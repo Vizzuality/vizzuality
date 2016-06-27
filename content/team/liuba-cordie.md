@@ -6,7 +6,7 @@ email:      liuba.cordie@vizzuality.com
 photo:      liuba.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		18
+order: 		17
 published:  true
 ---
 
