@@ -2,8 +2,7 @@
 name: Juan Carlos Alonso 
 position: Designer  
 phrase: I have grand designs to open a monkey shelter        
-linkedin: "https://www.linkedin.com/in/juancarlosalonsolena"   
-portfolio: http://www.jota-ce.net/		
+linkedin: "https://www.linkedin.com/in/juancarlosalonsolena"  		
 email: juancarlos.alonso@vizzuality.com     
 photo: juancarlos.jpg     
 author: camellia    
