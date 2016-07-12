@@ -3,7 +3,7 @@ name: Erik Escoffier
 position: Engineer 
 phrase: Simplicity makes everyone happy     
 twitter: nerik   
-linkedin: "www.linkedin.com/in/erikescoffier"  
+linkedin: "https://www.linkedin.com/in/erikescoffier"  
 github: nerik	
 email: erik.escoffier@vizzuality.com  
 photo: erik-escoffier.jpg     

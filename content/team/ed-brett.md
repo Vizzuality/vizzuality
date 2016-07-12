@@ -2,7 +2,8 @@
 name: Edward Brett      
 position: Front-end Development and Data Science Intern  
 phrase: The main thing is to keep the main thing the main thing      
-linkedin: "www.linkedin.com/in/edbrett" 
+linkedin: "https://www.linkedin.com/in/edbrett" 
+github: edbrett
 email: edward.brett@vizzuality.com  
 photo: edward-brett.jpg     
 author: Camellia     
