@@ -6,7 +6,7 @@ twitter:    davidsingal
 linkedin:   "https://es.linkedin.com/in/davidsingal/en"
 github:		davidsingal
 email:      david.inga@vizzuality.com
-photo:      david-inga.jpg
+photo:      d-inga.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		4
