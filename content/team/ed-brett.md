@@ -1,6 +1,6 @@
 ---
 name: Edward Brett      
-position: Front-end development + data science intern  
+position: Front-end Development and Data Science Intern  
 phrase: The main thing is to keep the main thing the main thing      
 linkedin: "www.linkedin.com/in/edbrett" 
 email: edward.brett@vizzuality.com  
