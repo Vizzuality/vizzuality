@@ -6,7 +6,7 @@ twitter: nerik
 linkedin: "www.linkedin.com/in/erikescoffier"  
 github: nerik	
 email: erik.escoffier@vizzuality.com  
-photo: erik.jpg     
+photo: erik-escoffier.jpg     
 author: Camellia Williams    
 date: 07/07/2016      
 order: 21     
