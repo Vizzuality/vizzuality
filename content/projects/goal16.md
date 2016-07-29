@@ -21,7 +21,6 @@ highlighted: true
 logoWidth:      125
 
 modules:
-
     -   text_left: 
             title: Data for peace, justice and stronger institutions
             description: "For the first time, all the data related to SDG 16 targets are in one place. Drawing on our experience of building the Government Data Alliance dashboard, we’ve made a web application that quickly introduces people to SDG 16 targets and the data to track them. The data comes from 30 different sources, including UN agencies, the World Bank, Transparency International, and Gallup. We used CARTO Engine to pull all the data together, query all the different databases at once and instantly see the data for the map or country we’re interested in. If you want to download the data, you can do that too, or use the geometrics to draw your own map."
