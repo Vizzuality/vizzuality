@@ -12,7 +12,8 @@ client_logo:  sdg16logo.png
 post_url:    "http://blog.vizzuality.com/post/147416447496/gathering-data-for-a-peaceful-world"
 post_title:   Gathering data for a peaceful world 
 image:      sdg16_home02.jpg      
-cover:      sdg16_cover.jpg      
+cover:      sdg16_cover.jpg
+cover_credits: Photo by Saferworld      
 author: camellia     
 date: 2016-07-29       
 release_date: July 2016             
