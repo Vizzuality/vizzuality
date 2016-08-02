@@ -76,6 +76,10 @@ logos:
     src: 'scar.png'
     width: 110
   -
+    name: 'SDG16 Data Initiative'
+    src: 'sdg16logo.png'
+    width: 200
+  -
     name: 'tdwg'
     src: 'tdwg.png'
     width: 130
