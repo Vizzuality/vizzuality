@@ -10,7 +10,7 @@ photo:      Adam.jpg
 author:     Alicia
 date:       2015-05-08
 order:      19
-published:  true
+published:  false
 ---
 
 Adam joined Vizzuality as a developer in 2015. With a Bachelors Degree in Computer Science and two and a half years of experience building web applications with the UN Environment Programme, he has a great deal of experience to add to the company. 
