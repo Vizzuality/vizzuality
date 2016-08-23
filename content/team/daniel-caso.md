@@ -9,7 +9,7 @@ email:      daniel.caso@vizzuality.com
 photo:      Dani.jpg
 author:     Alicia
 date:       2015-05-08
-order: 		  5
+order: 		
 published:  true
 ---
 
