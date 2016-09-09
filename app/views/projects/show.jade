@@ -17,6 +17,8 @@ block main
         .grid-sm-14.grid-lg-12.offset-lg-1
           h1(style= data.color ? "color: #{data.color}" : "")= data.title + '.'
           p(class="summary", style= data.color ? "color: #{data.color}" : "")= data.summary + '.'
+          if data.cover_credits
+            p(class="credits") #{data.cover_credits}
 
     a(href="#{data.link}" class="btn btn-check" target="_blank") Check it online
 
