@@ -11,6 +11,7 @@ image:       job-cover.jpg
 cover:       job-cover.jpg
 author:      Jamie Gibson
 date:        9 September
+highlighted: true
 
 modules:
 
