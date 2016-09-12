@@ -7,6 +7,7 @@ fb_title:    Join Vizzuality
 fb_description: Find the latest job openings with vizzuality
 link:        http://vizzuality.github.io/job-offers
 link_short:  vizzuality.github.io/job-offers
+logo:        vizzuality.png
 image:       job-cover.jpg
 cover:       job-cover.jpg
 author:      Jamie Gibson
@@ -33,10 +34,10 @@ modules:
                     description: "Front-end developer: vizzuality.github.io/job-offers/development/2015/10/01/offer-front-end-senior-engineer.html"
                 -
                     image: standard_user-512.png
-                    description: "Senior Designer: http://vizzuality.github.io/job-offers/design/2016/04/28/offer-senior-designer.html
+                    description: "Senior Designer: http://vizzuality.github.io/job-offers/design/2016/04/28/offer-senior-designer.html"
                 -   
                     image: standard_user-512.png
-                    description: "Full-stack Engineer: http://vizzuality.github.io/job-offers/development/2016/06/15/offer-full-stack-engineer.html
+                    description: "Full-stack Engineer: http://vizzuality.github.io/job-offers/development/2016/06/15/offer-full-stack-engineer.html"
 
 ---
 Our ability to innovate and deliver exciting products is in no small part down to our staff. We're looking for engineers from across the whole stack to build powerful open APIs and dazzling front-end visualisations. We're looking for designers who can build crisp, compelling data-driven websites that help build sustainable behaviour. And we're looking for researchers that want to do everything in between, from data analysis to behavioural economics. If you have a passion for finding innovative solutions and delivering world-changing user experience, there could be a job for you here.
