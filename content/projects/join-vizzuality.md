@@ -18,7 +18,7 @@ modules:
 
     -   text_left:
             title: Innovation every day
-            description: "Vizzuality has a hugely innovative and creative environment. Every member of staff is empowered to explore their field and find new solutions to problems. Surrounded by a multi-disciplinary set of experts, you'll learn something new every day."
+            description: "Vizzuality fosters a creative environment where every member of staff is empowered to explore their field and find new solutions to problems. Surrounded by a multi-disciplinary set of experts, you'll learn something new every day."
             image: cabage.jpg
 
     -   text_right:
