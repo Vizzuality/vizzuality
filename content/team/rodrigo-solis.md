@@ -2,7 +2,7 @@
 name:       Rodrigo Solís      
 position:   Front End Developer Intern  
 phrase:  Coding is very simple; making a code simple is the hardest thing 
-linkedin:   "https://www.linkedin.com/in/rodrigo-sol"  
+linkedin:   "https://www.linkedin.com/in/rodrigo-sol%C3%ADs-morales-7763a910a"  
 github:		sorodrigo
 email:      rodrigo.solis@vizzuality.com
 photo:      rodrigo.jpg
