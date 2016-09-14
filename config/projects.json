@@ -4,7 +4,7 @@
     "grid": 1
   },
   "BBVA": {
-    "order": 7,
+    "order": 8,
     "grid": 1
   },
   "calvert-foundation": {
@@ -28,7 +28,7 @@
     "grid": 1
   },
   "gfw-climate": {
-    "order": 6,
+    "order": 7,
     "grid": 2
   },
   "global-forest-watch": {
@@ -78,7 +78,7 @@
     "grid": 2
   },
   "policy-climate": {
-    "order": 24,
+    "order": 25,
     "grid": 1
   },
   "REE": {
