@@ -1,0 +1,77 @@
+---
+title:           Partnership for Resilience and Preparedness
+short_title:     Partnership for Resilience and Preparedness
+summary:         Working together on a data-based approach to climate resilience
+description:     "A data-driven approach to climate resilience"
+fb_title:        Partnership for Resilience and Preparedness
+fb_description:  Working together on a data-based approach to climate resilience
+link:            http://www.prepdata.org/      
+link_short:      www.prepdata.org
+client:          Partnership for Resilience and Preparedness
+client_logo: 
+svg_logo:    
+post_url:    
+post_title:  
+image:       
+cover:       
+author:          camellia    
+date:            22/09/2016
+release_date:    September 2016         
+highlighted: 
+colour: 
+logoWidth:      125
+
+modules:
+    -   text_parallax:
+            title:
+            description:
+            parallax:
+
+    -   text_above:
+            title:
+            description:
+            image:
+
+    -   text_left:          
+            title:         Data to analysis
+            description:   PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used single query line and feature service - both standard languages - to query the data and give people the information they are looking for.
+            image:
+
+    -   text_right: 
+            title:        Analysis to action
+            description:  PReP is all about working together and encouraging more communities and companies to use a data-focused approach to climate resilience planning. We’ve made it simple to use widgets and layers to display data in charts or maps—in whatever way you choose—making it even easier to share your findings with other people. Imagine you’re a city planner who needs to explain how a specific course of action will make your city more resilient to climate change: carefully chosen maps and charts will let you show the impact of each decision far quicker than any verbal explanation could. 
+            image:
+
+    -   blocks:
+            title:  Innovation as standard
+            modules:
+                - 
+                    image:  
+                    description: 'The back end has been built using a microservices architecture: small, autonomous services that work together. The PReP API used the API Gateway pattern.''
+                -
+                    image: 
+                    description: 'The front end uses vega, a special library for building graphics, to allow you to create standardised charts.'
+                -
+                    image: 
+                    description: 'A flexible system means you can communicate your data using a choice of charts and maps.'
+
+    -   map:
+            title:
+            url:
+            description:
+
+    -   video:
+            title:
+            style:
+            url:
+
+opinions:
+    -
+        title:
+        photo:
+        autor:
+
+---
+Climate change is forecast to increase the intensity and frequency of extreme weather across our planet. Fiercer, more frequent storms means there’s a greater risk of the places we depend on for shelter, food and resources getting damaged. Communities and companies need to make long-term decisions on how to make our infrastructure more resilient to changing weather patterns. But to make those choices, they need data.
+
+We’ve been working with a public-private collaboration—the Partnership for Resilience and Preparedness (PReP)—that was launched by the White House to make sure planners, investors, and resource managers across the USA have access to the data they need to easily incorporate climate risks into their decisions. 
