@@ -12,7 +12,7 @@ client_logo:     prep-logo.png
 svg_logo:        prep-logo.png
 post_url:
 post_title:
-image:           prep_img_01.png
+image:           prep_cover.jpg
 cover:           prep_cover.jpg
 author:          camellia
 date:            22-09-2016
