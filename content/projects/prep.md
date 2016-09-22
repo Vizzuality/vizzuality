@@ -23,16 +23,16 @@ logoWidth:      125
 modules:
     -   text_left:
             title: Data to analysis
-            description:   "PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used single query line and feature service - both standard languages - to query the data and give people the information they are looking for."
+            description: "PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used single query line and feature service - both standard languages - to query the data and give people the information they are looking for."
             image: prep_img_02.png
 
     -   text_right: 
             title: Analysis to action
-            description:  "PReP is all about working together and encouraging more communities and companies to use a data-focused approach to climate resilience planning. We’ve made it simple to use widgets and layers to display data in charts or maps—in whatever way you choose—making it even easier to share your findings with other people. Imagine you’re a city planner who needs to explain how a specific course of action will make your city more resilient to climate change: carefully chosen maps and charts will let you show the impact of each decision far quicker than any verbal explanation could."
+            description: "PReP is all about working together and encouraging more communities and companies to use a data-focused approach to climate resilience planning. We’ve made it simple to use widgets and layers to display data in charts or maps—in whatever way you choose—making it even easier to share your findings with other people. Imagine you’re a city planner who needs to explain how a specific course of action will make your city more resilient to climate change: carefully chosen maps and charts will let you show the impact of each decision far quicker than any verbal explanation could."
             image: prep_graph_01.png
 
     -   blocks:
-            title:  Innovation as standard
+            title: Innovation as standard
             modules:
                 -
                     image: prep_img_03.png
@@ -47,15 +47,15 @@ modules:
 opinions:
     -
         title: "Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential! <a href='https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg'>https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg</a>"
-        photo: media/twitter.png
+        photo: "media/twitter.png"
         autor: "<a href='ttps://twitter.com/MelikaEdquist/status/778965507236040704'>Melika Edquist</a>"
     -
-        title: "hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate <a href='https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg'>https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg</a>"
-        photo: media/twitter.png
+        title: 'hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate <a href="https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg">https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg</a>'
+        photo: "media/twitter.png"
         autor: "<a href='https://twitter.com/RoopSingh/status/778966126009184257'>Roop Sing</a>"
     -
         title: "PREP is a new #open #data platform for #community action to manage #climate risks @Vizzuality #resilience <a href='http://www.prepdata.org'>http://www.prepdata.org</a>"
-        photo: media/twitter.png
+        photo: "media/twitter.png"
         autor: "<a href='https://twitter.com/NhattanNguyen/status/778962900794900480'>Nhattan Nguyen</a>"
 
 ---
