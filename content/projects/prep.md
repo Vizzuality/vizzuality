@@ -1,10 +1,10 @@
 ---
-title:           Partnership for Resilience and Preparedness
-short_title:     Partnership for Resilience and Preparedness
+title:           "Partnership for Resilience and Preparedness"
+short_title:     "Partnership for Resilience and Preparedness"
 summary:         Working together on a data-based approach to climate resilience
 description:     "A data-driven approach to climate resilience"
-fb_title:        Partnership for Resilience and Preparedness
-fb_description:  Working together on a data-based approach to climate resilience
+fb_title:        "Partnership for Resilience and Preparedness"
+fb_description:  "Working together on a data-based approach to climate resilience"
 link:            http://www.prepdata.org
 link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
