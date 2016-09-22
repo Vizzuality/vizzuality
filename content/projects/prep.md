@@ -5,7 +5,7 @@ summary:         Working together on a data-based approach to climate resilience
 description:     "A data-driven approach to climate resilience"
 fb_title:        "Partnership for Resilience and Preparedness"
 fb_description:  "Working together on a data-based approach to climate resilience"
-link:            http://www.prepdata.org
+link:            "http://www.prepdata.org"
 link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
 client_logo:     prep_logo_white.png
@@ -48,15 +48,15 @@ opinions:
     -
         title: "Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential! <a href='https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg'>https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg</a>"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/MelikaEdquist/status/778965507236040704">Melika Edquist</a>
+        autor: "<a href='ttps://twitter.com/MelikaEdquist/status/778965507236040704'>Melika Edquist</a>"
     -
-        title: "hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate <a href="https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg">https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg</a>"
+        title: "hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate <a href='https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg'>https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg</a>"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/RoopSingh/status/778966126009184257">Roop Sing</a>
+        autor: "<a href='https://twitter.com/RoopSingh/status/778966126009184257'>Roop Sing</a>"
     -
         title: "PREP is a new #open #data platform for #community action to manage #climate risks @Vizzuality #resilience <a href='http://www.prepdata.org'>http://www.prepdata.org</a>"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/NhattanNguyen/status/778962900794900480">Nhattan Nguyen</a>
+        autor: "<a href='https://twitter.com/NhattanNguyen/status/778962900794900480'>Nhattan Nguyen</a>"
 
 ---
 Climate change is forecast to increase the intensity and frequency of extreme weather across our planet. Fiercer, more frequent storms means there’s a greater risk of the places we depend on for shelter, food and resources getting damaged. Communities and companies need to make long-term decisions on how to make our infrastructure more resilient to changing weather patterns. But to make those choices, they need data.
