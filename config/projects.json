@@ -66,7 +66,8 @@
     "order": 5
   },
   "ngo-aid-map": {
-    "order": 28
+    "order": 28,
+    "grid": 3
   },
   "old-weather": {
     "order": 22,
