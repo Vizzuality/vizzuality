@@ -67,13 +67,21 @@ modules:
 
 opinions:
     -
-        title: 'Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential! <a href='https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg'></a>'
+        title: "Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential! <a href='https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg'>https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg</a>"
         photo: media/twitter.png
         autor: <a href="https://twitter.com/MelikaEdquist/status/778965507236040704">Melika Edquist</a>
     -
-        title: 'Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential! <a href='https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg'></a>'
+        title: "hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate <a href="https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg">https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg</a>"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/MelikaEdquist/status/778965507236040704">Melika Edquist</a>
+        autor: <a href="https://twitter.com/RoopSingh/status/778966126009184257">Roop Sing</a>
+    -
+        title: "PREP is a new #open #data platform for #community action to manage #climate risks @Vizzuality #resilience <a href='http://www.prepdata.org'>http://www.prepdata.org</a>"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/NhattanNguyen/status/778962900794900480">Nhattan Nguyen</a>
+    -
+        title: "PREP Looks cool! New maps and tools for climate resilienceThanks for the demo @Vizzuality @d4vidGC ! #ActOnClimate #CWNYC <a href="https://pbs.twimg.com/media/Cs9uypbXEAA84WB.jpg">https://pbs.twimg.com/media/Cs9uypbXEAA84WB.jpg</a>"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/wxpizza/status/778963088691302400">Andrew Kruczkiewicz</a>
 
 ---
 Climate change is forecast to increase the intensity and frequency of extreme weather across our planet. Fiercer, more frequent storms means there’s a greater risk of the places we depend on for shelter, food and resources getting damaged. Communities and companies need to make long-term decisions on how to make our infrastructure more resilient to changing weather patterns. But to make those choices, they need data.
