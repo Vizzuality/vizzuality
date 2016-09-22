@@ -5,8 +5,8 @@ summary:         Working together on a data-based approach to climate resilience
 description:     "A data-driven approach to climate resilience"
 fb_title:        Partnership for Resilience and Preparedness
 fb_description:  Working together on a data-based approach to climate resilience
-link:            http://www.prepdata.org/
-link_short:      www.prepdata.org
+link:            http://www.prepdata.org
+link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
 client_logo:     prep_logo_white.png
 svg_logo:
@@ -22,48 +22,28 @@ colour:
 logoWidth:      125
 
 modules:
-    -   text_parallax:
-            title:
-            description:
-            parallax:
-
-    -   text_above:
-            title:
-            description:
-            image:
-
     -   text_left:
-            title:         Data to analysis
-            description:   PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used single query line and feature service - both standard languages - to query the data and give people the information they are looking for.
+            title:         "Data to analysis"
+            description:   "PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used single query line and feature service - both standard languages - to query the data and give people the information they are looking for."
             image: prep_img_02.png
 
     -   text_right: 
-            title:        Analysis to action
-            description:  PReP is all about working together and encouraging more communities and companies to use a data-focused approach to climate resilience planning. We’ve made it simple to use widgets and layers to display data in charts or maps—in whatever way you choose—making it even easier to share your findings with other people. Imagine you’re a city planner who needs to explain how a specific course of action will make your city more resilient to climate change: carefully chosen maps and charts will let you show the impact of each decision far quicker than any verbal explanation could. 
+            title:        "Analysis to action"
+            description:  "PReP is all about working together and encouraging more communities and companies to use a data-focused approach to climate resilience planning. We’ve made it simple to use widgets and layers to display data in charts or maps—in whatever way you choose—making it even easier to share your findings with other people. Imagine you’re a city planner who needs to explain how a specific course of action will make your city more resilient to climate change: carefully chosen maps and charts will let you show the impact of each decision far quicker than any verbal explanation could."
             image: prep_graph_01.png
 
     -   blocks:
-            title:  Innovation as standard
+            title:  "Innovation as standard"
             modules:
                 -
                     image: prep_img_03.png
-                    description: 'The back end has been built using a microservices architecture: small, autonomous services that work together. The PReP API used the API Gateway pattern.''
+                    description: 'The back end has been built using a microservices architecture: small, autonomous services that work together. The PReP API used the API Gateway pattern.'
                 -
                     image: prep_img_04.png
                     description: 'The front end uses vega, a special library for building graphics, to allow you to create standardised charts.'
                 -
                     image: prep_img_05.png
                     description: 'A flexible system means you can communicate your data using a choice of charts and maps.'
-
-    -   map:
-            title:
-            url:
-            description:
-
-    -   video:
-            title:
-            style:
-            url:
 
 opinions:
     -
