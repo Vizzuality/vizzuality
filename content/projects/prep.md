@@ -12,7 +12,7 @@ client_logo:     prep-logo.png
 svg_logo:        prep-logo.png
 post_url:
 post_title:
-image:           prep_img_01.png
+image:           prep_cover.jpg
 cover:           prep_cover.jpg
 author:          camellia
 date:            22-09-2016
@@ -23,7 +23,7 @@ logoWidth:      125
 modules:
     -   text_left:
             title: Data to analysis
-            description: "PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used single query line and feature service - both standard languages - to query the data and give people the information they are looking for."
+            description: "PReP has gathered together the best authoritative data on climate resilience from sources like NASA and NOAA. But just because the information is there doesn’t mean people will use it. To make sure they do, we’ve used standard technology in innovative ways to make it as easy as possible for people to use the data and gain new insights. The beauty of the PReP platform is its ability to query many different data sources with just one API. It doesn’t matter if the data is in CARTO, csv, arcgis, wvms, or json format because we’ve used structure query line and feature service - both standard languages - to query the data and give people the information they are looking for."
             image: prep_img_02.png
 
     -   text_right: 
