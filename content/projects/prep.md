@@ -8,8 +8,8 @@ fb_description:  "Working together on a data-based approach to climate resilienc
 link:            "http://www.prepdata.org"
 link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
-client_logo:     prep-logo.png
-svg_logo:        prep-logo.png
+client_logo:     prep_logo_white.png
+svg_logo:
 post_url:
 post_title:
 image:           prep_cover.jpg
