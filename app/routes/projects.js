@@ -30,17 +30,17 @@ module.exports = function(app) {
           return d;
         });
 
+        var projectsResult = _.sortBy(_.where(projectsWithOrder, {
+          highlighted: true
+        }), function(d) {
+          // var time = new Date(d.date).valueOf();
+          var order = d.order ? parseInt(d.order, 10) : 0;
+          return order;
+        });
 
         var renderPage = function(postInfo) {
-
           res.render('projects/index', {
-            projects: _.sortBy(_.where(projectsWithOrder, {
-              highlighted: true
-            }), function(d) {
-              var time = new Date(d.date).valueOf();
-              var order = d.order ? parseInt(d.order, 10) : 0;
-              return (order * t) + time;
-            }),
+            projects: projectsResult,
             postInfo: postInfo == 'undefined' ? null : postInfo,
             clientsLogo: clientsLogo,
             className: 'is-project-page'

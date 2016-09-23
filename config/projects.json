@@ -13,11 +13,11 @@
   },
   "cash-atlas": {
     "order": 18,
-    "grid": 1
+    "grid": 2
   },
   "EDI": {
     "order": 14,
-    "grid": 1
+    "grid": 2
   },
   "endangered-languages": {
     "order": 19,
