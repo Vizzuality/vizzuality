@@ -8,7 +8,7 @@ fb_description:  "Working together on a data-based approach to climate resilienc
 link:            "http://www.prepdata.org"
 link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
-client_logo:     goal16_logo_white.png
+client_logo:     prep-logo.png
 svg_logo:
 post_url:        "https://medium.com/vizzuality-blog/harnessing-the-data-revolution-for-climate-action-b0b8300d3854#.ynaux1vvx"
 post_title:      Harnessing the data revolution for climate action
