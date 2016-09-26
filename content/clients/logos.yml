@@ -40,7 +40,7 @@ logos:
     src:  'gda-logo.png'
     width: 150
   -
-    name: 'Human rights watch'
+    name: 'Human Rights Watch'
     src: 'humanrightswatch.png'
     width: 110
   -
@@ -67,6 +67,10 @@ logos:
     name: 'Neptis'
     src: 'neptis.png'
     width: 160
+  -
+    name: 'PREP'
+    src:  'prep-logo.png'
+    width: 150
   -
     name: 'REE'
     src: 'ree.png'
