@@ -9,6 +9,7 @@ link:           http://www.sdg16.org/
 link_short:    sdg16.org
 client:        SDG16 Data Initiative      
 client_logo:   goal16.png
+svg_logo:      sdg16logo.png
 post_url:    "http://blog.vizzuality.com/post/147416447496/gathering-data-for-a-peaceful-world"
 post_title:   Gathering data for a peaceful world 
 image:      sdg16_home02.jpg      
