@@ -62,9 +62,6 @@
     "order": 9,
     "grid": 1
   },
-  "prep": {
-    "order": 5
-  },
   "ngo-aid-map": {
     "order": 28,
     "grid": 3
@@ -85,6 +82,9 @@
     "order": 25,
     "grid": 1
   },
+    "prep": {
+    "order": 2
+  },
   "REE": {
     "order": 3
   },
@@ -92,7 +92,7 @@
     "order": 4
   },
   "resource-watch": {
-    "order": 2
+    "order": 5
   },
   "goal16": {
     "order": 10,
