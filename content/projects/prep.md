@@ -10,8 +10,8 @@ link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
 client_logo:     prep-logo.png
 svg_logo:
-post_url:
-post_title:
+post_url:        "https://medium.com/vizzuality-blog/harnessing-the-data-revolution-for-climate-action-b0b8300d3854#.ynaux1vvx"
+post_title:      Harnessing the data revolution for climate action
 image:           prep_cover.jpg
 cover:           prep_cover.jpg
 author:          camellia
