@@ -8,8 +8,8 @@ fb_description: "Celebrating 70 years of CARE Packages with a showcase of your d
 link:        http://worldofimpact.care.org
 link_short:  worldofimpact.care.org
 client:      CARE USA
-client_logo: 
-svg_logo:    
+client_logo: care-colour.png
+svg_logo:    care-white.png
 post_url:    https://medium.com/vizzuality-blog/visualising-a-world-of-care-8991f11531c8#.iizp0crwk
 post_title:  "Visualising a world of impact"
 image:       care-cover-img.jpg
@@ -19,7 +19,6 @@ date:        2016-10-3
 release_date:   August 2016          
 highlighted: true
 logoWidth:      125
-video: 
 
 modules:
     -   text_above:
@@ -29,23 +28,15 @@ modules:
 
     -   map:
             title: Share your impact
-            url: 
-            description:
+            url: http://worldofimpact.care.org/#?mode=projects&layer=people-reached&startDate&endDate&timelineDate=2015-01-01&embed=true
+            description: With our share options, you can take what you find and tell your friends. 
 
     -   video:
-            title:
-            style:
-            url:
-
-opinions:
-    -
-        title:
-        photo:
-        autor:
-
+            title: The Power of a Box. 
+            style: light
+            url: https://www.youtube.com/embed/5o_g1jzY_LU
 ---
 
-CARE LOGO
 VIDEO?
 EMBED iframe
 gif video
