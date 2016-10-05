@@ -12,6 +12,10 @@ logos:
     src: 'calp.png'
     width: 130
   -
+    name: 'care'
+    src: 'care-colour.png'
+    width: 120
+  -
     name: 'calvert'
     src: 'calvert.png'
     width: 150
