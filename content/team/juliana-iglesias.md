@@ -2,7 +2,7 @@
 name: 	    Juliana Iglesias       
 position:   Design Researcher
 phrase:     Just keep on asking why
-twitter:    @ladyju
+twitter:    ladyju
 linkedin:   "https://es.linkedin.com/in/julianaiglesias"
 email:      juliana.iglesias@vizzuality.com
 photo:      juliana.jpg
