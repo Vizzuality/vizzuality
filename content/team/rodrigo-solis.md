@@ -5,7 +5,7 @@ phrase:  Coding is very simple; making a code simple is the hardest thing
 linkedin:   "https://www.linkedin.com/in/rodrigo-sol%C3%ADs-morales-7763a910a"  
 github:		sorodrigo
 email:      rodrigo.solis@vizzuality.com
-photo:      rodrigo.jpg
+photo:      rodrigo-solis.jpg
 author:     Camellia Williams
 date:       09/14/2016
 order:      12
