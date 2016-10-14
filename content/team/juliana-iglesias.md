@@ -5,11 +5,11 @@ phrase:     Just keep on asking why
 twitter:    @ladyju
 linkedin:   "https://es.linkedin.com/in/julianaiglesias"
 email:      juliana.iglesias@vizzuality.com
-photo:      
+photo:      juliana.jpg
 author:     Camellia Williams
 date:       10/14/2016
 order:      28
-published: false
+published: true
 ---
 In her role as Design Researcher, Juliana uses a variety of investigation methods to gather insights about human behaviour that contribute to the problem-solving process. This allows Juliana to understand our users and help the team translate insights into actions that result in beautiful and useful products. 
 
