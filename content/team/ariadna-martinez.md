@@ -5,11 +5,11 @@ phrase:    Don’t worry too much; you’ll find the perfect design in your mess
 twitter:   arimariza 
 linkedin:  "https://es.linkedin.com/in/ariadna-m-ariza-b3511635" 	
 email:     ariadna.martinez@vizzuality.com 
-photo:      
+photo:     ariadna.jpg 
 author:    Camellia Williams 
 date:      10/13/2016 
 order:     22 
-published: false
+published: true
 ---
 Ariadna is a designer who specialises in visual and interaction design and has a special ability to always see the positive side of any story. Before joining us, Ariadna worked at Designit and Fjord and she has two degrees: one in Art in Design and another in Visual Communication. 
 
