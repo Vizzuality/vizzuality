@@ -15,6 +15,7 @@ ActiveAdmin.register User do
   end
 
   index do
+    sortable_handle_column
     selectable_column
     id_column
     column :name
