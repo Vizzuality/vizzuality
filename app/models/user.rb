@@ -8,6 +8,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
   has_attached_file :photo,
     styles: { medium: "512x512>" },
-    default_url: ActionController::Base.helpers.asset_path('missing.png')
+    default_url: ActionController::Base.helpers.image_path('missing.png')
   validates_attachment_content_type :photo, content_type: /\Aimage\/.*\z/
 end
