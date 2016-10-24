@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= yield :title if content_for :title %> | Vizzuality</title>
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/614456667254599680/dYuns8hf_200x200.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= render 'shared/head' %>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    '//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': false %>
+  </head>
+
+  <body class="<%= yield :body_class if content_for :body_class %>">
+    <%= render 'shared/icons' %>
+    <%= render 'shared/header' %>
+    <div class="l-main">
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
+  </body>
+</html>

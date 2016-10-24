@@ -1,0 +1,96 @@
+<% title 'About us' %>
+<% body_class 'is-about-page' %>
+
+<% content_for :claim do %>
+  <div class="row">
+    <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+      <div class="m-claim">
+        <article>
+          <p>Great user experiences for stories that matter.</p>
+          <p class="description">
+            We are Vizzuality: a band of engineers, designers, <br>
+            strategists and scientists dedicated to making your data matter
+          </p>
+          <%= link_to 'Our team', '#team', class: 'btn-secondary is-anchor' %>
+          <%= link_to 'Contact', '#contact', class: 'btn is-anchor' %>
+        </article>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<section class="m-about">
+  <div class="row">
+    <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+      <ul class="m-team-gallery" id="team">
+        <% @team_members.each do |m| %>
+          <li style="background-image: url(<%= m.photo.url(:medium) %>)">
+            <%= link_to team_member_path(m.slug) do %>
+              <div class="veil"></div>
+              <div class="m-team-gallery-content">
+                <h3><%= m.name %></h3>
+                <p><%= m.position%></p>
+                <%= image_tag m.photo.url(:medium), class: 'is-hidden'%>
+              </div>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<%= render 'about/hiring' %>
+
+<section class="m-map">
+  <div id="mapInput">
+    <div class="row">
+      <div class="grid-sm-14 grid-lg-12 offset-lg-1"></div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div class="m-map-locations">
+    <div class="row">
+      <div class="grid-sm-14 grid-lg-6 offset-lg-1">
+        <div id="madridOffice" class="m-map-location-item is-highlighted">
+          <h3>Madrid</h3>
+          <p>C/ Eloy Gonzalo, 27, 2 <br> 28010, Madrid <br> Spain</p>
+        </div>
+      </div>
+      <div class="grid-sm-14 grid-lg-6">
+        <div id="cambridgeOffice" class="m-map-location-item">
+          <h3>Cambridge</h3>
+          <p>Office D, Dales Brewery <br> Gwydir St, <br> Cambridge, CB1 2LJ, United Kingdom</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="m-contact" id="contact">
+  <div class="row">
+    <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+      <h1>Get in touch.</h1>
+      <form action="/contact" method="post" autocomplete="off" id="contactForm">
+        <p>Dear vizzuality,</p>
+        <div class="form-row">
+          <textarea name="message" placeholder="Message" required></textarea>
+          <div class="form-row m-contact-email">
+            <p id="closeString">Cheers,</p>
+            <input name="email" type="email" placeholder="Contact email" required>
+          </div>
+          <div class="form-row m-contact-submit">
+            <button type="submit" class="btn">Send</button>
+          </div>
+          <input type="hidden" name="_csrf" value="#{csrfToken}">
+        </div>
+      </form>
+      <p class="m-contact-footer">
+        Or contact us by email
+        <%= link_to 'aGVsbG9Adml6enVhbGl0eS5jb20=', 'mailto:aGVsbG9Adml6enVhbGl0eS5jb20=' %>
+      </p>
+    </div>
+  </div>
+</section>

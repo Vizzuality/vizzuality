@@ -1,0 +1,38 @@
+<% title @team_member.name %>
+<% body_class 'is-team-page' %>
+
+<div class="row">
+  <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+    <article class="m-team">
+      <header>
+        <div class="photo" style="background-image: <%= @team_member.photo.url(:medium) %>">
+          <%= image_tag @team_member.photo.url(:medium) %>
+        </div>
+        <p class="main-phrase"><%= @team_member.quote %></p>
+        <h1><%= @team_member.name %></h1>
+        <p class="position"><%= @team_member.position %></p>
+      </header>
+      <div class="content">
+        <%= @team_member.body %>
+      </div>
+      <footer>
+        <p>
+          <% if @team_member.twitter_user %>
+            <%= link_to 'Twitter', "https://twitter.com/#{@team_member.twitter_user}" %><br>
+          <% elsif @team_member.dribble_user %>
+            <%= link_to 'Dribbble', "https://dribbble.com/#{@team_member.dribble_user}" %><br>
+          <% elsif @team_member.github_user %>
+            <%= link_to 'Github', "https://github.com/#{@team_member.github_user}" %><br>
+          <% elsif @team_member.behance_user %>
+            <%= link_to 'Behance', "https://www.behance.net/#{@team_member.behance_user}" %><br>
+          <% elsif @team_member.linkedin_user %>
+            <%= link_to 'Linkedin', "#{@team_member.linkedin_user}" %><br>
+          <% end %>
+          <%= link_to 'Email', "mailto:#{@team_member.email}" %>
+        </p>
+      </footer>
+    </article>
+  </div>
+</div>
+
+<%= render 'about/hiring' %>

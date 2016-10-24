@@ -3,3 +3,11 @@
 .env
 node_modules
 public/assets
+
+/.bundle
+/log/*
+/tmp/*
+/public/system/*
+!/log/.keep
+!/tmp/.keep
+.byebug_history

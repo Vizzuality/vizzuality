@@ -1,0 +1,21 @@
+<% title 'Welcome' %>
+
+<% content_for :claim do %>
+  <div class="row">
+    <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+      <div class="m-claim">
+        <article>
+          <p>Beautiful data designfor a better world.</p>
+          <p class="description">We are trusted by the world’s most important organisations to create unique tools<br/>and applications with a lasting benefit to society and the environment</p>
+          <%= link_to 'Our work', '#projects', class: 'btn-secondary is-anchor' %>
+        </article>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%= render 'projects/list' %>
+
+<%= render 'welcome/clients' %>
+<%= render 'welcome/contact' %>
+<%= render 'welcome/subscribe' %>

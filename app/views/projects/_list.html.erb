@@ -1,0 +1,23 @@
+<div class="row" id="projects">
+  <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+    <ul class="m-project-grid">
+      <% @projects.each do |p| %>
+        <li class="is-grid-<%= p.grid %>" style="background-image: <%= p.project_image.url(:large) %>">
+          <%= link_to project_path(p.slug), class: 'm-project-grid-link' do %>
+            <div class="veil"></div>
+            <div class="m-project-grid-content">
+              <%= image_tag p.project_logo.url(:medium) %>
+              <h2><%= p.short_title %></h2>
+            </div>
+          <% end %>
+        </li>
+      <% end%>
+    </ul>
+  </div>
+
+  <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+    <div class="m-all-projects">
+      <a class="btn allProjectsLink" href="#">See all projects</a>
+    </div>
+  </div>
+</div>

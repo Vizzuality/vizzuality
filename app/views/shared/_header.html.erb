@@ -1,0 +1,27 @@
+<header class="l-header" id="header">
+  <div class="l-header-top">
+    <div class="row">
+      <div class="grid-sm-14 grid-md-7 grid-lg-6 offset-lg-1">
+        <h1 class="brand">
+          <%= link_to root_path do %>
+            <svg class="icon-logo-vizzuality">
+              <use xlink:href="#icon-logo-vizzuality">
+            </svg>
+          <% end %>
+        </h1>
+        <button id="burgerLink" class="btn-burguer is-md-hidden is-lg-hidden">
+          <span class="icon-burguer"></span>
+        </button>
+      </div>
+      <div class="grid-sm-14 grid-md-7 grid-lg-6 is-sm-hidden">
+        <nav class="m-nav">
+          <%= link_to 'Projects', root_path %>
+          <%= link_to 'About us', about_path %>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <%= yield :claim if content_for :claim %>
+
+</header>

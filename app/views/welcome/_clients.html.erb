@@ -1,0 +1,11 @@
+<section class="m-clients">
+  <div class="row">
+    <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+      <ul>
+        <% @clients.each do |c| %>
+          <li><%= image_tag c.logo.url(:medium), style: "max-width: #{c.override_width}px" %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>
