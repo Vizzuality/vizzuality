@@ -13,6 +13,7 @@ gem 'paperclip', '~> 5.0.0'
 gem 'acts_as_list'
 gem 'activeadmin-sortable'
 gem 'friendly_id', '~> 5.1.0'
+gem 'rails_12factor', group: :production
 
 # Front end libraries
 gem 'sass-rails', '~> 5.0'
