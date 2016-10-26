@@ -42,7 +42,8 @@ These are all captured in project-template.md, in vizzuality/content/projects/dr
 * **link** full URL for the site
 * **link_short** remove http etc, this is for the text
 * **client** who was it for
-* **client_logo** no more than 200x200 and .png, add to app/images/client/white and app/images/client/. can also add **svg_logo** where it exists. Don't forget to update the file content/clients/logos.yml!
+* **client_logo** no more than 200x200 and .png, add to app/images/client/. Don't forget to update the file content/clients/logos.yml as well, so it shows up in the footer!
+* **svg_logo** is for logos with white background. These should be saved in app/images/client/white
 * **post_url** and **post_title** for latest blog entry. Remember to change this when we write new blog posts about projects!
 * **image:** Obvious representation of the project for homepage “cards” _(Screenshot of vizzualization)_
 * **cover:** Symbolic image for using on the detail page _(A football player)_
