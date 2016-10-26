@@ -11,7 +11,7 @@ client:        IISD
 client_logo:   iisd_logo.png
 svg_logo:      iisd_logo_white.png
 post_url:      "https://medium.com/vizzuality-blog/goals-for-all-means-information-for-all-e4ca3f51100d#.2atlrj5ay"
-post_title:     Goals for all means information for all
+post_title:     "Goals for all means information for all"
 image:         iisd_thumb.jpg
 cover:         iisd-header.jpg
 author:        Camellia
@@ -29,7 +29,7 @@ modules:
 
     -   text_left:    
             title: Visual cues
-            description:  "On the homepage, we’ve taken the circular symbol of the SDGs and extended each segment of it by a varying length, to visualise the scale of just how much has been written about each of the SDGs. When a segment is selected, information pops up with details of how many articles, policy briefs and events associated with that goal are available. "
+            description:  "On the homepage, we’ve taken the circular symbol of the SDGs and extended each segment of it by a varying length, to visualise the scale of just how much has been written about each of the SDGs. When a segment is selected, information pops up with details of how many articles, policy briefs and events associated with that goal are available."
             image: iisd-ring.png
 
 ---

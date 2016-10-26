@@ -12,8 +12,8 @@ client_logo: care-colour.png
 svg_logo:    care-white.png
 post_url:    https://medium.com/vizzuality-blog/visualising-a-world-of-care-8991f11531c8#.iizp0crwk
 post_title:  "Visualising a world of impact"
-image:       care-hero2.jpg
-cover:       care-hero2.jpg
+image:       care_hero2.jpg
+cover:       care_hero2.jpg
 author:      Jamie
 date:        2016-10-3
 release_date:   August 2016          
