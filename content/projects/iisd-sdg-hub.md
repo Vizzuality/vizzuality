@@ -25,7 +25,7 @@ modules:
     -   text_right:
             title: Fast, dynamic searches
             description:  "With more than 30,000 content items to explore, it’s essential that they can be filtered quickly to find the most relevant information. The filter bar on the news page provides extremely specific filter options. Although this means it’s harder to keep the Javascript and AJAX functionality simple, some careful query building and the use of specific caching meant we were able to build a site that is fast and maintains full functionality." 
-            image:  iisd.news.jpg
+            image:  iisd_news.jpg
 
     -   text_left:    
             title: Visual cues
