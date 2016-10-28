@@ -14,6 +14,7 @@ gem 'acts_as_list'
 gem 'activeadmin-sortable'
 gem 'friendly_id', '~> 5.1.0'
 gem 'rails_12factor', group: :production
+gem 'aws-sdk', '~> 2.3'
 
 # Front end libraries
 gem 'sass-rails', '~> 5.0'
