@@ -13,7 +13,7 @@ svg_logo:      iisd_logo_white.png
 post_url:      "https://medium.com/vizzuality-blog/goals-for-all-means-information-for-all-e4ca3f51100d#.2atlrj5ay"
 post_title:     "Goals for all means information for all"
 image:         iisd_thumb.jpg
-cover:         iisd-header.jpg
+cover:         iisd_header_2.jpg
 author:        Camellia
 date:          10/26/2016
 release_date:  October 2016           
@@ -25,12 +25,12 @@ modules:
     -   text_right:
             title: Fast, dynamic searches
             description:  "With more than 30,000 content items to explore, it’s essential that they can be filtered quickly to find the most relevant information. The filter bar on the news page provides extremely specific filter options. Although this means it’s harder to keep the Javascript and AJAX functionality simple, some careful query building and the use of specific caching meant we were able to build a site that is fast and maintains full functionality." 
-            image:  iisd_news.jpg
+            image:  iisd_high_news.png
 
     -   text_left:    
             title: Visual clues
             description:  "We’ve used the website’s design to add in subtle clues that help guide the user toward the information they seek. For example, as you hover over the SDG ring on the homepage, a number appears, telling you which goal that segment is about. When you click on a segment, a box pops up with details on how many articles and policy-briefs have been written on that goal. You may also notice that the length of each segment has been extended, representing the scale of how much has been written about each goal."
-            image: iisd-ring.png
+            image: iisd_high_ring.png
 
 ---
 As the world negotiated the Sustainable Development Goals (SDGs), it was always acknowledged that everyone would have to work together if the global community wanted to turn its high ambitions into action. With this in mind, IISD challenged us to help them develop a new knowledge hub where everything they had published on sustainable development over the past eight years could be viewed. 
