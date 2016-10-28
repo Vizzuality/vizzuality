@@ -1,6 +1,6 @@
 ---
 name: Edward Brett      
-position: Engineer  
+position: Engineering and Data  
 phrase: The main thing is to keep the main thing the main thing      
 linkedin: "https://www.linkedin.com/in/edbrett" 
 github: edbrett
