@@ -28,8 +28,8 @@ modules:
             image:  iisd_news.jpg
 
     -   text_left:    
-            title: Visual cues
-            description:  "On the homepage, we’ve taken the circular symbol of the SDGs and extended each segment of it by a varying length, to visualise the scale of just how much has been written about each of the SDGs. When a segment is selected, information pops up with details of how many articles, policy briefs and events associated with that goal are available."
+            title: Visual clues
+            description:  "We’ve used the website’s design to add in subtle clues that help guide the user toward the information they seek. For example, as you hover over the SDG ring on the homepage, a number appears, telling you which goal that segment is about. When you click on a segment, a box pops up with details on how many articles and policy-briefs have been written on that goal. You may also notice that the length of each segment has been extended, representing the scale of how much has been written about each goal."
             image: iisd-ring.png
 
 ---
