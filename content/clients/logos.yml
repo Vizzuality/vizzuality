@@ -56,6 +56,10 @@ logos:
     src: 'interaction.png'
     width: 130
   -
+    name: 'IISD'
+    src: 'iisd_logo.png'
+    width: 130
+  -
     name: 'JRC'
     src: 'jrc.png'
     width: 130
