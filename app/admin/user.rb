@@ -12,6 +12,14 @@ ActiveAdmin.register User do
     def find_resource
       scoped_collection.friendly.find(params[:id])
     end
+
+    def update
+      if params[:user][:password].blank? && params[:user][:password_confirmation].blank?
+        params[:user].delete("password")
+        params[:user].delete("password_confirmation")
+      end
+      super
+    end
   end
 
   index do
