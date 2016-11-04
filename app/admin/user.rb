@@ -40,12 +40,14 @@ ActiveAdmin.register User do
       f.input :linkedin_user
       f.input :github_user
       f.input :dribbble_user
-      f.input :photo, as: :file, required: true
+      f.input :photo, as: :file
       f.input :birthday, start_year: 1960
       f.input :weight
       f.input :body
       f.input :admin
       f.input :published
+      f.input :password, required: false
+      f.input :password_confirmation, required: false
     end
     f.actions
   end
