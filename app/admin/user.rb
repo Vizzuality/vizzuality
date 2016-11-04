@@ -48,7 +48,11 @@ ActiveAdmin.register User do
       f.input :linkedin_user
       f.input :github_user
       f.input :dribbble_user
-      f.input :photo, as: :file
+      # f.input :photo, as: :file
+      f.input :photo, as: :file, hint: f.object.cover_page.present? \
+        ? image_tag(f.object.cover_page.url(:thumb))
+        : content_tag(:span, "No photo yet")
+      f.input :photo_cache, as: :hidden
       f.input :birthday, start_year: 1960
       f.input :weight
       f.input :body
