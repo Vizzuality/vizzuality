@@ -26,16 +26,21 @@ ActiveAdmin.register User do
     sortable_handle_column
     selectable_column
     id_column
+    column :photo do |o|
+      image_tag o.photo.url(:thumb), class: 'team-photo-thumb'
+    end
     column :name
     column :slug
     column :email
     column :position
     column :created_at
+    column :published
     actions
   end
 
   filter :email
   filter :position
+  filter :published
   filter :created_at
 
   form do |f|
@@ -48,9 +53,8 @@ ActiveAdmin.register User do
       f.input :linkedin_user
       f.input :github_user
       f.input :dribbble_user
-      # f.input :photo, as: :file
       f.input :photo, as: :file, hint: f.object.photo.present? \
-        ? image_tag(f.object.photo.url(:medium))
+        ? image_tag(f.object.photo.url(:thumb))
         : content_tag(:span, "No photo yet")
       f.input :birthday, start_year: 1960
       f.input :weight
