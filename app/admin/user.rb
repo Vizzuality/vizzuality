@@ -50,9 +50,8 @@ ActiveAdmin.register User do
       f.input :dribbble_user
       # f.input :photo, as: :file
       f.input :photo, as: :file, hint: f.object.photo.present? \
-        ? image_tag(f.object.photo.url(:thumb))
+        ? image_tag(f.object.photo.url(:medium))
         : content_tag(:span, "No photo yet")
-      f.input :photo_cache, as: :hidden
       f.input :birthday, start_year: 1960
       f.input :weight
       f.input :body
