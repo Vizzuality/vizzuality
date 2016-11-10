@@ -13,7 +13,7 @@ svg_logo:     sei_white.png
 post_url:    
 post_title:   "Tracing the international flow of forest products"
 image:       trase_thumb.jpg
-cover:       trase_header.jpg
+cover:       trase_cover.jpg
 author:      Camellia Williams
 date:        11/10/2016
 release_date:   November 2016          
