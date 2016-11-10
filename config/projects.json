@@ -1,6 +1,6 @@
 {
   "antarctic": {
-    "order": 18,
+    "order": 19,
     "grid": 1
   },
   "BBVA": {
@@ -8,7 +8,7 @@
     "grid": 1
   },
   "calvert-foundation": {
-    "order": 19,
+    "order": 20,
     "grid": 1
   },
   "care-world-of-impact": {
@@ -16,15 +16,15 @@
     "grid": 1
   },
   "cash-atlas": {
-    "order": 20,
+    "order": 21,
     "grid": 2
   },
   "EDI": {
-    "order": 16,
-    "grid": 3
+    "order": 17,
+    "grid": 2
   },
   "endangered-languages": {
-    "order": 22,
+    "order": 23,
     "grid": 2
   },
   "geocat": {
@@ -47,7 +47,7 @@
     "grid": 2
   },
   "imazon": {
-    "order": 23,
+    "order": 24,
     "grid": 1
   },
   "iisd-sdg-hub": {
@@ -59,11 +59,11 @@
     "grid": 1
   },
   "mountain-biodiversity": {
-    "order": 24,
+    "order": 25,
     "grid": 1
   },
   "neemo": {
-    "order": 26,
+    "order": 27,
     "grid": 1
   },
   "neptis-geoweb": {
@@ -71,23 +71,23 @@
     "grid": 2
   },
   "ngo-aid-map": {
-    "order": 21,
+    "order": 22,
     "grid": 3
   },
   "old-weather": {
-    "order": 25,
+    "order": 26,
     "grid": 2
   },
   "OMO": {
-    "order": 30,
+    "order": 31,
     "grid": 1
   },
   "planet-hunters": {
-    "order": 29,
+    "order": 30,
     "grid": 2
   },
   "policy-climate": {
-    "order": 27,
+    "order": 28,
     "grid": 1
   },
     "prep": {
@@ -107,11 +107,15 @@
     "grid": 2
   },
   "techno-bioblitz": {
-    "order": 28,
+    "order": 29,
     "grid": 1
   },
+  "trase": {
+    "order": 16,
+    "grid": 1
+  },  
   "web-evolution": {
-    "order": 17,
+    "order": 18,
     "grid": 2
   }
 }
