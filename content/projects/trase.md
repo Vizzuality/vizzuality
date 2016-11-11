@@ -11,7 +11,7 @@ client:       Stockholm Environment Institute
 client_logo:  sei.png
 svg_logo:     sei_white.png
 post_url:     https://medium.com/vizzuality-blog/tracing-the-flow-of-coffee-and-soy-85d0b346c4d0#.isk4ewfio
-post_title:   "Tracing the international flow of forest products"
+post_title:   "Tracing the international flow of coffee and soy"
 image:       trase_thumb.jpg
 cover:       trase_cover.jpg
 author:      Camellia Williams
