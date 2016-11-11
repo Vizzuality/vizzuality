@@ -5,12 +5,12 @@ summary:      Tracing the international flow of agricultural commodities
 description:  "A tool that brings unprecedented transparency to commodity supply chains"
 fb_title:     "trase | Transparency for sustainable economies"
 fb_description: "Helping people understand and address the social and environmental impacts of their supply chains"
-link:         https://news.trase.earth/
+link:         http://trase.earth/
 link_short:   trase.earth
 client:       Stockholm Environment Institute
 client_logo:  sei.png
 svg_logo:     sei_white.png
-post_url:    
+post_url:     https://medium.com/vizzuality-blog/tracing-the-flow-of-coffee-and-soy-85d0b346c4d0#.isk4ewfio
 post_title:   "Tracing the international flow of forest products"
 image:       trase_thumb.jpg
 cover:       trase_cover.jpg
