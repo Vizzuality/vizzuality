@@ -5,6 +5,9 @@ ActiveAdmin.register Client do
     selectable_column
     id_column
     column :name
+    column :logo do |o|
+      image_tag o.logo.url(:thumb), class: 'team-photo-thumb'
+    end
     column :published
     column :created_at
     actions
@@ -17,8 +20,12 @@ ActiveAdmin.register Client do
     f.inputs "Client details" do
       f.input :name, required: true
       f.input :override_width
-      f.input :logo, as: :file, required: true
-      f.input :logo_white, as: :file, required: true
+      f.input :logo, as: :file, hint: f.object.logo.present? \
+        ? image_tag(f.object.logo.url(:thumb))
+        : content_tag(:span, "No logo yet")
+      f.input :logo_white, as: :file, hint: f.object.logo_white.present? \
+        ? image_tag(f.object.logo_white.url(:thumb))
+        : content_tag(:span, "No logo white yet")
       f.input :published
     end
     f.actions

@@ -5,7 +5,7 @@
   <div class="grid-sm-14 grid-lg-12 offset-lg-1">
     <article class="m-team">
       <header>
-        <div class="photo" style="background-image: <%= @team_member.photo.url(:medium) %>">
+        <div class="photo" style="background-image: url(<%= @team_member.photo.url(:medium) %>)">
           <%= image_tag @team_member.photo.url(:medium) %>
         </div>
         <p class="main-phrase"><%= @team_member.quote %></p>
