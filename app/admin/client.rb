@@ -8,6 +8,10 @@ ActiveAdmin.register Client do
     column :logo do |o|
       image_tag o.logo.url(:thumb), class: 'team-photo-thumb'
     end
+    column :logo_white do |o|
+      image_tag o.logo.url(:thumb), class: 'team-photo-thumb'
+    end
+    column :override_width
     column :published
     column :created_at
     actions
