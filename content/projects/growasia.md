@@ -16,7 +16,8 @@ image:         growasia_thumb.jpg
 cover:         growasia_cover.png
 author:        Camellia
 date:          11/16/2016
-release_date:  November 2016           
+release_date:  November 2016 
+highlighted:   true          
 logoWidth:      125
 
 modules:
