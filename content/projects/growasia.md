@@ -32,7 +32,7 @@ modules:
             image: growasia_report.png
 
 ---
-At least 20% of global greenhouse gas emissions come from agriculture. As the world works to reduce this, agricultural commodity producers need help quantifying the size of their emissions and the best pathways to reduce emissions. We were asked to build the [Grow Asia Counter] (http://counter.growasia.org/) to help people get this information in a fast and accessible way. 
+At least 20% of global greenhouse gas emissions come from agriculture. As the world works to reduce this, agricultural commodity producers need help quantifying the size of their emissions and the best pathways to reduce emissions. We were asked to build the <a href="http://counter.growasia.org/">Grow Asia Counter</a> to help people get this information in a fast and accessible way. 
 
-This project unites the work of <a href="http://growasia.org/">Grow Asia</a> - multi-stakeholder partnership platform catalysing action for sustainable agricultural development in Southeast Asia - and [Winrock International] (https://www.winrock.org/) - a leading source of scientific and technical expertise for global sustainable development. Balancing scientific rigour with ease-of-use, we built a minimal, intuitive, and attractive interface so producers can quickly calculate their emissions and explore options to reduce them. 
+This project unites the work of <a href="http://growasia.org/">Grow Asia</a> - multi-stakeholder partnership platform catalysing action for sustainable agricultural development in Southeast Asia - and <a href="https://www.winrock.org/">Winrock International</a> - a leading source of scientific and technical expertise for global sustainable development. Balancing scientific rigour with ease-of-use, we built a minimal, intuitive, and attractive interface so producers can quickly calculate their emissions and explore options to reduce them. 
 
