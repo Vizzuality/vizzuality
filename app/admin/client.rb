@@ -9,7 +9,7 @@ ActiveAdmin.register Client do
       image_tag o.logo.url(:thumb), class: 'team-photo-thumb'
     end
     column :logo_white do |o|
-      image_tag o.logo.url(:thumb), class: 'team-photo-thumb'
+      image_tag o.logo_white.url(:thumb), class: 'team-photo-thumb'
     end
     column :override_width
     column :published
