@@ -104,7 +104,8 @@
     "grid": 2
   },
   "resource-watch": {
-    "order": 5
+    "order": 12,
+    "grid": 3
   },
   "goal16": {
     "order": 7,
@@ -115,8 +116,7 @@
     "grid": 1
   },
   "trase": {
-    "order": 12,
-    "grid":3
+    "order": 5
   },  
   "web-evolution": {
     "order": 19,
