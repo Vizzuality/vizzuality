@@ -35,8 +35,7 @@
     "grid": 2
   },
   "global-forest-watch": {
-    "order": 12,
-    "grid": 3
+    "order": 1
   },
   "google-trends": {
     "order": 14,
@@ -105,7 +104,8 @@
     "grid": 2
   },
   "resource-watch": {
-    "order": 5
+    "order": 12,
+    "grid": 3
   },
   "goal16": {
     "order": 7,
@@ -116,7 +116,7 @@
     "grid": 1
   },
   "trase": {
-    "order": 1
+    "order": 5
   },  
   "web-evolution": {
     "order": 19,
