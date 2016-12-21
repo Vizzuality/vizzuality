@@ -8,7 +8,7 @@ photo:     ewa.jpg
 author:    Camellia Williams 
 date:      26/09/2016 
 order:     35 
-published: true
+published: false
 ---
 Ewa is our Discovery and Research Intern and first bona fide film historian. Fresh out of University after completing a PhD on the Los Angeles’ film culture, Ewa is keen to learn how mapping could benefit the academic research in the areas of spatial humanities, post-humanities and critical cartography in her native Poland. Ewa is working on discovery and research, while making the most of the opportunity to learn about programming and designing. 
 
