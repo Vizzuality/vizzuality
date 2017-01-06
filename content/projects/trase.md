@@ -30,8 +30,21 @@ modules:
             title: Hover and click
             description: The Trase dataset is immense and the relationships between the data points are convoluted, but that doesn’t mean the user experience should be complicated. We took great care with the design of the interface, incorporating simple hover and click interactions so users can perform complex filters on the sankey that help them draw insights. In just two clicks, it’s possible to compare multiple geospatial indicators on the map as the website automatically changes between single value and bivariate choropleths. To maximise the use of space, we doubled up the main title on the data visualisation page as a geospatial and temporal filter for the data. 
             image: trase_filters.png
+
+opinions:
+    -
+        title: "Yesterday I had the pleasure to meet the very impressive work of @Vizzuality on environmental data vizs. Do not miss"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/vcabellov/status/804992056020127744"> Violeta Cabello </a>
+    -
+        title: "Wow! @GlobalCanopy SEI Trase #supplychain transparency tool!"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/Rngolela/status/798823705962954752"> Ruth Metzel </a>
+    -
+        title: "@MarsGlobal says supply chain transparency tools are critically important http://www.trase.earth "
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/GlobalCanopy/status/797147016220577797"> </a>
 ---
 Many of us start the day with a big bowl of cereal and soy milk, but how often do we consider the journey that soy in our milk has taken to arrive in our home? Where did it come from? Was it harvested sustainably? Who shipped it here? Trase is a platform that lays bare the flow of soy and other commodities—like coffee and palm oil—through the global trade system. Developed by the Stockholm Environment Institute and Global Canopy Programme, Trase offers unprecedented transparency into commodity supply chains. It aims to help companies, financial institutions and governments understand and address the social and environmental impacts associated with their supply chains.
-
 
 At the heart of Trase is a beautiful, interactive sankey diagram that visualises your soy’s journey. The datasets that feed this visualisation are immense and we had to resist the urge to cram in as many features as possible. Instead, we carefully selected features that would allow people to explore the complex relationships between the data points without being overwhelmed. Pushing technology to the limits, the sankey diagram is the perfect way to fully appreciate the global demand for forest products.
