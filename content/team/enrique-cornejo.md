@@ -1,7 +1,7 @@
 ---
 name:      Enrique Cornejo    
 position:  Data Scientist 
-phrase:    Data is only a tool. What matters is what we do with them  
+phrase:    Data are only a tool, what matters is what we do with them  
 linkedin:  "https://es.linkedin.com/in/enrique-cornejo-16561313" 
 github:	   EnriqueCornejo	
 email:     enrique.cornejo@vizzuality.com 
