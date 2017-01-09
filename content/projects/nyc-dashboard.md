@@ -8,8 +8,6 @@ fb_description: "Next generation data dashboard helps NYC Mayor’s Office keep 
 client:       NYC
 client_logo:  nyc-logo.png
 svg_logo:     nyc-white.png
-post_url:     
-post_title:  
 image:       nyc-home.jpg
 cover:       nyc-cover.jpg
 author:      camellia
