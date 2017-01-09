@@ -31,13 +31,13 @@ modules:
             title: All in a New York Minute
             modules:
                 - 
-                    image: nyc-indicators.png
+                    image: nyc-indicators-block.png
                     description: "Traffic-light colour scheme reveals status of every indicator at a glance."
                 - 
-                    image: nyc-map.png
+                    image: map-view.png
                     description: "Information can be shared almost instantly by simply touching the data."
                 - 
-                    image: nyc-desktop.jpg
+                    image: nyc-desk-view.jpg
                     description: "From home to office and in between, the dashboard is accessible on any device."
 
 ---
