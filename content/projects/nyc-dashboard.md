@@ -1,20 +1,20 @@
 ---
-title:        NYC Data Dashboard 
-short_title:  NYC Data Dashbaord
-summary:      Next generation data dashboard for New York City
-description:  "Smart city technology that’s defining the future of data-driven city management"
-fb_title:     "NYC Data Dashboard"
+title:         NYC Data Dashboard 
+short_title:   NYC Data Dashbaord
+summary:       Next generation data dashboard for New York City
+description:   "Smart city technology that’s defining the future of data-driven city management"
+fb_title:      "NYC Data Dashboard"
 fb_description: "Next generation data dashboard helps NYC Mayor’s Office keep its finger on the city’s pulse"
-client:       NYC
-client_logo:  nyc-logo.png
-svg_logo:     nyc-white.png
-image:       nyc-home.jpg
-cover:       nyc-cover.jpg
-author:      camellia
-date:        2016-12-21
+client:        NYC
+client_logo:   nyc-logo.png
+svg_logo:      nyc-white.png
+image:         nyc-home.jpg
+cover:         nyc-cover.jpg
+author:        camellia
+date:          2016-12-21
 release_date:  January 2017           
-highlighted: true
-logoWidth:      125
+highlighted:   true
+logoWidth:     125
 
 modules:
     -   text_left:
