@@ -77,6 +77,10 @@
     "order": 27,
     "grid": 3
   },
+  "nyc-dashboard": {
+    "order": 33,
+    "grid": 1
+  },
   "old-weather": {
     "order": 26,
     "grid": 2

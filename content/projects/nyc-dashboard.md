@@ -2,12 +2,12 @@
 title:        NYC Data Dashboard 
 short_title:  NYC Data Dashbaord
 summary:      Next generation data dashboard for New York City
-description: 
+description:  "Smart city technology that’s defining the future of data-driven city management"
 fb_title:     "NYC Data Dashboard"
 fb_description: "Next generation data dashboard helps NYC Mayor’s Office keep its finger on the city’s pulse"
 client:       NYC
 client_logo:  nyc-logo.png
-svg_logo:    
+svg_logo:     nyc-white.png
 post_url:     
 post_title:  
 image:       nyc-home.jpg
@@ -16,7 +16,6 @@ author:      camellia
 date:        2016-12-21
 release_date:  January 2017           
 highlighted: true
-colour: 
 logoWidth:      125
 
 modules:
@@ -27,7 +26,7 @@ modules:
 
     -   text_right:
             title: Never miss a beat
-            description: In a city that never sleeps, situations can arise and change fast. With this in mind, we made it easy for city employees to set up alerts that will ensure they never miss a thing. A few clicks is all that’s needed to set up email notifications that will be sent every time a specific indicator changes or passes a certain threshold. When information needs to be shared, that’s easy to do too—a simple press and hold on the relevant data will pop open a ready-to-send email.
+            description: In a city that never sleeps, situations can arise and change fast. With this in mind, we made it easy for city employees to set up alerts that will ensure they never miss a thing. A few clicks is all that’s needed to set up email notifications that will be sent every time a specific indicator changes or passes a certain threshold. When information needs to be shared, that’s easy to do too: a simple press and hold on the relevant data will pop open a ready-to-send email.
             image: nyc-ind-green.png
 
     -   blocks:
@@ -43,12 +42,7 @@ modules:
                     image: nyc-desktop.jpg
                     description: "From home to office and in between, the dashboard is accessible on any device."
 
-
-opinions:
-    -
-        title:
-        photo:
-        autor:
-
 ---
+Data offers a powerful way to measure and improve how any city operates. But in a city that has more than 8 million residents, collating and reviewing all that data in real time can present a massive challenge. We were invited to work with the New York City Mayor’s Office—a champion of data management and civic innovation—CARTO and Hyperakt to develop the New York City data dashboard. Bringing together data from a host of agencies including the New York Police Department and New York Housing Authority, the dashboard includes economic, environmental, social and political indicators that let City Hall keep its finger on the city’s pulse. 
 
+The NYC data dashboard is an unprecedented harnessing of data that will define the next iteration of modern government. With the lives and well-being of its residents at the heart of the operation, the dashboard is a fantastic example of data and cutting-edge technology being leveraged for robust and efficient governance.
