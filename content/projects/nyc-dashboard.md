@@ -8,6 +8,8 @@ fb_description: "Next generation data dashboard helps NYC Mayor’s Office keep 
 client:        NYC
 client_logo:   nyc-logo.png
 svg_logo:      nyc-white.png
+post_url:    "http://blog.vizzuality.com/post/155720203591/big-apple-data-in-bite-sized-slices"
+post_title:   Big Apple data in bite-sized slices 
 image:         nyc-home.jpg
 cover:         nyc-cover.jpg
 author:        camellia
