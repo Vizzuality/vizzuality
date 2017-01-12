@@ -43,15 +43,15 @@ modules:
 opinions:
     -
         title: "Using location intelligence platforms enables the Mayor's Office of Operations to generate actionable dashboards to manage NYC more efficiently."
-        photo: nyc-logo.png
+        photo: media/nyc-logo.png
         autor: <a href="https://carto.com/blog/new-york-city-mayor-office"> James Perazzo, NYC Mayor’s Office of Operations </a>
     -
         title: "While many cities employ various data visualization tools to track their metrics, this one is unique in the scope of data it pulls in real-time."
-        photo: codesign-logo.png
+        photo: media/codesign-logo.png
         autor: <a href="https://www.fastcodesign.com/3067091/infographic-of-the-day/new-york-city-gets-a-dashboard"> Kelsey Campbell-Dollaghan, Co.Design </a>
     -
         title: "This inter-agency data platform can easily be called one of New York City’s largest urban infrastructure projects."
-        photo: geospatial-world-logo.png
+        photo: media/geospatial-world-logo.png
         autor: <a href="https://www.geospatialworld.net/nyc-smart-city-data-tool-aids-decision-making/">  Ishveena Singh, Geospatial World </a>
 ---
 Data offers a powerful way to measure and improve how any city operates. But in a city that has more than 8 million residents, collating and reviewing all that data in real time can present a massive challenge. We were invited to work with the New York City Mayor’s Office—a champion of data management and civic innovation—CARTO and Hyperakt to develop the New York City data dashboard. Bringing together data from a host of agencies including the New York Police Department and New York Housing Authority, the dashboard includes economic, environmental, social and political indicators that let City Hall keep its finger on the city’s pulse. 
