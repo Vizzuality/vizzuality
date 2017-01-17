@@ -98,7 +98,7 @@ ActiveRecord::Schema.define(version: 20161021055657) do
     t.date     "release_date"
     t.text     "summary"
     t.text     "body"
-    t.integer  "weight"
+    t.integer  "weight",                     default: 0
     t.boolean  "highlighted"
     t.boolean  "published",                  default: false
     t.integer  "client_id"
@@ -131,7 +131,7 @@ ActiveRecord::Schema.define(version: 20161021055657) do
     t.string   "linkedin_user"
     t.string   "dribbble_user"
     t.string   "github_user"
-    t.integer  "weight"
+    t.integer  "weight",                 default: 0
     t.text     "body"
     t.boolean  "published",              default: false
     t.string   "email",                  default: "",    null: false

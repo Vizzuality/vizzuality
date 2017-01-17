@@ -5,8 +5,10 @@ node_modules
 public/assets
 
 /.bundle
+/.data
 /log/*
 /tmp/*
+/public/assets/*
 /public/system/*
 !/log/.keep
 !/tmp/.keep
