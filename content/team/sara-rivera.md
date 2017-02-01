@@ -9,7 +9,7 @@ photo:     sara.jpg
 author:    Camellia Williams 
 date:      02/01/2017 
 order:      
-published: false
+published: true
 ---
 Sara is a designer who believes in honest, clear and functional design. Her passion for design was first sparked by an art and design course at Central Saint Martins, London at the age of 17 and it led her towards a degree in advertising and PR, and a Masters in interface design at Universidad Pontificia de Salamanca. Sara loves the problem solving aspects of design and is always picking up new knowledge that she can put to use in her work. 
 
