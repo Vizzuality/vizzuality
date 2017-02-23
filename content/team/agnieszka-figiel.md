@@ -6,7 +6,7 @@ twitter:    agnessa480
 linkedin:   "https://uk.linkedin.com/in/agnessa"
 github:		agnessa
 email:      agnieszka.figiel@vizzuality.com
-photo:      agnieszka.jpg
+photo:      agnieszka_2.jpg
 author:     Camellia Williams
 date:       01/08/2017
 order:      
