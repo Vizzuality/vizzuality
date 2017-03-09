@@ -1,7 +1,7 @@
 ---
 name:       Pablo Pareja Tobes
 position:   Data Engineer
-phrase:     Data, science and visualisation combine to reveal our planet’s mysteries
+phrase:     Data, science, nature; my favourite mix!
 twitter:    pablopareja
 linkedin:   "https://www.linkedin.com/in/pabloparejatobes"
 github:		pablopareja
