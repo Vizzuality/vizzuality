@@ -1,7 +1,7 @@
 {
   "antarctic": {
-    "order": 20,
-    "grid": 1
+    "order": 28,
+    "grid": 2
   },
   "BBVA": {
     "order": 11,
@@ -9,14 +9,14 @@
   },
   "calvert-foundation": {
     "order": 22,
-    "grid": 1
+    "grid": 2
   },
   "care-world-of-impact": {
     "order": 4
   },
   "cash-atlas": {
     "order": 23,
-    "grid": 2
+    "grid": 1
   },
   "EDI": {
     "order": 19,
@@ -62,7 +62,7 @@
     "grid": 1
   },
   "mountain-biodiversity": {
-    "order": 30,
+    "order": 31,
     "grid": 1
   },
   "neemo": {
@@ -77,25 +77,29 @@
     "order": 26,
     "grid": 3
   },
+  "nutrition": {
+    "order": 20,
+    "grid": 1
+  },
   "nyc-dashboard": {
     "order": 7,
     "grid": 1
   },
   "old-weather": {
-    "order": 31,
-    "grid": 2
-  },
-  "OMO": {
-    "order": 33,
-    "grid": 1
-  },
-  "planet-hunters": {
     "order": 32,
     "grid": 2
   },
-  "policy-climate": {
-    "order": 28,
+  "OMO": {
+    "order": 34,
     "grid": 1
+  },
+  "planet-hunters": {
+    "order": 33,
+    "grid": 2
+  },
+  "policy-climate": {
+    "order": 29,
+    "grid": 2
   },
     "prep": {
     "order": 2
@@ -116,7 +120,7 @@
     "grid": 2
   },
   "techno-bioblitz": {
-    "order": 29,
+    "order": 30,
     "grid": 1
   },
   "trase": {
