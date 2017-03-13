@@ -10,8 +10,8 @@ link_short:  investinnutrition.org
 client:      Results for Development
 client_logo: r4d-logo.png
 svg_logo:    r4d-logo-white.png
-post_url:    
-post_title:  Feeding the future
+post_url:    https://medium.com/vizzuality-blog/feeding-the-future-e110f54e0e4f#.5xqilvos7
+post_title:  "Feeding the future"
 image:  nutrition_hero.png     
 cover:  nutrition_hero.png     
 author: Camellia     
