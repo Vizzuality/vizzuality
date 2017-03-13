@@ -5,11 +5,11 @@ summary:      A visualisation of nutrition financing needs
 description:  "A transparent overview of the investment needed to reach global targets for stunting, anemia, breastfeeding and wasting"
 fb_title:    "Investing in Nutrition"
 fb_description: "A visualisation of the investment needed to reach global targets for stunting, anemia, breastfeeding and wasting"
-link:        
-link_short:  
+link:        http://www.investinnutrition.org/
+link_short:  investinnutrition.org
 client:      Results for Development
-client_logo: 
-svg_logo:    
+client_logo: r4d-logo.png
+svg_logo:    r4d-logo-white.png
 post_url:    
 post_title:  Feeding the future
 image:  nutrition_hero.png     
@@ -30,13 +30,6 @@ modules:
             title: Print and present
             description: For anyone that needs to prepare a briefing pack or compile this research into a longer report, there are options to download the data or print it out. Web pages print as beautifully as they appear online so there’s no need to copy and paste. Downloading the text as a CSV only takes two clicks of the mouse. With these options, advocates for nutrition financing can tailor their presentations to the preferences of their audience.
             image: nutrition_charts.png
-
-opinions:
-    -
-        title:
-        photo:
-        autor:
-
 ---
 When financial resources are stretched, even the most honourable of causes have to make their case to receive funding. This is the position that people who advocate for greater investment in nutrition are currently in and if they could help country governments and donors see the gaps that must be filled, millions of children’s lives could be improved and saved. 
 
