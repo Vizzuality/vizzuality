@@ -37,7 +37,7 @@ opinions:
         photo: media/twitter.png
         autor: <a href="https://twitter.com/Integrilicious/status/841343517611962370"> Nathaniel Heller </a>
     -
-        title: "Swimming in #nutrition data, but don't know what to do w/ it? Visualizations from @results4dev tool get to the point-how much will it cost?"
+        title: "Swimming in #nutrition data, but don't know what to do w/ it? Visualizations from @results4dev tool get to the point - how much will it cost?"
         photo: media/twitter.png
         autor: <a href="https://twitter.com/aettenger/status/841319615493890048"> Allison Ettenger </a>
     -
