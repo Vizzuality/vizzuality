@@ -30,6 +30,21 @@ modules:
             title: Print and present
             description: For anyone that needs to prepare a briefing pack or compile this research into a longer report, there are options to download the data or print it out. Web pages print as beautifully as they appear online so there’s no need to copy and paste. Downloading the text as a CSV only takes two clicks of the mouse. With these options, advocates for nutrition financing can tailor their presentations to the preferences of their audience.
             image: nutrition_charts.png
+
+opinions:
+    -
+        title: "New visualization tool can help countries & donors prioritize #nutrition investments #InvestInNutrition"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/Integrilicious/status/841343517611962370"> Nathaniel Heller </a>
+    -
+        title: "Swimming in #nutrition data, but don't know what to do w/ it? Visualizations from @results4dev tool get to the point-how much will it cost?"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/aettenger/status/841319615493890048"> Allison Ettenger </a>
+    -
+        title: "How to save 3.7 million child lives? investinnutrition.org by @Results4dev @1000Days @WorldBank shows where $ is needed #InvestInNutrition"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/GNReport/status/841333044078243841"> Nutrition Report </a>
+
 ---
 When financial resources are stretched, even the most honourable of causes have to make their case to receive funding. This is the position that people who advocate for greater investment in nutrition are currently in and if they could help country governments and donors see the gaps that must be filled, millions of children’s lives could be improved and saved. 
 
