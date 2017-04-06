@@ -1,7 +1,7 @@
 ---
 name:       Jocelyn West
 position:   Community Manager
-phrase:     World-changing communities are: informed, inclusive, and inspired
+phrase:     "World-changing communities are: informed, inclusive, and inspired"
 twitter:    jocewest
 linkedin:   "https://www.linkedin.com/in/jocewest/"
 email:      jocelyn.west@vizzuality.com
