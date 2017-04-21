@@ -84,18 +84,17 @@ block main
     .row
       .grid-sm-14.grid-lg-12.offset-lg-1
         h1 Get in touch.
-        form#contactForm(action="/contact", method="post", autocomplete="off")
-          p Dear vizzuality,
-          .form-row
-            textarea(name="message", placeholder="Message", required)
-          .form-row.m-contact-email
-            p#closeString Cheers,
-            input(name="email", type="email", placeholder="Contact email", required)
-          .form-row.m-contact-submit
-            button(type="submit", class="btn") Send
+        //- form#contactForm(action="/contact", method="post", autocomplete="off")
+        //-   p Dear vizzuality,
+        //-   .form-row
+        //-     textarea(name="message", placeholder="Message", required)
+        //-   .form-row.m-contact-email
+        //-     p#closeString Cheers,
+        //-     input(name="email", type="email", placeholder="Contact email", required)
+        //-   .form-row.m-contact-submit
+        //-     button(type="submit", class="btn") Send
+        //-   input(type="hidden" name="_csrf" value="#{csrfToken}")
 
-          input(type="hidden" name="_csrf" value="#{csrfToken}")
-
-        p.m-contact-footer Or contact us by email
+        p.m-contact-footer Contact us by email
           |  
           a(href="mailto:aGVsbG9Adml6enVhbGl0eS5jb20=") aGVsbG9Adml6enVhbGl0eS5jb20=
