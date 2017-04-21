@@ -369,6 +369,7 @@
 
     var MADRID = L.latLng(40.4346730, -3.7005350);
     var CAMBRIDGE = L.latLng(52.200521, 0.138486);
+    var WASHINGTON = L.latLng(38.853900, -77.051555);
     var mapOptions = {
       center: MADRID,
       zoom: 8,
@@ -427,19 +428,29 @@
     function setLocation(userPos) {
       var madridOffice = document.getElementById('madridOffice');
       var cambridgeOffice = document.getElementById('cambridgeOffice');
+      var washingtonOffice = document.getElementById('washingtonOffice')
 
       generateRoute(userPos, MADRID);
 
       madridOffice.addEventListener('click', function() {
         madridOffice.className = 'm-map-location-item is-highlighted';
         cambridgeOffice.className = 'm-map-location-item';
+        washingtonOffice.className = 'm-map-location-item';
         generateRoute(userPos, MADRID);
       }, false);
 
       cambridgeOffice.addEventListener('click', function() {
         madridOffice.className = 'm-map-location-item';
         cambridgeOffice.className = 'm-map-location-item is-highlighted';
+        washingtonOffice.className = 'm-map-location-item';
         generateRoute(userPos, CAMBRIDGE);
+      }, false);
+
+      washingtonOffice.addEventListener('click', function() {
+      	madridOffice.className = 'm-map-location-item';
+        cambridgeOffice.className = 'm-map-location-item';
+        washingtonOffice.className = 'm-map-location-item is-highlighted';
+        generateRoute(userPos, WASHINGTON);
       }, false);
     }
 

@@ -4,7 +4,7 @@ position:   Engineer
 phrase:     "If something is too difficult you are doing it wrong"
 github:		CV-Gate   
 email:      miguel.mendoza@vizzuality.com
-photo:      miguel-mendoza.jpg
+photo:      mendoza.jpg
 author:     Alicia
 date:       2015-05-08
 order: 		9
