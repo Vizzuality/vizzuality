@@ -10,8 +10,8 @@ link_short:  globalfishingwatch.org
 client:      Global Fishing Watch
 client_logo: gfishw-logo.png
 svg_logo:    gfishw-logo-white.png
-post_url:    Tackling fishy business with fast, free maps
-post_title:  https://medium.com/vizzuality-blog/tackling-fishy-business-with-fast-free-maps-c587f2d32b26
+post_url:    "https://medium.com/vizzuality-blog/tackling-fishy-business-with-fast-free-maps-c587f2d32b26"
+post_title:  Tackling fishy business with fast, free maps
 image:       gfishw-header.png
 cover:       gfishw-header.png
 author:      Camellia
@@ -47,7 +47,6 @@ opinions:
     -
         title: "Global Fishing Watch will empower citizens to become powerful advocates for our ocean."
         autor: Ted Danson, actor and member of Oceana’s Board of Directors.
-
 ---
 As the world’s first open, free, and accessible fishing monitoring tool, Global Fishing Watch is poised to change the way we manage our fisheries. Working with <a href='https://skytruth.org/'>SkyTruth</a>, <a href='http://oceana.org/'>Oceana</a>, and <a href='https://environment.google/projects/fishing-watch/'>Google</a>, we’re making it easier and faster to analyse global fishing effort and visually communicate the findings in a compelling way.
 
