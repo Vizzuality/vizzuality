@@ -20,6 +20,7 @@ release_date:  May 2017
 highlighted:   true
 logoWidth:      125
 
+modules:
     -   text_left:
             title: Thousands of vessels in your pocket
             description: With more than 150,000 vessels to track and up to 100,000 data points being rendered at the same time, we knew we’d have to use technology that’s capable of supporting both fast performance and instant user interaction feedback. Skytruth delivers the data as highly efficient binary vector tiles, where points are clustered both in time and spatially. We take this tileset and use it with WebGL, a technology that allows websites to tap into the power of the graphics processing units (GPUs) inside our computers and phones. This makes it possible to display a vast number of vessel points in a highly performant way, particularly on mobile.
