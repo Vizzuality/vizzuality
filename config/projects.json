@@ -1,6 +1,6 @@
 {
   "antarctic": {
-    "order": 28,
+    "order": 29,
     "grid": 2
   },
   "BBVA": {
@@ -8,41 +8,44 @@
     "grid": 1
   },
   "calvert-foundation": {
-    "order": 22,
+    "order": 23,
     "grid": 2
   },
   "care-world-of-impact": {
     "order": 4
   },
   "cash-atlas": {
-    "order": 23,
-    "grid": 1
-  },
-  "EDI": {
-    "order": 19,
-    "grid": 3
-  },
-  "endangered-languages": {
     "order": 24,
     "grid": 1
   },
+  "EDI": {
+    "order": 20,
+    "grid": 3
+  },
+  "endangered-languages": {
+    "order": 25,
+    "grid": 1
+  },
   "geocat": {
-    "order": 17,
+    "order": 18,
     "grid": 2
   },
   "gfw-climate": {
     "order": 10,
     "grid": 2
   },
+  "global-fishing-watch": {
+    "order": 3
+  },
   "global-forest-watch": {
     "order": 1
   },
   "google-trends": {
-    "order": 18,
+    "order": 19,
     "grid": 1
   },
   "governance-data": {
-    "order": 16,
+    "order": 17,
     "grid": 2
   },
     "growasia": {
@@ -50,7 +53,7 @@
     "grid": 1
   },
   "imazon": {
-    "order": 25,
+    "order": 26,
     "grid": 2
   },
   "iisd-sdg-hub": {
@@ -58,27 +61,27 @@
     "grid": 2
   },
   "kenya": {
-    "order": 14,
-    "grid": 1
-  },
-  "mountain-biodiversity": {
-    "order": 31,
-    "grid": 1
-  },
-  "neemo": {
-    "order": 27,
-    "grid": 1
-  },
-  "neptis-geoweb": {
     "order": 15,
     "grid": 1
   },
+  "mountain-biodiversity": {
+    "order": 32,
+    "grid": 1
+  },
+  "neemo": {
+    "order": 28,
+    "grid": 1
+  },
+  "neptis-geoweb": {
+    "order": 16,
+    "grid": 1
+  },
   "ngo-aid-map": {
-    "order": 26,
+    "order": 27,
     "grid": 3
   },
   "nutrition": {
-    "order": 20,
+    "order": 21,
     "grid": 1
   },
   "nyc-dashboard": {
@@ -86,26 +89,27 @@
     "grid": 1
   },
   "old-weather": {
-    "order": 32,
-    "grid": 2
-  },
-  "OMO": {
-    "order": 34,
-    "grid": 1
-  },
-  "planet-hunters": {
     "order": 33,
     "grid": 2
   },
+  "OMO": {
+    "order": 35,
+    "grid": 1
+  },
+  "planet-hunters": {
+    "order": 34,
+    "grid": 2
+  },
   "policy-climate": {
-    "order": 29,
+    "order": 30,
     "grid": 2
   },
     "prep": {
     "order": 2
   },
   "REE": {
-    "order": 3
+    "order": 14,
+    "grid": 1
   },
   "resilience-atlas": {
     "order": 6,
@@ -117,17 +121,17 @@
   },
   "goal16": {
     "order": 13,
-    "grid": 2
+    "grid": 1
   },
   "techno-bioblitz": {
-    "order": 30,
+    "order": 31,
     "grid": 1
   },
   "trase": {
     "order": 5
   },  
   "web-evolution": {
-    "order": 21,
+    "order": 22,
     "grid": 2
   }
 }
