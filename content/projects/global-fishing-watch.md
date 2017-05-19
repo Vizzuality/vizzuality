@@ -31,20 +31,15 @@ modules:
             description: WebGL APIs are powerful but very “close to the metal”, so we chose to use an engine called Pixi.js that abstracts away the complexity of WebGL APIs (shaders). Pixi.js is typically used for 2D games, but it works perfectly for Global Fishing Watch. Specifically, the map layers use Pixi's highly optimised ParticlesRenderer, usually used for rendering effects such as smoke and explosions. Pixi.js, along with React and Redux, allows us to have expressive and maintainable code without sacrificing any performance.
             image: gfishw-vessel.png
 
-    -   video:
-            title: Global Fishing Watch | Users
-            style: light 
-            url: https://youtu.be/BL_j4sB4tcE
-
 opinions:
     -
         title: "Learn about #GlobalFishingWatch, the revolutionary tool making global fishing activity transparent: <a href='http://www.globalfishingwatch.org/'>globalfishingwatch.org</a> #OurOcean"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/LeoDiCaprio/status/776480701130633217">Leonardo DiCaprio, environmental activist and actor</a>
+        autor: <a href="https://twitter.com/LeoDiCaprio/status/776480701130633217"> Leonardo DiCaprio, environmental activist and actor </a>
     -
         title: "More data, user customization enhance global fishing watch platform in beta release 2.0 <a href='https://scienmag.com/more-data-user-customization-enhance-global-fishing-watch-platform-in-beta-release-2-0/'>scienmag.com</a>"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/scienmag/status/865328293536555009">Science</a>        
+        autor: <a href="https://twitter.com/scienmag/status/865328293536555009"> Science </a>        
     -
         title: "Global Fishing Watch will empower citizens to become powerful advocates for our ocean."
         autor: Ted Danson, actor and member of Oceana’s Board of Directors.
