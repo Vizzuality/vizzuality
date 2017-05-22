@@ -10,8 +10,8 @@ link_short:  www.grida.no
 client:      GRID-Arendal
 client_logo: grid-arendal.png
 svg_logo:    grid-arendal-white.png
-post_url:    
-post_title:  
+post_url:    A more beautiful way to present research
+post_title:  "https://medium.com/vizzuality-blog/a-more-beautiful-way-to-present-research-88dfa80f121f"
 image:       grid-arendal-header.jpg
 cover:       grid-arendal-header.jpg
 author:      Camellia
@@ -30,12 +30,5 @@ modules:
             title: Show them the world 
             description: GRID-Arendal’s incredible collection of images is perfect for sparking the emotional connections that make people feel more connected to the conservation efforts they are learning about. Every web page is a gallery of soaring mountains, sweeping oceans, and glimpses into hidden worlds—everything we love most about our planet. To convey the global reach of the research, each region is represented by its own template of colours and images, and as a small surprise for the user, one is selected at random each time they land on the homepage.
             image: grid-arendal-left.png
-
-opinions:
-    -
-        title:
-        photo:
-        autor:
-
 ---
 Humans are instinctively attracted to beautiful things. We can’t help it. Guided by this predisposition, it seems only natural to seek out more beautiful ways of presenting research. We believe it’s easier to inspire change in human behaviour if people experience feelings of delight and intrigue as they learn something new. So, when GRID-Arendal invited us to redesign their website and make it easier for their users to explore their extensive catalogue of research, we saw it as the perfect opportunity to help people feel more connected to today’s most important environmental issues. 
