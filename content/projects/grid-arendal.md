@@ -10,8 +10,8 @@ link_short:  www.grida.no
 client:      GRID-Arendal
 client_logo: grid-arendal.png
 svg_logo:    grid-arendal-white.png
-post_url:    A more beautiful way to present research
-post_title:  "https://medium.com/vizzuality-blog/a-more-beautiful-way-to-present-research-88dfa80f121f"
+post_url:    "https://medium.com/vizzuality-blog/a-more-beautiful-way-to-present-research-88dfa80f121f"
+post_title:  A more beautiful way to present research
 image:       grid-arendal-header.jpg
 cover:       grid-arendal-header.jpg
 author:      Camellia
