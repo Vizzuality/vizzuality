@@ -9,7 +9,7 @@ link:        https://www.opengovpartnership.org/
 link_short:  opengovpartnership.org
 client:      Open Government Partnership
 client_logo: ogp.png
-svg_logo:    ogp_white.png
+svg_logo:    ogp-white.png
 post_url:    "https://medium.com/vizzuality-blog/designing-for-open-governance-3209d89e418a"
 post_title:  Designing for open governance
 image:       OGP_hero.png
