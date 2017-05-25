@@ -97,8 +97,12 @@
     "grid": 1
   },
   "OMO": {
-    "order": 24,
+    "order": 37,
     "grid": 1
+  },
+  "open-government-partnership": {
+    "order": 24,
+    "grid": 1  
   },
   "planet-hunters": {
     "order": 36,
