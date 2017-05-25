@@ -17,10 +17,10 @@ class Project < ApplicationRecord
   validates_attachment_content_type :project_image, content_type: /\Aimage\/.*\z/
 
   def next
-    self.class.where(published: true).where("id > ?", id).first
+    self.class.sorted_team.where("weight > ?", weight).first
   end
 
   def prev
-    self.class.where(published: true).where("id < ?", id).last
+    self.class.sorted_team.where("weight < ?", weight).last
   end
 end

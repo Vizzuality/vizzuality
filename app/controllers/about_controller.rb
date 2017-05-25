@@ -1,6 +1,6 @@
 class AboutController < ApplicationController
   def index
-    @team_members = User.all.where(published: true).order('weight asc')
+    @team_members = User.sorted_team
   end
 
   def show

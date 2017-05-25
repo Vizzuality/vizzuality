@@ -17,11 +17,15 @@ class User < ApplicationRecord
   validates :password, :password_confirmation, presence: true, on: :create
   validates :password, confirmation: true
 
+  def self.sorted_team
+    self.where(published: true).order('weight asc')
+  end
+
   def next
-    self.class.where(published: true).where("id > ?", id).first
+    self.class.sorted_team.where("weight > ?", weight).first
   end
 
   def prev
-    self.class.where(published: true).where("id < ?", id).last
+    self.class.sorted_team.where("weight < ?", weight).last
   end
 end
