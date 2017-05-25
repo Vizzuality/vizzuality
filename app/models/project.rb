@@ -15,4 +15,12 @@ class Project < ApplicationRecord
   validates_attachment_content_type :project_logo, content_type: /\Aimage\/.*\z/
   validates_attachment_content_type :cover_image, content_type: /\Aimage\/.*\z/
   validates_attachment_content_type :project_image, content_type: /\Aimage\/.*\z/
+
+  def next
+    self.class.where(published: true).where("id > ?", id).first
+  end
+
+  def prev
+    self.class.where(published: true).where("id < ?", id).last
+  end
 end

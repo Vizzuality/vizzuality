@@ -13,3 +13,4 @@ public/assets
 !/log/.keep
 !/tmp/.keep
 .byebug_history
+.rbenv-gemsets

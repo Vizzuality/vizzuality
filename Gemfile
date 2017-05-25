@@ -2,12 +2,17 @@ source 'https://rubygems.org'
 
 ruby '2.3.3'
 
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
 # Rails
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.0.2'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
-gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin.git'
-gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources.git'
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'devise'
 gem 'paperclip', '~> 5.0.0'
 gem 'acts_as_list'

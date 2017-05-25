@@ -1,0 +1,29 @@
+<section class="m-prev-next-team">
+  <div class="row">
+    <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+      <div class="m-prev-next-team-items">
+        <% if @prev_team_member %>
+          <div class="m-prev-team-item">
+            <div>
+              <%= link_to '', team_member_path(@prev_team_member), class: 'full-clickable' %>
+              <p>Prev</p>
+              <h2><%= @prev_team_member.name %></h2>
+              <p class="position"><%= @prev_team_member.position %></p>
+            </div>
+          </div>
+        <% end %>
+
+        <% if @next_team_member %>
+          <div class="m-next-team-item">
+            <div>
+              <%= link_to '', team_member_path(@next_team_member), class: 'full-clickable' %>
+              <p>Next</p>
+              <h2><%= @next_team_member.name %></h2>
+              <p class="position"><%= @next_team_member.position %></p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
