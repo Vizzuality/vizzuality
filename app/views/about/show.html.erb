@@ -13,7 +13,7 @@
         <p class="position"><%= @team_member.position %></p>
       </header>
       <div class="content">
-        <%= @team_member.body %>
+        <%= markdown @team_member.body %>
       </div>
       <footer>
         <p>
