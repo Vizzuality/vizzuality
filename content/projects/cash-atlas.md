@@ -5,8 +5,6 @@ summary: 	 Following cash on the road to recovery
 description: 'A fast web interface to analyse the impact of cash transfer programmes on the fly'
 fb_title:    "Cash Atlas | Vizzuality"
 fb_description: "Quickly analyse the extent of cash transfer programmes in your browser"
-link:        http://www.cash-atlas.org/
-link_short:  cash-atlas.org
 client:      CALP
 client_title: The Cash Learning Partnership
 client_logo: calp.png
