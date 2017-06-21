@@ -1,6 +1,6 @@
 # Vizzuality's website
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is the codebase for Vizzuality's company website. 
 
 ## Installation
 
@@ -73,7 +73,7 @@ These are all captured in staff-template.md, in vizzuality/content/team/drafts
 
 ## Order of Projects
 
-When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=697157388). It'll help make sure we're putting the most important projects in the right places!
+When you add a new project it would be great if you could consult and [update this table](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=702628073). It'll help make sure we're putting the most important projects in the right places!
 
 We also have a tab for the [order of staff as well](https://docs.google.com/spreadsheets/d/171t8Nkwt80hM3bK_sBKNMjOcrw53c8_n2CecwZL-2OE/edit#gid=1805787218)
 
