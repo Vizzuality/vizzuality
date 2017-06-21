@@ -1,6 +1,6 @@
 {
   "antarctic": {
-    "order": 28,
+    "order": 30,
     "grid": 2
   },
   "BBVA": {
@@ -23,8 +23,8 @@
     "grid": 3
   },
   "endangered-languages": {
-    "order": 24,
-    "grid": 1
+    "order": 27,
+    "grid": 2
   },
   "geocat": {
     "order": 17,
@@ -34,6 +34,9 @@
     "order": 10,
     "grid": 2
   },
+  "global-fishing-watch": {
+    "order": 3
+  },
   "global-forest-watch": {
     "order": 1
   },
@@ -41,17 +44,21 @@
     "order": 18,
     "grid": 1
   },
+  "grid-arendal": {
+    "order": 25,
+    "grid": 2  
+  },
   "governance-data": {
     "order": 16,
     "grid": 2
   },
-    "growasia": {
+  "growasia": {
     "order": 8,
     "grid": 1
   },
   "imazon": {
-    "order": 25,
-    "grid": 2
+    "order": 28,
+    "grid": 1
   },
   "iisd-sdg-hub": {
     "order": 9,
@@ -62,11 +69,11 @@
     "grid": 1
   },
   "mountain-biodiversity": {
-    "order": 31,
+    "order": 34,
     "grid": 1
   },
   "neemo": {
-    "order": 27,
+    "order": 29,
     "grid": 1
   },
   "neptis-geoweb": {
@@ -86,26 +93,31 @@
     "grid": 1
   },
   "old-weather": {
-    "order": 32,
-    "grid": 2
-  },
-  "OMO": {
-    "order": 34,
+    "order": 35,
     "grid": 1
   },
+  "OMO": {
+    "order": 37,
+    "grid": 1
+  },
+  "open-government-partnership": {
+    "order": 24,
+    "grid": 1  
+  },
   "planet-hunters": {
-    "order": 33,
-    "grid": 2
+    "order": 36,
+    "grid": 1
   },
   "policy-climate": {
-    "order": 29,
+    "order": 31,
     "grid": 2
   },
     "prep": {
     "order": 2
   },
   "REE": {
-    "order": 3
+    "order": 33,
+    "grid": 3
   },
   "resilience-atlas": {
     "order": 6,
@@ -120,7 +132,7 @@
     "grid": 2
   },
   "techno-bioblitz": {
-    "order": 30,
+    "order": 32,
     "grid": 1
   },
   "trase": {

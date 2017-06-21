@@ -46,11 +46,11 @@ modules:
 
 opinions:
     -
-        title: "Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential! <a href='https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg'>https://pbs.twimg.com/media/Cs9w_pVWIAE-Be8.jpg</a>"
+        title: "Wowed by @Vizzuality powered platform #Prep4Climate for local climate-informed decisions w/ @WorldResources @awscloud Enormous potential!"
         photo: "media/twitter.png"
         autor: "<a href='ttps://twitter.com/MelikaEdquist/status/778965507236040704'>Melika Edquist</a>"
     -
-        title: 'hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate <a href="https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg">https://pbs.twimg.com/media/Cs9xipSXYAAz3ua.jpg</a>'
+        title: 'hearing about the "birthing of PREP" interesting new data platform @Vizzuality #prep4climate @WRIClimate'
         photo: "media/twitter.png"
         autor: "<a href='https://twitter.com/RoopSingh/status/778966126009184257'>Roop Sing</a>"
     -
