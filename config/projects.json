@@ -94,7 +94,7 @@
   },
   "old-weather": {
     "order": 35,
-    "grid": 1
+    "grid": 2
   },
   "OMO": {
     "order": 37,
@@ -106,7 +106,7 @@
   },
   "planet-hunters": {
     "order": 36,
-    "grid": 1
+    "grid": 2
   },
   "policy-climate": {
     "order": 31,
