@@ -1,7 +1,7 @@
 ---
 name:       Victor Saiz   
 position:   Engineer
-phrase:     Code composer, music developer, and _dada_ visualisation artist
+phrase:     Code composer, music developer, and <i>dada</i> visualisation artist
 twitter:    vectorsize
 linkedin:   "https://www.linkedin.com/in/victorsaiz"
 github:		vectorsize
