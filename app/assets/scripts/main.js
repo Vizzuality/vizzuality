@@ -367,7 +367,7 @@
 
     if (!elem) { return false; }
 
-    var MADRID = L.latLng(40.4346730, -3.7005350);
+    var MADRID = L.latLng(40.430645, -3.703382);
     var CAMBRIDGE = L.latLng(52.200521, 0.138486);
     var WASHINGTON = L.latLng(38.853900, -77.051555);
     var mapOptions = {
