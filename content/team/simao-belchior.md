@@ -1,5 +1,5 @@
 ---
-name:       Simao Belchior
+name:       Simão Belchior
 position:   Engineer
 phrase:     "Great products are made of skill, hard work and good laughs"
 twitter:    belchior
