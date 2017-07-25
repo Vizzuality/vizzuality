@@ -33,6 +33,19 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+  # SparkPost settings
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: ENV.fetch("SPARKPOST_SMTP_HOST"),
+    authentication: :plain,
+    domain: ENV.fetch("SMTP_DOMAIN"),
+    enable_starttls_auto: true,
+    password: ENV.fetch("SPARKPOST_SMTP_PASSWORD"),
+    port: ENV.fetch("SPARKPOST_SMTP_PORT"),
+    user_name: ENV.fetch("SPARKPOST_SMTP_USERNAME"),
+    mailer_sender: 'notifications@davidsingal.com'
+  }
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 

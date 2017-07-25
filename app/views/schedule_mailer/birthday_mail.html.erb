@@ -1,0 +1,19 @@
+<table width="50%" style="max-width: 720px; margin: 0 auto;">
+  <tr>
+    <td>
+      <%= image_tag "vizzuality.png" %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h1>Happy Birthday<br> <%= @birthday_guy.name %>!</h1>
+      <p>Now you are <%= Time.now.year - @birthday_guy.birthday.year %> years old! We wish you a happy day.</p>
+      <p>Note: You must bring food to the office</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><%= image_tag "31-balloons.png" %></p>
+    </td>
+  </tr>
+</table>
