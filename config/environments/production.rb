@@ -93,7 +93,7 @@ Rails.application.configure do
 
   # SparkPost settings
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.asset_host = 'https://beta-vizzuality.herokuapp.com/assets'
+  config.action_mailer.asset_host = 'https://beta-vizzuality.herokuapp.com'
   config.action_mailer.smtp_settings = {
     user_name: 'SMTP_Injection',
     password: ENV.fetch("SPARKPOST_SMTP_PASSWORD"),
