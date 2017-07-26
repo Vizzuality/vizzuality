@@ -5,6 +5,6 @@ class ScheduleMailer < ApplicationMailer
     team = User.all
     recipients = team.map { |t| t.email }
     @birthday_guy = birthday_guy
-    mail to: recipients.join(','), subject: 'Happy birthday!'
+    mail(to: recipients.join(','), subject: 'Happy birthday!').deliver
   end
 end
