@@ -1,3 +1,8 @@
+<%
+  limit_year = 35
+  year = Time.now.year - @birthday_guy.birthday.year
+  result_year = year >= limit_year ? "#{year - 5}<sup>*</sup>" : year
+%>
 <table width="50%" style="max-width: 720px; margin: 0 auto;">
   <tr>
     <td>
@@ -7,13 +12,29 @@
   <tr>
     <td>
       <h1>Happy Birthday<br> <%= @birthday_guy.name %>!</h1>
-      <p>Now you are <%= Time.now.year - @birthday_guy.birthday.year %> years old! We wish you a happy day.</p>
-      <p>Note: You must bring food to the office</p>
+    </td>
+    <td>
+      <div class="thumb">
+        <%= image_tag image_url(@birthday_guy.photo.url(:medium)) %>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Now you are <strong><%= result_year.html_safe %></strong> years old! We wish you a happy day.</p>
+      <p>Note: You must bring food to the office.</p>
     </td>
   </tr>
   <tr>
     <td>
       <p><%= image_tag "31-balloons.png" %></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <% if year >= limit_year %>
+        <p class="text-small"><sup>*</sup> Age shown may not be correct</p>
+      <% end %>
     </td>
   </tr>
 </table>
