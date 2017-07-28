@@ -5,7 +5,7 @@ ActiveAdmin.register User do
   sortable
 
   permit_params :name, :position, :quote, :twitter_user, :linkedin_user,
-    :github_user, :dribbble_user, :photo, :birthday, :weight, :body, :admin,
+    :github_user, :dribbble_user, :photo, :birthday, :vizzday, :weight, :body, :admin,
     :email, :password, :password_confirmation, :published
 
   controller do
@@ -30,10 +30,10 @@ ActiveAdmin.register User do
       image_tag o.photo.url(:thumb), class: 'team-photo-thumb'
     end
     column :name
-    column :slug
     column :email
     column :position
-    column :created_at
+    column :birthday
+    column :vizzday
     column :published
     actions
   end
@@ -41,7 +41,6 @@ ActiveAdmin.register User do
   filter :email
   filter :position
   filter :published
-  filter :created_at
 
   form do |f|
     f.inputs "Team member detail" do
@@ -56,7 +55,8 @@ ActiveAdmin.register User do
       f.input :photo, as: :file, hint: f.object.photo.present? \
         ? image_tag(f.object.photo.url(:thumb))
         : content_tag(:span, "No photo yet")
-      f.input :birthday, start_year: 1960
+      f.input :birthday, start_year: 1965
+      f.input :vizzday, start_year: 2007
       f.input :weight
       f.input :body
       f.input :admin

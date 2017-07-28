@@ -1,4 +1,4 @@
-class CreateOpinions < ActiveRecord::Migration[5.0]
+class CreateOpinions < ActiveRecord::Migration[5.1]
   def change
     create_table :opinions do |t|
       t.string :title

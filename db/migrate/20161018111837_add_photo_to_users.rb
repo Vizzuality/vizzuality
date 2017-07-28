@@ -1,4 +1,4 @@
-class AddPhotoToUsers < ActiveRecord::Migration[5.0]
+class AddPhotoToUsers < ActiveRecord::Migration[5.1]
   def up
     add_attachment :users, :photo
   end

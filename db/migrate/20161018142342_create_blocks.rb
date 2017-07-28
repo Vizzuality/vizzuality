@@ -1,4 +1,4 @@
-class CreateBlocks < ActiveRecord::Migration[5.0]
+class CreateBlocks < ActiveRecord::Migration[5.1]
   def change
     create_table :blocks do |t|
       t.integer :block_type, default: 0
