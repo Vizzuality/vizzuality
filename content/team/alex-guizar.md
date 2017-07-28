@@ -6,7 +6,7 @@ twitter:    _guizar
 linkedin:   "https://www.linkedin.com/in/alejandro-guizar-25b05895"
 github:		guizar
 email:      alex.guizar@vizzuality.com
-photo:      alex-guizar.jpg
+photo:      alex-g.jpg
 author:     Camellia
 date:       07/28/2017
 order:      
