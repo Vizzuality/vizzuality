@@ -1,7 +1,7 @@
 <%
   limit_year = 35
   year = Time.now.year - @birthday_guy.birthday.year
-  result_year = year >= limit_year ? "#{year - 5}<sup>*</sup>" : year
+  result_year = year >= limit_year ? "#{year - 5}<sup>*</sup>" : "#{year}"
 %>
 <table width="50%" style="max-width: 720px; margin: 0 auto;">
   <tr>
