@@ -3,7 +3,7 @@ name:       Adam Pain
 position:   Back-End Developer Intern
 phrase:     See the forest for the trees
 twitter:    AdamJayPain
-linkedin:   "http://wwww.linkedin.com/in/ajpxi"
+linkedin:   "https://www.linkedin.com/in/ajpxi/"
 github:		01painadam
 email:      adam.pain@vizzuality.com
 photo:      adam-cat.jpg
