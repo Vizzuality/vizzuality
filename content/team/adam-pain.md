@@ -6,7 +6,7 @@ twitter:    AdamJayPain
 linkedin:   "https://www.linkedin.com/in/ajpxi/"
 github:		01painadam
 email:      adam.pain@vizzuality.com
-photo:      adam-cat.jpg
+photo:      adam-pain.jpg
 author:     Camellia
 date:       08/25/2017
 order:      
