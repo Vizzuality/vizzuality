@@ -6,7 +6,7 @@ twitter:    vectorsize
 linkedin:   "https://www.linkedin.com/in/victorsaiz"
 github:		vectorsize
 email:      victor.saiz@vizzuality.com
-photo:      victor.jpg
+photo:      victor-saiz2.jpg
 author:     Camellia Williams
 date:       07/10/2017
 order:      
