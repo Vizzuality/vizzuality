@@ -1,7 +1,7 @@
 <%
   limit_year = 35
   year = Time.now.year - @birthday_guy.birthday.year
-  result_year = year >= limit_year ? "#{year - 5}<sup>*</sup>" : "#{year}"
+  result_year = year >= limit_year ? "#{limit_year}<sup>*</sup>" : "#{year}"
 %>
 <table width="50%" style="max-width: 720px; margin: 0 auto;">
   <tr>
@@ -33,7 +33,7 @@
   <tr>
     <td>
       <% if year >= limit_year %>
-        <p class="text-small"><sup>*</sup> Age shown may not be correct</p>
+        <p class="text-small"><sup>*</sup> Age shown may not be correct.</p>
       <% end %>
     </td>
   </tr>
