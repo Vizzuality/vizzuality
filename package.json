@@ -65,7 +65,7 @@
     "underscore.string": "^3.0.3"
   },
   "engines": {
-    "node": "4.4.x"
+    "node": "6.x"
   },
   "cacheDirectories": [
     "node_modules",
