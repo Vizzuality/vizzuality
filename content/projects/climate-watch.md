@@ -5,13 +5,13 @@ summary:     	Visualising data for ambitious climate action
 description: 	"Open data and visualisations for climate progress"
 fb_title:    	"Climate Watch | Vizzuality"
 fb_description: "Open data and visualisations for climate progress"
-link:        	https://www.climatewatchdata.org/
+link:        	https://www.climatewatchdata.org
 link_short:  	climatewatchdata.org
 client:      	World Resources Institute
 client_logo: 	wri.png
 svg_logo:    	wri.svg
 post_url:       "https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b"
-post_title:     Demand for climate data hots up
+post_title:     "Demand for climate data hots up"
 image:       	cw-cover.jpg
 cover:       	cw-cover.jpg
 author:      	Camellia
@@ -23,26 +23,26 @@ logoWidth:      125
 modules:
     -   text_left:
             title: Transparent ambition
-            description: Each country’s Nationally Determined Contribution (NDC) has been extracted from PDF into HTML format, making them easier to search and compare, and therefore more transparent. People responsible for writing NDCs can see what other countries have pledged and match or raise their ambitions. Through this open approach, countries can learn from one another and go further together. 
+            description: "Each country’s Nationally Determined Contribution (NDC) has been extracted from PDF into HTML format, making them easier to search and compare, and therefore more transparent. People responsible for writing NDCs can see what other countries have pledged and match or raise their ambitions. Through this open approach, countries can learn from one another and go further together." 
             image: cw-1.png
 
     -   text_right:
             title: Climate is social
-            description: In a world where everything is connected, climate action can also deliver social action. Climate Watch maps NDCs against the SDGs so policymakers can identify the policies and measures that will enable countries to simultaneously meet both climate and social targets. Climate change and sustainable development are closely entwined and actions that address both can accelerate our journey towards a world that offers better opportunities for all.
+            description: "In a world where everything is connected, climate action can also deliver social action. Climate Watch maps NDCs against the SDGs so policymakers can identify the policies and measures that will enable countries to simultaneously meet both climate and social targets. Climate change and sustainable development are closely entwined and actions that address both can accelerate our journey towards a world that offers better opportunities for all."
             image: cw-2.png
 
     -   blocks:
-            title:
+            title: Features
             modules:
                 - 
                     image: cw-3.png
-                    description: The Historical Emissions module compiles over 150 years of emissions data from three major data sources.
+                    description: "The Historical Emissions module compiles over 150 years of emissions data from three major data sources."
                 - 
                     image: cw-4.png
-                    description: Country profiles offer a national-level snapshot of climate progress, risks and vulnerabilities. Compare up to three countries at a time.
+                    description: "Country profiles offer a national-level snapshot of climate progress, risks and vulnerabilities. Compare up to three countries at a time."
                 - 
                     image: cw-5.png
-                    description: Coming soon: see forecasts of emissions trajectories for over 60 countries or regions to show what pathways could look like through to 2100.
+                    description: "Coming soon: see forecasts of emissions trajectories for over 60 countries or regions to show what pathways could look like through to 2100."
 
     -   video:
             title: Climate Watch: Data for Climate Action
