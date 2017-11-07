@@ -1,23 +1,23 @@
 ---
-title:       	Climate Watch
-short_title: 	Climate Watch
-summary:     	Visualising data for ambitious climate action
-description: 	"Open data and visualisations for climate progress"
-fb_title:    	"Climate Watch | Vizzuality"
+title:          Climate Watch
+short_title:    Climate Watch
+summary:        Visualising data for ambitious climate action
+description:    "Open data and visualisations for climate progress"
+fb_title:       "Climate Watch | Vizzuality"
 fb_description: "Open data and visualisations for climate progress"
-link:        	https://www.climatewatchdata.org
-link_short:  	climatewatchdata.org
-client:      	World Resources Institute
-client_logo: 	wri.png
-svg_logo:    	wri.svg
-post_url:       https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b
+link:           "https://www.climatewatchdata.org"
+link_short:     climatewatchdata.org
+client:         World Resources Institute
+client_logo:    wri.png
+svg_logo:       wri.svg
+post_url:       "https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b"
 post_title:     "Demand for climate data hots up"
-image:       	cw-cover.jpg
-cover:       	cw-cover.jpg
-author:      	Camellia
-date:        	11/07/2017
-release_date:   November 2017          
-highlighted: 	true
+image:          cw-cover.jpg
+cover:          cw-cover.jpg
+author:         Camellia
+date:           2017-11-07
+release_date:   November 2017
+highlighted:    true
 logoWidth:      125
 
 modules:
@@ -45,9 +45,10 @@ modules:
                     description: "Coming soon: see forecasts of emissions trajectories for over 60 countries or regions to show what pathways could look like through to 2100."
 
     -   video:
-            title: "Climate Watch\: Data for Climate Action"
+            title: "Climate Watch: Data for Climate Action"
             style: light
-            url:   https://www.youtube.com/embed/C2nIcBqrHsk
+            url:   "https://www.youtube.com/embed/C2nIcBqrHsk"
+
 ---
 The ferocious and devastating storms that swept across our planet in 2017 were stark reminders that our climate is changing. To stop these extreme weather events from becoming the norm, the world’s nations have to keep to their commitment to limit the global temperature increase to 2.0°C above pre-industrial levels. Climate Watch can help policymakers, researchers and other stakeholders assess our progress towards this pledge and inspire more ambitious climate action to reach our goals faster.  
 
