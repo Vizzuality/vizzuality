@@ -48,7 +48,6 @@ modules:
             title: Climate Watch: Data for Climate Action
             style: light
             url:   https://www.youtube.com/embed/C2nIcBqrHsk
-
 ---
 The ferocious and devastating storms that swept across our planet in 2017 were stark reminders that our climate is changing. To stop these extreme weather events from becoming the norm, the world’s nations have to keep to their commitment to limit the global temperature increase to 2.0°C above pre-industrial levels. Climate Watch can help policymakers, researchers and other stakeholders assess our progress towards this pledge and inspire more ambitious climate action to reach our goals faster.  
 
