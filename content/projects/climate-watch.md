@@ -10,16 +10,17 @@ link_short:  	climatewatchdata.org
 client:      	World Resources Institute
 client_logo: 	wri.png
 svg_logo:    	wri.svg
+post_url:       "https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b"
+post_title:     Demand for climate data hots up
 image:       	cw-cover.jpg
 cover:       	cw-cover.jpg
 author:      	Camellia
-date:        	2017-11-07
+date:        	11/07/2017
 release_date:   November 2017          
 highlighted: 	true
 logoWidth:      125
 
 modules:
-
     -   text_left:
             title: Transparent ambition
             description: Each country’s Nationally Determined Contribution (NDC) has been extracted from PDF into HTML format, making them easier to search and compare, and therefore more transparent. People responsible for writing NDCs can see what other countries have pledged and match or raise their ambitions. Through this open approach, countries can learn from one another and go further together. 
