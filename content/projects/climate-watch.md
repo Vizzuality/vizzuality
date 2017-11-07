@@ -10,7 +10,7 @@ link_short:  	climatewatchdata.org
 client:      	World Resources Institute
 client_logo: 	wri.png
 svg_logo:    	wri.svg
-post_url:       "https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b"
+post_url:       https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b
 post_title:     "Demand for climate data hots up"
 image:       	cw-cover.jpg
 cover:       	cw-cover.jpg
