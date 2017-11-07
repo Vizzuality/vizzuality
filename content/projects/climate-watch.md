@@ -45,7 +45,7 @@ modules:
                     description: "Coming soon: see forecasts of emissions trajectories for over 60 countries or regions to show what pathways could look like through to 2100."
 
     -   video:
-            title: Climate Watch: Data for Climate Action
+            title: "Climate Watch\: Data for Climate Action"
             style: light
             url:   https://www.youtube.com/embed/C2nIcBqrHsk
 ---
