@@ -10,8 +10,8 @@ link_short:     climatewatchdata.org
 client:         World Resources Institute
 client_logo:    wri.png
 svg_logo:       wri.svg
-post_url:       "https://medium.com/vizzuality-blog/demand-for-climate-data-hots-up-aa5fd92a885b"
-post_title:     "Demand for climate data hots up"
+post_url:       "https://medium.com/vizzuality-blog/climate-data-for-ambitious-action-21c1f7ff5b24"
+post_title:     "Climate data for ambitious action"
 image:          cw-cover.jpg
 cover:          cw-cover.jpg
 author:         Camellia
@@ -48,7 +48,19 @@ modules:
             title: "Climate Watch: Data for Climate Action"
             style: light
             url:   "https://www.youtube.com/embed/C2nIcBqrHsk"
-
+opinions:
+    -
+        title: "New #ClimateWatch data platform will help countries achieve #ParisAgreement and #GlobalGoals. Learn more: climatewatchdata.org"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/ndcpartnership/status/925664480591253504"> NDC Partnership </a>
+    -
+        title: "NEW! #ClimateWatch = first time all #NDCs mapped to the 169 #SDG targets. climatewatchdata.org @WorldResources @ndcpartnership"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/HMountford4/status/925752387515666432"> Helen Mountford </a>
+    -
+        title: "Explore countries’ #climateaction progress, risks, historical emissions & NDCs on NEW #ClimateWatch data platform: climatewatchdata.org"
+        photo: media/twitter.png
+        autor: <a href="https://twitter.com/WMBtweets/status/927937475338792961"> We Mean Business </a>
 ---
 The ferocious and devastating storms that swept across our planet in 2017 were stark reminders that our climate is changing. To stop these extreme weather events from becoming the norm, the world’s nations have to keep to their commitment to limit the global temperature increase to 2.0°C above pre-industrial levels. Climate Watch can help policymakers, researchers and other stakeholders assess our progress towards this pledge and inspire more ambitious climate action to reach our goals faster.  
 
