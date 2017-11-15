@@ -33,6 +33,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'dotenv-rails'
   gem 'awesome_print'
+  gem 'annotate'
 end
 
 group :development do

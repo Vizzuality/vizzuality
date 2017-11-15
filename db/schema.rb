@@ -10,42 +10,45 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170727102636) do
+ActiveRecord::Schema.define(version: 20171115102406) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "active_admin_comments", force: :cascade do |t|
+  create_table "active_admin_comments", id: :serial, force: :cascade do |t|
     t.string "namespace"
     t.text "body"
     t.string "resource_id", null: false
     t.string "resource_type", null: false
     t.string "author_type"
-    t.bigint "author_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer "author_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.index ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id"
     t.index ["namespace"], name: "index_active_admin_comments_on_namespace"
     t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id"
   end
 
-  create_table "blocks", force: :cascade do |t|
-    t.integer "block_type", default: 0
-    t.string "title"
-    t.string "url"
+  create_table "block_modules", force: :cascade do |t|
+    t.integer "block_id"
     t.text "description"
-    t.string "thumbnail_file_name"
-    t.string "thumbnail_content_type"
-    t.integer "thumbnail_file_size"
-    t.datetime "thumbnail_updated_at"
-    t.boolean "published", default: false
-    t.bigint "project_id"
+    t.string "image_file_name"
+    t.string "image_content_type"
+    t.integer "image_file_size"
+    t.datetime "image_updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "blocks", id: :serial, force: :cascade do |t|
+    t.string "title"
+    t.integer "project_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["project_id"], name: "index_blocks_on_project_id"
   end
 
-  create_table "clients", force: :cascade do |t|
+  create_table "clients", id: :serial, force: :cascade do |t|
     t.string "name"
     t.integer "override_width"
     t.boolean "published", default: false
@@ -61,7 +64,7 @@ ActiveRecord::Schema.define(version: 20170727102636) do
     t.datetime "logo_white_updated_at"
   end
 
-  create_table "friendly_id_slugs", force: :cascade do |t|
+  create_table "friendly_id_slugs", id: :serial, force: :cascade do |t|
     t.string "slug", null: false
     t.integer "sluggable_id", null: false
     t.string "sluggable_type", limit: 50
@@ -73,22 +76,30 @@ ActiveRecord::Schema.define(version: 20170727102636) do
     t.index ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type"
   end
 
-  create_table "opinions", force: :cascade do |t|
+  create_table "maps", force: :cascade do |t|
+    t.string "title"
+    t.string "url"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "project_id"
+  end
+
+  create_table "opinions", id: :serial, force: :cascade do |t|
     t.string "title"
     t.string "thumbnail_file_name"
     t.string "thumbnail_content_type"
     t.integer "thumbnail_file_size"
     t.datetime "thumbnail_updated_at"
-    t.string "author"
-    t.boolean "published", default: false
-    t.bigint "project_id"
+    t.string "author_name"
+    t.integer "project_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.text "description"
+    t.string "author_url"
     t.index ["project_id"], name: "index_opinions_on_project_id"
   end
 
-  create_table "projects", force: :cascade do |t|
+  create_table "projects", id: :serial, force: :cascade do |t|
     t.string "title"
     t.string "short_title"
     t.string "meta_description"
@@ -101,10 +112,9 @@ ActiveRecord::Schema.define(version: 20170727102636) do
     t.integer "weight", default: 0
     t.boolean "highlighted"
     t.boolean "published", default: false
-    t.bigint "client_id"
+    t.integer "client_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "block_title"
     t.string "cover_image_file_name"
     t.string "cover_image_content_type"
     t.integer "cover_image_file_size"
@@ -119,11 +129,28 @@ ActiveRecord::Schema.define(version: 20170727102636) do
     t.datetime "project_image_updated_at"
     t.integer "grid"
     t.string "slug"
+    t.string "post_url"
+    t.string "post_title"
+    t.string "short_link"
+    t.string "author"
     t.index ["client_id"], name: "index_projects_on_client_id"
     t.index ["slug"], name: "index_projects_on_slug", unique: true
   end
 
-  create_table "users", force: :cascade do |t|
+  create_table "text_blocks", force: :cascade do |t|
+    t.string "title"
+    t.text "description"
+    t.string "text_side"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "image_file_name"
+    t.string "image_content_type"
+    t.integer "image_file_size"
+    t.datetime "image_updated_at"
+    t.integer "project_id"
+  end
+
+  create_table "users", id: :serial, force: :cascade do |t|
     t.string "name"
     t.string "position"
     t.string "quote"
@@ -158,6 +185,15 @@ ActiveRecord::Schema.define(version: 20170727102636) do
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
     t.index ["slug"], name: "index_users_on_slug", unique: true
+  end
+
+  create_table "videos", force: :cascade do |t|
+    t.string "title"
+    t.string "style"
+    t.string "url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "project_id"
   end
 
 end

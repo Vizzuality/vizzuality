@@ -1,17 +1,16 @@
 # == Schema Information
 #
-# Table name: blocks
+# Table name: videos
 #
 #  id         :integer          not null, primary key
 #  title      :string
-#  project_id :integer
+#  style      :string
+#  url        :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  project_id :integer
 #
 
-class Block < ApplicationRecord
+class Video < ApplicationRecord
   belongs_to :project
-  has_many :block_modules
-
-  accepts_nested_attributes_for :block_modules, allow_destroy: true
 end
