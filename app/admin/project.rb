@@ -137,4 +137,91 @@ ActiveAdmin.register Project do
     end
     f.actions
   end
+
+  show do
+    attributes_table do
+      row :title
+      row :short_title
+      row :meta_description
+      row :fb_title
+      row :fb_description
+      row :link
+      row :short_link
+      row :client
+      row :post_title
+      row :post_url
+      row :project_image do |p|
+        image_tag p.project_image.url(:thumb)
+      end
+      row :cover_image do |p|
+        image_tag p.cover_image.url(:thumb)
+      end
+      row :author
+      row :created_at
+      row :release_date
+      row :highlighted
+
+      if project.text_blocks.present?
+        panel 'Text Blocks' do
+          table_for project.text_blocks do
+            column :title
+            column :text_side
+            column :image do |p|
+              image_tag p.image.url(:thumb)
+            end
+          end
+        end
+      end
+
+      if project.map.present?
+        panel 'Map' do
+          table_for project.map do
+            column :title
+            column :url
+            column :description
+          end
+        end
+      end
+
+      if project.video.present?
+        panel 'Video' do
+          table_for project.video do
+            column :title
+            column :style
+            column :url
+          end
+        end
+      end
+
+      if project.block.present?
+        panel 'Block' do
+          table_for project.block do
+            column :title
+
+            table_for project.block.block_modules do
+              column :description
+              column :image do |bm|
+                image_tag bm.image.url(:thumb)
+              end
+            end
+          end
+        end
+      end
+
+      if project.opinions.present?
+        panel 'Opinions' do
+          table_for project.opinions do
+            column :title
+            column :author_name
+            column :author_url
+            column :thumbnail do |p|
+              image_tag p.thumbnail.url(:small)
+            end
+          end
+        end
+      end
+    end
+
+    active_admin_comments
+  end
 end
