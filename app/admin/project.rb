@@ -12,7 +12,7 @@ ActiveAdmin.register Project do
     map_attributes: [:id, :title, :description, :url, :_destroy],
     video_attributes: [:id, :title, :style, :url, :_destroy],
     opinions_attributes: [:id, :title, :author_name, :author_url, :thumbnail, :_destroy],
-    block_attributes: [:id, :title, :_destroy, block_modules_attributes: [:id, :_destroy, :description, :image]]
+    block_attributes: [:id, :title, :_destroy, block_modules_attributes: [:id, :_destroy, :description, :image, :position]]
 
   controller do
     def find_resource
@@ -107,6 +107,11 @@ ActiveAdmin.register Project do
         b.input :title
 
         b.has_many :block_modules, allow_destroy: true do |bm|
+          bm.input :position,
+                   as: :select,
+                   collection: BlockModule.options_for_position,
+                   include_blank: false
+
           bm.input :description
           bm.input :image, as: :file, hint: bm.object.image.present? \
             ? image_tag(bm.object.image.url(:thumb))

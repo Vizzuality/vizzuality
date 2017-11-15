@@ -21,4 +21,8 @@ class BlockModule < ApplicationRecord
     default_url: ActionController::Base.helpers.image_path('missing.png')
 
     validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
+
+    def self.options_for_position
+      [1, 2, 3]
+    end
 end
