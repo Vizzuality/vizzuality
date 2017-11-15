@@ -13,6 +13,7 @@
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #  author_url             :string
+#  position               :integer
 #
 
 class Opinion < ApplicationRecord
@@ -23,4 +24,8 @@ class Opinion < ApplicationRecord
     default_url: ActionController::Base.helpers.image_path('missing.png')
     
   validates_attachment_content_type :thumbnail, content_type: /\Aimage\/.*\z/
+
+  def self.options_for_position
+    [1, 2, 3]
+  end
 end

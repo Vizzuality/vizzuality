@@ -11,7 +11,7 @@ ActiveAdmin.register Project do
     text_blocks_attributes: [:id, :title, :description, :image, :text_side, :_destroy],
     map_attributes: [:id, :title, :description, :url, :_destroy],
     video_attributes: [:id, :title, :style, :url, :_destroy],
-    opinions_attributes: [:id, :title, :author_name, :author_url, :thumbnail, :_destroy],
+    opinions_attributes: [:id, :title, :author_name, :author_url, :thumbnail, :position, :_destroy],
     block_attributes: [:id, :title, :_destroy, block_modules_attributes: [:id, :_destroy, :description, :image, :position]]
 
   controller do
@@ -45,6 +45,8 @@ ActiveAdmin.register Project do
   filter :created_at
 
   form do |f|
+    f.semantic_errors *f.object.errors.keys
+
     f.inputs "Project details" do
       f.input :client, include_blank: false
       f.input :title, required: true
@@ -98,6 +100,11 @@ ActiveAdmin.register Project do
         o.input :title
         o.input :author_name
         o.input :author_url
+        o.input :position,
+                as: :select,
+                collection: Opinion.options_for_position,
+                include_blank: false
+
         o.input :thumbnail, as: :file, hint: o.object.thumbnail.present? \
           ? image_tag(o.object.thumbnail.url(:small))
           : content_tag(:span, "No thumbnail yet")

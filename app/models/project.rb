@@ -34,6 +34,8 @@
 #  slug                       :string
 #  post_url                   :string
 #  post_title                 :string
+#  short_link                 :string
+#  author                     :string
 #
 
 class Project < ApplicationRecord
@@ -68,12 +70,55 @@ class Project < ApplicationRecord
   validates_attachment_content_type :project_logo, content_type: /\Aimage\/.*\z/
   validates_attachment_content_type :cover_image, content_type: /\Aimage\/.*\z/
   validates_attachment_content_type :project_image, content_type: /\Aimage\/.*\z/
+  validate :valid_text_block
+  validate :valid_block
+  validate :valid_opinions
 
   def next
     self.class.sorted_team.where("weight > ?", weight).first
   end
 
-  def prev
+  def private
     self.class.sorted_team.where("weight < ?", weight).last
+  end
+
+  private
+
+  def valid_text_block
+    if text_blocks.present?
+      sides = text_blocks.pluck(:text_side)
+
+      unless sides.size == sides.uniq.size
+        errors.add(:text_blocks, "must only contain one block with 'Text side' left and one block with 'Text side' right.")
+      end
+    end
+  end
+
+  def valid_block
+    if block.present?
+      if block.block_modules.present?
+        positions = block.block_modules.pluck(:position)
+
+        unless positions.size == positions.uniq.size
+          errors.add(:block_modules, "shouldn't have repeated positions.")
+        end
+      else
+        errors.add(:block, "must have at least one block module.")
+      end
+    end
+  end
+
+  def valid_opinions
+    if opinions.present?
+      positions = opinions.pluck(:position)
+
+      if opinions.size > 3
+        errors.add(:opinions, "- 3 max.")
+      end
+
+      unless positions.size == positions.uniq.size
+        errors.add(:opinions, "shouldn't have repeated positions.")
+      end
+    end
   end
 end
