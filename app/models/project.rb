@@ -59,10 +59,10 @@ class Project < ApplicationRecord
     styles: { medium: "300x110>" },
     default_url: ActionController::Base.helpers.image_path('missing.png')
   has_attached_file :cover_image,
-    styles: { medium: "512x512>", large: "1660x800>" },
+    styles: { thumb: "250x250", medium: "512x512>", large: "1660x800>" },
     default_url: ActionController::Base.helpers.image_path('missing.png')
   has_attached_file :project_image,
-    styles: { medium: "512x512>", large: "1660x800>" },
+    styles: { thumb: "250x250", medium: "512x512>", large: "1660x800>" },
     default_url: ActionController::Base.helpers.image_path('missing.png')
 
   validates_attachment_content_type :project_logo, content_type: /\Aimage\/.*\z/

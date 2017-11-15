@@ -17,7 +17,7 @@ class BlockModule < ApplicationRecord
   belongs_to :block
 
   has_attached_file :image,
-    styles: { medium: "512x512>" },
+    styles: { thumb: "250x250", medium: "512x512>" },
     default_url: ActionController::Base.helpers.image_path('missing.png')
 
     validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/

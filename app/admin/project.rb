@@ -54,16 +54,28 @@ ActiveAdmin.register Project do
       f.input :meta_description
       f.input :link, label: 'Project url'
       f.input :short_link, label: 'Project short url'
-      f.input :cover_image, as: :file
-      f.input :project_image, as: :file
-      f.input :project_logo, as: :file
+      f.input :cover_image, as: :file, hint: f.object.cover_image.present? \
+        ? image_tag(f.object.cover_image.url(:thumb))
+        : content_tag(:span, "No cover image yet")
+
+      f.input :project_image, as: :file, hint: f.object.project_image.present? \
+        ? image_tag(f.object.project_image.url(:thumb))
+        : content_tag(:span, "No project image yet")
+
+      f.input :project_logo, as: :file, hint: f.object.project_logo.present? \
+        ? image_tag(f.object.project_logo.url(:medium))
+        : content_tag(:span, "No project logo yet")
+
       f.input :summary
       f.input :body
 
       f.has_many :text_blocks, allow_destroy: true do |t|
         t.input :title
         t.input :description
-        t.input :image, as: :file
+        t.input :image, as: :file, hint: t.object.image.present? \
+          ? image_tag(t.object.image.url(:thumb))
+          : content_tag(:span, "No image yet")
+
         t.input :text_side,
                 as: :select,
                 collection: TextBlock.options_for_text_side,
@@ -86,7 +98,9 @@ ActiveAdmin.register Project do
         o.input :title
         o.input :author_name
         o.input :author_url
-        o.input :thumbnail, as: :file
+        o.input :thumbnail, as: :file, hint: o.object.thumbnail.present? \
+          ? image_tag(o.object.thumbnail.url(:small))
+          : content_tag(:span, "No thumbnail yet")
       end
 
       f.has_many :block, allow_destroy: true do |b|
@@ -94,7 +108,9 @@ ActiveAdmin.register Project do
 
         b.has_many :block_modules, allow_destroy: true do |bm|
           bm.input :description
-          bm.input :image, as: :file
+          bm.input :image, as: :file, hint: bm.object.image.present? \
+            ? image_tag(bm.object.image.url(:thumb))
+            : content_tag(:span, "No image yet")
         end
       end
 
