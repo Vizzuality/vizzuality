@@ -28,7 +28,7 @@ ActiveAdmin.register Project do
     column :slug
     column :link
     column :release_date
-    column :client_id
+    column :client
     column :highlighted
     column :published
     column :created_at
@@ -40,7 +40,7 @@ ActiveAdmin.register Project do
   filter :weight
   filter :highlighted
   filter :published
-  filter :client_id
+  filter :client
   filter :release_date
   filter :created_at
 
