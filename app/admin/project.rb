@@ -127,7 +127,10 @@ ActiveAdmin.register Project do
       end
 
       f.input :weight
-      f.input :grid
+      f.input :grid,
+              as: :select,
+              collection: Project.options_for_grid
+
       f.input :highlighted
       f.input :post_title
       f.input :post_url
@@ -160,6 +163,7 @@ ActiveAdmin.register Project do
       row :created_at
       row :release_date
       row :highlighted
+      row :grid
 
       if project.text_blocks.present?
         panel 'Text Blocks' do

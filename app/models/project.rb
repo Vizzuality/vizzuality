@@ -74,11 +74,17 @@ class Project < ApplicationRecord
   validate :valid_block
   validate :valid_opinions
 
+  class << self
+    def options_for_grid
+      [1, 2, 3]
+    end
+  end
+
   def next
     self.class.sorted_team.where("weight > ?", weight).first
   end
 
-  def private
+  def prev
     self.class.sorted_team.where("weight < ?", weight).last
   end
 
