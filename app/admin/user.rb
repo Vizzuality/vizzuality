@@ -6,7 +6,7 @@ ActiveAdmin.register User do
 
   permit_params :name, :position, :quote, :twitter_user, :linkedin_user,
     :github_user, :dribbble_user, :photo, :birthday, :vizzday, :weight, :body, :admin,
-    :email, :password, :password_confirmation, :published
+    :email, :password, :password_confirmation, :published, :office
 
   controller do
     def find_resource
@@ -34,6 +34,7 @@ ActiveAdmin.register User do
     column :position
     column :birthday
     column :vizzday
+    column :office
     column :published
     actions
   end
@@ -41,6 +42,9 @@ ActiveAdmin.register User do
   filter :email
   filter :position
   filter :published
+  filter :office,
+         as: :select,
+         collection: User.options_for_office
 
   form do |f|
     f.inputs "Team member detail" do
@@ -57,6 +61,11 @@ ActiveAdmin.register User do
         : content_tag(:span, "No photo yet")
       f.input :birthday, start_year: 1965
       f.input :vizzday, start_year: 2007
+      f.input :office,
+              as: :select,
+              collection: User.options_for_office,
+              include_blank: false
+
       f.input :weight
       f.input :body
       f.input :admin

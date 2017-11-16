@@ -55,8 +55,14 @@ class User < ApplicationRecord
   validates :password, :password_confirmation, presence: true, on: :create
   validates :password, confirmation: true
 
-  def self.sorted_team
-    self.where(published: true).order('weight asc')
+  class << self
+    def sorted_team
+      self.where(published: true).order('weight asc')
+    end
+
+    def options_for_office
+      ['Madrid', 'Cambridge', 'Porto']
+    end
   end
 
   def next
