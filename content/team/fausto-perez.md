@@ -1,10 +1,10 @@
 ---
 name:       Fausto Pérez
 position:   Designer
-phrase:     Humans can be healing forces. A footprint is something I actually want to leave
+phrase:     I'd like to design a farm
 twitter:    imfausto
 linkedin:   "https://www.linkedin.com/in/faustoperez/"
-dribbble:   faustoperez
+dribble:    faustoperez
 github:		faustoperez
 email:      fausto.perez@vizzuality.com
 photo:      fausto.jpg
