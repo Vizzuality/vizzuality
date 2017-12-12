@@ -5,7 +5,7 @@ phrase:     "Use this chance to be heard: your time is now"
 linkedin:   "https://uk.linkedin.com/in/jamiegibson1990"
 github:		Jamie-Gibson
 email:      jamie.gibson@vizzuality.com
-photo:      jamie-gibson.jpg
+photo:      jamie_2.jpeg
 author:     Alicia
 date:       2015-05-08
 order:		13
