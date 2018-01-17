@@ -10,7 +10,7 @@ photo:      ronny.jpg
 author:     Camellia Williams
 date:       26/09/2016
 order:      37
-published: true
+published: false
 ---
 Ronny joined our team as an Data Analyst Intern whilst studying for a masters in Data Science in Madrid and stayed on as a Data Scientist. Ronny understands that there is much we can discover through data and gets excited when he thinks about what people could achieve if we were able to access all the data we generate. With this in mind, he dives into data to discover insights that will help us make the world a better place.
 

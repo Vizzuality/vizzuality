@@ -10,7 +10,7 @@ photo:      alex-g.jpg
 author:     Camellia
 date:       07/28/2017
 order:      
-published: true
+published: false
 ---
 Alex is a Data Scientist who develops products that speak directly to people’s needs. Having worked for mission-driven think tanks, including the Luc Hoffmann Institute for the past few years, he has come to appreciate the importance of making research outputs meaningful to target audiences. Alex is working on the E.O. Wilson Biodiversity Foundation Half-Earth Project, combining biodiversity mapping research, product research, and project coordination to identity which places need to be protected. 
 
