@@ -20,7 +20,7 @@
     "grid": 1
   },
   "climate-watch": {
-    "order": 2
+    "order": 4
   },
   "EDI": {
     "order": 19,
@@ -43,7 +43,8 @@
     "grid": 2
   },
   "global-fishing-watch": {
-    "order": 3
+    "order": 7,
+    "grid": 1
   },
   "global-forest-watch": {
     "order": 1
@@ -97,8 +98,7 @@
     "grid": 1
   },
   "nyc-dashboard": {
-    "order": 7,
-    "grid": 1
+    "order": 5
   },
   "old-weather": {
     "order": 35,
@@ -121,7 +121,7 @@
     "grid": 2
   },
     "prep": {
-    "order": 4
+    "order": 2
   },
   "REE": {
     "order": 33,
@@ -144,7 +144,7 @@
     "grid": 1
   },
   "trase": {
-    "order": 5
+    "order": 3
   },
   "web-evolution": {
     "order": 21,
