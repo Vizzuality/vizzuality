@@ -10,8 +10,8 @@ link_short:      prepdata.org
 client:          Partnership for Resilience and Preparedness
 client_logo:     prep-logo.png
 svg_logo:
-post_url:        "https://medium.com/vizzuality-blog/harnessing-the-data-revolution-for-climate-action-b0b8300d3854#.ynaux1vvx"
-post_title:      Harnessing the data revolution for climate action
+post_url:        "https://medium.com/vizzuality-blog/preparing-for-the-future-with-curated-climate-data-70266af49eeb"
+post_title:      Preparing for the future with curated climate data
 image:           prep-2018-cover.jpg
 cover:           prep-2018-cover.jpg
 author:          camellia
@@ -61,5 +61,5 @@ opinions:
 ---
 Climate change is forecast to increase the intensity and frequency of extreme weather across our planet. Fiercer, more frequent storms means there’s a greater risk of the places we depend on for shelter, food and resources getting damaged. Communities and companies need to make long-term decisions on how to make our infrastructure more resilient to changing weather patterns. But to make those choices, they need data.
 
-We belong to a partnership that’s making climate data easier to access, analyse and use. Lead by World Resources Institute and Future Earth, the Partnership for Resilience and Preparedness (PREP) has been listening to user feedback since the online platform launched in 2016 and using it to identify which datasets and features are most needed. Using this information we’ve designed an experience that guides people towards the data they need most, allowing them to understand what impacts climate change will have on their community or business.
+We belong to a partnership that’s making climate data easier to access, analyse and use. Led by World Resources Institute and Future Earth, the Partnership for Resilience and Preparedness (PREP) has been listening to user feedback since the online platform launched in 2016 and using it to identify which datasets and features are most needed. Using this information we’ve designed an experience that guides people towards the data they need most, allowing them to understand what impacts climate change will have on their community or business.
  
