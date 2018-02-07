@@ -31,7 +31,8 @@
     "grid": 2
   },
   "forest-watcher": {
-    "order": 4
+    "order": 4,
+    "grid": 1
   },
   "geocat": {
     "order": 17,
@@ -60,8 +61,8 @@
     "grid": 2
   },
   "growasia": {
-    "order": 8,
-    "grid": 1
+    "order": 22,
+    "grid": 2
   },
   "imazon": {
     "order": 28,
@@ -120,8 +121,7 @@
     "grid": 2
   },
     "prep": {
-    "order": 22,
-     "grid": 2
+    "order": 4,
   },
   "REE": {
     "order": 33,
