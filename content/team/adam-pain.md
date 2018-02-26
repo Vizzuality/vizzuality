@@ -2,7 +2,6 @@
 name:       Adam Pain
 position:   Data Scientist
 phrase:     See the forest for the trees
-twitter:    AdamJayPain
 linkedin:   "https://www.linkedin.com/in/ajpxi/"
 github:		01painadam
 email:      adam.pain@vizzuality.com
