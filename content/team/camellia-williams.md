@@ -1,13 +1,13 @@
 ---
-name:      Camellia Williams 
+name:      Chameleon Williams 
 position:  Lead Writer 
-phrase:    "Everyone has a story to share, let’s tell yours together" 
+phrase:    "Terrifed of snakes" 
 twitter:   camellia_will 
 linkedin:  "https://www.linkedin.com/in/camellia-williams-131a2836 " 
 github:		camelliawill
 behance: 
 email:   camellia.williams@vizzuality.com   
-photo:    camellia_2.jpg  
+photo:    c-snake.jpg  
 author:     Jamie
 date:       5/20/2016
 order:      25
