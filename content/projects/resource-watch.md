@@ -5,7 +5,7 @@ summary:     "Tuning in to our planet's signals"
 description: "We developed a platform for accurate, accessible and understandable insights about our world, working with WRI and many other partners"
 fb_title:    "Resource Watch | Vizzuality"
 fb_description: "A new platform for accurate, accessible and understandable insights about our world" 
-link:        http://resourcewatch.org
+link:        https://resourcewatch.org/
 link_short:  resourcewatch.org
 client:      World Resources Institute
 client_logo: wri.png
@@ -16,33 +16,20 @@ image:       resourcewatch.jpg
 cover:       resourcewatch_2.jpg
 author:      Jamie Gibson
 date:        2015-10-16
-release_date:  October 2015
+release_date:  April 2018
 highlighted: true
 align:       left
 
 modules:
     -   text_parallax:
-            title: The data you need
-            description: "We've brought together data on water, food security, conservation, climate change, deforestation and much much more for you to play with, explore and analyse. But we know that if you want to truly understand these issues, and the interrelations between them, you need powerful and intuitive visualisations. Especially when you consider the volume of data, we wanted to create new design patterns that empower people all over the world to understand and tell stories with the data. We've given you multiple angles to analyse the data, from dashboards and maps to innovative features like 'Insights' and 'Planet Pulse'."
-            parallax: rw_high1.jpg
+            title: Many databases, one API
+            description: "Services like Google Cloud Engine and Amazon Web Services allow us to remotely access data sets from many different sources and tap into them when we need them. To access them all in a standard way you need an Application Programming Interface (API). We built the API that connects Resource Watch to all of the data sets you can find there, and we did it with open source technology so anyone can create new functionalities, add to it, and reuse it in other places. Right now, the API is being used to share data with <a href="https://www.globalforestwatch.org/">Global Forest Watch</a> and <a href="https://www.prepdata.org/">PREP</a>, as well as Resource Watch."
+            parallax: rw-block1-new.jpg
 
     -   text_above:
-            title: Serving Global Goals
-            description: "To reach the lofty Sustainable Development Goals agreed in September 2015, we need precise data to act in the right places at the right time. Moreover we need to share this data widely, using advances in machine learning, data processing and mobile phone ownership to give insights to the people on the frontline of social development and environmental protection."
-            image: rw_high2.png
-
-    -   blocks:
-            title: Capitalising on the big trends of our age
-            modules:
-                -
-                    image: rw_block1.jpg
-                    description: "Today there are 5 times more people accessing the internet on mobiles than desktops. In 5 years four fifths of the world’s adults will own a smartphone and around 90% of the world will have 3G coverage. By building mobile first services, Resource Watch will be able to reach a global audience of billions."
-                -
-                    image: rw_block2.jpg
-                    description: "For the poorest people in the world, mobile technology can balance inequalities in access to information. By releasing more open data and presenting it in a way that people can understand and easily access, Resource Watch will be a tool for all."
-                -
-                    image: rw_block3.jpg
-                    description: "Already, citizen scientists are contributing more observations of key species than professional academics. With advanced, easy-to-use analytical tools, these scientists can also create knowledge and insight, right here on Resource Watch."
+            title: Trusted data
+            description: "Curated by WRI experts, all the data is open, accessible and free so anyone can use it to understand the challenges that affect our society and planet. In our interconnected world, the problems we experience are often linked to one another and Resource Watch helps us explore how they are connected by overlaying data sets. We used Vega to support the creation of custom visualisations. Vega is deployed in the front end application, giving users the option to seamlessly build graphics that meet their specific requirements and share them exactly as they see them with the world. For an application that’s all about generating and sharing, it was perfect for our needs."
+            image: rw-block2-new.png
                     
     -   opinions:
                 - 
@@ -59,4 +46,6 @@ modules:
                     autor: <a href="https://twitter.com/AndrewKSkidmore/status/651762955806240769">Andrew Skidmore</a>
 
 ---
-The world's resources are becoming scarce; at the same time, we aren't providing enough for everyone to live well and prosper. We've teamed up with the World Resources Institute to build Resource Watch, an open platform for everyone to explore accurate, up-to-date insights about our planet. Anyone can create visualisations or apps using data from satellites, sensors and social media, to tell stories about the state of our planet. Then, with seamless sharing tools, show the world what you've learnt and inspire action.
+In a world where opinions are polarised and false facts spread quickly, there’s increasing demand for trusted and timely data. We’re working with a partnership that’s led by the World Resources Institute to fulfill this demand and give people fast access to reliable, trustworthy data about our planet. With more than 30 organisations contributing their data, expertise and skills, we took responsibility for the user research, design and development of the platform.
+
+Resource Watch is made possible by the world’s rapid advances in open data and technology. Cloud computing and Big Data has allowed us publish and access millions of datasets but that also presents a problem: how do we find the data we need? Resource Watch brings together hundreds of data sets in one place and makes it easier for researchers, analysts, journalists, policymakers and citizens to find, understand and share the information they need. 
