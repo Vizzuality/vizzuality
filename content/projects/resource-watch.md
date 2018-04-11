@@ -20,12 +20,12 @@ release_date:  April 2018
 highlighted:  true
 
 modules:
-    - text_parallax:
+    - text_left:
         title: Many databases, one API
         description: "Services like Google Cloud Engine and Amazon Web Services allow us to remotely access data sets from many different sources and tap into them when we need them. To access them all in a standard way you need an Application Programming Interface (API). We built the API that connects Resource Watch to all of the data sets you can find there, and we did it with open source technology so anyone can create new functionalities, add to it, and reuse it in other places. Right now, the API is being used to share data with Global Forest Watch and PREP, as well as Resource Watch."
-        parallax: rw-block1-new.jpg
+        image: rw-block1-new.png
 
-    - text_above:
+    - text_right:
         title: Trusted data
         description: "Curated by WRI experts, all the data is open, accessible and free so anyone can use it to understand the challenges that affect our society and planet. In our interconnected world, the problems we experience are often linked to one another and Resource Watch helps us explore how they are connected by overlaying data sets. We used Vega to support the creation of custom visualisations. Vega is deployed in the front end application, giving users the option to seamlessly build graphics that meet their specific requirements and share them exactly as they see them with the world. For an application that’s all about generating and sharing, it was perfect for our needs."
         image: rw-block2-new.png
