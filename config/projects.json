@@ -20,7 +20,8 @@
     "grid": 1
   },
   "climate-watch": {
-    "order": 4
+    "order": 9,
+    "grid": 2
   },
   "EDI": {
     "order": 19,
@@ -31,23 +32,23 @@
     "grid": 2
   },
   "forest-watcher": {
-    "order": 8,
-    "grid": 1
+    "order": 6,
+    "grid": 2
   },
   "geocat": {
     "order": 17,
     "grid": 2
   },
   "gfw-climate": {
-    "order": 10,
+    "order": 13,
     "grid": 2
   },
   "global-fishing-watch": {
-    "order": 7,
-    "grid": 1
+    "order": 12,
+    "grid": 3
   },
   "global-forest-watch": {
-    "order": 1
+    "order": 3
   },
   "google-trends": {
     "order": 18,
@@ -70,8 +71,8 @@
     "grid": 1
   },
   "iisd-sdg-hub": {
-    "order": 9,
-    "grid": 2
+    "order": 8,
+    "grid": 1
   },
   "kenya": {
     "order": 14,
@@ -109,7 +110,7 @@
     "grid": 1
   },
   "open-government-partnership": {
-    "order": 25,
+    "order": 24,
     "grid": 1
   },
   "planet-hunters": {
@@ -120,7 +121,7 @@
     "order": 31,
     "grid": 2
   },
-    "prep": {
+  "prep": {
     "order": 2
   },
   "REE": {
@@ -128,15 +129,14 @@
     "grid": 3
   },
   "resilience-atlas": {
-    "order": 6,
-    "grid": 2
+    "order": 7,
+    "grid": 1
   },
   "resource-watch": {
-    "order": 12,
-    "grid": 3
+    "order": 1
   },
   "goal16": {
-    "order": 13,
+    "order": 10,
     "grid": 2
   },
   "techno-bioblitz": {
@@ -144,7 +144,7 @@
     "grid": 1
   },
   "trase": {
-    "order": 3
+    "order": 4
   },
   "web-evolution": {
     "order": 21,
