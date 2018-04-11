@@ -10,8 +10,8 @@ link_short:  resourcewatch.org
 client:      World Resources Institute
 client_logo: wri.png
 svg_logo:    wri.svg
-post_url:    
-post_title:  
+post_url:    https://medium.com/vizzuality-blog/open-data-open-source-open-planet-c5d689a47cc4
+post_title:  "Open data. Open Source. Open Planet."
 image:       resourcewatch.jpg
 cover:       resourcewatch_2.jpg
 author:      Jamie Gibson
