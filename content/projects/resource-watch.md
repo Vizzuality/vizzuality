@@ -32,17 +32,15 @@ modules:
                     
 opinions:
     - 
-        title: "Kudos to @Vizzuality on bridging the digital divide by prototyping SMS and audio data hotline! #EOESUMMIT15"
-        photo: media/twitter.png
-        autor: <a href="https://twitter.com/EKTyson/status/651762750197231616">Elizabeth Tyson</a>
+        title: "This is more than just research, it is information we can actually trust. It is information we can use at times of tremendous uncertainty."
+        autor: Gina McCarthy; Former Administrator, U.S. Environmental Protection Agency; Director, Harvard Center for Health and the Global Environment
     -   
-        title: "YES: we could have the best data in the world but if we don't tell compelling stories with it, nothing will change-@Vizzuality #EOESUMMIT15"
-        photo: media/twitter.png
-        autor: <a href="https://twitter.com/zararah/status/651759034706427908">Zara Rahman</a>
+        title: "What I love about these data sets is you can use them to map out solutions."
+        autor: Rebecca Moore, Director of Engineering, Google Earth, Earth Engine and Earth Outreach, Google.
     -  
-        title: "Craig Mills of #Vizzuality presents Resourcewatch - great design for visualizing #WRI #GIS #remotesensing data and information"
+        title: "The Netherlands supports @WorldResources and its work to sustain the world's natural resources. Access their new data tool @resource_watch, that visualizes data sets about land, water, climate and more here: resourcewatch.org #ResourceWatch"
         photo: media/twitter.png
-        autor: <a href="https://twitter.com/AndrewKSkidmore/status/651762955806240769">Andrew Skidmore</a>
+        autor: <a href="https://twitter.com/NLintheUSA/status/984147236522164224">The Netherlands Embassy in the United States</a>
 
 ---
 In a world where opinions are polarised and false facts spread quickly, there’s increasing demand for trusted and timely data. We’re working with a partnership that’s led by the World Resources Institute to fulfill this demand and give people fast access to reliable, trustworthy data about our planet. With more than 30 organisations contributing their data, expertise and skills, we took responsibility for the user research, design and development of the platform.
