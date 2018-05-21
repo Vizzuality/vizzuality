@@ -9,7 +9,7 @@ photo:  ian-denty.jpg
 author: Camellia    
 date:   11/08/2017    
 order:      
-published: true
+published: false
 ---
 Ian is a full stack developer with a background in international forest policy. After spending four years with an environmental consultancy, Ian made a fork in his career by enrolling on an immersive web development course at General Assembly. Now, he has the opportunity to merge his passion for conservation with his talents in coding.
 
