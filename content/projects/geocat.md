@@ -1,5 +1,5 @@
 ---
-title:       Geospatial Conservation Assesment Tool
+title:       Geospatial Conservation Assessment Tool
 short_title: GeoCAT
 summary: 	 Finding endangered species before it’s too late
 description: 'An interactive geospatial tool to help researchers and NGOs to assess the conservation level of species across the globe'
