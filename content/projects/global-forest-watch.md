@@ -18,7 +18,6 @@ author:      Jamie Gibson
 date:        2015-05-07
 release_date:  February 2014
 highlighted: true
-align:       center
 
 modules:
     -   text_left:
@@ -71,7 +70,7 @@ opinions:
 ---
 Uniting sophisticated monitoring and analysis with cutting-edge visualisation software, Global Forest Watch revolutionises our ability to track what’s happening in our forests right now.  
 
-Over the last three years vizzuality has engaged with the World Resources Institute and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership">partners in GFW</a> to create a new way of visualising forest data. Using the excellent datasets provided by the partnership, we have designed, developed and refined Global Forest Watch into a sophisticated, responsive web-mapping application that puts near real-time data at your fingertips. You can find out if protected areas are conserving forests, explore key trends in your country or see where trees were lost in the last week. 
+Over the last three years, Vizzuality has engaged with the World Resources Institute and the rest of our <a href="http://www.globalforestwatch.org/about/the-gfw-partnership">partners in GFW</a> to create a new way of visualising forest data. Using the excellent datasets provided by the partnership, we have designed, developed and refined Global Forest Watch into a sophisticated, responsive web-mapping application that puts near real-time data at your fingertips. You can find out if protected areas are conserving forests, explore key trends in your country or see where trees were lost in the last week. 
 
 The sheer amount and variety of data provides a huge design and engineering challenge. Never before has anyone put together such a vast amount of data about different aspects of forests in an accessible, understandable, easy to use tool. Our mixture of modern design principles, deep understanding of user needs and coding at the edge of APIs helped deliver an award-winning user experience. 
 

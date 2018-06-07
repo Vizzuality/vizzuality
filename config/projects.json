@@ -8,15 +8,20 @@
     "grid": 1
   },
   "calvert-foundation": {
-    "order": 22,
+    "order": 39,
     "grid": 2
   },
   "care-world-of-impact": {
-    "order": 4
+    "order": 29,
+    "grid": 1
   },
   "cash-atlas": {
     "order": 23,
     "grid": 1
+  },
+  "climate-watch": {
+    "order": 9,
+    "grid": 2
   },
   "EDI": {
     "order": 19,
@@ -26,19 +31,24 @@
     "order": 27,
     "grid": 2
   },
+  "forest-watcher": {
+    "order": 6,
+    "grid": 2
+  },
   "geocat": {
     "order": 17,
     "grid": 2
   },
   "gfw-climate": {
-    "order": 10,
+    "order": 13,
     "grid": 2
   },
   "global-fishing-watch": {
-    "order": 3
+    "order": 12,
+    "grid": 3
   },
   "global-forest-watch": {
-    "order": 1
+    "order": 3
   },
   "google-trends": {
     "order": 18,
@@ -46,23 +56,23 @@
   },
   "grid-arendal": {
     "order": 25,
-    "grid": 2  
+    "grid": 2
   },
   "governance-data": {
     "order": 16,
     "grid": 2
   },
   "growasia": {
-    "order": 8,
-    "grid": 1
+    "order": 22,
+    "grid": 2
   },
   "imazon": {
     "order": 28,
     "grid": 1
   },
   "iisd-sdg-hub": {
-    "order": 9,
-    "grid": 2
+    "order": 8,
+    "grid": 1
   },
   "kenya": {
     "order": 14,
@@ -73,7 +83,7 @@
     "grid": 1
   },
   "neemo": {
-    "order": 29,
+    "order": 38,
     "grid": 1
   },
   "neptis-geoweb": {
@@ -89,12 +99,11 @@
     "grid": 1
   },
   "nyc-dashboard": {
-    "order": 7,
-    "grid": 1
+    "order": 5
   },
   "old-weather": {
     "order": 35,
-    "grid": 1
+    "grid": 2
   },
   "OMO": {
     "order": 37,
@@ -102,17 +111,17 @@
   },
   "open-government-partnership": {
     "order": 24,
-    "grid": 1  
+    "grid": 1
   },
   "planet-hunters": {
     "order": 36,
-    "grid": 1
+    "grid": 2
   },
   "policy-climate": {
     "order": 31,
     "grid": 2
   },
-    "prep": {
+  "prep": {
     "order": 2
   },
   "REE": {
@@ -120,15 +129,14 @@
     "grid": 3
   },
   "resilience-atlas": {
-    "order": 6,
-    "grid": 2
+    "order": 7,
+    "grid": 1
   },
   "resource-watch": {
-    "order": 12,
-    "grid": 3
+    "order": 1
   },
   "goal16": {
-    "order": 13,
+    "order": 10,
     "grid": 2
   },
   "techno-bioblitz": {
@@ -136,8 +144,8 @@
     "grid": 1
   },
   "trase": {
-    "order": 5
-  },  
+    "order": 4
+  },
   "web-evolution": {
     "order": 21,
     "grid": 2
