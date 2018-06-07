@@ -21,15 +21,26 @@ block main
 
   .row#projects
     .grid-sm-14.grid-lg-12.offset-lg-1
-      if postInfo
-          article.m-post-card.future-good
-            .m-post-card-content
-              h1 Futuregood.
-              h2 Become the leader you want to be.
-              a(class="btn", href="http://futuregood.co/") Sign up now
+      article.m-project-card(class="#{projects[0].align}", style="background-image: url(/assets/images/projects/#{projects[0].image})")
+                a(href="/projects/#{projects[0].slug}", class="cover-link")
+                .veil
+                .m-project-content
+                  if projects[0].svg_logo
+                    img(src="/assets/images/clients/white/#{projects[0].svg_logo}", alt="#{projects[0].client}" width="#{projects[0].logoWidth}" )
+                  else if projects[0].client_logo
+                    img(src="/assets/images/clients/white/#{projects[0].client_logo}", alt="#{projects[0].client}" width="#{projects[0].logoWidth}")
+                  h1: a(href="/projects/#{projects[0].slug}")= projects[0].title + '.'
+                  p.description= projects[0].summary + '.'
+                  a(class="btn-third", href="/projects/#{projects[0].slug}") Read more
+
+      article.m-post-card.future-good
+        .m-post-card-content
+          h1 Futuregood.
+          h2 Become the leader you want to be.
+          a(class="btn", href="http://futuregood.co/") Sign up now
 
       each project, index in projects
-        if index < numberOfProjects - 2
+        if index < numberOfProjects - 1 && index > 0
             article.m-project-card(class="#{project.align}", style="background-image: url(/assets/images/projects/#{project.image})")
               a(href="/projects/#{project.slug}", class="cover-link")
               .veil
@@ -51,7 +62,7 @@ block main
             a(class="btn", href="http://blog.vizzuality.com/") Read our blog
 
       each project, index in projects
-        if index >= numberOfProjects - 2 && index < numberOfProjects
+        if index >= numberOfProjects - 1 && index < numberOfProjects
           article.m-project-card(style="background-image: url(/assets/images/projects/#{project.image})")
             a(href="/projects/#{project.slug}", class="cover-link")
             .veil
