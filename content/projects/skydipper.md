@@ -15,7 +15,7 @@ cover:       skydip-header.jpg
 author:      Camellia
 date:        12/07/18
 release_date:             
-highlighted: yes 
+highlighted: true
 logoWidth:      125
 
 modules:
