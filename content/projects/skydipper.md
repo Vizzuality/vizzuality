@@ -7,14 +7,14 @@ fb_title:    "Skydipper | Vizzuality"
 fb_description: "A pioneering platform to visualise remote sensing data for natural resource management"
 link:        http://skydipper.com/
 link_short:  skydipper.com
-client:      Vizzuality  
+client:      Vizzuality (Simbiotica S.L.) 
 client_logo: vizzuality-logo_green.png
-svg_logo:     
+svg_logo:    vizzuality-logo_white.png 
 image:       skydip-header.jpg
 cover:       skydip-header.jpg
 author:      Camellia
 date:        12/07/18
-release_date:             
+release_date:  June 2010           
 highlighted: true
 logoWidth:      125
 
@@ -32,6 +32,9 @@ modules:
 
 ---
 Historically, the information we use to manage our planet’s resources has been expensive and time-consuming to gather. Satellites and remote sensors have reduced that burden, and sophisticated methods of analysing data, such as Machine Learning, are offering new opportunities to improve the way we make decisions that affect our environment and society. 
+
 We want to help people make the most of these opportunities. So we decided to develop an open-source platform that can be used to manage natural resources and detect environmental risks. Using Deep Learning techniques, we’ll be investigating new, flexible and scalable approaches to analyzing  remotely sensed data. To support our own investment in this project, we sought additional funding and have been awarded a grant by Spain’s Ministry of Energy, Tourism and Digital Agenda.
+
 As we test our hypotheses, we’ll identify potential uses of this technology, such as monitoring water and crop health, or predicting where deforestation or drought is about to occur. Informed by this knowledge, people will be in a position to take action. 
+
 Skydipper is a project of Simbiotica S.L. It has been co-financed by the Ministry of Energy, Tourism and Digital Agenda, within the National Plan for Scientific Research, Development and Technological Innovation 2013-2016 with file number TSI-100504-2017-1.
