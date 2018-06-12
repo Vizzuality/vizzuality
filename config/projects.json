@@ -149,5 +149,9 @@
   "web-evolution": {
     "order": 21,
     "grid": 2
+  },
+  "skydipper": {
+    "order": 40,
+    "grid": 3
   }
 }
