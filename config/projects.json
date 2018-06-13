@@ -20,8 +20,8 @@
     "grid": 1
   },
   "climate-watch": {
-    "order": 9,
-    "grid": 2
+    "order": 8,
+    "grid": 1
   },
   "EDI": {
     "order": 19,
@@ -71,8 +71,8 @@
     "grid": 1
   },
   "iisd-sdg-hub": {
-    "order": 8,
-    "grid": 1
+    "order": 10,
+    "grid": 2
   },
   "kenya": {
     "order": 14,
@@ -136,8 +136,8 @@
     "order": 1
   },
   "goal16": {
-    "order": 10,
-    "grid": 2
+    "order": 40,
+    "grid": 3
   },
   "techno-bioblitz": {
     "order": 32,
@@ -151,7 +151,7 @@
     "grid": 2
   },
   "skydipper": {
-    "order": 40,
-    "grid": 3
+    "order": 9,
+    "grid": 2
   }
 }
