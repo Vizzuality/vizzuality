@@ -8,7 +8,7 @@ photo: juancarlos.jpg
 author: camellia    
 date: 2016-06-27       
 order: 29
-published: true
+published: false
 ---
 
 Juan Carlos is a designer with 10 years experience of working in advertising in Madrid and Amsterdam. Originally from Benavente in northern Spain, Juan Carlos first came to Madrid to study at Escuela de Arte Nº10. He has experience in almost every step of the digital design and production process, from conceptualization and UX to coding large projects himself.
