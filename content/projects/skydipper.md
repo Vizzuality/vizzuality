@@ -8,7 +8,7 @@ fb_description: "A pioneering platform to visualise remote sensing data for natu
 link:        http://skydipper.com/
 link_short:  skydipper.com
 client:      Vizzuality (Simbiotica S.L.) 
-client_logo: vizzuality-logo_green.png
+client_logo: logo_minetad.png
 svg_logo:    vizzuality-logo_white.png 
 image:       skydip-header.jpg
 cover:       skydip-header.jpg
