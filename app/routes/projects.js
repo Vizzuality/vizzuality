@@ -48,7 +48,7 @@ module.exports = function(app) {
         };
 
         var options = {
-          url: 'https://api.tumblr.com/v2/blog/vizzuality.tumblr.com/posts',
+          url: 'http://api.tumblr.com/v2/blog/vizzuality.tumblr.com/posts',
           api_key: 'L9h1IOB5XDKZy4LbeT6A5naG7QoafH003pY6dqrhWR1I92dKcU',
           offset: 0,
           limit: 1

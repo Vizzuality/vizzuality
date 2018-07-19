@@ -369,7 +369,6 @@
 
     var MADRID = L.latLng(40.430645, -3.703382);
     var CAMBRIDGE = L.latLng(52.200521, 0.138486);
-    var PORTO = L.latLng(41.1509085,-8.6079141);
     var WASHINGTON = L.latLng(38.853900, -77.051555);
     var mapOptions = {
       center: MADRID,
@@ -429,7 +428,6 @@
     function setLocation(userPos) {
       var madridOffice = document.getElementById('madridOffice');
       var cambridgeOffice = document.getElementById('cambridgeOffice');
-      var portoOffice = document.getElementById('portoOffice');
       var washingtonOffice = document.getElementById('washingtonOffice')
 
       generateRoute(userPos, MADRID);
@@ -437,7 +435,6 @@
       madridOffice.addEventListener('click', function() {
         madridOffice.className = 'm-map-location-item is-highlighted';
         cambridgeOffice.className = 'm-map-location-item';
-        portoOffice.className = 'm-map-location-item';
         washingtonOffice.className = 'm-map-location-item';
         generateRoute(userPos, MADRID);
       }, false);
@@ -446,22 +443,12 @@
         madridOffice.className = 'm-map-location-item';
         cambridgeOffice.className = 'm-map-location-item is-highlighted';
         washingtonOffice.className = 'm-map-location-item';
-        portoOffice.className = 'm-map-location-item';
         generateRoute(userPos, CAMBRIDGE);
-      }, false);
-
-      portoOffice.addEventListener('click', function() {
-        madridOffice.className = 'm-map-location-item';
-        cambridgeOffice.className = 'm-map-location-item';
-        portoOffice.className = 'm-map-location-item is-highlighted';
-        washingtonOffice.className = 'm-map-location-item';
-        generateRoute(userPos, PORTO);
       }, false);
 
       washingtonOffice.addEventListener('click', function() {
       	madridOffice.className = 'm-map-location-item';
         cambridgeOffice.className = 'm-map-location-item';
-        portoOffice.className = 'm-map-location-item';
         washingtonOffice.className = 'm-map-location-item is-highlighted';
         generateRoute(userPos, WASHINGTON);
       }, false);
@@ -470,7 +457,7 @@
     if (elem) {
       map = L.map(elem, mapOptions);
 
-      L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
+      L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
         subdomains: 'abcd',
         maxZoom: 19
