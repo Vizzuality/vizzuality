@@ -17,7 +17,7 @@ html(lang="en")
     if 'production' == process.env.NODE_ENV
       link(rel="stylesheet", href="/assets/styles/main.css")
     else
-      link(rel="stylesheet", href="/bower_components/normalize-css/normalize.css")
+      link(rel="stylesheet", href="/node_modules/normalize-css/normalize.css")
       link(rel="stylesheet", href="/assets/lib/leaflet-routing-machine/leaflet-routing-machine.css")
       link(rel="stylesheet", href="/assets/styles/main.css")
     include partials/head
