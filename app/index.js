@@ -25,8 +25,8 @@ app.use(cors());
 app.use(express.static(path.join(root, 'public')));
 
 if (app.get('env') === 'development') {
-  var bowerPath = path.join(root, 'bower_components');
-  app.use('/bower_components', express.static(bowerPath));
+  var npmPath = path.join(root, 'node_modules');
+  app.use('/node_modules', express.static(npmPath));
   app.use(morgan('dev'));
   app.use(errorhandler());
 }
