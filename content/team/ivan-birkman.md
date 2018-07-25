@@ -6,7 +6,7 @@ twitter:    naviwrx
 linkedin:   "https://www.linkedin.com/in/ivanbirkman/"
 github:	   ivanyukio
 email:     ivan.birkman@vizzuality.com
-photo:     ivan.jpg 
+photo:     ivan-new.jpg 
 author:    Camellia 
 date:      08/25/2017 
 order:      

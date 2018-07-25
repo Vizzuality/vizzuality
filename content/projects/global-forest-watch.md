@@ -18,7 +18,6 @@ author:      Jamie Gibson
 date:        2015-05-07
 release_date:  February 2014
 highlighted: true
-align:       center
 
 modules:
     -   text_left:
