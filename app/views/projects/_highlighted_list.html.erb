@@ -1,0 +1,16 @@
+<div class="row" id="projects">
+  <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+    <% @highlighted_projects.each do |p| %>
+      <article class="m-project-card" style="background-image: url(<%= p.project_image.url(:large) %>)">
+        <%= link_to "", project_path(p.slug), class: "cover-link" %>
+        <div class="veil"></div>
+        <div class="m-project-content">
+          <%= image_tag p.project_logo.present? ? p.project_logo.url(:medium) : p.client.logo_white.url %>
+          <h1><%= p.title + '.' %></h1>
+          <p class="description"><%= p.summary %></p>
+          <%= link_to "Read more", project_path(p.slug), class: "btn-third" %>
+        </div>
+     </article>
+    <% end%>
+  </div>
+</div>
