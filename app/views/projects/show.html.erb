@@ -1,6 +1,174 @@
-<% title @project.short_title %>
-<% body_class 'is-project-page' %>
+<%# block vars
+  - var title = data.short_title == data.title ? data.title + ' | ' + data.client : data.short_title + ': ' + data.title + ' | ' + data.client
+  - var description = data.description.replace(/<\/?[^>]+(>|$)/g, '').slice(0, 157) + '...' %>
 
-<%= content_for :claim do %>
-  <h1><%= @project.title %></h1>
-<% end %>
+<div class="l-main">
+  <section class="m-project-detail">
+    <header class="m-project-detail-header" style="background-image: url(<%= @project.cover_image.url %>)">
+      <div class="veil"></div>
+      <div class="row">
+        <div class="grid-sm-14 grid-lg-12 offset-lg-1">
+          <h1><%= @project.title + '.' %></h1>
+          <p class="summary"><%= @project.summary %></p>
+        </div>
+      </div>
+    </header>
+    <div class="m-project-detail-content">
+      <div class="row">
+        <div class="grid-sm-8 grid-md-8 grid-lg-8 offset-lg-1">
+          <p><%= @project.body %></p>
+        </div>
+        <div class="grid-sm-5 grid-md-5 grid-lg-4 offset-sm-1 offset-md-1 offset-lg-1">
+          <div class="client-info">
+            <%= image_tag @project.client.logo.url(:medium), class: "m-project-client-logo" %>
+            <h2><%= @project.client.name if @project.client && @project.client.name%></h2>
+            <p class="date"><%= @project.release_date if @project.release_date %></p>
+            <%= link_to "Check it online", @project.link, class: "btn", target: "_blank" if @project.link %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <% if @project.video.present? %>
+    <section class="m-project-detail-video">
+      <div class="row">
+        <div class="grid-sm-14.grid-lg-10.offset-lg-2">
+          <div class="video-box">
+            <iframe src=<%= @project.video.url %> frameborder="0" allowfullscreen />
+          </div>
+        </div>
+      </div>
+    </section>
+  <% end %>
+</div>
+
+
+
+
+
+
+    <%# if m.video
+      if m.video.style
+      section(class="m-project-detail-video #{m.video.style}")
+        .row
+          .grid-sm-14.grid-lg-10.offset-lg-2
+            .video-box
+              iframe(src=m.video.url, frameborder="0", allowfullscreen)
+
+    if m.text_left
+      section.m-project-detail-article.is-left
+        .row.sameheight.is-grid-centered
+          .grid-sm-14.grid-lg-5.offset-lg-1.is-grid-centered
+            .m-project-article-content
+              h2= m.text_left.title
+              p !{m.text_left.description}
+          .grid-sm-14.grid-lg-8
+            img(src="/assets/images/projects/#{m.text_left.image}" alt="#{data.short_title}-highlight")
+
+
+    if m.text_parallax
+      section.m-project-detail-article.is-left
+        .row
+          .grid-sm-14.grid-lg-8.offset-lg-1.is-grid-centered
+            .m-project-article-content
+              h2= m.text_parallax.title
+              p !{m.text_parallax.description}
+
+
+      if m.text_parallax.parallax
+        section.m-parallax
+          div.parallax-container
+            div.parallax-bg(style="background-image: url('/assets/images/projects/#{m.text_parallax.parallax}')")
+          
+      
+    if m.text_right
+      section.m-project-detail-article.is-right
+        .row.sameheight.is-grid-centered
+          .grid-sm-14.grid-lg-8
+            img(src="/assets/images/projects/#{m.text_right.image}")
+          .grid-sm-14.grid-lg-5
+            .m-project-article-content
+              h2= m.text_right.title
+              p !{m.text_right.description}
+
+    if m.text_above
+      section.m-project-detail-article
+        .row.sameheight
+          .grid-sm-14.grid-lg-8.offset-lg-1
+            .m-project-article-content
+              h2= m.text_above.title
+              p !{m.text_above.description}
+              img(src="/assets/images/projects/#{m.text_above.image}" alt="#{data.short_title}-highlight")
+
+    if m.map
+      section.m-project-detail-iframe
+        .row
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= m.map.title
+            .m-project-iframe
+              .m-project-iframe-content
+                iframe(src=m.map.url, frameborder="0")
+            p !{m.map.description}
+          
+    if m.blocks
+      section.m-project-detail-blocks
+        .row.uncollapse
+          .grid-sm-14.grid-lg-12.offset-lg-1
+            h2= m.blocks.title
+        .row.uncollapse
+          each b, i in m.blocks.modules
+            if i == 0
+              .grid-sm-14.grid-md-4.grid-lg-4.offset-lg-1
+                .thumb: img(src="/assets/images/projects/#{b.image}" alt="#{data.short_title}-details")
+                p !{b.description}
+            else
+              .grid-sm-14.grid-md-4.grid-lg-4
+                .thumb: img(src="/assets/images/projects/#{b.image}" alt="#{data.short_title}-details")
+                p !{b.description}
+
+  if data.title && data.post_url
+    section.m-project-blog
+      .row
+        .grid-sm-14.grid-lg-12.offset-lg-1
+          article.m-post-card
+            .m-post-card-content
+              h1 Stay tuned.
+              h2: a(href="#{data.post_url}")= data.post_title
+              a(class="btn", href="#{data.post_url}") Read our blog
+  
+  if data.opinions && data.opinions.length
+    section.m-project-opinions
+      h2 What are people saying about it?
+      .row.uncollapse.sameheight
+        for opinion, index in data.opinions
+          .grid-sm-14.grid-lg-4
+            .m-project-opinion-item: div
+              if opinion.photo
+                p.m-project-opinion-photo: img(src="/assets/images/projects/#{opinion.photo}" alt="#{data.short_title}-opinion")
+              p.m-project-opinion-text !{opinion.title}
+              p.m-project-opinion-autor !{opinion.autor}
+
+  if data.link || data.post_url
+    footer.m-project-detail-footer
+      .row.sameheight
+        if data.link && data.link_short
+          .grid-sm-14.is-grid-centered.m-project-url
+            a(href="#{data.link}", target="_blank", class="link-cover")
+            div: p !{data.link_short}
+            div: a(href="#{data.link}", target="_blank", class="btn") Check it online
+        
+
+  section.m-message
+    .row
+      .grid-sm-14.grid-lg-12.offset-lg-1
+        p Get in touch.
+        a(href="/about#contact", class="btn") Contact us
+
+  if (next)
+    section.m-project-detail-next(style="background-image: url(/assets/images/projects/#{next.image})")
+      .veil
+      .row
+        .grid-sm-14.grid-lg-12.offset-lg-1
+            p= next.client
+            h1: a(href="/projects/#{next.slug}")= next.title %>
