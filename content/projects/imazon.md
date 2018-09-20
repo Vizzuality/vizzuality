@@ -13,7 +13,7 @@ cover:       imazon_01.jpg
 author:      Craig Mills
 date:        2015-04-22
 release_date:  
-highlighted:   true
+highlighted:   false
 logoWidth:  225
 
 modules:
