@@ -17,7 +17,7 @@ cover: 		 techno_03b.jpg
 author:      Craig Mills
 date:        2015-04-21
 release_date:  September 2010
-highlighted: true
+highlighted: false
 logoWidth:  150
 
 modules:
