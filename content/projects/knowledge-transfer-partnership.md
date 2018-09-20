@@ -34,6 +34,8 @@ modules:
 
 ---
 The world is bursting with data. Graphs, maps and statistics are everywhere. While there’s a huge spotlight on big data — and churning out as much data as possible — there’s only a handful of people investigating if anyone can understand it or use it to make decisions. To continue creating innovative and impactful visualisations, we’ve developed a research project together with the University of Cambridge to expand our knowledge of the psychology behind data visualisations.
+
 Over two years we’ll be investigating how the design of data visualisations can affect the way people respond to them, and apply this new-found knowledge to improve our projects. The research is funded by <a href='http://ktp.innovateuk.org/'>Innovate UK</a>, the UK’s innovation agency and will be led by our Human-Computer Interaction Researcher, <a href='http://vizzuality.com/about/melanie-herrmann'>Melanie Herrmann</a> , with support and guidance from two fantastic supervisors at the University of Cambridge: <a href='https://www.psychol.cam.ac.uk/people/william-j-matthews'>Will Skylark</a> and <a href='https://www.psychol.cam.ac.uk/people/gjd1000@cam.ac.uk'>Greg Davis</a>. 
+
 This project assembles, for the first time, the academic, research and practical skills needed to test how humans interact with, understand and use digital information to make decisions for planetary benefit. Backed by this new knowledge, we’ll be in a unique position to make visualisations that inform and empower millions of people to improve our planet.
 
