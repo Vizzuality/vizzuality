@@ -8,7 +8,7 @@ fb_description: “Pioneering research using cognitive science to improve the de
 link:        
 link_short:  
 client:      Vizzuality & Cambridge University
-client_logo: vizzuality-logo_green.jpg
+client_logo: vizzuality-logo_green.png
 svg_logo:    vizzuality-logo_white.png
 post_url:    https://medium.com/vizzuality-blog/making-impactful-visualisations-using-psychology-797a6f0807ea
 post_title:  "The psychology behind effective data visualisation"
