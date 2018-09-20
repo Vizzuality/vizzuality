@@ -5,7 +5,7 @@ phrase:   Data have feelings too!
 twitter:  Mel_R_Herrmann  
 linkedin: "https://www.linkedin.com/in/melanie-herrmann-665828112/"  	
 email:    melanie.herrmann@vizzuality.com  
-photo:    melanie.jpg  
+photo:    melanie-herrmann-2.jpg  
 author:   Camellia  
 date:     08/15/2018  
 order:      
