@@ -8,8 +8,13 @@ fb_description: “Pioneering research using cognitive science to improve the de
 link:        
 link_short:  
 client:      Vizzuality & Cambridge University
+<<<<<<< HEAD
 client_logo: vizzuality-logo_green.png
 svg_logo:    vizzuality-logo_white.png
+=======
+client_logo: vizzuality-cambridge-2.png
+svg_logo:    vizzuality-cambridge-2-white.png
+>>>>>>> 88db198... Changed KTP logos
 post_url:    https://medium.com/vizzuality-blog/making-impactful-visualisations-using-psychology-797a6f0807ea
 post_title:  "The psychology behind effective data visualisation"
 image:       ktp-cover-nasa.jpg
