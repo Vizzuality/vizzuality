@@ -19,7 +19,7 @@ date:        20/09/2018
 release_date:  August 2018           
 highlighted:   true
 colour: 
-logoWidth:      125
+logoWidth:      250
 
 modules:
     -   text_left: 
