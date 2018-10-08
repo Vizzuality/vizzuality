@@ -81,14 +81,18 @@ class Project < ApplicationRecord
   end
 
   def next
-    self.class.sorted_team.where("weight > ?", weight).first
+    self.class.find_by(weight: weight + 1)
   end
 
   def prev
-    self.class.sorted_team.where("weight < ?", weight).last
+    self.class.find_by(weight: weight - 1)
   end
 
   private
+
+  def should_generate_new_friendly_id?
+    short_title_changed?
+  end
 
   def valid_text_block
     if text_blocks.present?
