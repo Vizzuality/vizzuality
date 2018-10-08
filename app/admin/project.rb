@@ -69,7 +69,7 @@ ActiveAdmin.register Project do
         : content_tag(:span, "No project logo yet")
 
       f.input :summary
-      f.input :body
+      f.input :body, as: :ckeditor, input_html: { ckeditor: { height: 400 } }
 
       f.has_many :text_blocks, allow_destroy: true do |t|
         t.input :title

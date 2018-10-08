@@ -20,6 +20,7 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'rails_12factor', group: :production
 gem 'aws-sdk', '~> 2.3'
 gem 'redcarpet'
+gem 'ckeditor'
 
 # Front end libraries
 gem 'sass-rails', '~> 5.0'

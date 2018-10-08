@@ -2,6 +2,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require leaflet-routing-machine
+//= require ckeditor/init
 //= require t
 
 (function() {
