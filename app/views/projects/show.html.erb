@@ -18,7 +18,7 @@
           <div class="client-info">
             <%= image_tag @project.client.logo.url(:medium), class: "m-project-client-logo" %>
             <h2><%= @project.client.name if @project.client && @project.client.name%></h2>
-            <p class="date"><%= @project.release_date if @project.release_date %></p>
+            <p class="date"><%= format_release_date(@project.release_date) if @project.release_date %></p>
             <%= link_to "Check it online", @project.link, class: "btn", target: "_blank" if @project.link %>
           </div>
         </div>
