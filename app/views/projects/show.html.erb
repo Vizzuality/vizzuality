@@ -1,3 +1,4 @@
+<% body_class "is-project-detail-page" %>
 <div class="l-main">
   <section class="m-project-detail">
     <header class="m-project-detail-header" style="background-image: url(<%= @project.cover_image.url %>)">
@@ -9,6 +10,9 @@
         </div>
       </div>
     </header>
+
+    <%= link_to "Check it online", @project.link, class: "btn btn-check", target: "_blank" if @project.link %>
+
     <div class="m-project-detail-content">
       <div class="row">
         <div class="grid-sm-8 grid-md-8 grid-lg-8 offset-lg-1">
