@@ -8,7 +8,7 @@ fb_description: "Mapping life on Earth to commit half to nature"
 link:           https://www.half-earthproject.org/explore-maps/
 link_short:     half-earthproject.org
 client:         E.O. Wilson Biodiversity Foundation
-client_logo:    eo_wilson_logo_color2.png
+client_logo:    eo_wilson_logo_color-2.png
 svg_logo:       eo_wilson_logo-white.png
 post_url:    
 post_title:  
