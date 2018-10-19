@@ -28,7 +28,7 @@
     "grid": 2
   },
   "endangered-languages": {
-    "order": 18,
+    "order": 36,
     "grid": 1
   },
   "forest-watcher": {
@@ -55,7 +55,7 @@
   },
   "grid-arendal": {
     "order": 35,
-    "grid": 2
+    "grid": 1
   },
   "governance-data": {
     "order": 7,
@@ -64,6 +64,9 @@
   "growasia": {
     "order": 22,
     "grid": 2
+  },
+  "half-earth": {
+    "order": 4
   },
   "imazon": {
     "order": 37,
@@ -152,7 +155,8 @@
     "grid": 3
   },
   "skydipper": {
-    "order": 4
+    "order": 18,
+    "grid": 1
   },
     "knowledge-transfer-partnership": {
     "order": 10,
