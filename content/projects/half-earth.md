@@ -8,7 +8,7 @@ fb_description: "Mapping life on Earth to commit half to nature"
 link:           https://www.half-earthproject.org/explore-maps/
 link_short:     half-earthproject.org
 client:         E.O. Wilson Biodiversity Foundation
-client_logo:    eo_wilson_logo_color.png
+client_logo:    eo_wilson_logo_color2.png
 svg_logo:       eo_wilson_logo-white.png
 post_url:    
 post_title:  
@@ -25,12 +25,12 @@ modules:
     -   text_left:
             title: Visualising biodiversity
             description: "Data collected by scientists, amateur naturalists, satellites and sensors are painting an increasingly detailed picture of our planet. We used React and a cartographic library called Cesium to create a virtual, interactive globe that can be spun, magnified and layered with data. The resulting visualisations are a beautiful way to discover where life exists, understand the pressure it’s under, and how it can be managed to achieve the goal of Half-Earth."
-            image: half-Earth-01.jpg
+            image: half-earth-01b.jpg
 
     -   text_right:
             title: Educate with delight
             description: "Presenting information in novel ways, like an interactive globe, opens up the possibility of learning something new, or gaining a fresh perspective on known facts. We believe it’s easier to inspire change when people feel joy, surprise and delight so every feature is designed to spark curiosity and engagement. As each person moves a toggle, selects a word, or spins the globe, they’ll bring data to life in a story that’s unique to them."
-            image: half-earth-02.jpg
+            image: half-earth-02b.jpg
 
     -   blocks:
             title: Tracking progress
@@ -53,7 +53,7 @@ modules:
     -   video:
             title: The Half-Earth Project
             style: light
-            url: https://youtu.be/6fGJafDDCks
+            url: https://youtube.com/embed/6fGJafDDCks
 
 opinions:
     -
