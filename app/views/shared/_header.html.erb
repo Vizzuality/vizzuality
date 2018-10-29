@@ -16,7 +16,7 @@
       <div class="grid-sm-14 grid-md-7 grid-lg-6 is-sm-hidden">
         <nav class="m-nav">
           <%= link_to 'Projects', root_path, class: locals[:current_body_class] == "is-project-detail-page" || locals[:current_body_class] == "is-project-page" ? "is-current" : nil %>
-          <%= link_to 'About us', about_path, class: locals[:current_body_class] == "is-about-page" ? "is-current" : nil %>
+          <%= link_to 'About us', about_path, class: locals[:current_body_class] == "is-about-page" || locals[:current_body_class] == "is-team-page" ? "is-current" : nil %>
         </nav>
       </div>
     </div>
