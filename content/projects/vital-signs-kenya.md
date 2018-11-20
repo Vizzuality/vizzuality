@@ -17,7 +17,7 @@ cover:       vital-signs-kenya_thumbail.jpg
 author:      Camellia
 date:        2018-20-11
 release_date:  November 2018           
-highlighted:   yes
+highlighted:   true
 colour: 
 logoWidth:      125
 
