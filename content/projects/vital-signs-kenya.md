@@ -12,7 +12,7 @@ client_logo: conservationinternational.png
 svg_logo:    conservation-international.png
 post_url:    
 post_title:  Two months to prototype
-image:       vital-signs-kenya_thumbnail.jpg
+image:       vital-signs-kenya_thumbail.jpg
 cover:       vital-signs-kenya_header.jpg
 author:      Camellia
 date:        2018-20-11
@@ -42,7 +42,7 @@ modules:
                     image: vital-signs-kenya_high3.png
                     description: "We standardise the data we want to use"
                 - 
-                    image: vital-signs-kenya_thumbnail.jpg
+                    image: vital-signs-kenya_thumbail.jpg
                     description: "We let the data lead the design of our data visualisations"
 
 ---
