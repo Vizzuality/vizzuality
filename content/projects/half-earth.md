@@ -10,8 +10,8 @@ link_short:     half-earthproject.org
 client:         E.O. Wilson Biodiversity Foundation
 client_logo:    eo_wilson_logo_color-2.png
 svg_logo:       eo_wilson_logo-white.png
-post_url:    
-post_title:  
+post_url:       "https://medium.com/vizzuality-blog/breathing-life-into-half-earth-maps-f056456ee84d"
+post_title:   Breathing life into Half-Earth maps
 image:        half-earth-header.jpg
 cover:        half-earth-header.jpg
 author:       Camellia

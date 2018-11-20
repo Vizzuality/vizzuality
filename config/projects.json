@@ -16,8 +16,8 @@
     "grid": 1
   },
   "cash-atlas": {
-    "order": 34,
-    "grid": 1
+    "order": 35,
+    "grid": 2
   },
   "climate-watch": {
     "order": 9,
@@ -28,7 +28,7 @@
     "grid": 2
   },
   "endangered-languages": {
-    "order": 36,
+    "order": 37,
     "grid": 1
   },
   "forest-watcher": {
@@ -54,8 +54,8 @@
     "grid": 1
   },
   "grid-arendal": {
-    "order": 35,
-    "grid": 1
+    "order": 36,
+    "grid": 2
   },
   "governance-data": {
     "order": 7,
@@ -85,7 +85,7 @@
     "grid": 1
   },
   "neemo": {
-    "order": 28,
+    "order": 32,
     "grid": 1
   },
   "neptis-geoweb": {
@@ -109,7 +109,7 @@
     "grid": 2
   },
   "OMO": {
-    "order": 32,
+    "order": 34,
     "grid": 1
   },
   "open-government-partnership": {
@@ -140,7 +140,7 @@
     "order": 3
   },
   "goal16": {
-    "order": 11,
+    "order": 28,
     "grid": 1
   },
   "techno-bioblitz": {
@@ -149,6 +149,10 @@
   },
   "trase": {
     "order": 2
+  },
+  "vital-signs-kenya": {
+    "order": 11,
+    "grid": 1  
   },
   "web-evolution": {
     "order": 12,
