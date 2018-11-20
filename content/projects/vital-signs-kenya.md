@@ -36,7 +36,7 @@ modules:
             title: Fast data review in three steps
             modules:
                 - 
-                    image:
+                    image: vizz-team-1.jpg
                     description: "We analyse the raw data and see what it’s telling us"
                 - 
                     image: vital-signs-kenya_high3.png
