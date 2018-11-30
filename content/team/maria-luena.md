@@ -1,7 +1,7 @@
 ---
 name:       María Luena Rodríguez
 position:   Engineer
-phrase:     "Learn as if your were to live forever"
+phrase:     "Learn as if you were to live forever"
 twitter:    m_luena
 linkedin:   "https://www.linkedin.com/in/mar%C3%ADaluena/"
 github:		mluena
