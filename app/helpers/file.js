@@ -5,7 +5,7 @@ var path      = require('path');
 var matter    = require('gray-matter');
 var Showdown  = require('showdown');
 var yaml      = require('js-yaml');
-var converter = new Showdown.converter();
+var converter = new Showdown.Converter();
 var cache = {};
 
 module.exports = {
