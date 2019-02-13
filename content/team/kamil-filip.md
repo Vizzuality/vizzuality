@@ -2,7 +2,7 @@
 name:      Kamil Filip 
 position:  Engineer 
 phrase:    Coding is like cooking, blend carefully for fullest flavour 
-linkedin:  "www.linkedin.com/in/kamil-filip/" 
+linkedin:  "https://www.linkedin.com/in/kamil-filip/" 
 github:	   kfilip	
 email:     kamil.filip@vizzuality.com 
 photo:     kamil.png 
