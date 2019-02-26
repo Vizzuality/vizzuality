@@ -5,11 +5,11 @@ phrase:     Our value lies in our ability to affect others positively
 linkedin:   "https://www.linkedin.com/in/nicolae-righeriu-8334b7158/"
 github:		nrigheriu
 email:      nicolae.righeriu@vizzuality.com
-photo:      
+photo:      nico2.jpg
 author:     Camellia
 date:       13/02/2018
 order:      
-published: false
+published: true
 ---
 Nico is a Data Science Intern who’s applying the theories he learnt in class to real-life projects and observing the results. He’s most interested in machine learning, image classification, and how to split massive workloads in parallel to multiple machines. While he deepens his technological skills in remote sensing, GIS, user interfaces and data visualisation, he’s also learning more about the ecological systems that shape life on our planet.
 
