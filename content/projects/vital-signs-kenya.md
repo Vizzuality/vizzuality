@@ -25,12 +25,12 @@ modules:
     -   text_left:
             title: Intensive discovery
             description: "Knowing and understanding the people you’re designing for is an essential part of any product development. An intensive week-long discovery session in Kenya with all of the project stakeholders helped us understand their ambitions, the challenges they face, and what tools they use to collect and process data. By the end of the week we were able to present our findings to them along with a preliminary design that would help them understand what we could deliver in the next two months." 
-            image: vital-signs-kenya_high2.png
+            image: vital-signs-kenya_high2b.png
 
     -   text_right:
             title: Simple yet informative design
             description: "With more than 40 data indicators to include, we decided a green light schema would be the best way to help people see at a glance what’s happening. Anything in need of urgent attention turns red so it can be acted upon quickly. Despite the rapid design process, attention to detail was not forgotten and we chose to use a new, unique font called Protipo that easily differentiates figures, making them easier to read." 
-            image: vital-signs-kenya_high1.png
+            image: vital-signs-kenya_high1b.png
 
     -   blocks:
             title: Fast data review in three steps
@@ -39,7 +39,7 @@ modules:
                     image: vizz-team-1.jpg
                     description: "We analyse the raw data and see what it’s telling us"
                 - 
-                    image: vital-signs-kenya_high3.png
+                    image: vital-signs-kenya_high3b.png
                     description: "We standardise the data we want to use"
                 - 
                     image: vital-signs-kenya_thumbail.jpg

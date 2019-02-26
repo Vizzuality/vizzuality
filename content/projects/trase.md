@@ -24,12 +24,12 @@ modules:
     -   text_left:        
             title: Outstanding flexibility 
             description: D3 is an obvious choice for creating complex data visualisations and Trase uses the latest iteration of this library with a completely customised layout for the boundary-pushing sankey diagram. In just a few lines of code, D3 turned a static sankey into a fully animated visualisation of trade data. Using Redux alongside D3 helped us deal with complex interaction flows within the data and meant we could keep the entire application state— including enabled filters, selected nodes and selected regions on the map—in a simple Javascript object and open up the option to share detailed stories drawn from the data.  
-            image: trase_sankey2.png
+            image: trase_sankey2new.png
 
     -   text_right:
             title: Hover and click
             description: The Trase dataset is immense and the relationships between the data points are convoluted, but that doesn’t mean the user experience should be complicated. We took great care with the design of the interface, incorporating simple hover and click interactions so users can perform complex filters on the sankey that help them draw insights. In just two clicks, it’s possible to compare multiple geospatial indicators on the map as the website automatically changes between single value and bivariate choropleths. To maximise the use of space, we doubled up the main title on the data visualisation page as a geospatial and temporal filter for the data. 
-            image: trase_filters.png
+            image: trase_filters_new.png
 
 opinions:
     -
